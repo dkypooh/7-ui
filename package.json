@@ -12,6 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/NSFI/7-ui.git"
   },
+  "bin": {
+    "7ui": "./bin/server.js"
+  },
   "bugs": {
     "url": "https://github.com/NSFI/7-ui/issues"
   },
