@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "7-UI elements Component Library",
   "scripts": {
+    "copy_markdown" : "node ./build/document.js",
     "doc": "webpack -w --config webpack.config.doc.js",
     "css": "webpack -w --config webpack.config.css.js",
     "build": "webpack --config webpack.config.js",
