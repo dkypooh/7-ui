@@ -1,0 +1,10 @@
+div{
+	color : var(--color-blue-lighter);
+	info {
+		@mixin button-variant var(--button-info-color), var(--button-info-fill), var(--button-info-border);
+	}
+	&:active {
+		color: color(var(--color-primary) a(var(--button-active-shade-percent)));
+		outline: none;
+	}
+}

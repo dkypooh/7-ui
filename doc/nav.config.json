@@ -1,0 +1,9 @@
+[
+  {
+    "name" : "开发指南",
+    "children" : [{
+      "path" : "/installation",
+      "name" : "安装"
+    }]
+  }
+]

@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "7-UI elements Component Library",
   "scripts": {
+    "css": "webpack -w --config webpack.config.css.js",
     "build": "webpack --config webpack.config.js",
     "test": "karma start karma.conf.js",
     "dev": "webpack-dev-server --inline --hot -quiet"
@@ -23,7 +24,16 @@
     "7-ui",
     "NSFI"
   ],
+  "dependencies": {
+    "ui-style": "*",
+    "sf-button" : "*",
+    "lodash": "*"
+  },
   "devDependencies": {
+    "css-loader": "^0.26.1",
+    "cssnano": "^3.8.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-loader": "^0.3.0",
     "jasmine-core": "^2.4.1",
     "karma": "^0.12.36",
     "karma-chrome-launcher": "^2.0.0",
@@ -31,8 +41,23 @@
     "karma-jasmine": "^1.0.2",
     "karma-webpack": "^1.7.0",
     "lodash": "^4.16.6",
+    "node-sass": "^3.13.0",
     "phantomjs": "^2.1.7",
-    "webpack": "^1.13.1"
+    "postcss-bem": "^0.4.1",
+    "postcss-calc": "^5.3.1",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-import": "^9.0.0",
+    "postcss-loader": "^1.2.0",
+    "postcss-mixins": "^5.4.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-scss": "^0.4.0",
+    "postcss-url": "^5.1.2",
+    "postcss-utilities": "^0.6.1",
+    "precss": "^1.4.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   },
   "author": "波比(｡･∀･)ﾉﾞ",
   "license": "MIT"
