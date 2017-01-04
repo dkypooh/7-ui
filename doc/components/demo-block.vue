@@ -10,13 +10,13 @@
         <i :class="[iconClass, { 'hovering': hovering }]"></i>
       </transition>
       <transition name="text-slide">
-        <span v-show="hovering">{{ controlText }}</span>
+        <span class="hoving">{{ controlText }}</span>
       </transition>
     </div>
   </div>
 </template>
 
-<style>
+<style lang="scss">
   .demo-block {
     border: solid 1px #eaeefb;
     border-radius: 4px;
@@ -151,7 +151,7 @@
       },
 
       iconClass() {
-        return this.isExpanded ? 'el-icon-caret-top' : 'el-icon-caret-bottom';
+        return this.isExpanded ? 'u-icon u-icon-caret' : 'u-icon u-icon-caret';
       },
 
       controlText() {

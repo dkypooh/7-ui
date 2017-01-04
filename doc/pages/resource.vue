@@ -1,4 +1,4 @@
-<style scoped>
+<style lang="scss">
   .page-resource {
     padding-top: 55px;
   }
@@ -6,7 +6,6 @@
     margin: 35px auto 110px;
 
     .container {
-      @utils-clearfix;
       padding: 0;
       margin: 0 -11px;
       width: auto;
@@ -61,7 +60,6 @@
       height: 42px;
       width: 190px;
       display: inline-block;
-      line-height: @height;
       font-size: 14px;
       background-color: #20a0ff;
       color: #fff;

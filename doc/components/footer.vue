@@ -2,21 +2,18 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-main">
-        <p class="footer-main-title">Element 1.0 Hydrogen</p>
-        <a href="https://github.com/ElemeFE/element/issues" class="footer-main-link" target="_blank">反馈建议</a>
-        <a href="https://github.com/ElemeFE/element/blob/master/.github/CONTRIBUTING.md" class="footer-main-link" target="_blank">贡献指南</a>
+          <p class="footer-main-title">SailFish UI Library</p>
       </div>
       <div class="footer-social">
-        <i class="doc-icon-weixin elementdoc" v-popover:weixin></i>
-        <a href="//github.com/elemefe" target="_blank">
-          <i class="doc-icon-github elementdoc"></i>
+        <a href="https://github.com/dkypooh/7-ui" target="_blank">
+          <i class="u-icon u-icon-github elementdoc"></i>
         </a>
       </div>
     </div>
   </footer>
 </template>
 
-<style>
+<style lang="scss">
   .footer {
     height: 120px;
     background-color: #324057;

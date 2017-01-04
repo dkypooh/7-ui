@@ -49,7 +49,6 @@
         left: -33px;
         top: 10px;
         width: 17px;
-        height: @width;
         background-color: #20a0ff;
         border: 0;
     }

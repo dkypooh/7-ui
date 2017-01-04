@@ -1,4 +1,4 @@
-<style scoped>
+<style>
   .actor {
     min-height: 65px;
 

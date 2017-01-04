@@ -1,4 +1,4 @@
-    <style>
+<style lang="scss">
   .page-changelog {
     padding-bottom: 100px;
 
@@ -49,7 +49,6 @@
             left: -33px;
             top: 10px;
             width: 17px;
-            height: @width;
             background-color: #20a0ff;
             border: 0;
           }          
@@ -120,7 +119,7 @@
     <change-log ref="changeLog"></change-log>
   </div>
 </template>
-<script>
+<script>import ChangeLog from '../../CHANGELOG.md';
   export default {
     components: {
       ChangeLog

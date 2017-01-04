@@ -13,6 +13,8 @@ import sfButton from 'sf-button';
 Vue.use(VueRouter);
 
 Vue.component('sf-button', sfButton);
+
+
 Vue.component('demo-block', demoBlock);
 Vue.component('main-footer', MainFooter);
 Vue.component('main-header', MainHeader);

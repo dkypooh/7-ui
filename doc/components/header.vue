@@ -1,4 +1,4 @@
-<style scoped>
+<style lang="scss">
   .headerWrapper {
     height: 80px;
   }
@@ -9,7 +9,6 @@
     top: 0;
     left: 0;
     width: 100%;
-    line-height: @height;
     z-index: 100;
     position: relative;
 
@@ -47,7 +46,6 @@
       height: 100%;
       line-height: 80px;
       background: transparent;
-      @utils-clearfix;
       padding: 0;
       margin: 0;
     }
@@ -108,7 +106,7 @@
       'header-hangUp': hangUp
     }">
       <div class="container">
-        <h1><router-link to="/">Element<span>Beta</span></router-link></h1>
+        <h1><router-link to="/">SailFish<span>Beta</span></router-link></h1>
         <ul class="nav">
           <li class="nav-item">
             <router-link

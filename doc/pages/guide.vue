@@ -1,4 +1,4 @@
-<style>
+<style lang="scss">
   .page-guide {
     padding: 55px 0 95px;
 
@@ -30,7 +30,6 @@
           content: '';
           display: inline-block;
           width: 4px;
-          height: @width;
           border-radius: 50%;
           vertical-align: middle;
           background-color: #5e6d82;

@@ -1,4 +1,4 @@
-<style scoped>
+<style lang="scss">
   h3 {
     margin-bottom: 15px;
   }

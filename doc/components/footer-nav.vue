@@ -17,7 +17,7 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
   .footer-nav {
     padding: 24px 0;
     color: #99a9bf;
@@ -76,7 +76,7 @@
 
     watch: {
       '$route.path'() {
-        this.updateNav();
+       // this.updateNav();
       }
     },
 

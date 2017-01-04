@@ -1,4 +1,4 @@
-<style>
+<style lang="scss">
   .page-component {
     padding-bottom: 95px;
   }
@@ -40,15 +40,16 @@
 </style>
 <template>
   <div class="page-container page-component">
-    <el-row>
-      <el-col :span="6">
-        <side-nav :data="navsData" base="/component"></side-nav>
-      </el-col>
-      <el-col :span="18">
-        <router-view class="content"></router-view>
-        <footer-nav></footer-nav>
-      </el-col>
-    </el-row>
+      <div class="g-row">
+          <div class="g-col-6">
+              <side-nav :data="navsData" base="/component"></side-nav>
+          </div>
+
+          <div class="g-col-18">
+              <router-view class="content"></router-view>
+              <footer-nav></footer-nav>
+          </div>
+      </div>
   </div>
 </template>
 <script>

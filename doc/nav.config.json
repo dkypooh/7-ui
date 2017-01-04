@@ -2,8 +2,28 @@
   {
     "name": "开发指南",
     "children": [{
-      "path": "/sf-button",
+      "path": "/installation",
       "name": "安装"
     }]
+  },
+  {
+    "name": "更新日志",
+    "path": "/changelog"
+  },
+  {
+    "name": "基础组件",
+    "groups": [
+      {
+        "groupName": "Basic",
+        "list": [
+          {
+            "path": "/sf-button",
+            "name": "按钮 (button)",
+            "title": "Button 按钮",
+            "description": "常用的操作按钮"
+          }
+        ]
+      }
+    ]
   }
 ]
