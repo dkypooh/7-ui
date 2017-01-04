@@ -158,18 +158,6 @@
 </style>
 <template>
   <div>
-    <div class="banner">
-      <div class="banner-sky"></div>
-      <img class="banner-stars" src="/doc/assets/images/stars.png" alt="Element">
-      <div class="container">
-        <div class="banner-desc">
-          <h2>网站快速成型工具</h2>
-          <div id="line2" class="actor"></div>
-          <p>Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的组件库，提供了配套设计资源，帮助你的网站快速成型。</p>
-        </div>
-        <img src="/doc/assets/images/banner-bg.svg" alt="Element">
-      </div>
-    </div>
     <div class="cards">
       <ul class="container">
         <li>

@@ -103,7 +103,6 @@
     ref="header"
     :style="headerStyle"
     :class="{
-      'header-home': isHome,
       'header-fixed': isFixed,
       'header-hangUp': hangUp
     }">

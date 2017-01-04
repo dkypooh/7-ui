@@ -10809,7 +10809,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/2.vue"
+	__vue_options__.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/3.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -10820,12 +10820,12 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-24b905ed", __vue_options__)
+	    hotAPI.createRecord("data-v-24c71d6e", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-24b905ed", __vue_options__)
+	    hotAPI.reload("data-v-24c71d6e", __vue_options__)
 	  }
 	})()}
-	if (__vue_options__.functional) {console.error("[vue-loader] 2.vue: functional components are not supported and should be defined in plain js files using render functions.")}
+	if (__vue_options__.functional) {console.error("[vue-loader] 3.vue: functional components are not supported and should be defined in plain js files using render functions.")}
 
 	module.exports = __vue_exports__
 
@@ -10842,7 +10842,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-24b905ed", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-24c71d6e", module.exports)
 	  }
 	}
 
@@ -10871,7 +10871,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/3.vue"
+	__vue_options__.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/4.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -10882,12 +10882,12 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-24c71d6e", __vue_options__)
+	    hotAPI.createRecord("data-v-24d534ef", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-24c71d6e", __vue_options__)
+	    hotAPI.reload("data-v-24d534ef", __vue_options__)
 	  }
 	})()}
-	if (__vue_options__.functional) {console.error("[vue-loader] 3.vue: functional components are not supported and should be defined in plain js files using render functions.")}
+	if (__vue_options__.functional) {console.error("[vue-loader] 4.vue: functional components are not supported and should be defined in plain js files using render functions.")}
 
 	module.exports = __vue_exports__
 
@@ -11104,7 +11104,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-24c71d6e", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-24d534ef", module.exports)
 	  }
 	}
 
@@ -11133,7 +11133,7 @@
 	if (typeof __vue_options__ === "function") {
 	  __vue_options__ = __vue_options__.options
 	}
-	__vue_options__.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/4.vue"
+	__vue_options__.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/2.vue"
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 
@@ -11144,12 +11144,12 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-24d534ef", __vue_options__)
+	    hotAPI.createRecord("data-v-24b905ed", __vue_options__)
 	  } else {
-	    hotAPI.reload("data-v-24d534ef", __vue_options__)
+	    hotAPI.reload("data-v-24b905ed", __vue_options__)
 	  }
 	})()}
-	if (__vue_options__.functional) {console.error("[vue-loader] 4.vue: functional components are not supported and should be defined in plain js files using render functions.")}
+	if (__vue_options__.functional) {console.error("[vue-loader] 2.vue: functional components are not supported and should be defined in plain js files using render functions.")}
 
 	module.exports = __vue_exports__
 
@@ -11731,7 +11731,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-24d534ef", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-24b905ed", module.exports)
 	  }
 	}
 
@@ -13200,18 +13200,6 @@
 	//
 	//
 	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
 
 /***/ },
 /* 60 */
@@ -14162,13 +14150,13 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){with(this) {
-	  return _h('div', [_m(0), " ", _h('div', {
+	  return _h('div', [_h('div', {
 	    staticClass: "cards"
 	  }, [_h('ul', {
 	    staticClass: "container"
 	  }, [_h('li', [_h('div', {
 	    staticClass: "card"
-	  }, [_m(1), " ", _m(2), " ", _m(3), " ", _h('router-link', {
+	  }, [_m(0), " ", _m(1), " ", _m(2), " ", _h('router-link', {
 	    attrs: {
 	      "active-class": "active",
 	      "to": "/guide/design",
@@ -14176,7 +14164,7 @@
 	    }
 	  }, ["查看详情\n          "])])]), " ", _h('li', [_h('div', {
 	    staticClass: "card"
-	  }, [_m(4), " ", _m(5), " ", _m(6), " ", _h('router-link', {
+	  }, [_m(3), " ", _m(4), " ", _m(5), " ", _h('router-link', {
 	    attrs: {
 	      "active-class": "active",
 	      "to": "/component/layout",
@@ -14184,7 +14172,7 @@
 	    }
 	  }, ["查看详情\n          "])])]), " ", _h('li', [_h('div', {
 	    staticClass: "card"
-	  }, [_m(7), " ", _m(8), " ", _m(9), " ", _h('router-link', {
+	  }, [_m(6), " ", _m(7), " ", _m(8), " ", _h('router-link', {
 	    attrs: {
 	      "active-class": "active",
 	      "to": "/resource",
@@ -14192,32 +14180,6 @@
 	    }
 	  }, ["查看详情\n          "])])])])])])
 	}},staticRenderFns: [function (){with(this) {
-	  return _h('div', {
-	    staticClass: "banner"
-	  }, [_h('div', {
-	    staticClass: "banner-sky"
-	  }), " ", _h('img', {
-	    staticClass: "banner-stars",
-	    attrs: {
-	      "src": "/doc/assets/images/stars.png",
-	      "alt": "Element"
-	    }
-	  }), " ", _h('div', {
-	    staticClass: "container"
-	  }, [_h('div', {
-	    staticClass: "banner-desc"
-	  }, [_h('h2', ["网站快速成型工具"]), " ", _h('div', {
-	    staticClass: "actor",
-	    attrs: {
-	      "id": "line2"
-	    }
-	  }), " ", _h('p', ["Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的组件库，提供了配套设计资源，帮助你的网站快速成型。"])]), " ", _h('img', {
-	    attrs: {
-	      "src": "/doc/assets/images/banner-bg.svg",
-	      "alt": "Element"
-	    }
-	  })])])
-	}},function (){with(this) {
 	  return _h('img', {
 	    attrs: {
 	      "src": "/doc/assets/images/guide.png",
@@ -14931,7 +14893,6 @@
 	//
 	//
 	//
-	//
 
 	exports.default = {
 	  data: function data() {
@@ -15007,7 +14968,6 @@
 	    ref: "header",
 	    staticClass: "header",
 	    class: {
-	      'header-home': isHome,
 	      'header-fixed': isFixed,
 	      'header-hangUp': hangUp
 	    },
