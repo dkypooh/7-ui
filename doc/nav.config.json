@@ -1,9 +1,9 @@
 [
   {
-    "name" : "开发指南",
-    "children" : [{
-      "path" : "/installation",
-      "name" : "安装"
+    "name": "开发指南",
+    "children": [{
+      "path": "/sf-button",
+      "name": "安装"
     }]
   }
 ]

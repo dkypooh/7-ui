@@ -1,4 +1,4 @@
-<style>
+    <style>
   .page-changelog {
     padding-bottom: 100px;
 

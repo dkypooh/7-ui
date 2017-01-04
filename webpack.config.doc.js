@@ -16,6 +16,11 @@ module.exports = {
 				test: /\.vue$/,
 				loader: 'vue'
 			},
+			{
+				test: /\.html/,
+				loader: 'html'
+			},
+
 			{ test: /\.json$/, loader: 'json' },
 			{
 				test: /\.js$/,
@@ -41,6 +46,9 @@ module.exports = {
 		}
 	},
 	resolve :{
-		extensions: ['', '.js', '.vue']
+		extensions: ['', '.js', '.vue'],
+		alias: {
+			vue: 'vue/dist/vue.js'
+		}
 	}
 };
