@@ -26,6 +26,8 @@
         color: #fff;
         text-decoration: none;
         display: block;
+        height: 80px;
+          line-height: 80px;
       }
 
       span {
