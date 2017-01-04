@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "7-UI elements Component Library",
   "scripts": {
+    "doc": "webpack -w --config webpack.config.doc.js",
     "css": "webpack -w --config webpack.config.css.js",
     "build": "webpack --config webpack.config.js",
     "test": "karma start karma.conf.js",
@@ -26,13 +27,15 @@
   ],
   "dependencies": {
     "ui-style": "*",
-    "sf-button" : "*",
+    "sf-button": "*",
     "lodash": "*"
   },
   "devDependencies": {
     "css-loader": "^0.26.1",
     "cssnano": "^3.8.1",
+    "json-loader" : "^0.5.4",
     "extract-text-webpack-plugin": "^1.0.1",
+    "fs-extra": "^1.0.0",
     "html-loader": "^0.3.0",
     "jasmine-core": "^2.4.1",
     "karma": "^0.12.36",
@@ -40,6 +43,7 @@
     "karma-coverage": "^1.1.1",
     "karma-jasmine": "^1.0.2",
     "karma-webpack": "^1.7.0",
+    "loader-utils": "^0.2.16",
     "lodash": "^4.16.6",
     "node-sass": "^3.13.0",
     "phantomjs": "^2.1.7",
@@ -56,6 +60,8 @@
     "precss": "^1.4.0",
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
+    "vue-doc-loader": "^0.0.3",
+      "vue-style-loader": "^1.0.0",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
   },

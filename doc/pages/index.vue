@@ -160,21 +160,21 @@
   <div>
     <div class="banner">
       <div class="banner-sky"></div>
-      <img class="banner-stars" src="~examples/assets/images/stars.png" alt="Element">
+      <img class="banner-stars" src="/doc/assets/images/stars.png" alt="Element">
       <div class="container">
         <div class="banner-desc">
           <h2>网站快速成型工具</h2>
           <div id="line2" class="actor"></div>
           <p>Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的组件库，提供了配套设计资源，帮助你的网站快速成型。</p>
         </div>
-        <img src="~examples/assets/images/banner-bg.svg" alt="Element">
+        <img src="/doc/assets/images/banner-bg.svg" alt="Element">
       </div>
     </div>
     <div class="cards">
       <ul class="container">
         <li>
           <div class="card">
-            <img src="~examples/assets/images/guide.png" alt="">
+            <img src="/doc/assets/images/guide.png" alt="">
             <h3>指南</h3>
             <p>了解设计指南，帮助产品设计人员搭建逻辑清晰、结构合理且高效易用的产品。</p>
             <router-link
@@ -186,7 +186,7 @@
         </li>
         <li>
           <div class="card">
-            <img src="~examples/assets/images/component.png" alt="">
+            <img src="/doc/assets/images/component.png" alt="">
             <h3>组件</h3>
             <p>使用组件 Demo 快速体验交互细节；使用前端框架封装的代码帮助工程师快速开发。</p>
             <router-link
@@ -198,7 +198,7 @@
         </li>
         <li>
           <div class="card">
-            <img src="~examples/assets/images/resource.png" alt="">
+            <img src="/doc/assets/images/resource.png" alt="">
             <h3>资源</h3>
             <p>下载相关资源，用其快速搭建页面原型或高保真视觉稿，提升产品设计效率。</p>
             <router-link

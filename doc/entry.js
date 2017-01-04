@@ -1,11 +1,11 @@
 import Vue from 'vue';
-import entry from './app';
+import entry from './app.vue';
 import VueRouter from 'vue-router';
 import configRouter from './route.config';
 import demoBlock from './components/demo-block.vue';
 import MainFooter from './components/footer.vue';
 import MainHeader from './components/header.vue';
-import SideNav from './components/side-nav';
+import SideNav from './components/side-nav.vue';
 import FooterNav from './components/footer-nav';
 
 Vue.use(VueRouter);

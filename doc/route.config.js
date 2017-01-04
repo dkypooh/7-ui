@@ -8,6 +8,7 @@ const registerRoute = (config) => {
 		children: []
 	}];
 	function addRoute(page) {
+		console.log(page);
 		const component = page.path === '/changelog' ? require('./pages/changelog.vue') : require(`./docs/zh-cn${page.path}.md`);
 		let child = {
 			path: page.path.slice(1),
@@ -39,6 +40,7 @@ const registerRoute = (config) => {
 
 	return { route, navs: config };
 };
+
 
 const route = registerRoute(navConfig);
 

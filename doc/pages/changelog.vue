@@ -121,7 +121,6 @@
   </div>
 </template>
 <script>
-  import ChangeLog from '../../CHANGELOG.md';
   export default {
     components: {
       ChangeLog
