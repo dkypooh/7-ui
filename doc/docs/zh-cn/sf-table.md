@@ -57,6 +57,7 @@
 ```
 :::
 
+
 ### 带斑马纹表格和边框表格
 
 :::ysfdoc 设置不同的表格表现形式
@@ -111,14 +112,13 @@
 ```
 :::
 
-## 样式自定义
-
+### 样式自定义
 :::ysfdoc 支持自定义表格样式`clazz`, 自定义表格高度`height`, 表头高度`header-height`
 
 ```html
   <template>
     <sf-table
-      :data="tableData" height="800" header-height="200" clazz="sf-table-custom"
+      :data="tableData" header-height="100" height="300" clazz="sf-table-custom"
      >
       <sf-table-column
           prop="name"
@@ -142,22 +142,30 @@
       data() {
         return {
           tableData: [{
-            name: 'tom',
-            age : '10',
-            sex : 'male'
-          }, {
-            name: 'vina',
-            age: '11',
-            sex: 'female'
-          }, {
-            name: 'lucy',
-            age: '12',
-            sex: 'female'
-          }, {
-            name: 'joy',
-            age: '13',
-            sex: 'male'
-          }]
+                name: 'tom',
+                age : '10',
+                sex : 'male'
+            }, {
+                name: 'vina',
+                age: '11',
+                sex: 'female'
+            }, {
+                name: 'lucy',
+                age: '12',
+                sex: 'female'
+            }, {
+                name: 'joy',
+                age: '13',
+                sex: 'male'
+            }, {
+                name: 'joy',
+                age: '13',
+                sex: 'male'
+            }, {
+                name: 'joy',
+                age: '13',
+                sex: 'male'
+            }]
         }
       }
     }
@@ -165,7 +173,8 @@
 ```
 :::
 
-## 表格排序功能及自定义事件
+### 表格排序功能及自定义事件
+
 :::ysfdoc 表格支持排序功能`sortable`, 先支持行选中的自定义事件`row-click`, 列表格式化 `fomatter`
 
 ```html
@@ -221,7 +230,7 @@
                 return a - b;
             },
             formatter : function(row, column){
-                return row.address;
+                return row.age + 'year';
             },
             rowClick : function(row, column, event){
                 return row
