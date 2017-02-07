@@ -7,7 +7,7 @@
     "doccss": "webpack -w --config ./build/webpack.config.doccss.js",
     "doc": "webpack -w --config ./build/webpack.config.doc.js",
     "buildcss": "webpack -w --config ./build/webpack.config.css.js",
-    "build": "webpack --config ./build/webpack.config.js",
+    "build": "webpack -p --config ./build/webpack.config.js",
     "test": "karma start ./build/karma.conf.js",
     "server": "webpack-dev-server --inline --hot -quiet"
   },
@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "lodash": "*",
-    "vue" : "*"
+    "vue": "*"
   },
   "devDependencies": {
     "babel-core": "^6.1.2",
@@ -46,8 +46,11 @@
     "cssnano": "^3.8.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.10.0",
+    "fs-extra": "*",
+    "highlight.js": "*",
     "html-loader": "^0.3.0",
     "json-loader": "^0.5.4",
+    "loader-utils": "*",
     "markdown-it": "^8.2.2",
     "node-sass": "^3.13.0",
     "postcss-bem": "^0.4.1",
@@ -64,20 +67,19 @@
     "precss": "^1.4.0",
     "react-input-range": "^0.9.3",
     "sass-loader": "^4.0.2",
+    "sf-spinner": "^0.0.7",
+    "sf-toast": "^0.0.5",
     "style-loader": "^0.13.1",
     "template-html-loader": "0.0.3",
     "ui-style": "^0.3.5",
     "url-loader": "^0.5.7",
+    "vue-doc-loader": "*",
     "vue-hot-reload-api": "^1.2.0",
     "vue-html-loader": "^1.0.0",
     "vue-loader": "^10.3.0",
     "vue-router": "^2.2.0",
     "vue-style-loader": "^1.0.0",
-    "vue-doc-loader" : "*",
     "vue-template-compiler": "^2.1.10",
-    "loader-utils" : "*",
-    "highlight.js" : "*",
-    "fs-extra" : "*",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.0"
   },

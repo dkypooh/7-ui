@@ -7,17 +7,10 @@ import MainFooter from './components/footer.vue';
 import MainHeader from './components/header.vue';
 import SideNav from './components/side-nav.vue';
 import FooterNav from './components/footer-nav';
-import sfButton from 'sf-button';
-import Table from 'sf-table/src/table.vue';
-import TableColumn from 'sf-table/src/table-column';
+import Common from '../src/common';
 
 
 Vue.use(VueRouter);
-
-Vue.component('sf-button', sfButton);
-Vue.component('sf-table', Table);
-Vue.component('sf-table-column', TableColumn);
-
 
 Vue.component('demo-block', demoBlock);
 Vue.component('main-footer', MainFooter);

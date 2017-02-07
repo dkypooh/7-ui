@@ -27,6 +27,7 @@ module.exports = {
 					modifier : '--'
 				}
 			}),
+			require('cssnano'),
 			require('postcss-calc')(),
 			require("postcss-import"),
 			require("postcss-nested")(),

@@ -5,4 +5,11 @@ module.exports =[{
 },{
 	name : 'sf-table',
 	path : path.resolve(__dirname, '../node_modules/sf-table/README.md')
+},{
+	name : 'sf-spinner',
+	path : path.resolve(__dirname, '../node_modules/sf-spinner/README.md')
+},
+{
+	name : 'sf-toast',
+	path : path.resolve(__dirname, '../node_modules/sf-toast/README.md')
 }]

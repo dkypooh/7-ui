@@ -18,15 +18,27 @@
         "list": [
           {
             "path": "/sf-button",
-            "name": "按钮 (button)",
-            "title": "Button 按钮",
+            "name": "button组件",
+            "title": "Button 组件",
             "description": "常用的操作按钮"
           },
           {
             "path": "/sf-table",
-            "name": "表单 (table)",
-            "title": "table 表单",
+            "name": "table组件",
+            "title": "table 组件",
             "description": "通用表单"
+          },
+          {
+            "path": "/sf-spinner",
+            "name": "spinner组件",
+            "title": "spinner 组件",
+            "description": "spinner"
+          },
+          {
+            "path": "/sf-toast",
+            "name": "toast组件",
+            "title": "toast 组件",
+            "description": "toast"
           }
         ]
       }
