@@ -8,7 +8,6 @@ const registerRoute = (config) => {
 		children: []
 	}];
 	function addRoute(page) {
-		console.log(page);
 		const component = page.path === '/changelog' ? require('./pages/changelog.vue') : require(`./docs/zh-cn${page.path}.md`);
 		let child = {
 			path: page.path.slice(1),
@@ -44,35 +43,35 @@ const registerRoute = (config) => {
 
 const route = registerRoute(navConfig);
 
-let guideRoute = {
-	path: '/guide',
-	name: '指南',
-	redirect: '/guide/design',
-	component: require('./pages/guide.vue'),
-	children: [{
-		path: 'design',
-		name: '设计原则',
-		component: require('./pages/design.vue')
-	}, {
-		path: 'nav',
-		name: '导航',
-		component: require('./pages/nav.vue')
-	}]
-};
-
-let resourceRoute = {
-	path: '/resource',
-	name: '资源',
-	component: require('./pages/resource.vue')
-};
-
-let indexRoute = {
-	path: '/',
-	name: '首页',
-	component: require('./pages/index.vue')
-};
-
-route.route = route.route.concat([indexRoute, guideRoute, resourceRoute]);
+// let guideRoute = {
+// 	path: '/guide',
+// 	name: '指南',
+// 	redirect: '/guide/design',
+// 	component: require('./pages/guide.vue'),
+// 	children: [{
+// 		path: 'design',
+// 		name: '设计原则',
+// 		component: require('./pages/design.vue')
+// 	}, {
+// 		path: 'nav',
+// 		name: '导航',
+// 		component: require('./pages/nav.vue')
+// 	}]
+// };
+//
+// let resourceRoute = {
+// 	path: '/resource',
+// 	name: '资源',
+// 	component: require('./pages/resource.vue')
+// };
+//
+// let indexRoute = {
+// 	path: '/',
+// 	name: '首页',
+// 	component: require('./pages/index.vue')
+// };
+//
+// route.route = route.route.concat([indexRoute, guideRoute, resourceRoute]);
 
 route.route.push({
 	path: '*',

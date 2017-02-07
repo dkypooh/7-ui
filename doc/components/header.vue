@@ -108,27 +108,27 @@
     }">
       <div class="container">
         <h1><router-link to="/">SailFish<span>Beta</span></router-link></h1>
-        <ul class="nav">
-          <li class="nav-item">
-            <router-link
-              active-class="active"
-              to="/guide">指南
-            </router-link>
-          </li>
-          <li class="nav-item">
-            <router-link
-              active-class="active"
-              to="/component">组件
-            </router-link>
-          </li>
-          <li class="nav-item">
-            <router-link
-              active-class="active"
-              to="/resource"
-              exact>资源
-            </router-link>
-          </li>
-        </ul>
+        <!--<ul class="nav">-->
+          <!--<li class="nav-item">-->
+            <!--<router-link-->
+              <!--active-class="active"-->
+              <!--to="/guide">指南-->
+            <!--</router-link>-->
+          <!--</li>-->
+          <!--<li class="nav-item">-->
+            <!--<router-link-->
+              <!--active-class="active"-->
+              <!--to="/component">组件-->
+            <!--</router-link>-->
+          <!--</li>-->
+          <!--<li class="nav-item">-->
+            <!--<router-link-->
+              <!--active-class="active"-->
+              <!--to="/resource"-->
+              <!--exact>资源-->
+            <!--</router-link>-->
+          <!--</li>-->
+        <!--</ul>-->
       </div>
     </header>
   </div>

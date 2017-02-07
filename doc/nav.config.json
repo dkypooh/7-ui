@@ -24,9 +24,9 @@
           },
           {
             "path": "/sf-table",
-            "name": "按钮 (xxx)",
-            "title": "Button 按钮",
-            "description": "常用的操作按钮"
+            "name": "表单 (table)",
+            "title": "table 表单",
+            "description": "通用表单"
           }
         ]
       }

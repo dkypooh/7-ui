@@ -3432,7 +3432,6 @@
 			children: []
 		}];
 		function addRoute(page) {
-			console.log(page);
 			var component = page.path === '/changelog' ? __webpack_require__(20) : __webpack_require__(28)("./zh-cn" + page.path + '.md');
 			var child = {
 				path: page.path.slice(1),
@@ -3466,35 +3465,35 @@
 
 	var route = registerRoute(_navConfig2.default);
 
-	var guideRoute = {
-		path: '/guide',
-		name: '指南',
-		redirect: '/guide/design',
-		component: __webpack_require__(42),
-		children: [{
-			path: 'design',
-			name: '设计原则',
-			component: __webpack_require__(47)
-		}, {
-			path: 'nav',
-			name: '导航',
-			component: __webpack_require__(51)
-		}]
-	};
-
-	var resourceRoute = {
-		path: '/resource',
-		name: '资源',
-		component: __webpack_require__(56)
-	};
-
-	var indexRoute = {
-		path: '/',
-		name: '首页',
-		component: __webpack_require__(60)
-	};
-
-	route.route = route.route.concat([indexRoute, guideRoute, resourceRoute]);
+	// let guideRoute = {
+	// 	path: '/guide',
+	// 	name: '指南',
+	// 	redirect: '/guide/design',
+	// 	component: require('./pages/guide.vue'),
+	// 	children: [{
+	// 		path: 'design',
+	// 		name: '设计原则',
+	// 		component: require('./pages/design.vue')
+	// 	}, {
+	// 		path: 'nav',
+	// 		name: '导航',
+	// 		component: require('./pages/nav.vue')
+	// 	}]
+	// };
+	//
+	// let resourceRoute = {
+	// 	path: '/resource',
+	// 	name: '资源',
+	// 	component: require('./pages/resource.vue')
+	// };
+	//
+	// let indexRoute = {
+	// 	path: '/',
+	// 	name: '首页',
+	// 	component: require('./pages/index.vue')
+	// };
+	//
+	// route.route = route.route.concat([indexRoute, guideRoute, resourceRoute]);
 
 	route.route.push({
 		path: '*',
@@ -3536,9 +3535,9 @@
 						},
 						{
 							"path": "/sf-table",
-							"name": "按钮 (xxx)",
-							"title": "Button 按钮",
-							"description": "常用的操作按钮"
+							"name": "表单 (table)",
+							"title": "table 表单",
+							"description": "通用表单"
 						}
 					]
 				}
@@ -3965,60 +3964,11 @@
 /* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(25);
+	module.exports = __webpack_require__(126);
 
 /***/ },
-/* 25 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var Component = __webpack_require__(9)(
-	  /* script */
-	  null,
-	  /* template */
-	  __webpack_require__(26),
-	  /* scopeId */
-	  null,
-	  /* cssModules */
-	  null
-	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/6.vue"
-	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 6.vue: functional components are not supported with templates, they should use render functions.")}
-
-	/* hot reload */
-	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  module.hot.accept()
-	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50d5d6b9", Component.options)
-	  } else {
-	    hotAPI.reload("data-v-50d5d6b9", Component.options)
-	  }
-	})()}
-
-	module.exports = Component.exports
-
-
-/***/ },
-/* 26 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _vm._m(0)
-	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('section', [_c('h2', [_vm._v("更新日志")]), _vm._v(" "), _c('h3', [_vm._v("1.0.0-rc.1")]), _vm._v(" "), _c('p', [_c('em', [_vm._v("2016-08-30")])]), _vm._v(" "), _c('p', [_vm._v("Element 1.0.0-rc.1 发布")])])
-	}]}
-	module.exports.render._withStripped = true
-	if (false) {
-	  module.hot.accept()
-	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50d5d6b9", module.exports)
-	  }
-	}
-
-/***/ },
+/* 25 */,
+/* 26 */,
 /* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -4075,317 +4025,19 @@
 /* 29 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(30);
+	module.exports = __webpack_require__(124);
 
 /***/ },
-/* 30 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var Component = __webpack_require__(9)(
-	  /* script */
-	  null,
-	  /* template */
-	  __webpack_require__(31),
-	  /* scopeId */
-	  null,
-	  /* cssModules */
-	  null
-	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/2.vue"
-	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 2.vue: functional components are not supported with templates, they should use render functions.")}
-
-	/* hot reload */
-	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  module.hot.accept()
-	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-509d78b5", Component.options)
-	  } else {
-	    hotAPI.reload("data-v-509d78b5", Component.options)
-	  }
-	})()}
-
-	module.exports = Component.exports
-
-
-/***/ },
-/* 31 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _vm._m(0)
-	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('section', [_c('h2', [_vm._v("更新日志")]), _vm._v(" "), _c('h3', [_vm._v("1.0.0-rc.9")]), _vm._v(" "), _c('p', [_c('em', [_vm._v("2016-11-XX")])]), _vm._v(" "), _c('ul', [_c('li', [_vm._v("新增 MessageBox 确定按钮自动获取焦点, #721")]), _vm._v(" "), _c('li', [_vm._v("修复 Popover focus 失效, #734")]), _vm._v(" "), _c('li', [_vm._v("修复 Clickoutside 报错, #729")]), _vm._v(" "), _c('li', [_vm._v("修复 DatePicker 选择日期范围时当选中同一天再调整时间会出错")]), _vm._v(" "), _c('li', [_vm._v("更新 TimePicker 滚动条在 IE10+ 下隐藏")]), _vm._v(" "), _c('li', [_vm._v("新增 Dropdown 的 command api #432")]), _vm._v(" "), _c('li', [_vm._v("修复 Slider 在 Form 中的显示问题")]), _vm._v(" "), _c('li', [_vm._v("修复 Upload 在 onSuccess、onError 钩子无法拿到服务端返回信息的问题")])]), _vm._v(" "), _c('h4', [_vm._v("非兼容性更新")]), _vm._v(" "), _c('ul', [_c('li', [_vm._v("Upload on-error 钩子函数参数变更为 function(err, response, file), on-success 钩子函数参数变更为 function(response, file, fileList)")])]), _vm._v(" "), _c('h3', [_vm._v("1.0.0-rc.8")]), _vm._v(" "), _c('p', [_c('em', [_vm._v("2016-10-28")])]), _vm._v(" "), _c('ul', [_c('li', [_vm._v("修复 Form reset method 对日期控件不起效的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 Dialog/Message Box/Tooltip/Popover/... 等若干组件的样式错误")]), _vm._v(" "), _c('li', [_vm._v("修复 Message Box 的 prompt 在打开时会携带之前的验证状态的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 Autocomplete 的弹出框不会消失 #439")]), _vm._v(" "), _c('li', [_vm._v("新增 Input 图标的点击事件 #444")]), _vm._v(" "), _c('li', [_vm._v("修复 Loading 关闭后有几率滚动失效的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 远程搜索的 Select 不能正确渲染默认初始值的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 Switch 的 width 属性无效的问题")]), _vm._v(" "), _c('li', [_vm._v("Table 增加 rowClassName 属性")]), _vm._v(" "), _c('li', [_vm._v("TableColumn 增加 fixed 属性，可选值：true, false, left, right")]), _vm._v(" "), _c('li', [_vm._v("TableColumn 增加属性：filters、filterMultiple、filterMethod、filteredValue")]), _vm._v(" "), _c('li', [_vm._v("TableColumn[type=\"selection\"] 增加 selectable 属性")]), _vm._v(" "), _c('li', [_vm._v("修复 Input textarea 在动态赋值时 autosize 没有触发的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 Input Number min max 属性设置后点击加减出现的崩溃的bug")]), _vm._v(" "), _c('li', [_vm._v("优化 TimePicker/DatePicker 输入日期行为")]), _vm._v(" "), _c('li', [_vm._v("修复 DatePicker 输入禁用状态的日期却生效的问题 #484")]), _vm._v(" "), _c('li', [_vm._v("新增 Slider 的 disabled 属性")]), _vm._v(" "), _c('li', [_vm._v("新增 Menu 的 menu-trigger 属性")]), _vm._v(" "), _c('li', [_vm._v("新增 i18n 的支持")])]), _vm._v(" "), _c('h4', [_vm._v("非兼容性更新")]), _vm._v(" "), _c('ul', [_c('li', [_vm._v("Tabs 组件的 click 和 remove 事件回调参数从 name 改为事件对应的 tab 组件实例")]), _vm._v(" "), _c('li', [_vm._v("全屏 Loading 现在默认不再锁定屏幕滚动。如果需要的话，可添加 "), _c('code', [_vm._v("lock")]), _vm._v(" 修饰符")]), _vm._v(" "), _c('li', [_vm._v("Table 删除属性 fixedColumnCount、customCriteria、customBackgroundColors、selectionMode")]), _vm._v(" "), _c('li', [_vm._v("Table 的 selectionchange、cellmouseenter、cellmouseleave、cellclick 事件更名为 selection-change、cell-mouse-enter、cell-mouse-leave、cell-click。")]), _vm._v(" "), _c('li', [_vm._v("Pagination 的 currentchange、sizechange 事件更名为 current-change、size-change")])]), _vm._v(" "), _c('h3', [_vm._v("1.0.0-rc.7")]), _vm._v(" "), _c('p', [_c('em', [_vm._v("2016-10-13")])]), _vm._v(" "), _c('ul', [_c('li', [_vm._v("Upload 新增 Data 属性支持额外数据的传输")]), _vm._v(" "), _c('li', [_vm._v("DatePicker 修复 "), _c('code', [_vm._v("$t")]), _vm._v(" 报错")]), _vm._v(" "), _c('li', [_vm._v("Popper 重构 vue-popper")]), _vm._v(" "), _c('li', [_vm._v("Pagination 修复输入后再点击切换，输入框的值不更新")]), _vm._v(" "), _c('li', [_vm._v("Step: 修复自定义 icon 的样式")]), _vm._v(" "), _c('li', [_vm._v("修复 Tree 组件 checkbox 点击失效的问题")]), _vm._v(" "), _c('li', [_vm._v("Breadcrumb 增加路由跳转的功能")]), _vm._v(" "), _c('li', [_vm._v("修复 可清空的 Select 中清空按钮的不恰当动画")]), _vm._v(" "), _c('li', [_vm._v("DatePicker 修复使用 Tab 键切换时弹出框未隐藏")])]), _vm._v(" "), _c('h3', [_vm._v("1.0.0-rc.6")]), _vm._v(" "), _c('p', [_c('em', [_vm._v("2016-10-11")])]), _vm._v(" "), _c('ul', [_c('li', [_vm._v("修复 Tabs 切换后 Tab-panel 被销毁的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 TimePicker 错误的隐藏面板")]), _vm._v(" "), _c('li', [_vm._v("修复 Table Cell 的样式, #204")]), _vm._v(" "), _c('li', [_vm._v("修复 Menu default-active 属性不能为空的问题, #200")]), _vm._v(" "), _c('li', [_vm._v("修复 Menu unique-opened 开启后无法展开子菜单的问题, #200")]), _vm._v(" "), _c('li', [_vm._v("为 Notification 和 Message 的不同 type 添加独立的调用方法")]), _vm._v(" "), _c('li', [_vm._v("为 Message Box 和 Dialog 添加 lockScroll 属性，用于定义是否在弹框出现时将 body 滚动锁定")]), _vm._v(" "), _c('li', [_vm._v("新增 Input textarea 类型的 rows, autosize 属性")]), _vm._v(" "), _c('li', [_vm._v("为 Tree 添加 getCheckedNodes 方法和 node-click、check-change 回调")]), _vm._v(" "), _c('li', [_vm._v("新增 DatePicker 禁用日期功能 #253")]), _vm._v(" "), _c('li', [_vm._v("修复 多选可搜索的 Select 下拉选项自动展开的问题")]), _vm._v(" "), _c('li', [_vm._v("为 Dialog 添加 top 属性")]), _vm._v(" "), _c('li', [_vm._v("修复 Menu 组件垂直模式下开启 router 属性会立刻跳转的问题 #295")]), _vm._v(" "), _c('li', [_vm._v("Checkbox change 事件现在只能被人为的交互操作所触发")]), _vm._v(" "), _c('li', [_vm._v("新增 Checkbox checked 属性")]), _vm._v(" "), _c('li', [_vm._v("修复 Select 远程搜索时使用键盘选择选项无法更新 v-model 的问题")])]), _vm._v(" "), _c('h4', [_vm._v("非兼容性更新")]), _vm._v(" "), _c('ul', [_c('li', [_vm._v("Dropdown 组件重构，现在可以以更加的灵活方便的形式来自定义触发下拉的元素，以及可以定义下菜单的样式")])]), _vm._v(" "), _c('h3', [_vm._v("1.0.0-rc.5")]), _vm._v(" "), _c('p', [_c('em', [_vm._v("2016-09-30")])]), _vm._v(" "), _c('ul', [_c('li', [_vm._v("修复 Table 头部不同步的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 Menu 组件 default-active 绑定动态值无法更新的问题")]), _vm._v(" "), _c('li', [_vm._v("新增特性 Menu 组件中若选中子菜单项现在会自动展开所有父级菜单")]), _vm._v(" "), _c('li', [_vm._v("修复 vue-popper 引入 popper 路径错误")]), _vm._v(" "), _c('li', [_vm._v("修复 DatePicker 初始值是合法时间类型但无法设置成功的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 Pagination 的图标没有正确切换样式, #163")]), _vm._v(" "), _c('li', [_vm._v("修复 Row 组件 align 属性不生效的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 Tabs 关闭标签页时对应 Tab-panel 没有移除的问题")]), _vm._v(" "), _c('li', [_vm._v("新增 Menu 组件中 MenuItem 的 route 属性")])]), _vm._v(" "), _c('h4', [_vm._v("非兼容性更新")]), _vm._v(" "), _c('ul', [_c('li', [_vm._v("Menu 组件的 "), _c('code', [_vm._v("unique-opend")]), _vm._v(" 属性修正为 "), _c('code', [_vm._v("unique-opened")])])]), _vm._v(" "), _c('h3', [_vm._v("1.0.0-rc.4")]), _vm._v(" "), _c('p', [_c('em', [_vm._v("2016-09-21")])]), _vm._v(" "), _c('ul', [_c('li', [_vm._v("修复 Select 多选时选项变为空数组后 placeholder 不出现的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 Time Picker 时间选择可滚动")]), _vm._v(" "), _c('li', [_vm._v("修复 Tooltip 有时会错位的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 丢失的组件 css 文件")]), _vm._v(" "), _c('li', [_vm._v("修复 Table 在 Safari 下边框没对齐")]), _vm._v(" "), _c('li', [_vm._v("修复 TimePicker 图标样式被默认图标样式覆盖")]), _vm._v(" "), _c('li', [_vm._v("修复 在 mounted 钩子函数中改变 Select 绑定值不生效的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 在多个依次出现的 Dialog 或 Message Box 全部关闭后页面有几率不可滚动的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 Table 初次渲染时宽度重新计算 #78")]), _vm._v(" "), _c('li', [_vm._v("新增 时间、日期选择器增加 align 属性，可设置对齐方式")]), _vm._v(" "), _c('li', [_vm._v("新增 TableColumn 的 align 属性")]), _vm._v(" "), _c('li', [_vm._v("新增 autocomplete 的 select 事件")])]), _vm._v(" "), _c('h4', [_vm._v("非兼容性更新")]), _vm._v(" "), _c('ul', [_c('li', [_vm._v("Select 组件样式的 "), _c('code', [_vm._v("display")]), _vm._v(" 属性默认值修改为 "), _c('code', [_vm._v("block")])])]), _vm._v(" "), _c('h3', [_vm._v("1.0.0-rc.3")]), _vm._v(" "), _c('p', [_c('em', [_vm._v("2016-09-09")])]), _vm._v(" "), _c('ul', [_c('li', [_vm._v("修复 Slider 存在输入框时，输入框与 Slider 的值不同步的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 Steps 样式")]), _vm._v(" "), _c('li', [_vm._v("修复 无法安装的问题")])]), _vm._v(" "), _c('h3', [_vm._v("1.0.0-rc.2")]), _vm._v(" "), _c('p', [_c('em', [_vm._v("2016-09-09")])]), _vm._v(" "), _c('ul', [_c('li', [_vm._v("修复 Upload 上传的问题，并增加上传成功和失败的钩子函数")]), _vm._v(" "), _c('li', [_vm._v("Button 组件增加 "), _c('code', [_vm._v("nativeType")]), _vm._v(" 属性，用于组件内 "), _c('code', [_vm._v("<button>")]), _vm._v(" 标签的原生 "), _c('code', [_vm._v("type")]), _vm._v(" 属性，默认值为 "), _c('code', [_vm._v("button")])]), _vm._v(" "), _c('li', [_vm._v("修复 Table 自定义模板中渲染静态数据错误")]), _vm._v(" "), _c('li', [_vm._v("修复 Table 中被固定列的高度不与其他列的高度协调的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 Time Picker 的 "), _c('code', [_vm._v("picker-options")]), _vm._v(" 属性")]), _vm._v(" "), _c('li', [_vm._v("修复一些组件图标丢失的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 远程搜索的 Select 在 Form 中的显示问题")]), _vm._v(" "), _c('li', [_vm._v("修复 Input Number 输入小数和非数字值时的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 Select 选中 value 为 0 的值时绑定值不更新的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 Tree 取消选择某节点后，其同级节点均被取消的问题")]), _vm._v(" "), _c('li', [_vm._v("修复 Upload 的 headers 属性设置无效")]), _vm._v(" "), _c('li', [_vm._v("修复 Pagination 包含 sizes 子组件时 page-size 无效的问题")]), _vm._v(" "), _c('li', [_vm._v("优化 增加打包成 commonjs 且不压缩的文件，默认引入 commonjs")])]), _vm._v(" "), _c('h4', [_vm._v("非兼容性更新")]), _vm._v(" "), _c('ul', [_c('li', [_vm._v("Menu 组件 "), _c('code', [_vm._v("mode")]), _vm._v(" 属性默认值修改为 "), _c('code', [_vm._v("vertical")])]), _vm._v(" "), _c('li', [_vm._v("Progress 组件升级，增加环形进度条的类型，以及增加了诸多属性，详细请查阅文档")]), _vm._v(" "), _c('li', [_vm._v("Popover 现在可以通过 slot 指定 reference")])]), _vm._v(" "), _c('h3', [_vm._v("1.0.0-rc.1")]), _vm._v(" "), _c('p', [_c('em', [_vm._v("2016-08-30")])]), _vm._v(" "), _c('p', [_vm._v("Element 1.0.0-rc.1 发布")])])
-	}]}
-	module.exports.render._withStripped = true
-	if (false) {
-	  module.hot.accept()
-	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-509d78b5", module.exports)
-	  }
-	}
-
-/***/ },
+/* 30 */,
+/* 31 */,
 /* 32 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(33);
+	module.exports = __webpack_require__(128);
 
 /***/ },
-/* 33 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var Component = __webpack_require__(9)(
-	  /* script */
-	  null,
-	  /* template */
-	  __webpack_require__(34),
-	  /* scopeId */
-	  null,
-	  /* cssModules */
-	  null
-	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/4.vue"
-	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 4.vue: functional components are not supported with templates, they should use render functions.")}
-
-	/* hot reload */
-	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  module.hot.accept()
-	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50b9a7b7", Component.options)
-	  } else {
-	    hotAPI.reload("data-v-50b9a7b7", Component.options)
-	  }
-	})()}
-
-	module.exports = Component.exports
-
-
-/***/ },
-/* 34 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _vm._m(0)
-	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('section', [_c('h3', [_vm._v("npm 安装")]), _vm._v(" "), _c('p', [_vm._v("推荐使用 npm 的方式安装，它能更好地和 "), _c('a', {
-	    attrs: {
-	      "href": "https://webpack.js.org/"
-	    }
-	  }, [_vm._v("webpack")]), _vm._v(" 打包工具配合使用。")]), _vm._v(" "), _c('pre', [_c('code', {
-	    staticClass: "hljs language-shell"
-	  }, [_vm._v("npm i element-ui@next -D\n")])]), _vm._v(" "), _c('p', [_c('strong', [_vm._v("由于当前还处于 rc 阶段，所以仍然需要通过 @next 的方式获取最新版本。")])]), _vm._v(" "), _c('h3', [_vm._v("CDN")]), _vm._v(" "), _c('p', [_vm._v("目前可以通过 "), _c('a', {
-	    attrs: {
-	      "href": "https://unpkg.com/element-ui@next/"
-	    }
-	  }, [_vm._v("unpkg.com/element-ui")]), _vm._v(" 获取到最新版本的资源，在页面上引入 js 和 css 文件即可开始使用。")]), _vm._v(" "), _c('pre', [_c('code', {
-	    staticClass: "hljs language-html"
-	  }, [_c('span', {
-	    staticClass: "hljs-comment"
-	  }, [_vm._v("<!-- 引入样式 -->")]), _vm._v("\n"), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("link")]), _vm._v(" "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("rel")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"stylesheet\"")]), _vm._v(" "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("href")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"https://unpkg.com/element-ui@1.0.0-rc.8/lib/theme-default/index.css\"")]), _vm._v(">")]), _vm._v("\n"), _c('span', {
-	    staticClass: "hljs-comment"
-	  }, [_vm._v("<!-- 引入组件库 -->")]), _vm._v("\n"), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("script")]), _vm._v(" "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("src")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"https://unpkg.com/element-ui@1.0.0-rc.8/lib/index.js\"")]), _vm._v(">")]), _c('span', {
-	    staticClass: "undefined"
-	  }), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("</"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n")])]), _vm._v(" "), _c('h3', [_vm._v("Hello world")]), _vm._v(" "), _c('p', [_vm._v("通过 CDN 的方式我们可以很容易地使用 Element 写出一个 Hello world 页面。"), _c('a', {
-	    attrs: {
-	      "href": "http://codepen.io/QingWei-Li/pen/vXwJrY"
-	    }
-	  }, [_vm._v("在线演示")])]), _vm._v(" "), _c('pre', [_c('code', {
-	    staticClass: "hljs language-html"
-	  }, [_c('span', {
-	    staticClass: "hljs-meta"
-	  }, [_vm._v("<!DOCTYPE html>")]), _vm._v("\n"), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("html")]), _vm._v(">")]), _vm._v("\n"), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("head")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("meta")]), _vm._v(" "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("charset")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"UTF-8\"")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
-	    staticClass: "hljs-comment"
-	  }, [_vm._v("<!-- 引入样式 -->")]), _vm._v("\n  "), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("link")]), _vm._v(" "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("rel")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"stylesheet\"")]), _vm._v(" "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("href")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"https://unpkg.com/element-ui@1.0.0-rc.8/lib/theme-default/index.css\"")]), _vm._v(">")]), _vm._v("\n"), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("</"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("head")]), _vm._v(">")]), _vm._v("\n"), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("body")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("div")]), _vm._v(" "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("id")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"app\"")]), _vm._v(">")]), _vm._v("\n    "), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("el-button")]), _vm._v(" @"), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("click.native")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"visible = true\"")]), _vm._v(">")]), _vm._v("按钮"), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("</"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("el-button")]), _vm._v(">")]), _vm._v("\n    "), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("el-dialog")]), _vm._v(" "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("v-model")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"visible\"")]), _vm._v(" "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("title")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"Hello world\"")]), _vm._v(">")]), _vm._v("\n      "), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("p")]), _vm._v(">")]), _vm._v("欢迎使用 Element"), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("</"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("p")]), _vm._v(">")]), _vm._v("\n    "), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("</"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("el-dialog")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("</"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("div")]), _vm._v(">")]), _vm._v("\n"), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("</"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("body")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
-	    staticClass: "hljs-comment"
-	  }, [_vm._v("<!-- 先引入 Vue -->")]), _vm._v("\n  "), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("script")]), _vm._v(" "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("src")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"https://unpkg.com/vue@2.0.3/dist/vue.js\"")]), _vm._v(">")]), _c('span', {
-	    staticClass: "undefined"
-	  }), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("</"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
-	    staticClass: "hljs-comment"
-	  }, [_vm._v("<!-- 引入组件库 -->")]), _vm._v("\n  "), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("script")]), _vm._v(" "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("src")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"https://unpkg.com/element-ui@1.0.0-rc.8/lib/index.js\"")]), _vm._v(">")]), _c('span', {
-	    staticClass: "undefined"
-	  }), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("</"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("script")]), _vm._v(">")]), _c('span', {
-	    staticClass: "actionscript"
-	  }, [_vm._v("\n    "), _c('span', {
-	    staticClass: "hljs-keyword"
-	  }, [_vm._v("new")]), _vm._v(" Vue({\n      el: "), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("'#app'")]), _vm._v(",\n      data: "), _c('span', {
-	    staticClass: "hljs-function"
-	  }, [_c('span', {
-	    staticClass: "hljs-keyword"
-	  }, [_vm._v("function")]), _c('span', {
-	    staticClass: "hljs-params"
-	  }, [_vm._v("()")])]), _vm._v("{\n        "), _c('span', {
-	    staticClass: "hljs-keyword"
-	  }, [_vm._v("return")]), _vm._v(" { visible: "), _c('span', {
-	    staticClass: "hljs-literal"
-	  }, [_vm._v("false")]), _vm._v(" }\n      }\n    })\n  ")]), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("</"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n"), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("</"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("html")]), _vm._v(">")]), _vm._v("\n")])]), _vm._v(" "), _c('p', [_vm._v("如果是通过 npm 安装，并希望配合 webpack 使用，请阅读下一节：快速上手。")])])
-	}]}
-	module.exports.render._withStripped = true
-	if (false) {
-	  module.hot.accept()
-	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50b9a7b7", module.exports)
-	  }
-	}
-
-/***/ },
+/* 33 */,
+/* 34 */,
 /* 35 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -4405,9 +4057,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/3.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/6.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 3.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 6.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -4416,9 +4068,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50ab9036", Component.options)
+	    hotAPI.createRecord("data-v-50d5d6b9", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50ab9036", Component.options)
+	    hotAPI.reload("data-v-50d5d6b9", Component.options)
 	  }
 	})()}
 
@@ -4961,7 +4613,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50ab9036", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50d5d6b9", module.exports)
 	  }
 	}
 
@@ -5082,6 +4734,291 @@
 	//
 	//
 	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
 
 	exports.default = {
 	  data: function data() {
@@ -5104,6 +5041,19 @@
 	        sex: 'male'
 	      }]
 	    };
+	  },
+
+	  methods: {
+	    sortMethod: function sortMethod(a, b) {
+	      return a - b;
+	    },
+	    formatter: function formatter(row, column) {
+	      return row.address;
+	    },
+	    rowClick: function rowClick(row, column, event) {
+	      return row;
+	    }
+
 	  }
 	};
 
@@ -5284,6 +5234,595 @@
 	    staticClass: "hljs-tag"
 	  }, [_vm._v("</"), _c('span', {
 	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n")])])])])]), _vm._v(" "), _c('h3', [_vm._v("带斑马纹表格和边框表格")]), _vm._v(" "), _c('demo-block', {
+	    staticClass: "demo-box"
+	  }, [_c('div', {
+	    staticClass: "source"
+	  }, [
+	    [_c('sf-table', {
+	      attrs: {
+	        "data": _vm.tableData,
+	        "stripe": "",
+	        "border": ""
+	      }
+	    }, [_c('sf-table-column', {
+	      attrs: {
+	        "prop": "name",
+	        "label": "姓名",
+	        "width": "180"
+	      }
+	    }), _vm._v(" "), _c('sf-table-column', {
+	      attrs: {
+	        "prop": "age",
+	        "label": "年龄"
+	      }
+	    }), _vm._v(" "), _c('sf-table-column', {
+	      attrs: {
+	        "prop": "sex",
+	        "label": "性别"
+	      }
+	    })], 1)]
+	  ], 2), _vm._v(" "), _c('div', {
+	    staticClass: "meta"
+	  }, [_c('div', {
+	    staticClass: "description"
+	  }, [_c('p', [_vm._v("设置不同的表格表现形式")])]), _vm._v(" "), _c('div', {
+	    staticClass: "highlight"
+	  }, [_c('pre', [_c('code', {
+	    staticClass: "hljs language-html"
+	  }, [_vm._v("  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v(":data")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"tableData\"")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("stripe")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("border")]), _vm._v("\n     >")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v("\n          "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("prop")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"name\"")]), _vm._v("\n          "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("label")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"姓名\"")]), _vm._v("\n          "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("width")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"180\"")]), _vm._v(">")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v(">")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("prop")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"age\"")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("label")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"年龄\"")]), _vm._v("\n        >")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v(">")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("prop")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"sex\"")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("label")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"性别\"")]), _vm._v(">")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v(">")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _c('span', {
+	    staticClass: "javascript"
+	  }, [_vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("export")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("default")]), _vm._v(" {\n      data() {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" {\n          "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("tableData")]), _vm._v(": [{\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'tom'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("age")]), _vm._v(" : "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'10'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("sex")]), _vm._v(" : "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'male'")]), _vm._v("\n          }, {\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'vina'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("age")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'11'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("sex")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'female'")]), _vm._v("\n          }, {\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'lucy'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("age")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'12'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("sex")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'female'")]), _vm._v("\n          }, {\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'joy'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("age")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'13'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("sex")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'male'")]), _vm._v("\n          }]\n        }\n      }\n    }\n  ")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n")])])])])]), _vm._v(" "), _c('h2', [_vm._v("样式自定义")]), _vm._v(" "), _c('demo-block', {
+	    staticClass: "demo-box"
+	  }, [_c('div', {
+	    staticClass: "source"
+	  }, [
+	    [_c('sf-table', {
+	      attrs: {
+	        "data": _vm.tableData,
+	        "height": "800",
+	        "header-height": "200",
+	        "clazz": "sf-table-custom"
+	      }
+	    }, [_c('sf-table-column', {
+	      attrs: {
+	        "prop": "name",
+	        "label": "姓名",
+	        "width": "180"
+	      }
+	    }), _vm._v(" "), _c('sf-table-column', {
+	      attrs: {
+	        "prop": "age",
+	        "label": "年龄"
+	      }
+	    }), _vm._v(" "), _c('sf-table-column', {
+	      attrs: {
+	        "prop": "sex",
+	        "label": "性别"
+	      }
+	    })], 1)]
+	  ], 2), _vm._v(" "), _c('div', {
+	    staticClass: "meta"
+	  }, [_c('div', {
+	    staticClass: "description"
+	  }, [_c('p', [_vm._v("支持自定义表格样式"), _c('code', [_vm._v("clazz")]), _vm._v(", 自定义表格高度"), _c('code', [_vm._v("height")]), _vm._v(", 表头高度"), _c('code', [_vm._v("header-height")])])]), _vm._v(" "), _c('div', {
+	    staticClass: "highlight"
+	  }, [_c('pre', [_c('code', {
+	    staticClass: "hljs language-html"
+	  }, [_vm._v("  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v(":data")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"tableData\"")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("height")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"800\"")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("header-height")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"200\"")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("clazz")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"sf-table-custom\"")]), _vm._v("\n     >")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v("\n          "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("prop")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"name\"")]), _vm._v("\n          "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("label")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"姓名\"")]), _vm._v("\n          "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("width")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"180\"")]), _vm._v(">")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v(">")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("prop")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"age\"")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("label")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"年龄\"")]), _vm._v("\n        >")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v(">")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("prop")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"sex\"")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("label")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"性别\"")]), _vm._v(">")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v(">")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _c('span', {
+	    staticClass: "javascript"
+	  }, [_vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("export")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("default")]), _vm._v(" {\n      data() {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" {\n          "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("tableData")]), _vm._v(": [{\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'tom'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("age")]), _vm._v(" : "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'10'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("sex")]), _vm._v(" : "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'male'")]), _vm._v("\n          }, {\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'vina'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("age")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'11'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("sex")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'female'")]), _vm._v("\n          }, {\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'lucy'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("age")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'12'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("sex")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'female'")]), _vm._v("\n          }, {\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'joy'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("age")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'13'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("sex")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'male'")]), _vm._v("\n          }]\n        }\n      }\n    }\n  ")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n")])])])])]), _vm._v(" "), _c('h2', [_vm._v("表格排序功能及自定义事件")]), _vm._v(" "), _c('demo-block', {
+	    staticClass: "demo-box"
+	  }, [_c('div', {
+	    staticClass: "source"
+	  }, [
+	    [_c('sf-table', {
+	      attrs: {
+	        "data": _vm.tableData
+	      },
+	      on: {
+	        "row-click": _vm.rowClick
+	      }
+	    }, [_c('sf-table-column', {
+	      attrs: {
+	        "prop": "name",
+	        "label": "姓名",
+	        "width": "180"
+	      }
+	    }), _vm._v(" "), _c('sf-table-column', {
+	      attrs: {
+	        "prop": "age",
+	        "label": "年龄",
+	        "sortable": "",
+	        "sort-method": _vm.sortMethod,
+	        "formatter": _vm.formatter
+	      }
+	    }), _vm._v(" "), _c('sf-table-column', {
+	      attrs: {
+	        "prop": "sex",
+	        "label": "性别"
+	      }
+	    })], 1)]
+	  ], 2), _vm._v(" "), _c('div', {
+	    staticClass: "meta"
+	  }, [_c('div', {
+	    staticClass: "description"
+	  }, [_c('p', [_vm._v("表格支持排序功能"), _c('code', [_vm._v("sortable")]), _vm._v(", 先支持行选中的自定义事件"), _c('code', [_vm._v("row-click")]), _vm._v(", 列表格式化 "), _c('code', [_vm._v("fomatter")])])]), _vm._v(" "), _c('div', {
+	    staticClass: "highlight"
+	  }, [_c('pre', [_c('code', {
+	    staticClass: "hljs language-html"
+	  }, [_vm._v("  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v(":data")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"tableData\"")]), _vm._v(" @"), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("row-click")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"rowClick\"")]), _vm._v("\n     >")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v("\n          "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("prop")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"name\"")]), _vm._v("\n          "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("label")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"姓名\"")]), _vm._v("\n          "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("width")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"180\"")]), _vm._v(">")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v(">")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("prop")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"age\"")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("label")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"年龄\"")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("sortable")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v(":sort-method")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"sortMethod\"")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v(":formatter")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"formatter\"")]), _vm._v("\n        >")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v(">")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("prop")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"sex\"")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("label")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"性别\"")]), _vm._v(">")]), _vm._v("\n      "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table-column")]), _vm._v(">")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-table")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _c('span', {
+	    staticClass: "javascript"
+	  }, [_vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("export")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("default")]), _vm._v(" {\n      data() {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" {\n          "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("tableData")]), _vm._v(": [{\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'tom'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("age")]), _vm._v(" : "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'10'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("sex")]), _vm._v(" : "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'male'")]), _vm._v("\n          }, {\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'vina'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("age")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'11'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("sex")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'female'")]), _vm._v("\n          }, {\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'lucy'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("age")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'12'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("sex")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'female'")]), _vm._v("\n          }, {\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'joy'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("age")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'13'")]), _vm._v(",\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("sex")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'male'")]), _vm._v("\n          }]\n        }\n      },\n      "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("methods")]), _vm._v(" : {\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("sortMethod")]), _vm._v(" : "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("a, b")]), _vm._v(")")]), _vm._v("{\n                "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" a - b;\n            },\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("formatter")]), _vm._v(" : "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("row, column")]), _vm._v(")")]), _vm._v("{\n                "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" row.address;\n            },\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("rowClick")]), _vm._v(" : "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("row, column, event")]), _vm._v(")")]), _vm._v("{\n                "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" row\n            }\n\n        }\n    }\n  ")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
 	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n")])])])])])], 1)
 	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('p', [_vm._v("用于展示多条结构类似的数据, 打包文件自动安装了 "), _c('code', [_vm._v("sf-table")]), _vm._v(", "), _c('code', [_vm._v("sf-table-column")]), _vm._v(" 组件")])
@@ -5297,2422 +5836,33 @@
 	}
 
 /***/ },
-/* 42 */
-/***/ function(module, exports, __webpack_require__) {
-
-	
-	/* styles */
-	__webpack_require__(43)
-
-	var Component = __webpack_require__(9)(
-	  /* script */
-	  __webpack_require__(45),
-	  /* template */
-	  __webpack_require__(46),
-	  /* scopeId */
-	  null,
-	  /* cssModules */
-	  null
-	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/doc/pages/guide.vue"
-	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] guide.vue: functional components are not supported with templates, they should use render functions.")}
-
-	/* hot reload */
-	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  module.hot.accept()
-	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-d00196fa", Component.options)
-	  } else {
-	    hotAPI.reload("data-v-d00196fa", Component.options)
-	  }
-	})()}
-
-	module.exports = Component.exports
-
-
-/***/ },
-/* 43 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(44);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(8)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-d00196fa!./../../../node_modules/.npminstall/sass-loader/4.1.1/sass-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=0!./guide.vue", function() {
-				var newContent = require("!!./../../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-d00196fa!./../../../node_modules/.npminstall/sass-loader/4.1.1/sass-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=0!./guide.vue");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 44 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(5)();
-	// imports
-
-
-	// module
-	exports.push([module.id, "\n.page-guide {\n  padding: 55px 0 95px;\n}\n.page-guide .content {\n    padding-left: 25px;\n    margin-left: -1px;\n}\n.page-guide .content h3 {\n      font-size: 22px;\n      font-weight: normal;\n      margin: 0 0 30px;\n      color: #1f2d3d;\n}\n.page-guide .content p {\n      font-size: 14px;\n      color: #5e6d82;\n}\n.page-guide .content ul {\n      margin-bottom: 50px;\n      padding-left: 0;\n}\n.page-guide .content li {\n      font-size: 14px;\n      margin-bottom: 10px;\n      color: #99a9bf;\n      list-style: none;\n}\n.page-guide .content li:before {\n        content: '';\n        display: inline-block;\n        width: 4px;\n        border-radius: 50%;\n        vertical-align: middle;\n        background-color: #5e6d82;\n        margin-right: 5px;\n}\n.page-guide .content li strong {\n        color: #5e6d82;\n        font-weight: 400;\n}\n", ""]);
-
-	// exports
-
-
-/***/ },
-/* 45 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	exports.__esModule = true;
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-
-	exports.default = {
-	  data: function data() {
-	    return {
-	      navsData: [{
-	        path: '/design',
-	        name: '设计原则'
-	      }, {
-	        path: '/nav',
-	        name: '导航'
-	      }]
-	    };
-	  }
-	};
-
-/***/ },
-/* 46 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('div', {
-	    staticClass: "page-container page-guide"
-	  }, [_c('el-row', [_c('el-col', {
-	    attrs: {
-	      "span": 5
-	    }
-	  }, [_c('side-nav', {
-	    attrs: {
-	      "data": _vm.navsData,
-	      "base": "/guide"
-	    }
-	  })], 1), _vm._v(" "), _c('el-col', {
-	    attrs: {
-	      "span": 19
-	    }
-	  }, [_c('router-view', {
-	    staticClass: "content"
-	  })], 1)], 1)], 1)
-	},staticRenderFns: []}
-	module.exports.render._withStripped = true
-	if (false) {
-	  module.hot.accept()
-	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-d00196fa", module.exports)
-	  }
-	}
-
-/***/ },
-/* 47 */
-/***/ function(module, exports, __webpack_require__) {
-
-	
-	/* styles */
-	__webpack_require__(48)
-
-	var Component = __webpack_require__(9)(
-	  /* script */
-	  null,
-	  /* template */
-	  __webpack_require__(50),
-	  /* scopeId */
-	  null,
-	  /* cssModules */
-	  null
-	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/doc/pages/design.vue"
-	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] design.vue: functional components are not supported with templates, they should use render functions.")}
-
-	/* hot reload */
-	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  module.hot.accept()
-	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-64ddde47", Component.options)
-	  } else {
-	    hotAPI.reload("data-v-64ddde47", Component.options)
-	  }
-	})()}
-
-	module.exports = Component.exports
-
-
-/***/ },
-/* 48 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(49);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(8)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-64ddde47!./../../../node_modules/.npminstall/sass-loader/4.1.1/sass-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=0!./design.vue", function() {
-				var newContent = require("!!./../../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-64ddde47!./../../../node_modules/.npminstall/sass-loader/4.1.1/sass-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=0!./design.vue");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 49 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(5)();
-	// imports
-
-
-	// module
-	exports.push([module.id, "\n.cards {\n  margin: 30px 0 70px;\n}\n.card {\n  background: #fbfcfd;\n  height: 204px;\n  text-align: center;\n}\n.card img {\n    margin: 40px auto 25px;\n    width: 80px;\n    height: 80px;\n}\n.card h4 {\n    font-size: 18px;\n    color: #1f2d3d;\n    font-weight: normal;\n    margin: 0;\n}\n.card span {\n    font-size: 14px;\n    color: #99a9bf;\n}\n", ""]);
-
-	// exports
-
-
-/***/ },
-/* 50 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('div', [_c('h2', [_vm._v("设计原则")]), _vm._v(" "), _c('el-row', {
-	    staticClass: "cards",
-	    attrs: {
-	      "gutter": 14
-	    }
-	  }, [_c('el-col', {
-	    attrs: {
-	      "span": 6
-	    }
-	  }, [_c('div', {
-	    staticClass: "card"
-	  }, [_c('img', {
-	    attrs: {
-	      "src": "/doc/assets/images/consistency.png",
-	      "alt": "Consistency"
-	    }
-	  }), _vm._v(" "), _c('h4', [_vm._v("一致")]), _vm._v(" "), _c('span', [_vm._v("Consistency")])])]), _vm._v(" "), _c('el-col', {
-	    attrs: {
-	      "span": 6
-	    }
-	  }, [_c('div', {
-	    staticClass: "card"
-	  }, [_c('img', {
-	    attrs: {
-	      "src": "/doc/assets/images/feedback.png",
-	      "alt": "Feedback"
-	    }
-	  }), _vm._v(" "), _c('h4', [_vm._v("反馈")]), _vm._v(" "), _c('span', [_vm._v("Feedback")])])]), _vm._v(" "), _c('el-col', {
-	    attrs: {
-	      "span": 6
-	    }
-	  }, [_c('div', {
-	    staticClass: "card"
-	  }, [_c('img', {
-	    attrs: {
-	      "src": "/doc/assets/images/efficiency.png",
-	      "alt": "Efficiency"
-	    }
-	  }), _vm._v(" "), _c('h4', [_vm._v("效率")]), _vm._v(" "), _c('span', [_vm._v("Efficiency")])])]), _vm._v(" "), _c('el-col', {
-	    attrs: {
-	      "span": 6
-	    }
-	  }, [_c('div', {
-	    staticClass: "card"
-	  }, [_c('img', {
-	    attrs: {
-	      "src": "/doc/assets/images/controllability.png",
-	      "alt": "Controllability"
-	    }
-	  }), _vm._v(" "), _c('h4', [_vm._v("可控")]), _vm._v(" "), _c('span', [_vm._v("Controllability")])])])], 1), _vm._v(" "), _c('h3', [_vm._v("一致性 Consistency")]), _vm._v(" "), _vm._m(0), _vm._v(" "), _c('h3', [_vm._v("反馈 Feedback")]), _vm._v(" "), _vm._m(1), _vm._v(" "), _c('h3', [_vm._v("效率 Efficiency")]), _vm._v(" "), _vm._m(2), _vm._v(" "), _c('h3', [_vm._v("可控 Controllability")]), _vm._v(" "), _vm._m(3)], 1)
-	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('ul', [_c('li', [_c('strong', [_vm._v("与现实生活一致：")]), _vm._v("与现实生活的流程、逻辑保持一致，遵循用户习惯的语言和概念；")]), _vm._v(" "), _c('li', [_c('strong', [_vm._v("在界面中一致：")]), _vm._v("所有的元素和结构需保持一致，比如：设计样式、图标和文本、元素的位置等。")])])
-	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('ul', [_c('li', [_c('strong', [_vm._v("控制反馈：")]), _vm._v("通过界面样式和交互动效让用户可以清晰的感知自己的操作；")]), _vm._v(" "), _c('li', [_c('strong', [_vm._v("页面反馈：")]), _vm._v("操作后，通过页面元素的变化清晰地展现当前状态。")])])
-	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('ul', [_c('li', [_c('strong', [_vm._v("简化流程：")]), _vm._v("设计简洁直观的操作流程；")]), _vm._v(" "), _c('li', [_c('strong', [_vm._v("清晰明确：")]), _vm._v("语言表达清晰且表意明确，让用户快速理解进而作出决策；")]), _vm._v(" "), _c('li', [_c('strong', [_vm._v("帮助用户识别：")]), _vm._v("界面简单直白，让用户快速识别而非回忆，减少用户记忆负担。")])])
-	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('ul', [_c('li', [_c('strong', [_vm._v("用户决策：")]), _vm._v("根据场景可给予用户操作建议或安全提示，但不能代替用户进行决策；")]), _vm._v(" "), _c('li', [_c('strong', [_vm._v("结果可控：")]), _vm._v("用户可以自由的进行操作，包括撤销、回退和终止当前操作等。")])])
-	}]}
-	module.exports.render._withStripped = true
-	if (false) {
-	  module.hot.accept()
-	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-64ddde47", module.exports)
-	  }
-	}
-
-/***/ },
-/* 51 */
-/***/ function(module, exports, __webpack_require__) {
-
-	
-	/* styles */
-	__webpack_require__(52)
-
-	var Component = __webpack_require__(9)(
-	  /* script */
-	  __webpack_require__(54),
-	  /* template */
-	  __webpack_require__(55),
-	  /* scopeId */
-	  null,
-	  /* cssModules */
-	  null
-	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/doc/pages/nav.vue"
-	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] nav.vue: functional components are not supported with templates, they should use render functions.")}
-
-	/* hot reload */
-	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  module.hot.accept()
-	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-aba0b22c", Component.options)
-	  } else {
-	    hotAPI.reload("data-v-aba0b22c", Component.options)
-	  }
-	})()}
-
-	module.exports = Component.exports
-
-
-/***/ },
-/* 52 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(53);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(8)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-aba0b22c!./../../../node_modules/.npminstall/sass-loader/4.1.1/sass-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=0!./nav.vue", function() {
-				var newContent = require("!!./../../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-aba0b22c!./../../../node_modules/.npminstall/sass-loader/4.1.1/sass-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=0!./nav.vue");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 53 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(5)();
-	// imports
-
-
-	// module
-	exports.push([module.id, "\nh3 {\n  margin-bottom: 15px;\n}\n.block {\n  margin-bottom: 55px;\n}\np {\n  margin: 0 0 15px;\n}\n.nav-demos p {\n  margin-bottom: 50px;\n}\n.nav-demos h5 {\n  margin: 0;\n}\n.nav-demos img {\n  padding: 15px;\n  background-color: #F9FAFC;\n  width: 100%;\n  margin-bottom: 15px;\n  cursor: pointer;\n}\n.dialog-img {\n  position: fixed;\n  overflow: auto;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 1000;\n  -webkit-overflow-scrolling: touch;\n  outline: 0;\n}\n.dialog-img .imgWrap {\n    margin: 0 auto;\n    position: relative;\n    top: 100px;\n    padding-bottom: 50px;\n}\n.dialog-img img {\n    display: block;\n    width: 100%;\n}\n.mask {\n  position: fixed;\n  top: 0;\n  right: 0;\n  left: 0;\n  bottom: 0;\n  background-color: #373737;\n  background-color: rgba(55, 55, 55, 0.6);\n  height: 100%;\n  z-index: 1000;\n}\n.zoom-enter-active,\n.zoom-leave-active {\n  transition: transform 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86), opacity 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);\n}\n.zoom-enter,\n.zoom-leave-active {\n  transform: scale(0.3);\n  opacity: 0;\n}\n.fade-enter-active,\n.fade-leave-active {\n  transition: opacity 0.3s cubic-bezier(0.78, 0.14, 0.15, 0.86);\n}\n.fade-enter,\n.fade-leave-active {\n  opacity: 0;\n}\n", ""]);
-
-	// exports
-
-
-/***/ },
-/* 54 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	exports.__esModule = true;
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-
-	exports.default = {
-	  data: function data() {
-	    return {
-	      imgUrl: '',
-	      imgBound: {},
-	      showDialog: false,
-	      imgStyle: {},
-	      imgWrapStyle: {}
-	    };
-	  },
-
-	  watch: {
-	    showDialog: function showDialog(val) {
-	      document.body.style.overflow = val ? 'hidden' : '';
-	    }
-	  },
-	  methods: {
-	    enlarge: function enlarge(imgWidth, ev) {
-	      var imgNode = ev.target;
-	      // var bound = imgNode.getBoundingClientRect();
-	      var offset = {};
-	      var doc = document;
-
-	      offset.left = (doc.body.scrollWidth - imgWidth) / 2;
-	      offset.top = 100;
-
-	      this.imgUrl = imgNode.src;
-	      this.imgBound = imgNode.getBoundingClientRect();
-
-	      this.imgWrapStyle.transformOrigin = ev.clientX + 'px ' + ev.clientY + 'px';
-	      // this.imgStyle.transformOrigin = `${ev.clientX}px ${ev.clientY}px`;
-	      this.imgStyle.width = imgWidth + 'px';
-	      this.showDialog = true;
-	    }
-	  }
-	};
-
-/***/ },
-/* 55 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('div', [_c('h2', [_vm._v("导航")]), _vm._v(" "), _vm._m(0), _vm._v(" "), _vm._m(1), _vm._v(" "), _c('div', {
-	    staticClass: "block"
-	  }, [_c('h3', [_vm._v("侧栏导航")]), _vm._v(" "), _c('el-row', {
-	    attrs: {
-	      "gutter": 20
-	    }
-	  }, [_c('el-col', {
-	    attrs: {
-	      "span": 9
-	    }
-	  }, [_c('p', [_vm._v("可将导航栏固定在左侧，提高导航可见性，方便页面之间切换；顶部可放置常用工具，如搜索条、帮助按钮、通知按钮等。适用于中后台的管理型、工具型网站。")])]), _vm._v(" "), _c('el-col', {
-	    staticClass: "nav-demos",
-	    attrs: {
-	      "span": 15
-	    }
-	  }, [_c('img', {
-	    attrs: {
-	      "src": "/doc/assets/images/navbar_1.png",
-	      "alt": "一级类目"
-	    },
-	    on: {
-	      "click": function($event) {
-	        _vm.enlarge(846, $event)
-	      }
-	    }
-	  }), _vm._v(" "), _c('h5', [_vm._v("一级类目")]), _vm._v(" "), _c('p', [_vm._v("适用于结构简单的网站：只有一级页面时，不需要使用面包屑。")]), _vm._v(" "), _c('img', {
-	    attrs: {
-	      "src": "/doc/assets/images/navbar_2.png",
-	      "alt": "二级类目"
-	    },
-	    on: {
-	      "click": function($event) {
-	        _vm.enlarge(846, $event)
-	      }
-	    }
-	  }), _vm._v(" "), _c('h5', [_vm._v("二级类目")]), _vm._v(" "), _c('p', [_vm._v("侧栏中最多可显示两级导航；当使用二级导航时，我们建议搭配使用面包屑，方便用户定位自己的位置和快速返回。")]), _vm._v(" "), _c('img', {
-	    attrs: {
-	      "src": "/doc/assets/images/navbar_3.png",
-	      "alt": "三级类目"
-	    },
-	    on: {
-	      "click": function($event) {
-	        _vm.enlarge(846, $event)
-	      }
-	    }
-	  }), _vm._v(" "), _c('h5', [_vm._v("三级类目")]), _vm._v(" "), _c('p', [_vm._v("适用于较复杂的工具型后台，左侧栏为一级导航，中间栏可显示其对应的二级导航，也可放置其他的工具型选项。")])])], 1)], 1), _vm._v(" "), _c('div', {
-	    staticClass: "block"
-	  }, [_c('h3', [_vm._v("顶部导航")]), _vm._v(" "), _c('el-row', [_c('el-col', {
-	    attrs: {
-	      "span": 10
-	    }
-	  }, [_c('p', [_vm._v("顺应了从上至下的正常浏览顺序，方便浏览信息；顶部宽度限制了导航的数量和文本长度。")])]), _vm._v(" "), _c('el-col', {
-	    staticClass: "nav-demos",
-	    attrs: {
-	      "span": 14
-	    }
-	  }, [_c('img', {
-	    attrs: {
-	      "src": "/doc/assets/images/navbar_0.png",
-	      "alt": ""
-	    },
-	    on: {
-	      "click": function($event) {
-	        _vm.enlarge(846, $event)
-	      }
-	    }
-	  }), _vm._v(" "), _c('p', [_vm._v("￼适用于导航较少，页面篇幅较长的网站；")])])], 1)], 1), _vm._v(" "), _c('transition', {
-	    attrs: {
-	      "name": "fade"
-	    }
-	  }, [_c('div', {
-	    directives: [{
-	      name: "show",
-	      rawName: "v-show",
-	      value: (_vm.showDialog),
-	      expression: "showDialog"
-	    }],
-	    staticClass: "mask",
-	    on: {
-	      "click": function($event) {
-	        _vm.showDialog = false
-	      }
-	    }
-	  })]), _vm._v(" "), _c('transition', {
-	    attrs: {
-	      "name": "zoom"
-	    }
-	  }, [_c('div', {
-	    directives: [{
-	      name: "show",
-	      rawName: "v-show",
-	      value: (_vm.showDialog),
-	      expression: "showDialog"
-	    }],
-	    staticClass: "dialog-img",
-	    style: (_vm.imgWrapStyle),
-	    on: {
-	      "click": function($event) {
-	        _vm.showDialog = false
-	      }
-	    }
-	  }, [_c('div', {
-	    staticClass: "imgWrap",
-	    style: (_vm.imgStyle)
-	  }, [_c('img', {
-	    attrs: {
-	      "src": _vm.imgUrl,
-	      "alt": ""
-	    }
-	  })])])])], 1)
-	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('div', {
-	    staticClass: "block"
-	  }, [_c('p', [_vm._v("导航可以解决用户在访问页面时：在哪里，去哪里，怎样去的问题。一般导航会有「侧栏导航」和「顶部导航」2 种类型。")])])
-	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('div', {
-	    staticClass: "block"
-	  }, [_c('h3', [_vm._v("选择合适的导航")]), _vm._v(" "), _c('p', [_vm._v("选择合适的导航可以让用户在产品的使用过程中非常流畅,相反若是不合适就会引起用户操作不适（方向不明确），以下是「侧栏导航」和 「顶部导航」的区别。")])])
-	}]}
-	module.exports.render._withStripped = true
-	if (false) {
-	  module.hot.accept()
-	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-aba0b22c", module.exports)
-	  }
-	}
-
-/***/ },
-/* 56 */
-/***/ function(module, exports, __webpack_require__) {
-
-	
-	/* styles */
-	__webpack_require__(57)
-
-	var Component = __webpack_require__(9)(
-	  /* script */
-	  null,
-	  /* template */
-	  __webpack_require__(59),
-	  /* scopeId */
-	  null,
-	  /* cssModules */
-	  null
-	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/doc/pages/resource.vue"
-	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] resource.vue: functional components are not supported with templates, they should use render functions.")}
-
-	/* hot reload */
-	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  module.hot.accept()
-	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-657bc057", Component.options)
-	  } else {
-	    hotAPI.reload("data-v-657bc057", Component.options)
-	  }
-	})()}
-
-	module.exports = Component.exports
-
-
-/***/ },
-/* 57 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(58);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(8)(content, {});
-	if(content.locals) module.exports = content.locals;
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		if(!content.locals) {
-			module.hot.accept("!!./../../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-657bc057!./../../../node_modules/.npminstall/sass-loader/4.1.1/sass-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=0!./resource.vue", function() {
-				var newContent = require("!!./../../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-657bc057!./../../../node_modules/.npminstall/sass-loader/4.1.1/sass-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=0!./resource.vue");
-				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-				update(newContent);
-			});
-		}
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 58 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(5)();
-	// imports
-
-
-	// module
-	exports.push([module.id, "\n.page-resource {\n  padding-top: 55px;\n}\n.cards {\n  margin: 35px auto 110px;\n}\n.cards .container {\n    padding: 0;\n    margin: 0 -11px;\n    width: auto;\n}\n.cards li {\n    width: 33.33333%;\n    padding: 0 11px;\n    box-sizing: border-box;\n    float: left;\n    list-style: none;\n}\nh2 {\n  font-size: 28px;\n  margin: 0;\n}\np {\n  font-size: 14px;\n  color: #5e6d82;\n}\n.card {\n  height: 394px;\n  width: 100%;\n  background: #ffffff;\n  border: 1px solid #eaeefb;\n  border-radius: 5px;\n  box-sizing: border-box;\n  text-align: center;\n  position: relative;\n  transition: bottom .3s;\n  bottom: 0;\n}\n.card img {\n    margin: 75px auto 35px;\n    height: 87px;\n}\n.card h3 {\n    margin: 0 0 10px;\n    font-size: 18px;\n    color: #1f2f3d;\n    font-weight: normal;\n    height: 22px;\n}\n.card p {\n    font-size: 14px;\n    color: #99a9bf;\n    padding: 0 30px;\n    margin: 0;\n}\n.card a {\n    height: 42px;\n    width: 190px;\n    display: inline-block;\n    font-size: 14px;\n    background-color: #20a0ff;\n    color: #fff;\n    text-align: center;\n    border: 0;\n    padding: 0;\n    cursor: pointer;\n    border-radius: 2px;\n    transition: all .3s;\n    text-decoration: none;\n    margin-top: 20px;\n}\n", ""]);
-
-	// exports
-
-
-/***/ },
-/* 59 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _vm._m(0)
-	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('div', {
-	    staticClass: "page-container page-resource"
-	  }, [_c('h2', [_vm._v("资源")]), _vm._v(" "), _c('p', [_vm._v("这里提供 Element 相关设计资源和设计工具的下载，更多设计资源正在整理和完善中。")]), _vm._v(" "), _c('div', {
-	    staticClass: "cards"
-	  }, [_c('ul', {
-	    staticClass: "container"
-	  }, [_c('li', [_c('div', {
-	    staticClass: "card"
-	  }, [_c('img', {
-	    attrs: {
-	      "src": "/doc/assets/images/Axure-Components.svg",
-	      "alt": ""
-	    }
-	  }), _vm._v(" "), _c('h3', [_vm._v("Axure Components")]), _vm._v(" "), _c('p', [_vm._v("通过在 Axure 中导入 Element 组件库，可以在交互设计阶段方便地调用常用的组件")]), _vm._v(" "), _c('a', {
-	    attrs: {
-	      "href": "https://github.com/ElementUI/Resources/raw/master/Element_Components_v1.1.0.rplib"
-	    }
-	  }, [_vm._v("下载")])])]), _vm._v(" "), _c('li', [_c('div', {
-	    staticClass: "card"
-	  }, [_c('img', {
-	    attrs: {
-	      "src": "/doc/assets/images/Sketch-Template.svg",
-	      "alt": ""
-	    }
-	  }), _vm._v(" "), _c('h3', [_vm._v("Sketch Template")]), _vm._v(" "), _c('p', [_vm._v("从 Element Template 快速调用常用组件，在提升设计效率的同时，保证统一的视觉风格")]), _vm._v(" "), _c('a', {
-	    attrs: {
-	      "href": "https://github.com/ElementUI/Resources/raw/master/Element%20UI%20Kit_v1.3.sketch"
-	    }
-	  }, [_vm._v("下载")])])]), _vm._v(" "), _c('li', [_c('div', {
-	    staticClass: "card"
-	  }, [_c('img', {
-	    attrs: {
-	      "src": "/doc/assets/images/Module.svg",
-	      "alt": ""
-	    }
-	  }), _vm._v(" "), _c('h3', [_vm._v("组件交互文档")]), _vm._v(" "), _c('p', [_vm._v("进一步查看 Element 交互文档，从一个较为微观的角度详细地了解各个组件的交互细节")]), _vm._v(" "), _c('a', {
-	    attrs: {
-	      "href": "https://github.com/ElementUI/Resources/raw/master/Element%20Components%20Documentation.zip"
-	    }
-	  }, [_vm._v("下载")])])])])])])
-	}]}
-	module.exports.render._withStripped = true
-	if (false) {
-	  module.hot.accept()
-	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-657bc057", module.exports)
-	  }
-	}
-
-/***/ },
-/* 60 */
-/***/ function(module, exports, __webpack_require__) {
-
-	
-	/* styles */
-	__webpack_require__(61)
-
-	var Component = __webpack_require__(9)(
-	  /* script */
-	  __webpack_require__(65),
-	  /* template */
-	  __webpack_require__(68),
-	  /* scopeId */
-	  null,
-	  /* cssModules */
-	  null
-	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/doc/pages/index.vue"
-	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] index.vue: functional components are not supported with templates, they should use render functions.")}
-
-	/* hot reload */
-	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  module.hot.accept()
-	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-38bd714e", Component.options)
-	  } else {
-	    hotAPI.reload("data-v-38bd714e", Component.options)
-	  }
-	})()}
-
-	module.exports = Component.exports
-
-
-/***/ },
-/* 61 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(62);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	if(content.locals) module.exports = content.locals;
-	// add the styles to the DOM
-	var update = __webpack_require__(63)("2fd64f1e", content, false);
-	// Hot Module Replacement
-	if(false) {
-	 // When the styles change, update the <style> tags
-	 if(!content.locals) {
-	   module.hot.accept("!!./../../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-38bd714e!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=0!./index.vue", function() {
-	     var newContent = require("!!./../../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-38bd714e!./../../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=0!./index.vue");
-	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-	     update(newContent);
-	   });
-	 }
-	 // When the module is disposed, remove the <style> tags
-	 module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 62 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(5)();
-	// imports
-
-
-	// module
-	exports.push([module.id, "\n.actor {\n  min-height: 65px;\n&:after {\n    content: '';\n    width: 6px;\n    height: 50px;\n    vertical-align: -8px;\n    margin-left: 5px;\n    background-color: #fff;\n    display: inline-block;\n    animation: blink 400ms infinite alternate;\n}\n}\n.banner {\n  position: relative;\n  height: 420px;\n  color: #fff;\n  margin-bottom: 130px;\n.container {\n    position: relative;\n}\nimg {\n    position: absolute;\n    top: 15px;\n    right: -10px;\n}\n}\n.banner-sky {\n  position: absolute;\n  top: -150px;\n  bottom: -15px;\n  width: 100%;\n  margin-top: -140px;\n  transform: skewY(-5deg);\n  transform-origin: center;\n  background-image: linear-gradient(180deg, #0d1a44 13%, #3c4f91 56%, #5fc1e4 100%);\n}\nimg.banner-stars {\n  top: -10px;\n  left: 50%;\n  transform: translateX(-50%);\n}\n.banner-desc {\n  padding-top: 110px;\n  padding-left: 30px;\n  font-size: 46px;\n  position: relative;\n  z-index: 10;\nh2 {\n    font-size: 46px;\n    margin: 0;\n}\np {\n    font-size: 14px;\n    opacity: .8;\n    width: 420px;\n    line-height: 1.8;\n    padding-left: 3px;\n}\n}\n.cards {\n  margin: 0 auto 110px;\n  width: 1140px;\n.container {\n@utils-clearfix;\n    padding: 0;\n    margin: 0 -11px;\n    width: auto;\n}\nli {\n    width: 33.33333%;\n    padding: 0 19px;\n    box-sizing: border-box;\n    float: left;\n    list-style: none;\n}\nimg {\n    width: 160px;\n    height: 120px;\n}\n}\n.card {\n  height: 430px;\n  width: 100%;\n  background:#ffffff;\n  border:1px solid #eaeefb;\n  border-radius:5px;\n  box-sizing: border-box;\n  text-align: center;\n  position: relative;\n  transition: all .3s ease-in-out;\n  bottom: 0;\nimg {\n    margin: 66px auto 60px;\n}\nh3 {\n    margin: 0;\n    font-size: 18px;\n    color: #1f2f3d;\n    font-weight: normal;\n}\np {\n    font-size: 14px;\n    color: #99a9bf;\n    padding: 0 25px;\n    line-height: 1.8;\n}\na {\n    height: 53px;\n    line-height: 52px;\n    font-size: 14px;\n    color: #20a0ff;\n    text-align: center;\n    border: 0;\n    border-top: 1px solid #eaeefb;\n    padding: 0;\n    cursor: pointer;\n    width: 100%;\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    background-color: #fff;\n    border-radius: 0 0 5px 5px;\n    transition: all .3s;\n    text-decoration: none;\n    display: block;\n&:hover {\n      background-color: #20a0ff;\n      color: #fff;\n      background: #20a0ff;\n}\n}\n&:hover {\n    bottom: 6px;\n    box-shadow: 0px 6px 18px 0px rgba(232,237,250,0.50);\n}\n}\n@keyframes blink {\nfrom { opacity: 0;\n}\nto { opacity: 1;\n}\n}\n@media (max-width: 1140px) {\n.cards {\n    width: 100%;\n}\n}\n", ""]);
-
-	// exports
-
-
-/***/ },
-/* 63 */
-/***/ function(module, exports, __webpack_require__) {
-
-	/*
-	  MIT License http://www.opensource.org/licenses/mit-license.php
-	  Author Tobias Koppers @sokra
-	  Modified by Evan You @yyx990803
-	*/
-
-	var hasDocument = typeof document !== 'undefined'
-
-	if (false) {
-	  if (!hasDocument) {
-	    throw new Error(
-	    'vue-style-loader cannot be used in a non-browser environment. ' +
-	    "Use { target: 'node' } in your Webpack config to indicate a server-rendering environment."
-	  ) }
-	}
-
-	var listToStyles = __webpack_require__(64)
-
-	/*
-	type StyleObject = {
-	  id: number;
-	  parts: Array<StyleObjectPart>
-	}
-
-	type StyleObjectPart = {
-	  css: string;
-	  media: string;
-	  sourceMap: ?string
-	}
-	*/
-
-	var stylesInDom = {/*
-	  [id: number]: {
-	    id: number,
-	    refs: number,
-	    parts: Array<(obj?: StyleObjectPart) => void>
-	  }
-	*/}
-
-	var head = hasDocument && (document.head || document.getElementsByTagName('head')[0])
-	var singletonElement = null
-	var singletonCounter = 0
-	var isProduction = false
-	var noop = function () {}
-
-	// Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
-	// tags it will allow on a page
-	var isOldIE = typeof navigator !== 'undefined' && /msie [6-9]\b/.test(navigator.userAgent.toLowerCase())
-
-	module.exports = function (parentId, list, _isProduction) {
-	  isProduction = _isProduction
-
-	  var styles = listToStyles(parentId, list)
-	  addStylesToDom(styles)
-
-	  return function update (newList) {
-	    var mayRemove = []
-	    for (var i = 0; i < styles.length; i++) {
-	      var item = styles[i]
-	      var domStyle = stylesInDom[item.id]
-	      domStyle.refs--
-	      mayRemove.push(domStyle)
-	    }
-	    if (newList) {
-	      styles = listToStyles(parentId, newList)
-	      addStylesToDom(styles)
-	    } else {
-	      styles = []
-	    }
-	    for (var i = 0; i < mayRemove.length; i++) {
-	      var domStyle = mayRemove[i]
-	      if (domStyle.refs === 0) {
-	        for (var j = 0; j < domStyle.parts.length; j++) {
-	          domStyle.parts[j]()
-	        }
-	        delete stylesInDom[domStyle.id]
-	      }
-	    }
-	  }
-	}
-
-	function addStylesToDom (styles /* Array<StyleObject> */) {
-	  for (var i = 0; i < styles.length; i++) {
-	    var item = styles[i]
-	    var domStyle = stylesInDom[item.id]
-	    if (domStyle) {
-	      domStyle.refs++
-	      for (var j = 0; j < domStyle.parts.length; j++) {
-	        domStyle.parts[j](item.parts[j])
-	      }
-	      for (; j < item.parts.length; j++) {
-	        domStyle.parts.push(addStyle(item.parts[j]))
-	      }
-	      if (domStyle.parts.length > item.parts.length) {
-	        domStyle.parts.length = item.parts.length
-	      }
-	    } else {
-	      var parts = []
-	      for (var j = 0; j < item.parts.length; j++) {
-	        parts.push(addStyle(item.parts[j]))
-	      }
-	      stylesInDom[item.id] = { id: item.id, refs: 1, parts: parts }
-	    }
-	  }
-	}
-
-	function listToStyles (parentId, list) {
-	  var styles = []
-	  var newStyles = {}
-	  for (var i = 0; i < list.length; i++) {
-	    var item = list[i]
-	    var id = item[0]
-	    var css = item[1]
-	    var media = item[2]
-	    var sourceMap = item[3]
-	    var part = { css: css, media: media, sourceMap: sourceMap }
-	    if (!newStyles[id]) {
-	      part.id = parentId + ':0'
-	      styles.push(newStyles[id] = { id: id, parts: [part] })
-	    } else {
-	      part.id = parentId + ':' + newStyles[id].parts.length
-	      newStyles[id].parts.push(part)
-	    }
-	  }
-	  return styles
-	}
-
-	function createStyleElement () {
-	  var styleElement = document.createElement('style')
-	  styleElement.type = 'text/css'
-	  head.appendChild(styleElement)
-	  return styleElement
-	}
-
-	function addStyle (obj /* StyleObjectPart */) {
-	  var update, remove
-	  var styleElement = document.querySelector('style[data-vue-ssr-id~="' + obj.id + '"]')
-	  var hasSSR = styleElement != null
-
-	  // if in production mode and style is already provided by SSR,
-	  // simply do nothing.
-	  if (hasSSR && isProduction) {
-	    return noop
-	  }
-
-	  if (isOldIE) {
-	    // use singleton mode for IE9.
-	    var styleIndex = singletonCounter++
-	    styleElement = singletonElement || (singletonElement = createStyleElement())
-	    update = applyToSingletonTag.bind(null, styleElement, styleIndex, false)
-	    remove = applyToSingletonTag.bind(null, styleElement, styleIndex, true)
-	  } else {
-	    // use multi-style-tag mode in all other cases
-	    styleElement = styleElement || createStyleElement()
-	    update = applyToTag.bind(null, styleElement)
-	    remove = function () {
-	      styleElement.parentNode.removeChild(styleElement)
-	    }
-	  }
-
-	  if (!hasSSR) {
-	    update(obj)
-	  }
-
-	  return function updateStyle (newObj /* StyleObjectPart */) {
-	    if (newObj) {
-	      if (newObj.css === obj.css &&
-	          newObj.media === obj.media &&
-	          newObj.sourceMap === obj.sourceMap) {
-	        return
-	      }
-	      update(obj = newObj)
-	    } else {
-	      remove()
-	    }
-	  }
-	}
-
-	var replaceText = (function () {
-	  var textStore = []
-
-	  return function (index, replacement) {
-	    textStore[index] = replacement
-	    return textStore.filter(Boolean).join('\n')
-	  }
-	})()
-
-	function applyToSingletonTag (styleElement, index, remove, obj) {
-	  var css = remove ? '' : obj.css
-
-	  if (styleElement.styleSheet) {
-	    styleElement.styleSheet.cssText = replaceText(index, css)
-	  } else {
-	    var cssNode = document.createTextNode(css)
-	    var childNodes = styleElement.childNodes
-	    if (childNodes[index]) styleElement.removeChild(childNodes[index])
-	    if (childNodes.length) {
-	      styleElement.insertBefore(cssNode, childNodes[index])
-	    } else {
-	      styleElement.appendChild(cssNode)
-	    }
-	  }
-	}
-
-	function applyToTag (styleElement, obj) {
-	  var css = obj.css
-	  var media = obj.media
-	  var sourceMap = obj.sourceMap
-
-	  if (media) {
-	    styleElement.setAttribute('media', media)
-	  }
-
-	  if (sourceMap) {
-	    // https://developer.chrome.com/devtools/docs/javascript-debugging
-	    // this makes source maps inside style tags work properly in Chrome
-	    css += '\n/*# sourceURL=' + sourceMap.sources[0] + ' */'
-	    // http://stackoverflow.com/a/26603875
-	    css += '\n/*# sourceMappingURL=data:application/json;base64,' + btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))) + ' */'
-	  }
-
-	  if (styleElement.styleSheet) {
-	    styleElement.styleSheet.cssText = css
-	  } else {
-	    while (styleElement.firstChild) {
-	      styleElement.removeChild(styleElement.firstChild)
-	    }
-	    styleElement.appendChild(document.createTextNode(css))
-	  }
-	}
-
-
-/***/ },
-/* 64 */
-/***/ function(module, exports) {
-
-	/**
-	 * Translates the list format produced by css-loader into something
-	 * easier to manipulate.
-	 */
-	module.exports = function listToStyles(parentId, list) {
-	  var styles = [];
-	  var newStyles = {};
-	  for (var i = 0; i < list.length; i++) {
-	    var item = list[i];
-	    var id = item[0];
-	    var css = item[1];
-	    var media = item[2];
-	    var sourceMap = item[3];
-	    var part = {
-	      id: parentId + ':' + i,
-	      css: css,
-	      media: media,
-	      sourceMap: sourceMap
-	    };
-	    if (!newStyles[id]) {
-	      styles.push(newStyles[id] = { id: id, parts: [part] });
-	    } else {
-	      newStyles[id].parts.push(part);
-	    }
-	  }
-	  return styles;
-	};
-
-/***/ },
-/* 65 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	exports.__esModule = true;
-
-	var _theaterjs = __webpack_require__(66);
-
-	var _theaterjs2 = _interopRequireDefault(_theaterjs);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	exports.default = {
-	  mounted: function mounted() {
-	    function typing(theater) {
-	      theater.addScene('产品设计师', 1800, -5, 800).addScene('交互设计师', 1800, -5, 500).addScene('视觉设计师', 1800, -5, 700).addScene('产品经理', 1800, -4, 600).addScene('前端工程师', 1800, -5, 800).addScene(function (done) {
-	        typing(theater);
-	        done();
-	      });
-	    }
-	    var theater = (0, _theaterjs2.default)();
-	    theater.on('type:start, erase:start', function () {
-	      theater.getCurrentActor().$element.classList.add('typing');
-	    }).on('type:end, erase:end', function () {
-	      theater.getCurrentActor().$element.classList.remove('typing');
-	    });
-	    theater.addActor('line2', { speed: 0.5, accuracy: 1 }).addScene(2600).addScene('line2:只为守护世界和平', 300, -6, 1000).addScene('让你少加班', 300, -5).addScene('line2:只为这样的你: ', 400).addScene(function (done) {
-	      typing(theater);
-	      done();
-	    });
-	  }
-	}; //
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-
-/***/ },
-/* 66 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__(67);
-
-/***/ },
-/* 67 */
-/***/ function(module, exports, __webpack_require__) {
-
-	(function webpackUniversalModuleDefinition(root, factory) {
-		if (true) module.exports = factory();else if (typeof define === 'function' && define.amd) define([], factory);else if (typeof exports === 'object') exports["theaterJS"] = factory();else root["theaterJS"] = factory();
-	})(this, function () {
-		return (/******/function (modules) {
-				// webpackBootstrap
-				/******/ // The module cache
-				/******/var installedModules = {};
-
-				/******/ // The require function
-				/******/function __webpack_require__(moduleId) {
-
-					/******/ // Check if module is in cache
-					/******/if (installedModules[moduleId])
-						/******/return installedModules[moduleId].exports;
-
-					/******/ // Create a new module (and put it into the cache)
-					/******/var module = installedModules[moduleId] = {
-						/******/exports: {},
-						/******/id: moduleId,
-						/******/loaded: false
-						/******/ };
-
-					/******/ // Execute the module function
-					/******/modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
-
-					/******/ // Flag the module as loaded
-					/******/module.loaded = true;
-
-					/******/ // Return the exports of the module
-					/******/return module.exports;
-					/******/
-				}
-
-				/******/ // expose the modules object (__webpack_modules__)
-				/******/__webpack_require__.m = modules;
-
-				/******/ // expose the module cache
-				/******/__webpack_require__.c = installedModules;
-
-				/******/ // __webpack_public_path__
-				/******/__webpack_require__.p = "";
-
-				/******/ // Load entry module and return exports
-				/******/return __webpack_require__(0);
-				/******/
-			}(
-			/************************************************************************/
-			/******/[
-			/* 0 */
-			/***/function (module, exports, __webpack_require__) {
-
-				'use strict';
-
-				Object.defineProperty(exports, '__esModule', {
-					value: true
-				});
-
-				function _interopRequireDefault(obj) {
-					return obj && obj.__esModule ? obj : { 'default': obj };
-				}
-
-				function _toConsumableArray(arr) {
-					if (Array.isArray(arr)) {
-						for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) arr2[i] = arr[i];return arr2;
-					} else {
-						return Array.from(arr);
-					}
-				}
-
-				function _toArray(arr) {
-					return Array.isArray(arr) ? arr : Array.from(arr);
-				}
-
-				var _actor = __webpack_require__(1);
-
-				var _actor2 = _interopRequireDefault(_actor);
-
-				var _helpersUtils = __webpack_require__(3);
-
-				var _helpersUtils2 = _interopRequireDefault(_helpersUtils);
-
-				var _helpersType = __webpack_require__(2);
-
-				var _helpersType2 = _interopRequireDefault(_helpersType);
-
-				var _helpersKeyboard = __webpack_require__(4);
-
-				var _helpersKeyboard2 = _interopRequireDefault(_helpersKeyboard);
-
-				var _helpersHtml = __webpack_require__(6);
-
-				var _helpersHtml2 = _interopRequireDefault(_helpersHtml);
-
-				var NAVIGATOR = typeof window !== 'undefined' && window.navigator;
-				var DEFAULTS = {
-					autoplay: true,
-					erase: true,
-					minSpeed: { erase: 80, type: 80 },
-					maxSpeed: { erase: 450, type: 450 },
-					locale: 'detect'
-				};
-
-				function theaterJS() {
-					var options = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
-
-					/* ------------------------------------------------- *\
-	      init
-	    \* ------------------------------------------------- */
-
-					options = _helpersUtils2['default'].merge({}, DEFAULTS, options);
-
-					if (_helpersType2['default'].isNumber(options.minSpeed)) {
-						var _options = options;
-						var minSpeed = _options.minSpeed;
-
-						options.minSpeed = { erase: minSpeed, type: minSpeed };
-					}
-
-					if (_helpersType2['default'].isNumber(options.maxSpeed)) {
-						var _options2 = options;
-						var maxSpeed = _options2.maxSpeed;
-
-						options.maxSpeed = { erase: maxSpeed, type: maxSpeed };
-					}
-
-					if (options.locale === 'detect' && NAVIGATOR) {
-						var languages = NAVIGATOR.languages;
-						if (_helpersType2['default'].isArray(languages) && _helpersType2['default'].isString(languages[0])) {
-							options.locale = languages[0].substr(0, 2);
-						}
-					}
-
-					if (!_helpersKeyboard2['default'].supports(options.locale)) {
-						options.locale = _helpersKeyboard2['default'].defaultLocale;
-					}
-
-					var props = { options: options, casting: {}, status: 'ready', onStage: null, currentScene: -1, scenario: [], events: {} };
-					setCurrentActor(null);
-
-					/* ------------------------------------------------- *\
-	      methods
-	    \* ------------------------------------------------- */
-
-					function addActor(actorName) {
-						var options = arguments.length <= 1 || arguments[1] === undefined ? {} : arguments[1];
-						var callback = arguments.length <= 2 || arguments[2] === undefined ? null : arguments[2];
-
-						var a = (0, _actor2['default'])(actorName, options, callback);
-						props.casting[a.name] = a;
-
-						return this;
-					}
-
-					function setCurrentActor(actorName) {
-						props.onStage = actorName;
-						return this;
-					}
-
-					function getCurrentActor() {
-						return props.casting[props.onStage] || null;
-					}
-
-					function addScene() {
-						var sequence = [];
-
-						function addSceneToSequence(scene) {
-							if (_helpersType2['default'].isArray(scene)) {
-								scene.forEach(function (s) {
-									addSceneToSequence(s);
-								});
-							}
-
-							if (_helpersType2['default'].isString(scene)) {
-								var partials = scene.split(':');
-
-								var actorName = undefined;
-								if (partials.length > 1 && partials[0].charAt(partials[0].length - 1) !== '\\') {
-									actorName = partials.shift();
-
-									addSceneToSequence({ name: 'erase', actor: actorName });
-								}
-
-								var speech = partials.join(':').replace(/\\:/g, ':');
-								var sceneObj = { name: 'type', args: [speech] };
-
-								if (actorName != null) {
-									sceneObj.actor = actorName;
-								}
-
-								addSceneToSequence(sceneObj);
-							}
-
-							if (_helpersType2['default'].isFunction(scene)) {
-								addSceneToSequence({ name: 'callback', args: [scene] });
-							}
-
-							if (_helpersType2['default'].isNumber(scene)) {
-								if (scene > 0) {
-									addSceneToSequence({ name: 'wait', args: [scene] });
-								} else {
-									addSceneToSequence({ name: 'erase', args: [scene] });
-								}
-							}
-
-							if (_helpersType2['default'].isObject(scene)) {
-								if (!_helpersType2['default'].isArray(scene.args)) {
-									scene.args = [];
-								}
-
-								scene.args.unshift(function () {
-									publish(scene.name + ':end', scene);
-									playNextScene();
-								});
-
-								sequence.push(scene);
-							}
-						}
-
-						for (var _len = arguments.length, scenes = Array(_len), _key = 0; _key < _len; _key++) {
-							scenes[_key] = arguments[_key];
-						}
-
-						addSceneToSequence([{ name: 'publisher', args: ['sequence:start'] }].concat(scenes).concat({ name: 'publisher', args: ['sequence:end'] }));
-						Array.prototype.push.apply(props.scenario, sequence);
-
-						if (props.options.autoplay) {
-							play();
-						}
-
-						return this;
-					}
-
-					function play() {
-						if (props.status === 'stopping') {
-							props.status = 'playing';
-						}
-
-						if (props.status === 'ready') {
-							props.status = 'playing';
-							playNextScene();
-						}
-
-						return this;
-					}
-
-					function replay(done) {
-						if (props.status === 'ready' || _helpersType2['default'].isFunction(done)) {
-							props.currentScene = -1;
-
-							if (props.status === 'ready') play();else done();
-						}
-
-						return this;
-					}
-
-					function stop() {
-						props.status = 'stopping';
-						return this;
-					}
-
-					function playNextScene() {
-						if (props.status === 'stopping') {
-							props.status = 'ready';
-							return this;
-						}
-
-						if (props.status !== 'playing') return this;
-
-						if (props.currentScene + 1 >= props.scenario.length) {
-							props.status = 'ready';
-							publish('scenario:end');
-							return this;
-						}
-
-						var nextScene = props.scenario[++props.currentScene];
-
-						if (props.currentScene === 0) {
-							publish('scenario:start');
-						}
-
-						if (nextScene.name === 'publisher') {
-							var _nextScene$args = _toArray(nextScene.args);
-
-							var done = _nextScene$args[0];
-
-							var args = _nextScene$args.slice(1);
-
-							publish.apply(undefined, _toConsumableArray(args));
-
-							return done();
-						}
-
-						if (nextScene.actor) {
-							setCurrentActor(nextScene.actor);
-						}
-
-						publish(nextScene.name + ':start', nextScene);
-
-						switch (nextScene.name) {
-							case 'type':
-								typeAction.apply(undefined, _toConsumableArray(nextScene.args));
-								break;
-
-							case 'erase':
-								eraseAction.apply(undefined, _toConsumableArray(nextScene.args));
-								break;
-
-							case 'callback':
-								callbackAction.apply(undefined, _toConsumableArray(nextScene.args));
-								break;
-
-							case 'wait':
-								waitAction.apply(undefined, _toConsumableArray(nextScene.args));
-								break;
-
-							default:
-								console.debug('No scene handler for ' + nextScene.name);
-								break;
-						}
-
-						return this;
-					}
-
-					function typeAction(done, value) {
-						var actor = getCurrentActor();
-
-						var locale = props.options.locale;
-						var minSpeed = props.options.minSpeed.type;
-						var maxSpeed = props.options.maxSpeed.type;
-						var initialValue = actor.displayValue;
-						var cursor = -1;
-						var isFixing = false;
-						var previousMistakeCursor = null;
-						var previousFixCursor = null;
-
-						var htmlMap = _helpersHtml2['default'].map(value);
-						value = _helpersHtml2['default'].strip(value);(function type() {
-							var actual = _helpersHtml2['default'].strip(actor.displayValue.substr(initialValue.length));
-
-							if (actual === value) return done();
-
-							var expected = value.substr(0, cursor + 1);
-
-							var isMistaking = actual !== expected;
-							var shouldBeMistaken = actor.shouldBeMistaken(actual, value, previousMistakeCursor, previousFixCursor);
-							var shouldFix = isFixing || !shouldBeMistaken;
-
-							if (isMistaking && shouldFix) {
-								isFixing = true;
-								previousMistakeCursor = null;
-								actor.displayValue = initialValue + _helpersHtml2['default'].inject(actual.substr(0, actual.length - 1), htmlMap);
-								cursor--;
-								previousFixCursor = cursor;
-							} else {
-								isFixing = false;
-								var nextChar = value.charAt(++cursor);
-
-								if (shouldBeMistaken) {
-									nextChar = _helpersKeyboard2['default'].randomCharNear(nextChar, locale);
-
-									if (previousMistakeCursor == null) {
-										previousMistakeCursor = cursor;
-									}
-								}
-
-								actor.displayValue = initialValue + _helpersHtml2['default'].inject(actual + nextChar, htmlMap);
-							}
-
-							return setTimeout(type, actor.getTypingSpeed(minSpeed, maxSpeed));
-						})();
-
-						return this;
-					}
-
-					function eraseAction(done, arg) {
-						var actor = getCurrentActor();
-
-						// erase scenes are added before a type scene
-						// so for the first scene, there's no actor yet
-						if (actor == null) {
-							return done();
-						}
-
-						if (options.erase !== true) {
-							actor.displayValue = '';
-							return done();
-						}
-
-						var minSpeed = props.options.minSpeed.erase;
-						var maxSpeed = props.options.maxSpeed.erase;
-
-						var value = actor.displayValue;
-						var htmlMap = _helpersHtml2['default'].map(value);
-
-						value = _helpersHtml2['default'].strip(value);
-
-						var cursor = value.length;
-
-						var speed = undefined;
-						var nbCharactersToErase = 0;
-
-						if (_helpersType2['default'].isNumber(arg)) {
-							if (arg > 0) speed = arg;else nbCharactersToErase = value.length + arg;
-						}
-
-						(function erase() {
-							if (cursor === nbCharactersToErase) return done();
-							actor.displayValue = _helpersHtml2['default'].inject(value.substr(0, --cursor), htmlMap);
-
-							return setTimeout(erase, speed || actor.getTypingSpeed(minSpeed, maxSpeed));
-						})();
-
-						return this;
-					}
-
-					function callbackAction(done, callback) {
-						callback.call(this, done);
-						return this;
-					}
-
-					function waitAction(done, delay) {
-						setTimeout(done.bind(this), delay);
-						return this;
-					}
-
-					function subscribe(events, callback) {
-						events.split(',').forEach(function (eventName) {
-							eventName = eventName.trim();
-
-							if (!_helpersType2['default'].isArray(props.events[eventName])) {
-								props.events[eventName] = [];
-							}
-
-							props.events[eventName].push(callback);
-						});
-
-						return this;
-					}
-
-					function publish() {
-						for (var _len2 = arguments.length, args = Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
-							args[_key2] = arguments[_key2];
-						}
-
-						var eventName = args[0];
-						var callbacks = props.events[eventName] || [];
-
-						if (callbacks.length > 0) {
-							callbacks.concat(props.events['*'] || []).forEach(function (callback) {
-								return callback.apply(undefined, args);
-							});
-						}
-
-						return this;
-					}
-
-					/* ------------------------------------------------- *\
-	      public api
-	    \* ------------------------------------------------- */
-
-					return Object.freeze(Object.defineProperties({
-						addActor: addActor,
-						getCurrentActor: getCurrentActor,
-						addScene: addScene,
-						play: play,
-						replay: replay,
-						stop: stop,
-						on: subscribe
-					}, {
-						options: {
-							get: function get() {
-								return props.options;
-							},
-							configurable: true,
-							enumerable: true
-						},
-						status: {
-							get: function get() {
-								return props.status;
-							},
-							configurable: true,
-							enumerable: true
-						}
-					}));
-				}
-
-				theaterJS.init = function () {
-					var actorName = arguments.length <= 0 || arguments[0] === undefined ? 'actor' : arguments[0];
-
-					var theater = theaterJS();
-					theater.addActor(actorName, { accuracy: 1, speed: 0.8 });
-					return theater;
-				};
-
-				exports['default'] = theaterJS;
-				module.exports = exports['default'];
-
-				/***/
-			},
-			/* 1 */
-			/***/function (module, exports, __webpack_require__) {
-
-				'use strict';
-
-				Object.defineProperty(exports, '__esModule', {
-					value: true
-				});
-
-				function _interopRequireDefault(obj) {
-					return obj && obj.__esModule ? obj : { 'default': obj };
-				}
-
-				var _helpersType = __webpack_require__(2);
-
-				var _helpersType2 = _interopRequireDefault(_helpersType);
-
-				var _helpersUtils = __webpack_require__(3);
-
-				var _helpersUtils2 = _interopRequireDefault(_helpersUtils);
-
-				var DOCUMENT = typeof window !== 'undefined' && window.document;
-				var DEFAULTS = { speed: 0.6, accuracy: 0.6 };
-
-				exports['default'] = function (actorName) {
-					var props = arguments.length <= 1 || arguments[1] === undefined ? {} : arguments[1];
-					var callback = arguments.length <= 2 || arguments[2] === undefined ? null : arguments[2];
-
-					var displayValue = '';
-					var $element = undefined;
-
-					if (_helpersType2['default'].isNumber(props)) {
-						props = { speed: props, accuracy: props };
-					}
-
-					props = _helpersUtils2['default'].merge({}, DEFAULTS, props);
-
-					if (DOCUMENT) {
-						if (callback == null) {
-							callback = '#' + actorName;
-						}
-
-						if (_helpersType2['default'].isString(callback)) {
-							var selector = callback;
-							var $e = DOCUMENT.querySelector(selector);
-
-							if ($e != null) {
-								$element = $e;
-								callback = function (newValue) {
-									$element.innerHTML = newValue;
-								};
-							} else {
-								throw new Error('no matches for ' + actorName + '\'s selector: ' + selector);
-							}
-						}
-					}
-
-					if (!_helpersType2['default'].isFunction(callback)) {
-						callback = console.log.bind(console);
-					}
-
-					return Object.defineProperties({
-						$element: $element,
-
-						getTypingSpeed: function getTypingSpeed(fastest, slowest) {
-							var speed = _helpersUtils2['default'].randomFloat(props.speed, 1);
-							return _helpersUtils2['default'].getPercentageOf(slowest, fastest, speed);
-						},
-
-						shouldBeMistaken: function shouldBeMistaken(actual, endValue) {
-							var previousMistakeCursor = arguments.length <= 2 || arguments[2] === undefined ? null : arguments[2];
-							var previousFixCursor = arguments.length <= 3 || arguments[3] === undefined ? null : arguments[3];
-
-							var accuracy = props.accuracy * 10;
-
-							if (accuracy >= 8) {
-								return false;
-							}
-
-							if (actual.length <= accuracy) {
-								return false;
-							}
-
-							if (actual.length === endValue.length) {
-								return false;
-							}
-
-							if (_helpersType2['default'].isNumber(previousMistakeCursor)) {
-								var nbOfCharactersTyped = actual.length - previousMistakeCursor;
-								var maxWrongCharactersAllowed = accuracy >= 6 ? 10 - accuracy : 4;
-
-								if (nbOfCharactersTyped >= maxWrongCharactersAllowed) {
-									return false;
-								}
-							}
-
-							if (_helpersType2['default'].isNumber(previousFixCursor)) {
-								var nbOfCharactersTyped = actual.length - previousFixCursor;
-								var minCharactersBetweenMistakes = Math.max(accuracy, 2) * 2;
-
-								if (nbOfCharactersTyped <= minCharactersBetweenMistakes) {
-									return false;
-								}
-							}
-
-							return _helpersUtils2['default'].randomFloat(0, 0.8) > props.accuracy;
-						}
-					}, {
-						displayValue: {
-							get: function get() {
-								return displayValue;
-							},
-							set: function set(value) {
-								displayValue = value;
-								callback(value);
-							},
-							configurable: true,
-							enumerable: true
-						},
-						name: {
-							get: function get() {
-								return actorName;
-							},
-							configurable: true,
-							enumerable: true
-						}
-					});
-				};
-
-				module.exports = exports['default'];
-
-				/***/
-			},
-			/* 2 */
-			/***/function (module, exports) {
-
-				'use strict';
-
-				Object.defineProperty(exports, '__esModule', {
-					value: true
-				});
-				function toString(o) {
-					return {}.toString.call(o);
-				}
-
-				exports['default'] = {
-					isNumber: function isNumber(o) {
-						return typeof o === 'number';
-					},
-
-					isString: function isString(o) {
-						return toString(o) === '[object String]';
-					},
-
-					isObject: function isObject(o) {
-						return toString(o) === '[object Object]';
-					},
-
-					isArray: function isArray(o) {
-						return toString(o) === '[object Array]';
-					},
-
-					isFunction: function isFunction(o) {
-						return typeof o === 'function';
-					}
-				};
-				module.exports = exports['default'];
-
-				/***/
-			},
-			/* 3 */
-			/***/function (module, exports) {
-
-				"use strict";
-
-				Object.defineProperty(exports, "__esModule", {
-					value: true
-				});
-				exports["default"] = {
-					merge: function merge(dst) {
-						var objs = [].slice.call(arguments, 1);
-
-						for (var i = 0, len = objs.length; i < len; i++) {
-							var obj = objs[i];
-
-							for (var key in obj) {
-								if (!obj.hasOwnProperty(key)) continue;
-								dst[key] = obj[key];
-							}
-						}
-
-						return dst;
-					},
-
-					random: function random(min, max) {
-						return Math.floor(Math.random() * (max - min + 1)) + min;
-					},
-
-					randomFloat: function randomFloat(min, max) {
-						return Math.random() * (max - min) + min;
-					},
-
-					getPercentageOf: function getPercentageOf(min, max, percentage) {
-						return min - min * percentage + max * percentage;
-					}
-				};
-				module.exports = exports["default"];
-
-				/***/
-			},
-			/* 4 */
-			/***/function (module, exports, __webpack_require__) {
-
-				'use strict';
-
-				Object.defineProperty(exports, '__esModule', {
-					value: true
-				});
-
-				function _interopRequireDefault(obj) {
-					return obj && obj.__esModule ? obj : { 'default': obj };
-				}
-
-				var _type = __webpack_require__(2);
-
-				var _type2 = _interopRequireDefault(_type);
-
-				var _utils = __webpack_require__(3);
-
-				var _utils2 = _interopRequireDefault(_utils);
-
-				var _keyboardsJson = __webpack_require__(5);
-
-				var _keyboardsJson2 = _interopRequireDefault(_keyboardsJson);
-
-				var DEFAULT_LOCALE = 'en';
-
-				for (var locale in _keyboardsJson2['default']) {
-					if (!_keyboardsJson2['default'].hasOwnProperty(locale)) continue;
-
-					var keyboard = _keyboardsJson2['default'][locale];
-					_keyboardsJson2['default'][locale] = { list: keyboard, mapped: mapKeyboard(keyboard) };
-				}
-
-				function mapKeyboard(alphabet) {
-					var keyboard = {};
-
-					for (var y = 0, lines = alphabet.length, chars = undefined; y < lines; y++) {
-						chars = alphabet[y];
-
-						for (var x = 0, charsLength = chars.length; x < charsLength; x++) {
-							keyboard[chars[x]] = { x: x, y: y };
-						}
-					}
-
-					return keyboard;
-				}
-
-				exports['default'] = {
-					defaultLocale: DEFAULT_LOCALE,
-
-					supports: function supports(locale) {
-						return _type2['default'].isObject(_keyboardsJson2['default'][locale]);
-					},
-
-					randomCharNear: function randomCharNear(ch, locale) {
-						if (!this.supports(locale)) {
-							throw new Error('locale "' + locale + '" is not supported');
-						}
-
-						var keyboard = _keyboardsJson2['default'][locale].mapped;
-						var threshold = 1;
-						var nearbyChars = [];
-						var uppercase = /[A-Z]/.test(ch);
-
-						ch = ch.toLowerCase();
-
-						var charPosition = keyboard[ch] || [];
-						var p = undefined;
-
-						for (var c in keyboard) {
-							if (!keyboard.hasOwnProperty(c) || c === ch) continue;
-
-							p = keyboard[c];
-
-							if (Math.abs(charPosition.x - p.x) <= threshold && Math.abs(charPosition.y - p.y) <= threshold) {
-								nearbyChars.push(c);
-							}
-						}
-
-						var randomChar = nearbyChars.length > 0 ? nearbyChars[_utils2['default'].random(0, nearbyChars.length - 1)] : this.randomChar(locale);
-
-						if (uppercase) {
-							randomChar = randomChar.toUpperCase();
-						}
-
-						return randomChar;
-					},
-
-					randomChar: function randomChar(locale) {
-						if (!this.supports(locale)) {
-							throw new Error('locale "' + locale + '" is not supported');
-						}
-
-						var chars = _keyboardsJson2['default'][locale].list.join('');
-						return chars.charAt(_utils2['default'].random(0, chars.length - 1));
-					}
-				};
-				module.exports = exports['default'];
-
-				/***/
-			},
-			/* 5 */
-			/***/function (module, exports) {
-
-				module.exports = {
-					"en": ["qwertyuiop", "asdfghjkl", "zxcvbnm"],
-					"fr": ["azertyuiop", "qsdfghjklm", "wxcvbn"],
-					"da": ["qwertyuiopå", "asdfghjklæø", "zxcvbnm"],
-					"de": ["qwertzuiopü", "asdfghjklöä", "yxcvbnm"],
-					"pl": ["qwertyuiopęó", "asdfghjkląśł", "zxcvbnmżźćń"],
-					"pt": ["qwertyuiop", "asdfghjklç", "zxcvbnm"],
-					"ru": ["йцукенгшщзх", "фывапролджэ", "ячсмитьбюъ"]
-				};
-
-				/***/
-			},
-			/* 6 */
-			/***/function (module, exports, __webpack_require__) {
-
-				'use strict';
-
-				Object.defineProperty(exports, '__esModule', {
-					value: true
-				});
-
-				function _interopRequireDefault(obj) {
-					return obj && obj.__esModule ? obj : { 'default': obj };
-				}
-
-				var _voidElementsJson = __webpack_require__(7);
-
-				var _voidElementsJson2 = _interopRequireDefault(_voidElementsJson);
-
-				function isVoidElement(tag) {
-					var tagName = tag.match(/<([^\s>]+)/);
-					return Boolean(tagName) && _voidElementsJson2['default'].indexOf(tagName[1].toLowerCase()) > -1;
-				}
-
-				exports['default'] = {
-					strip: function strip(str) {
-						return str.replace(/(<([^>]+)>)/gi, '');
-					},
-
-					map: function map(str) {
-						var regexp = /<[^>]+>/gi;
-						var tags = [];
-						var openers = [];
-						var result = undefined;
-						var tag = undefined;
-
-						while (result = regexp.exec(str)) {
-							tag = {
-								tagName: result[0],
-								position: result.index
-							};
-
-							if (tag.tagName.charAt(1) === '/') {
-								tag.opener = openers.pop();
-							} else if (tag.tagName.charAt(tag.tagName.length - 2) !== '/' && !isVoidElement(tag.tagName)) {
-								openers.push(tag);
-							}
-
-							tags.push(tag);
-						}
-
-						return tags;
-					},
-
-					inject: function inject(str, map) {
-						for (var i = 0, tag = undefined; i < map.length; i++) {
-							tag = map[i];
-
-							if (str.length > 0 && tag.position <= str.length) {
-								str = str.substr(0, tag.position) + tag.tagName + str.substr(tag.position);
-							} else if (tag.opener && tag.opener.position < str.length) {
-								str += tag.tagName;
-							}
-						}
-
-						return str;
-					}
-				};
-				module.exports = exports['default'];
-
-				/***/
-			},
-			/* 7 */
-			/***/function (module, exports) {
-
-				module.exports = ["area", "base", "br", "col", "embed", "hr", "img", "input", "keygen", "link", "menuitem", "meta", "param", "source", "track", "wbr"];
-
-				/***/
-			}
-			/******/])
-		);
-	});
-	;
-
-/***/ },
-/* 68 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('div', [_c('div', {
-	    staticClass: "cards"
-	  }, [_c('ul', {
-	    staticClass: "container"
-	  }, [_c('li', [_c('div', {
-	    staticClass: "card"
-	  }, [_c('img', {
-	    attrs: {
-	      "src": "/doc/assets/images/guide.png",
-	      "alt": ""
-	    }
-	  }), _vm._v(" "), _c('h3', [_vm._v("指南")]), _vm._v(" "), _c('p', [_vm._v("了解设计指南，帮助产品设计人员搭建逻辑清晰、结构合理且高效易用的产品。")]), _vm._v(" "), _c('router-link', {
-	    attrs: {
-	      "active-class": "active",
-	      "to": "/guide/design",
-	      "exact": ""
-	    }
-	  }, [_vm._v("查看详情\n          ")])], 1)]), _vm._v(" "), _c('li', [_c('div', {
-	    staticClass: "card"
-	  }, [_c('img', {
-	    attrs: {
-	      "src": "/doc/assets/images/component.png",
-	      "alt": ""
-	    }
-	  }), _vm._v(" "), _c('h3', [_vm._v("组件")]), _vm._v(" "), _c('p', [_vm._v("使用组件 Demo 快速体验交互细节；使用前端框架封装的代码帮助工程师快速开发。")]), _vm._v(" "), _c('router-link', {
-	    attrs: {
-	      "active-class": "active",
-	      "to": "/component/layout",
-	      "exact": ""
-	    }
-	  }, [_vm._v("查看详情\n          ")])], 1)]), _vm._v(" "), _c('li', [_c('div', {
-	    staticClass: "card"
-	  }, [_c('img', {
-	    attrs: {
-	      "src": "/doc/assets/images/resource.png",
-	      "alt": ""
-	    }
-	  }), _vm._v(" "), _c('h3', [_vm._v("资源")]), _vm._v(" "), _c('p', [_vm._v("下载相关资源，用其快速搭建页面原型或高保真视觉稿，提升产品设计效率。")]), _vm._v(" "), _c('router-link', {
-	    attrs: {
-	      "active-class": "active",
-	      "to": "/resource",
-	      "exact": ""
-	    }
-	  }, [_vm._v("查看详情\n          ")])], 1)])])])])
-	},staticRenderFns: []}
-	module.exports.render._withStripped = true
-	if (false) {
-	  module.hot.accept()
-	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-38bd714e", module.exports)
-	  }
-	}
-
-/***/ },
+/* 42 */,
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */,
+/* 55 */,
+/* 56 */,
+/* 57 */,
+/* 58 */,
+/* 59 */,
+/* 60 */,
+/* 61 */,
+/* 62 */,
+/* 63 */,
+/* 64 */,
+/* 65 */,
+/* 66 */,
+/* 67 */,
+/* 68 */,
 /* 69 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -8451,31 +6601,7 @@
 	    attrs: {
 	      "to": "/"
 	    }
-	  }, [_vm._v("SailFish"), _c('span', [_vm._v("Beta")])])], 1), _vm._v(" "), _c('ul', {
-	    staticClass: "nav"
-	  }, [_c('li', {
-	    staticClass: "nav-item"
-	  }, [_c('router-link', {
-	    attrs: {
-	      "active-class": "active",
-	      "to": "/guide"
-	    }
-	  }, [_vm._v("指南\n          ")])], 1), _vm._v(" "), _c('li', {
-	    staticClass: "nav-item"
-	  }, [_c('router-link', {
-	    attrs: {
-	      "active-class": "active",
-	      "to": "/component"
-	    }
-	  }, [_vm._v("组件\n          ")])], 1), _vm._v(" "), _c('li', {
-	    staticClass: "nav-item"
-	  }, [_c('router-link', {
-	    attrs: {
-	      "active-class": "active",
-	      "to": "/resource",
-	      "exact": ""
-	    }
-	  }, [_vm._v("资源\n          ")])], 1)])])])])
+	  }, [_vm._v("SailFish"), _c('span', [_vm._v("Beta")])])], 1)])])])
 	},staticRenderFns: []}
 	module.exports.render._withStripped = true
 	if (false) {
@@ -9055,7 +7181,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-table/0.0.3/sf-table/src/table.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-table/0.0.6/sf-table/src/table.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] table.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -9066,9 +7192,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-43a7506c", Component.options)
+	    hotAPI.createRecord("data-v-37abfd09", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-43a7506c", Component.options)
+	    hotAPI.reload("data-v-37abfd09", Component.options)
 	  }
 	})()}
 
@@ -9980,7 +8106,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-43a7506c", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-37abfd09", module.exports)
 	  }
 	}
 
@@ -10251,6 +8377,315 @@
 			parent.store.commit('insertColumn', this.columnConfig, columnIndex);
 		}
 	};
+
+/***/ },
+/* 104 */,
+/* 105 */,
+/* 106 */,
+/* 107 */,
+/* 108 */,
+/* 109 */,
+/* 110 */,
+/* 111 */,
+/* 112 */,
+/* 113 */,
+/* 114 */,
+/* 115 */,
+/* 116 */,
+/* 117 */,
+/* 118 */,
+/* 119 */,
+/* 120 */,
+/* 121 */,
+/* 122 */,
+/* 123 */,
+/* 124 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var Component = __webpack_require__(9)(
+	  /* script */
+	  null,
+	  /* template */
+	  __webpack_require__(125),
+	  /* scopeId */
+	  null,
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/17.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] 17.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-7c8a379a", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-7c8a379a", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 125 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _vm._m(0)
+	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('section', [_c('h2', [_vm._v("更新日志")]), _vm._v(" "), _c('h3', [_vm._v("1.0.0 项目开始启动")])])
+	}]}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7c8a379a", module.exports)
+	  }
+	}
+
+/***/ },
+/* 126 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var Component = __webpack_require__(9)(
+	  /* script */
+	  null,
+	  /* template */
+	  __webpack_require__(127),
+	  /* scopeId */
+	  null,
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/18.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] 18.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-7c6e0898", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-7c6e0898", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 127 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _vm._m(0)
+	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('section', [_c('h2', [_vm._v("更新日志")]), _vm._v(" "), _c('h3', [_vm._v("1.0.0 项目开始启动")])])
+	}]}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7c6e0898", module.exports)
+	  }
+	}
+
+/***/ },
+/* 128 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var Component = __webpack_require__(9)(
+	  /* script */
+	  null,
+	  /* template */
+	  __webpack_require__(129),
+	  /* scopeId */
+	  null,
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/19.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] 19.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-7c51d996", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-7c51d996", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 129 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _vm._m(0)
+	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('section', [_c('h2', [_vm._v("npm 安装")]), _vm._v(" "), _c('p', [_vm._v("推荐使用 npm 的方式安装，它能更好地和 "), _c('a', {
+	    attrs: {
+	      "href": "https://webpack.js.org/"
+	    }
+	  }, [_vm._v("webpack")]), _vm._v(" 打包工具配合使用。")]), _vm._v(" "), _c('pre', [_c('code', {
+	    staticClass: "hljs language-shell"
+	  }, [_vm._v("npm install 7-ui\n")])]), _vm._v(" "), _c('pre', [_c('code', {
+	    staticClass: "hljs language-html"
+	  }, [_c('span', {
+	    staticClass: "hljs-meta"
+	  }, [_vm._v("<!DOCTYPE html>")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("html")]), _vm._v(">")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("head")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("meta")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("charset")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"UTF-8\"")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("<!-- 引入样式 -->")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("link")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("rel")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"stylesheet\"")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("href")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"https://unpkg.com/element-ui@1.0.0-rc.8/lib/theme-default/index.css\"")]), _vm._v(">")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("head")]), _vm._v(">")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("body")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("div")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"app\"")]), _vm._v(">")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-button")]), _vm._v(" @"), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("click.native")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"visible = true\"")]), _vm._v(">")]), _vm._v("按钮"), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-button")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("div")]), _vm._v(">")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("body")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("<!-- 先引入 Vue -->")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("src")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"https://unpkg.com/vue@2.0.3/dist/vue.js\"")]), _vm._v(">")]), _c('span', {
+	    staticClass: "undefined"
+	  }), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("<!-- 引入组件库 -->")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("src")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"https://unpkg.com/7-ui@1.0.0/dist/app.js\"")]), _vm._v(">")]), _c('span', {
+	    staticClass: "undefined"
+	  }), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _c('span', {
+	    staticClass: "actionscript"
+	  }, [_vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" Vue({\n      el: "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'#app'")]), _vm._v(",\n      data: "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("()")])]), _vm._v("{\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" { visible: "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("false")]), _vm._v(" }\n      }\n    })\n  ")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("html")]), _vm._v(">")]), _vm._v("\n")])]), _vm._v(" "), _c('p', [_vm._v("如果是通过 npm 安装，并希望配合 webpack 使用，请阅读下一节：快速上手。")])])
+	}]}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7c51d996", module.exports)
+	  }
+	}
 
 /***/ }
 /******/ ]);
