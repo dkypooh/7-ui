@@ -21,6 +21,12 @@
             "name": "按钮 (button)",
             "title": "Button 按钮",
             "description": "常用的操作按钮"
+          },
+          {
+            "path": "/sf-table",
+            "name": "按钮 (xxx)",
+            "title": "Button 按钮",
+            "description": "常用的操作按钮"
           }
         ]
       }

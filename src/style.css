@@ -3,6 +3,7 @@
 @import '~7ui-grid';
 @import '../node_modules/ui-style/src/icon.css';
 @import '../node_modules/ui-style/src/_mixins.css';
+@import '../node_modules/sf-table/src/table.css';
 
 
 @import '../node_modules/sf-button/src/button.css';

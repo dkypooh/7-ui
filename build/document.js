@@ -1,6 +1,6 @@
 var path = require('path');
 var fsExtra = require('fs-extra');
-var config = require('../markdown.config');
+var config = require('./markdown.config');
 
 var targetPath = path.resolve(__dirname, '../doc/docs/zh-cn/')
 

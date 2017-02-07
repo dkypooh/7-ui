@@ -8,11 +8,15 @@ import MainHeader from './components/header.vue';
 import SideNav from './components/side-nav.vue';
 import FooterNav from './components/footer-nav';
 import sfButton from 'sf-button';
+import Table from 'sf-table/src/table.vue';
+import TableColumn from 'sf-table/src/table-column';
 
 
 Vue.use(VueRouter);
 
 Vue.component('sf-button', sfButton);
+Vue.component('sf-table', Table);
+Vue.component('sf-table-column', TableColumn);
 
 
 Vue.component('demo-block', demoBlock);

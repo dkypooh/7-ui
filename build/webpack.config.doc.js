@@ -3,7 +3,7 @@ var path = require('path');
 module.exports = {
 	entry: "./doc/entry.js",
 	output: {
-		path: "./dist",
+		path: "./docs",
 		filename: "app.js"
 	},
 	module: {
@@ -24,7 +24,6 @@ module.exports = {
 			{ test: /\.json$/, loader: 'json' },
 			{
 				test: /\.js$/,
-				exclude: /node_modules/,
 				loader: 'babel'
 			},
 			{

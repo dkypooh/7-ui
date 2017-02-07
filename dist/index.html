@@ -1,13 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 	<meta charset="UTF-8">
-	<title>SailFish UI Library</title>
-	<link type="text/css" rel="stylesheet" href="https://unpkg.com/ui-style/lib/index.css">
-	<link type="text/css" rel="stylesheet" href="./style.css">
+	<!-- 引入样式 -->
+	<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-default/index.css">
+	<link rel="stylesheet" href="./style.css">
+	<style>
+		::-webkit-scrollbar {
+			width: 0px;
+			height: 0px
+		}
+		::-webkit-scrollbar-button {
+			background: #ccc
+		}
+		::-webkit-scrollbar-track-piece {
+			background: #888
+		}
+		::-webkit-scrollbar-thumb {
+			background: #eee
+		}​
+	</style>
 </head>
+
 <body>
-<div id="app"></div>
-<script src="./app.js"></script>
+<div id="app">
+	<sf-table :data="tableData" stripe border @row-click="rowClick" clazz="m-table-1" >
+		<sf-table-column
+		type="selection"
+		width="100">
+		</sf-table-column>
+		<sf-table-column
+		prop="date"
+		label="日期"
+		>
+		</sf-table-column>
+		<sf-table-column
+		prop="name"
+		label="姓名">
+		</sf-table-column>
+	</sf-table>
+</div>
 </body>
+<!-- 先引入 Vue -->
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<!-- 引入组件库 -->
+<script src="./app.js"></script>
+<script>
+	new Vue({
+		el: '#app',
+		data: function(){
+			return {
+				tableData: [{
+					date: '2016-05-02',
+					name: '王小虎',
+					address: '上海市普陀区金沙江路 1518 弄'
+				}, {
+					date: '2016-05-04',
+					name: '王小虎',
+					address: '上海市普陀区金沙江路 1517 弄'
+				}, {
+					date: '2016-05-01',
+					name: '王小虎',
+					address: '上海市普陀区金沙江路 1519 弄'
+				}, {
+					date: '2016-05-03',
+					name: '王小虎',
+					address: '上海市普陀区金沙江路 1516 弄'
+				}]
+			}
+		},
+		methods : {
+			sortMethod : function(a, b){
+				debugger;
+			},
+			formatter : function(row, column){
+				return row.address;
+			},
+			rowClick : function(a, b){
+				debugger;
+			}
+
+		}
+	})
+</script>
 </html>

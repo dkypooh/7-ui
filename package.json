@@ -3,12 +3,13 @@
   "version": "0.0.1",
   "description": "7-UI elements Component Library",
   "scripts": {
-    "copy_markdown": "node ./build/document.js",
-    "doc": "webpack -w --config webpack.config.doc.js",
-    "css": "webpack -w --config webpack.config.css.js",
-    "build": "webpack --config webpack.config.js",
-    "test": "karma start karma.conf.js",
-    "dev": "webpack-dev-server --inline --hot -quiet"
+    "markdown": "node ./build/document.js",
+    "doccss": "webpack -w --config ./build/webpack.config.doccss.js",
+    "doc": "webpack -w --config ./build/webpack.config.doc.js",
+    "buildcss": "webpack -w --config ./build/webpack.config.css.js",
+    "build": "webpack --config ./build/webpack.config.js",
+    "test": "karma start ./build/karma.conf.js",
+    "server": "webpack-dev-server --inline --hot -quiet"
   },
   "main": "src/index.js",
   "repository": {
@@ -61,8 +62,9 @@
     "postcss-utilities": "^0.6.1",
     "precss": "^1.4.0",
     "sass-loader": "^4.0.2",
+    "sf-table": "^0.0.3",
     "style-loader": "^0.13.1",
-    "vue-doc-loader": "^0.0.3",
+    "vue-doc-loader": "^0.0.5",
     "vue-style-loader": "^1.0.0",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"

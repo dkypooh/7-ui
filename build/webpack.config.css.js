@@ -1,6 +1,5 @@
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 var path = require('path');
-var styleAlias = require('./style.config');
 
 module.exports = {
 	entry : './src/style.js',
@@ -21,28 +20,29 @@ module.exports = {
 	],
 	postcss: function (webpack) {
 		return [
-
 			require('precss')(),
 			require('postcss-bem')({
 				separators : {
-					descendent : '_',
-					modifier : '-'
+					descendent : '__',
+					modifier : '--'
 				}
 			}),
-			require('cssnano'),
 			require('postcss-calc')(),
 			require("postcss-import"),
 			require("postcss-nested")(),
 			require('postcss-css-variables')(),
 			require("postcss-url")(),
 			require("postcss-cssnext")({browsers: ["last 2 chrome versions"]}),
-			require('postcss-utilities')(),
-
+			require('postcss-utilities')()
 		]
 	},
 	resolve :{
 		modules : ['node_modules', 'src'],
 		extensions: ['', '.js', '.css'],
-		alias : styleAlias
+		alias :{
+			'7ui-var': path.join(__dirname, '../node_modules/ui-style/src/_var.css'),
+			'7ui-grid': path.join(__dirname, '../node_modules/ui-style/src/grid.css'),
+			'7ui-icon': path.join(__dirname, '../node_modules/ui-style/src/icon.css')
+		}
 	}
 }
