@@ -4013,9 +4013,6 @@
 	//
 	//
 	//
-	//
-	//
-	//
 
 /***/ },
 /* 25 */
@@ -4081,14 +4078,7 @@
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
 	  return _c('div', {
 	    staticClass: "page-changelog"
-	  }, [_c('h2', [_c('el-button', {
-	    staticClass: "fr"
-	  }, [_c('a', {
-	    attrs: {
-	      "href": "https://github.com/ElemeFE/element/releases",
-	      "target": "_blank"
-	    }
-	  }, [_vm._v("Github Releases")])]), _vm._v("\n    更新日志\n  ")], 1), _vm._v(" "), _c('ul', {
+	  }, [_c('h2', [_vm._v("\n    更新日志\n  ")]), _vm._v(" "), _c('ul', {
 	    ref: "timeline",
 	    staticClass: "timeline"
 	  }), _vm._v(" "), _c('change-log', {
@@ -8738,7 +8728,7 @@
 	      "href": "https://github.com/dkypooh/7-ui",
 	      "target": "_blank"
 	    }
-	  }, [_vm._v("SailFish"), _c('span', [_vm._v("Beta")])])])])
+	  }, [_vm._v("SailFish"), _c('span', [_vm._v("Beta")])])]), _vm._v(" "), _vm._v("e\n        ")])
 	}]}
 	module.exports.render._withStripped = true
 	if (false) {
