@@ -66,5 +66,10 @@ module.exports = [
 		label: "Pagination 分页器",
 		css : "pagination",
 		path :"pagination.vue"
+	},
+	{
+		name: "sf-select",
+		label: "Select 选择器",
+		path :""
 	}
 ]

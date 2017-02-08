@@ -36,14 +36,14 @@ Vue.component('sf-toast', sftoast);
 import sfprogressbar from 'sf-progressbar/src/progressbar';
 Vue.component('sf-progressbar', sfprogressbar);
 
-
-import sftooltips from 'sf-tooltips';
-Vue.component('sf-tooltips', sftooltips);
-
-
 import sfpagination from 'sf-pagination/src/pagination.vue';
 Vue.component('sf-pagination', sfpagination);
 
+import sfSelect from 'sf-select/src/select.vue';
+Vue.component('sf-select', sfSelect);
+
+import sfOption from 'sf-select/src/option.vue';
+Vue.component('sf-option', sfOption);
 
 if(window != undefined){
 		window.sfToast = sftoast;

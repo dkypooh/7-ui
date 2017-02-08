@@ -43,7 +43,12 @@
 			"path": "/sf-pagination",
 			"name": "Pagination 分页器",
 			"title": "Pagination 分页器"
-		}]
+		},{
+          "path": "/sf-select",
+          "name": "下拉选择 (select)",
+          "title": "Select 选择器",
+          "description": "下拉选择"
+        }]
       }
     ]
   }
