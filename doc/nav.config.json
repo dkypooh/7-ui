@@ -17,12 +17,12 @@
         "groupName": "Basic",
         "list": [{
 			"path": "/sf-button",
-			"name": "Button 组件",
-			"title": "Button 组件"
+			"name": "Button 按钮",
+			"title": "Button 按钮"
 		},{
 			"path": "/sf-table",
-			"name": "Table 组件",
-			"title": "Table 组件"
+			"name": "Table 表单",
+			"title": "Table 表单"
 		},{
 			"path": "/sf-spinner",
 			"name": "Spinner 过场",
