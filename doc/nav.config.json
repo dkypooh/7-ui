@@ -15,38 +15,27 @@
     "groups": [
       {
         "groupName": "Basic",
-        "list": [
-          {
-            "path": "/sf-button",
-            "name": "Button 组件",
-            "title": "Button 组件",
-            "description": "常用的操作按钮"
-          },
-          {
-            "path": "/sf-table",
-            "name": "Table 组件",
-            "title": "Table 组件",
-            "description": "通用表单"
-          },
-          {
-            "path": "/sf-spinner",
-            "name": "Spinner 过场",
-            "title": "Spinner 过场",
-            "description": "Spinner"
-          },
-          {
-            "path": "/sf-toast",
-            "name": "Toast 全局提示",
-            "title": "Toast 全局提示",
-            "description": "Toast"
-          },
-          {
-            "path": "/sf-progressbar",
-            "name": "Progressbar 进度条",
-            "title": "Progressbar 进度条",
-            "description": "Progressbar"
-          }
-        ]
+        "list": [{
+			"path": "/sf-button",
+			"name": "Button 组件",
+			"title": "Button 组件"
+		},{
+			"path": "/sf-table",
+			"name": "Table 组件",
+			"title": "Table 组件"
+		},{
+			"path": "/sf-spinner",
+			"name": "Spinner 过场",
+			"title": "Spinner 过场"
+		},{
+			"path": "/sf-toast",
+			"name": "Toast 全局提示",
+			"title": "Toast 全局提示"
+		},{
+			"path": "/sf-progressbar",
+			"name": "Progressbar 进度条",
+			"title": "Progressbar 进度条"
+		}]
       }
     ]
   }

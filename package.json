@@ -3,10 +3,11 @@
   "version": "0.0.1",
   "description": "7-UI elements Component Library",
   "scripts": {
+    "configfile" : "node ./build/build.component.js",
     "markdown": "node ./build/document.js",
-    "doccss": "webpack -w --config ./build/webpack.config.doccss.js",
-    "doc": "webpack -w --config ./build/webpack.config.doc.js",
-    "buildcss": "webpack -w --config ./build/webpack.config.css.js",
+    "doccss": "webpack  --config ./build/webpack.config.doccss.js",
+    "doc": "webpack  --config ./build/webpack.config.doc.js",
+    "buildcss": "webpack  --config ./build/webpack.config.css.js",
     "build": "webpack -p --config ./build/webpack.config.js",
     "test": "karma start ./build/karma.conf.js",
     "server": "webpack-dev-server --inline --hot -quiet"
@@ -47,6 +48,8 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.10.0",
     "fs-extra": "*",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2",
     "highlight.js": "*",
     "html-loader": "^0.3.0",
     "json-loader": "^0.5.4",

@@ -3518,32 +3518,27 @@
 						{
 							"path": "/sf-button",
 							"name": "Button 组件",
-							"title": "Button 组件",
-							"description": "常用的操作按钮"
+							"title": "Button 组件"
 						},
 						{
 							"path": "/sf-table",
 							"name": "Table 组件",
-							"title": "Table 组件",
-							"description": "通用表单"
+							"title": "Table 组件"
 						},
 						{
 							"path": "/sf-spinner",
 							"name": "Spinner 过场",
-							"title": "Spinner 过场",
-							"description": "Spinner"
+							"title": "Spinner 过场"
 						},
 						{
 							"path": "/sf-toast",
 							"name": "Toast 全局提示",
-							"title": "Toast 全局提示",
-							"description": "Toast"
+							"title": "Toast 全局提示"
 						},
 						{
 							"path": "/sf-progressbar",
 							"name": "Progressbar 进度条",
-							"title": "Progressbar 进度条",
-							"description": "Progressbar"
+							"title": "Progressbar 进度条"
 						}
 					]
 				}
@@ -3986,9 +3981,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/8.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/9.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 8.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 9.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -3997,9 +3992,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50f205bb", Component.options)
+	    hotAPI.createRecord("data-v-51001d3c", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50f205bb", Component.options)
+	    hotAPI.reload("data-v-51001d3c", Component.options)
 	  }
 	})()}
 
@@ -4019,7 +4014,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50f205bb", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-51001d3c", module.exports)
 	  }
 	}
 
@@ -4099,9 +4094,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/9.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/2.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 9.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 2.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -4110,9 +4105,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-51001d3c", Component.options)
+	    hotAPI.createRecord("data-v-509d78b5", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-51001d3c", Component.options)
+	    hotAPI.reload("data-v-509d78b5", Component.options)
 	  }
 	})()}
 
@@ -4132,7 +4127,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-51001d3c", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-509d78b5", module.exports)
 	  }
 	}
 
@@ -4156,9 +4151,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/7.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/3.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 7.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 3.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -4167,9 +4162,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50e3ee3a", Component.options)
+	    hotAPI.createRecord("data-v-50ab9036", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50e3ee3a", Component.options)
+	    hotAPI.reload("data-v-50ab9036", Component.options)
 	  }
 	})()}
 
@@ -4325,7 +4320,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50e3ee3a", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50ab9036", module.exports)
 	  }
 	}
 
@@ -4349,9 +4344,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/2.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/4.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 2.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 4.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -4360,9 +4355,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-509d78b5", Component.options)
+	    hotAPI.createRecord("data-v-50b9a7b7", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-509d78b5", Component.options)
+	    hotAPI.reload("data-v-50b9a7b7", Component.options)
 	  }
 	})()}
 
@@ -4905,7 +4900,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-509d78b5", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50b9a7b7", module.exports)
 	  }
 	}
 
@@ -4929,9 +4924,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/4.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/6.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 4.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 6.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -4940,9 +4935,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50b9a7b7", Component.options)
+	    hotAPI.createRecord("data-v-50d5d6b9", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50b9a7b7", Component.options)
+	    hotAPI.reload("data-v-50d5d6b9", Component.options)
 	  }
 	})()}
 
@@ -5122,7 +5117,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50b9a7b7", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50d5d6b9", module.exports)
 	  }
 	}
 
@@ -5146,9 +5141,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/3.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/5.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 3.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 5.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -5157,9 +5152,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50ab9036", Component.options)
+	    hotAPI.createRecord("data-v-50c7bf38", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50ab9036", Component.options)
+	    hotAPI.reload("data-v-50c7bf38", Component.options)
 	  }
 	})()}
 
@@ -5289,7 +5284,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50ab9036", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50c7bf38", module.exports)
 	  }
 	}
 
@@ -5313,9 +5308,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/5.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/7.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 5.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 7.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -5324,9 +5319,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50c7bf38", Component.options)
+	    hotAPI.createRecord("data-v-50e3ee3a", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50c7bf38", Component.options)
+	    hotAPI.reload("data-v-50e3ee3a", Component.options)
 	  }
 	})()}
 
@@ -6549,7 +6544,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50c7bf38", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50e3ee3a", module.exports)
 	  }
 	}
 
@@ -6573,9 +6568,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/6.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/8.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 6.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 8.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -6584,9 +6579,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50d5d6b9", Component.options)
+	    hotAPI.createRecord("data-v-50f205bb", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50d5d6b9", Component.options)
+	    hotAPI.reload("data-v-50f205bb", Component.options)
 	  }
 	})()}
 
@@ -7023,7 +7018,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50d5d6b9", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50f205bb", module.exports)
 	  }
 	}
 
@@ -8291,13 +8286,13 @@
 
 	var _sfButton2 = _interopRequireDefault(_sfButton);
 
-	var _table = __webpack_require__(79);
-
-	var _table2 = _interopRequireDefault(_table);
-
-	var _tableColumn = __webpack_require__(87);
+	var _tableColumn = __webpack_require__(79);
 
 	var _tableColumn2 = _interopRequireDefault(_tableColumn);
+
+	var _table = __webpack_require__(80);
+
+	var _table2 = _interopRequireDefault(_table);
 
 	var _clipLoader = __webpack_require__(88);
 
@@ -8326,16 +8321,25 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	_vue2.default.component('sf-button', _sfButton2.default);
-	_vue2.default.component('sf-table', _table2.default);
+
 	_vue2.default.component('sf-table-column', _tableColumn2.default);
+
+	_vue2.default.component('sf-table', _table2.default);
+
 	_vue2.default.component('sf-cliploader', _clipLoader2.default);
+
 	_vue2.default.component('sf-scaleloader', _scaleLoader2.default);
+
 	_vue2.default.component('sf-riseloader', _riseLoader2.default);
+
 	_vue2.default.component('sf-squareloader', _squareLoader2.default);
+
+	_vue2.default.component('sf-toast', _toast2.default);
+
 	_vue2.default.component('sf-progressbar', _progressbar2.default);
 
 	if (window != undefined) {
-		window.sfToast = _toast2.default;
+			window.sfToast = _toast2.default;
 	}
 
 /***/ },
@@ -8385,949 +8389,6 @@
 
 /***/ },
 /* 79 */
-/***/ function(module, exports, __webpack_require__) {
-
-	var Component = __webpack_require__(9)(
-	  /* script */
-	  __webpack_require__(80),
-	  /* template */
-	  __webpack_require__(86),
-	  /* scopeId */
-	  null,
-	  /* cssModules */
-	  null
-	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-table/0.0.7/sf-table/src/table.vue"
-	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] table.vue: functional components are not supported with templates, they should use render functions.")}
-
-	/* hot reload */
-	if (false) {(function () {
-	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
-	  hotAPI.install(require("vue"), false)
-	  if (!hotAPI.compatible) return
-	  module.hot.accept()
-	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-33ad8be8", Component.options)
-	  } else {
-	    hotAPI.reload("data-v-33ad8be8", Component.options)
-	  }
-	})()}
-
-	module.exports = Component.exports
-
-
-/***/ },
-/* 80 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-	    value: true
-	});
-
-	var _tableStore = __webpack_require__(81);
-
-	var _tableStore2 = _interopRequireDefault(_tableStore);
-
-	var _tableLayout = __webpack_require__(83);
-
-	var _tableLayout2 = _interopRequireDefault(_tableLayout);
-
-	var _tableBody = __webpack_require__(84);
-
-	var _tableBody2 = _interopRequireDefault(_tableBody);
-
-	var _tableHeader = __webpack_require__(85);
-
-	var _tableHeader2 = _interopRequireDefault(_tableHeader);
-
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-	//
-
-	exports.default = {
-	    name: 'sf-table',
-
-	    props: {
-	        data: {
-	            type: Array,
-	            default: function _default() {
-	                return [];
-	            }
-	        },
-
-	        width: [String, Number],
-	        height: [String, Number],
-	        maxHeight: [String, Number],
-	        clazz: [String, Number],
-	        headerHeight: [String, Number],
-	        stripe: Boolean,
-	        border: Boolean,
-	        emptyText: {
-	            type: String
-	        }
-	    },
-
-	    components: {
-	        TableHeader: _tableHeader2.default,
-	        TableBody: _tableBody2.default
-	    },
-
-	    methods: {
-	        doLayout: function doLayout() {
-	            var _this = this;
-
-	            this.store.updateColumns();
-
-	            this.$nextTick(function () {
-	                if (_this.height || _this.maxHeight || _this.headerHeight) {
-	                    _this.layout.setHeight(_this.height, _this.maxHeight, _this.headerHeight);
-	                }
-	            });
-	        }
-	    },
-
-	    watch: {
-	        data: {
-	            immediate: true,
-	            handler: function handler(val) {
-	                this.store.commit('setData', val);
-	            }
-	        }
-	    },
-
-	    mounted: function mounted() {
-	        this.doLayout();
-	    },
-	    data: function data() {
-
-	        // store 用户实体组件实体之间通信
-	        var store = new _tableStore2.default(this, {
-	            rowKey: this.rowKey
-	        });
-
-	        // 布局实体
-	        var layout = new _tableLayout2.default({
-	            store: store,
-	            table: this
-	        });
-
-	        window.layout = layout;
-	        return {
-	            store: store,
-	            layout: layout
-	        };
-	    }
-	};
-
-/***/ },
-/* 81 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-		value: true
-	});
-
-	var _util = __webpack_require__(82);
-
-	/**
-	 * 排序数据
-	 * @param data
-	 * @param states
-	 * @returns {*}
-	 */
-	var sortData = function sortData(data, states) {
-		var sortingColumn = states.sortingColumn;
-		if (!sortingColumn || typeof sortingColumn.sortable === 'string') {
-			return data;
-		}
-		return (0, _util.orderBy)(data, states.sortProp, states.sortOrder, sortingColumn.sortMethod);
-	};
-
-	/**
-	 * 切换行选择
-	 *
-	 * @param states
-	 * @param row
-	 * @param selected
-	 * @returns {boolean}
-	 */
-	var toggleRowSelection = function toggleRowSelection(row) {
-		row.selection = row.selection ? false : true;
-
-		return true;
-	};
-
-	/**
-	 * 表单存储对象
-	 *
-	 * @param table
-	 * @param initialState
-	 * @constructor
-	 */
-	var TableStore = function TableStore(table) {
-		var initialState = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-
-		if (!table) {
-			throw new Error('Table is required.');
-		}
-		this.table = table;
-
-		this.states = {
-			rowKey: null, // 行Key
-			_columns: [], // 列数代理
-			columns: [], // 列数
-			_data: null, // 数据代理
-			data: null, // 数据
-			sortingColumn: null, // 排序列
-			sortProp: null, // 排序属性
-			sortOrder: null, // 排序方式
-			isAllSelected: false, // 是否所有选中(checkbox)
-			selection: [], // 选中项
-			filters: {}
-		};
-
-		for (var prop in initialState) {
-			if (initialState.hasOwnProperty(prop) && this.states.hasOwnProperty(prop)) {
-				this.states[prop] = initialState[prop];
-			}
-		}
-	};
-
-	/**
-	 *	事件分发集合
-	 *
-	 * @type {{
-	 * 			setData: (function(*=, *=)),
-	 * 			insertColumn: (function(*, *=, *=)),
-	 * 			changeSortCondition: (function(*=)),
-	 * 			rowSelectedChanged: (function(*=, *=)),
-	 * 			toggleAllSelection: (function())
-	 * 		}}
-	 */
-	TableStore.prototype.mutations = {
-		/**
-	  * 设置数据
-	  * @param states
-	  * @param data
-	  */
-		setData: function setData(states, data) {
-			states._data = data;
-			states.data = sortData(data || [], states);
-		},
-
-		/**
-	  * 插入列表
-	  * @param states
-	  * @param column
-	  * @param index
-	  */
-		insertColumn: function insertColumn(states, column, index) {
-			var _columns = states._columns;
-			if (typeof index !== 'undefined') {
-				_columns.splice(index, 0, column);
-			} else {
-				_columns.push(column);
-			}
-			if (column.type === 'selection') {
-				states.selectable = column.selectable;
-				states.reserveSelection = column.reserveSelection;
-			}
-		},
-
-		/**
-	  * 改变适合
-	  * @param states
-	  */
-		changeSortCondition: function changeSortCondition(states) {
-			states.data = sortData(states.filteredData || states._data || [], states);
-
-			this.table.$emit('sort-change', {
-				column: this.states.sortingColumn,
-				prop: this.states.sortProp,
-				order: this.states.sortOrder
-			});
-		},
-		rowSelectedChanged: function rowSelectedChanged(states, row) {
-			var changed = toggleRowSelection(row);
-
-			if (changed) {
-				this.table.$emit('selection-row', row);
-			}
-
-			this.updateAllSelected(states);
-		},
-		toggleAllSelection: function toggleAllSelection() {}
-	};
-
-	/**
-	 * 更新列
-	 *
-	 */
-	TableStore.prototype.updateColumns = function () {
-		var states = this.states;
-		var _columns = states._columns;
-
-		states.columns = [].concat(_columns);
-	};
-
-	/**
-	 * 更新所有选中
-	 *
-	 * @param states
-	 */
-	TableStore.prototype.updateAllSelected = function (states) {
-		var list = states.data;
-		var len = 0;
-
-		list.forEach(function (item) {
-			if (item.selection) {
-				len++;
-			}
-		});
-
-		if (list.length === len) {
-			states.isAllSelected = true;
-		} else {
-			states.isAllSelected = false;
-		}
-	};
-
-	/**
-	 * 分发事件
-	 *
-	 * @param name
-	 * @param args
-	 */
-	TableStore.prototype.commit = function (name) {
-		var mutations = this.mutations;
-		if (mutations[name]) {
-			for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-				args[_key - 1] = arguments[_key];
-			}
-
-			mutations[name].apply(this, [this.states].concat(args));
-		}
-	};
-
-	exports.default = TableStore;
-
-/***/ },
-/* 82 */
-/***/ function(module, exports) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-		value: true
-	});
-
-	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
-
-	/**
-	 * 获取单位元素
-	 *
-	 * @param event
-	 * @returns {*}
-	 */
-	var getCell = exports.getCell = function getCell(event) {
-		var cell = event.target;
-
-		while (cell && cell.tagName.toUpperCase() !== 'HTML') {
-			if (cell.tagName.toUpperCase() === 'TD') {
-				return cell;
-			}
-			cell = cell.parentNode;
-		}
-
-		return null;
-	};
-
-	/**
-	 * 通过属性路径获取值
-	 *
-	 * @param object
-	 * @param prop
-	 * @returns {*}
-	 */
-	var getValueByPath = exports.getValueByPath = function getValueByPath(object, prop) {
-		prop = prop || '';
-		var paths = prop.split('.');
-		var current = object;
-		var result = null;
-		for (var i = 0, j = paths.length; i < j; i++) {
-			var path = paths[i];
-			if (!current) break;
-
-			if (i === j - 1) {
-				result = current[path];
-				break;
-			}
-			current = current[path];
-		}
-		return result;
-	};
-
-	/**
-	 * 判断是否是对象
-	 *
-	 * @param obj
-	 * @returns {boolean}
-	 */
-	var isObject = function isObject(obj) {
-		return obj !== null && (typeof obj === 'undefined' ? 'undefined' : _typeof(obj)) === 'object';
-	};
-
-	/**
-	 * 顺序排序
-	 *
-	 * @param array
-	 * @param sortKey
-	 * @param reverse
-	 * @param sortMethod
-	 * @returns {*}
-	 */
-	var orderBy = exports.orderBy = function orderBy(array, sortKey, reverse, sortMethod) {
-		if (typeof reverse === 'string') {
-			reverse = reverse === 'descending' ? -1 : 1;
-		}
-		if (!sortKey) {
-			return array;
-		}
-		var order = reverse && reverse < 0 ? -1 : 1;
-
-		// sort on a copy to avoid mutating original array
-		return array.slice().sort(sortMethod ? function (a, b) {
-			return sortMethod(a, b) ? order : -order;
-		} : function (a, b) {
-			if (sortKey !== '$key') {
-				if (isObject(a) && '$value' in a) a = a.$value;
-				if (isObject(b) && '$value' in b) b = b.$value;
-			}
-			a = isObject(a) ? getValueByPath(a, sortKey) : a;
-			b = isObject(b) ? getValueByPath(b, sortKey) : b;
-			return a === b ? 0 : a > b ? order : -order;
-		});
-	};
-
-	/**
-	 * 通过列Id获取列元素
-	 *
-	 * @param table
-	 * @param columnId
-	 * @returns {*}
-	 */
-	var getColumnById = exports.getColumnById = function getColumnById(table, columnId) {
-		var column = null;
-		var columns = table.store.states._columns;
-
-		columns.forEach(function (item) {
-			if (item.id === columnId) {
-				column = item;
-			}
-		});
-		return column;
-	};
-
-	/**
-	 * 通过元素获取列
-	 *
-	 * @param table
-	 * @param cell
-	 * @returns {*}
-	 */
-	var getColumnByCell = exports.getColumnByCell = function getColumnByCell(table, cell) {
-		if (cell.className) {
-			return getColumnById(table, cell.className);
-		}
-		return null;
-	};
-
-/***/ },
-/* 83 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, "__esModule", {
-		value: true
-	});
-
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }(); /**
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * table-layout 用于外层布局
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * @author:   波比(｡･∀･)ﾉﾞ
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * @date:     2017-02-05  下午1:59
-	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      */
-
-	var _util = __webpack_require__(82);
-
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-	var TableLayout = function () {
-		function TableLayout(options) {
-			_classCallCheck(this, TableLayout);
-
-			this.table = null;
-			this.store = null;
-			this.columns = null;
-			this.fit = true;
-
-			this.bodyWidth = null;
-
-			this.headerHeight = 44; // Table Header Height
-			this.bodyHeight = null; // Table Height - Table Header Height
-
-			for (var name in options) {
-				if (options.hasOwnProperty(name)) {
-					this[name] = options[name];
-				}
-			}
-
-			if (!this.table) {
-				throw new Error('table is required for Table Layout');
-			}
-			if (!this.store) {
-				throw new Error('store is required for Table Layout');
-			}
-		}
-
-		/**
-	  * 设置固定高度
-	  * 
-	  * @param height
-	  */
-
-
-		_createClass(TableLayout, [{
-			key: 'setHeight',
-			value: function setHeight(height, maxHeight, headerHeight) {
-				var self = this;
-				var el = this.table.$el;
-
-				if (typeof headerHeight === 'string' && /^\d+$/.test(headerHeight)) {
-					this.headerHeight = headerHeight;
-				}
-
-				if (typeof height === 'string' && /^\d+$/.test(height)) {
-					height = Number(height);
-				}
-
-				if (typeof maxHeight == 'stirng' && /^\d+$/.test(height)) {
-					maxHeight = Number(height);
-				}
-
-				if (!isNaN(maxHeight) && el && el.clientHeight > maxHeight) {
-					el.style.height = maxHeight + 'px';
-					self.bodyHeight = maxHeight - this.headerHeight + 'px';
-				}
-
-				if (!isNaN(height) && el) {
-					el.style.height = height + 'px';
-					self.bodyHeight = height - this.headerHeight + 'px';
-				}
-			}
-		}]);
-
-		return TableLayout;
-	}();
-
-	exports.default = TableLayout;
-
-/***/ },
-/* 84 */
-/***/ function(module, exports, __webpack_require__) {
-
-	"use strict";
-
-	Object.defineProperty(exports, "__esModule", {
-		value: true
-	});
-
-	var _util = __webpack_require__(82);
-
-	exports.default = {
-		props: {
-			store: {
-				required: true
-			},
-			layout: {
-				required: true
-			}
-		},
-
-		render: function render(h) {
-			var _this = this;
-
-			return h(
-				"table",
-				{
-					"class": "sf-table__body",
-					attrs: { cellspacing: "0",
-						cellpadding: "0",
-						border: "0"
-					}
-				},
-				[this._l(this.columns, function (column) {
-					return h(
-						"col",
-						{
-							attrs: {
-								name: column.id,
-								width: column.width
-							}
-						},
-						[]
-					);
-				}), h(
-					"tbody",
-					null,
-					[this._l(this.data, function (row, $index) {
-						return h(
-							"tr",
-							{
-								on: {
-									"click": function click($event) {
-										return _this.handleClick($event, row);
-									}
-								},
-
-								"class": _this.getRowClass(row, $index) },
-							[_this._l(_this.columns, function (column, cellIndex) {
-								return h(
-									"td",
-									{
-										"class": [column.id, column.align, _this.isCellHidden(cellIndex) ? 'is-hidden' : '']
-									},
-									[column.template ? column.template.call(_this._renderProxy, h, {
-										row: row,
-										column: column,
-										$index: $index,
-										store: _this.store,
-										_self: _this.$parent.$vnode.context
-									}) : h(
-										"div",
-										{
-											"class": "cell" },
-										[_this.getCellContent(row, column.property, column.id)]
-									)]
-								);
-							})]
-						);
-					})]
-				)]
-			);
-		},
-
-
-		computed: {
-			data: function data() {
-				return this.store.states.data;
-			},
-			columnsCount: function columnsCount() {
-				return this.store.states.columns.length;
-			},
-			columns: function columns() {
-				return this.store.states.columns;
-			}
-		},
-
-		data: function data() {
-			return {};
-		},
-
-
-		methods: {
-			/**
-	   * 设置行高的样式问题
-	   *
-	   * @param row
-	   * @param index
-	   * @returns {string}
-	   */
-			getRowClass: function getRowClass(row, index) {
-				var classes = [];
-				if (this.hoverRowIndex === index) {
-					classes.push('hover-row');
-				}
-
-				var rowClassName = this.rowClassName;
-				if (typeof rowClassName === 'string') {
-					classes.push(rowClassName);
-				} else if (typeof rowClassName === 'function') {
-					classes.push(rowClassName.apply(null, [row, index]) || '');
-				}
-
-				return classes.join(' ');
-			},
-
-
-			/**
-	   * 是否选择行或者列, 事件回调
-	   *
-	   * @param event
-	   * @param row
-	   */
-			handleClick: function handleClick(event, row) {
-				var table = this.$parent;
-				var cell = (0, _util.getCell)(event);
-
-				if (cell) {
-					var column = (0, _util.getColumnByCell)(table, cell);
-					if (column) {
-						table.$emit('row-click', row, column, cell, event);
-					}
-				}
-
-				table.$emit('row-click', row, event);
-			},
-
-			/**
-	   * 获取列元素内容, 有格式化
-	   *
-	   * @param row
-	   * @param property
-	   * @param columnId
-	   * @returns {*}
-	   */
-			getCellContent: function getCellContent(row, property, columnId) {
-				var column = (0, _util.getColumnById)(this.$parent, columnId);
-				if (column && column.formatter) {
-					return column.formatter(row, column);
-				}
-
-				return (0, _util.getValueByPath)(row, property);
-			},
-			isSelected: function isSelected(row) {
-				return row.selection ? true : false;
-			},
-			isCellHidden: function isCellHidden() {}
-		}
-	};
-
-/***/ },
-/* 85 */
-/***/ function(module, exports) {
-
-	"use strict";
-
-	Object.defineProperty(exports, "__esModule", {
-		value: true
-	});
-	exports.default = {
-		name: 'sf-table-header',
-
-		render: function render(h) {
-			var _this = this;
-
-			return h(
-				"table",
-				{
-					"class": "sf-table__header",
-					attrs: { cellspacing: "0",
-						cellpadding: "0",
-						border: "0"
-					}
-				},
-				[this._l(this.columns, function (column) {
-					return h(
-						"col",
-						{
-							attrs: {
-								name: column.id,
-								width: column.width
-							}
-						},
-						[]
-					);
-				}), h(
-					"thead",
-					null,
-					[h(
-						"tr",
-						null,
-						[this._l(this.columns, function (column, cellIndex) {
-							return h(
-								"th",
-								{
-									style: _this.setHeaderHeight()
-								},
-								[h(
-									"div",
-									{
-										"class": ['cell', column.filteredValue && column.filteredValue.length > 0 ? 'highlight' : ''] },
-									[column.headerTemplate ? column.headerTemplate.call(_this._renderProxy, h, _this.store, column.label) : column.label, column.sortable ? h(
-										"span",
-										{ "class": "caret-wrapper",
-											on: {
-												"click": function click($event) {
-													return _this.handleHeaderClick($event, column);
-												}
-											}
-										},
-										[h(
-											"i",
-											{ "class": "u-icon u-icon--dcaret" },
-											[]
-										)]
-									) : '']
-								)]
-							);
-						})]
-					)]
-				)]
-			);
-		},
-
-
-		props: {
-			store: {
-				required: true
-			},
-			layout: {
-				required: true
-			},
-			border: Boolean
-		},
-
-		computed: {
-			columns: function columns() {
-				return this.store.states.columns;
-			}
-		},
-
-		methods: {
-			toggleAllSelection: function toggleAllSelection() {
-				this.store.commit('toggleAllSelection');
-			},
-			handleHeaderClick: function handleHeaderClick(event, column) {
-				var target = event.target;
-				while (target && target.tagName !== 'TH') {
-					target = target.parentNode;
-				}
-
-				if (target && target.tagName === 'TH') {
-					if (target.classList.contains('noclick')) {
-						target.classList.remove('noclick');
-						return;
-					}
-				}
-
-				if (!column.sortable) return;
-
-				var states = this.store.states;
-				var sortProp = states.sortProp;
-				var sortOrder = void 0;
-				var sortingColumn = states.sortingColumn;
-
-				if (sortingColumn !== column) {
-					if (sortingColumn) {
-						sortingColumn.order = null;
-					}
-					states.sortingColumn = column;
-					sortProp = column.property;
-				}
-
-				if (!column.order) {
-					sortOrder = column.order = 'ascending';
-				} else if (column.order === 'ascending') {
-					sortOrder = column.order = 'descending';
-				} else {
-					sortOrder = column.order = null;
-					states.sortingColumn = null;
-					sortProp = null;
-				}
-				states.sortProp = sortProp;
-				states.sortOrder = sortOrder;
-
-				this.store.commit('changeSortCondition');
-			},
-			setHeaderHeight: function setHeaderHeight() {
-				return "height : " + this.layout.headerHeight + "px";
-			}
-		}
-	};
-
-/***/ },
-/* 86 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-	  return _c('div', {
-	    staticClass: "sf-table",
-	    class: [{
-	      'sf-table--striped': _vm.stripe,
-	      'sf-table--border': _vm.border
-	    }, _vm.clazz]
-	  }, [_c('div', {
-	    ref: "hiddenColumns",
-	    staticClass: "hidden-columns"
-	  }, [_vm._t("default")], 2), _vm._v(" "), _c('div', {
-	    ref: "headerWrapper",
-	    staticClass: "sf-table__header-wrapper"
-	  }, [_c('table-header', {
-	    attrs: {
-	      "store": _vm.store,
-	      "layout": _vm.layout,
-	      "border": _vm.border
-	    }
-	  })], 1), _vm._v(" "), _c('div', {
-	    ref: "bodyWrapper",
-	    staticClass: "sf-table__body-wrapper",
-	    style: ({
-	      height: _vm.layout.bodyHeight
-	    })
-	  }, [_c('table-body', {
-	    attrs: {
-	      "store": _vm.store,
-	      "layout": _vm.layout
-	    }
-	  }), _vm._v(" "), (!_vm.data || _vm.data.length === 0) ? _c('div', {
-	    staticClass: "sf-table__empty-block"
-	  }, [_c('span', {
-	    staticClass: "sf-table__empty-text"
-	  }, [_vm._v(_vm._s(_vm.emptyText))])]) : _vm._e()], 1)])
-	},staticRenderFns: []}
-	module.exports.render._withStripped = true
-	if (false) {
-	  module.hot.accept()
-	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-33ad8be8", module.exports)
-	  }
-	}
-
-/***/ },
-/* 87 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -9593,6 +8654,949 @@
 			parent.store.commit('insertColumn', this.columnConfig, columnIndex);
 		}
 	};
+
+/***/ },
+/* 80 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var Component = __webpack_require__(9)(
+	  /* script */
+	  __webpack_require__(81),
+	  /* template */
+	  __webpack_require__(87),
+	  /* scopeId */
+	  null,
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-table/0.0.7/sf-table/src/table.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] table.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-33ad8be8", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-33ad8be8", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 81 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _tableStore = __webpack_require__(82);
+
+	var _tableStore2 = _interopRequireDefault(_tableStore);
+
+	var _tableLayout = __webpack_require__(84);
+
+	var _tableLayout2 = _interopRequireDefault(_tableLayout);
+
+	var _tableBody = __webpack_require__(85);
+
+	var _tableBody2 = _interopRequireDefault(_tableBody);
+
+	var _tableHeader = __webpack_require__(86);
+
+	var _tableHeader2 = _interopRequireDefault(_tableHeader);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+
+	exports.default = {
+	    name: 'sf-table',
+
+	    props: {
+	        data: {
+	            type: Array,
+	            default: function _default() {
+	                return [];
+	            }
+	        },
+
+	        width: [String, Number],
+	        height: [String, Number],
+	        maxHeight: [String, Number],
+	        clazz: [String, Number],
+	        headerHeight: [String, Number],
+	        stripe: Boolean,
+	        border: Boolean,
+	        emptyText: {
+	            type: String
+	        }
+	    },
+
+	    components: {
+	        TableHeader: _tableHeader2.default,
+	        TableBody: _tableBody2.default
+	    },
+
+	    methods: {
+	        doLayout: function doLayout() {
+	            var _this = this;
+
+	            this.store.updateColumns();
+
+	            this.$nextTick(function () {
+	                if (_this.height || _this.maxHeight || _this.headerHeight) {
+	                    _this.layout.setHeight(_this.height, _this.maxHeight, _this.headerHeight);
+	                }
+	            });
+	        }
+	    },
+
+	    watch: {
+	        data: {
+	            immediate: true,
+	            handler: function handler(val) {
+	                this.store.commit('setData', val);
+	            }
+	        }
+	    },
+
+	    mounted: function mounted() {
+	        this.doLayout();
+	    },
+	    data: function data() {
+
+	        // store 用户实体组件实体之间通信
+	        var store = new _tableStore2.default(this, {
+	            rowKey: this.rowKey
+	        });
+
+	        // 布局实体
+	        var layout = new _tableLayout2.default({
+	            store: store,
+	            table: this
+	        });
+
+	        window.layout = layout;
+	        return {
+	            store: store,
+	            layout: layout
+	        };
+	    }
+	};
+
+/***/ },
+/* 82 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _util = __webpack_require__(83);
+
+	/**
+	 * 排序数据
+	 * @param data
+	 * @param states
+	 * @returns {*}
+	 */
+	var sortData = function sortData(data, states) {
+		var sortingColumn = states.sortingColumn;
+		if (!sortingColumn || typeof sortingColumn.sortable === 'string') {
+			return data;
+		}
+		return (0, _util.orderBy)(data, states.sortProp, states.sortOrder, sortingColumn.sortMethod);
+	};
+
+	/**
+	 * 切换行选择
+	 *
+	 * @param states
+	 * @param row
+	 * @param selected
+	 * @returns {boolean}
+	 */
+	var toggleRowSelection = function toggleRowSelection(row) {
+		row.selection = row.selection ? false : true;
+
+		return true;
+	};
+
+	/**
+	 * 表单存储对象
+	 *
+	 * @param table
+	 * @param initialState
+	 * @constructor
+	 */
+	var TableStore = function TableStore(table) {
+		var initialState = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+
+		if (!table) {
+			throw new Error('Table is required.');
+		}
+		this.table = table;
+
+		this.states = {
+			rowKey: null, // 行Key
+			_columns: [], // 列数代理
+			columns: [], // 列数
+			_data: null, // 数据代理
+			data: null, // 数据
+			sortingColumn: null, // 排序列
+			sortProp: null, // 排序属性
+			sortOrder: null, // 排序方式
+			isAllSelected: false, // 是否所有选中(checkbox)
+			selection: [], // 选中项
+			filters: {}
+		};
+
+		for (var prop in initialState) {
+			if (initialState.hasOwnProperty(prop) && this.states.hasOwnProperty(prop)) {
+				this.states[prop] = initialState[prop];
+			}
+		}
+	};
+
+	/**
+	 *	事件分发集合
+	 *
+	 * @type {{
+	 * 			setData: (function(*=, *=)),
+	 * 			insertColumn: (function(*, *=, *=)),
+	 * 			changeSortCondition: (function(*=)),
+	 * 			rowSelectedChanged: (function(*=, *=)),
+	 * 			toggleAllSelection: (function())
+	 * 		}}
+	 */
+	TableStore.prototype.mutations = {
+		/**
+	  * 设置数据
+	  * @param states
+	  * @param data
+	  */
+		setData: function setData(states, data) {
+			states._data = data;
+			states.data = sortData(data || [], states);
+		},
+
+		/**
+	  * 插入列表
+	  * @param states
+	  * @param column
+	  * @param index
+	  */
+		insertColumn: function insertColumn(states, column, index) {
+			var _columns = states._columns;
+			if (typeof index !== 'undefined') {
+				_columns.splice(index, 0, column);
+			} else {
+				_columns.push(column);
+			}
+			if (column.type === 'selection') {
+				states.selectable = column.selectable;
+				states.reserveSelection = column.reserveSelection;
+			}
+		},
+
+		/**
+	  * 改变适合
+	  * @param states
+	  */
+		changeSortCondition: function changeSortCondition(states) {
+			states.data = sortData(states.filteredData || states._data || [], states);
+
+			this.table.$emit('sort-change', {
+				column: this.states.sortingColumn,
+				prop: this.states.sortProp,
+				order: this.states.sortOrder
+			});
+		},
+		rowSelectedChanged: function rowSelectedChanged(states, row) {
+			var changed = toggleRowSelection(row);
+
+			if (changed) {
+				this.table.$emit('selection-row', row);
+			}
+
+			this.updateAllSelected(states);
+		},
+		toggleAllSelection: function toggleAllSelection() {}
+	};
+
+	/**
+	 * 更新列
+	 *
+	 */
+	TableStore.prototype.updateColumns = function () {
+		var states = this.states;
+		var _columns = states._columns;
+
+		states.columns = [].concat(_columns);
+	};
+
+	/**
+	 * 更新所有选中
+	 *
+	 * @param states
+	 */
+	TableStore.prototype.updateAllSelected = function (states) {
+		var list = states.data;
+		var len = 0;
+
+		list.forEach(function (item) {
+			if (item.selection) {
+				len++;
+			}
+		});
+
+		if (list.length === len) {
+			states.isAllSelected = true;
+		} else {
+			states.isAllSelected = false;
+		}
+	};
+
+	/**
+	 * 分发事件
+	 *
+	 * @param name
+	 * @param args
+	 */
+	TableStore.prototype.commit = function (name) {
+		var mutations = this.mutations;
+		if (mutations[name]) {
+			for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+				args[_key - 1] = arguments[_key];
+			}
+
+			mutations[name].apply(this, [this.states].concat(args));
+		}
+	};
+
+	exports.default = TableStore;
+
+/***/ },
+/* 83 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
+	/**
+	 * 获取单位元素
+	 *
+	 * @param event
+	 * @returns {*}
+	 */
+	var getCell = exports.getCell = function getCell(event) {
+		var cell = event.target;
+
+		while (cell && cell.tagName.toUpperCase() !== 'HTML') {
+			if (cell.tagName.toUpperCase() === 'TD') {
+				return cell;
+			}
+			cell = cell.parentNode;
+		}
+
+		return null;
+	};
+
+	/**
+	 * 通过属性路径获取值
+	 *
+	 * @param object
+	 * @param prop
+	 * @returns {*}
+	 */
+	var getValueByPath = exports.getValueByPath = function getValueByPath(object, prop) {
+		prop = prop || '';
+		var paths = prop.split('.');
+		var current = object;
+		var result = null;
+		for (var i = 0, j = paths.length; i < j; i++) {
+			var path = paths[i];
+			if (!current) break;
+
+			if (i === j - 1) {
+				result = current[path];
+				break;
+			}
+			current = current[path];
+		}
+		return result;
+	};
+
+	/**
+	 * 判断是否是对象
+	 *
+	 * @param obj
+	 * @returns {boolean}
+	 */
+	var isObject = function isObject(obj) {
+		return obj !== null && (typeof obj === 'undefined' ? 'undefined' : _typeof(obj)) === 'object';
+	};
+
+	/**
+	 * 顺序排序
+	 *
+	 * @param array
+	 * @param sortKey
+	 * @param reverse
+	 * @param sortMethod
+	 * @returns {*}
+	 */
+	var orderBy = exports.orderBy = function orderBy(array, sortKey, reverse, sortMethod) {
+		if (typeof reverse === 'string') {
+			reverse = reverse === 'descending' ? -1 : 1;
+		}
+		if (!sortKey) {
+			return array;
+		}
+		var order = reverse && reverse < 0 ? -1 : 1;
+
+		// sort on a copy to avoid mutating original array
+		return array.slice().sort(sortMethod ? function (a, b) {
+			return sortMethod(a, b) ? order : -order;
+		} : function (a, b) {
+			if (sortKey !== '$key') {
+				if (isObject(a) && '$value' in a) a = a.$value;
+				if (isObject(b) && '$value' in b) b = b.$value;
+			}
+			a = isObject(a) ? getValueByPath(a, sortKey) : a;
+			b = isObject(b) ? getValueByPath(b, sortKey) : b;
+			return a === b ? 0 : a > b ? order : -order;
+		});
+	};
+
+	/**
+	 * 通过列Id获取列元素
+	 *
+	 * @param table
+	 * @param columnId
+	 * @returns {*}
+	 */
+	var getColumnById = exports.getColumnById = function getColumnById(table, columnId) {
+		var column = null;
+		var columns = table.store.states._columns;
+
+		columns.forEach(function (item) {
+			if (item.id === columnId) {
+				column = item;
+			}
+		});
+		return column;
+	};
+
+	/**
+	 * 通过元素获取列
+	 *
+	 * @param table
+	 * @param cell
+	 * @returns {*}
+	 */
+	var getColumnByCell = exports.getColumnByCell = function getColumnByCell(table, cell) {
+		if (cell.className) {
+			return getColumnById(table, cell.className);
+		}
+		return null;
+	};
+
+/***/ },
+/* 84 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }(); /**
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * table-layout 用于外层布局
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      *
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * @author:   波比(｡･∀･)ﾉﾞ
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * @date:     2017-02-05  下午1:59
+	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      */
+
+	var _util = __webpack_require__(83);
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	var TableLayout = function () {
+		function TableLayout(options) {
+			_classCallCheck(this, TableLayout);
+
+			this.table = null;
+			this.store = null;
+			this.columns = null;
+			this.fit = true;
+
+			this.bodyWidth = null;
+
+			this.headerHeight = 44; // Table Header Height
+			this.bodyHeight = null; // Table Height - Table Header Height
+
+			for (var name in options) {
+				if (options.hasOwnProperty(name)) {
+					this[name] = options[name];
+				}
+			}
+
+			if (!this.table) {
+				throw new Error('table is required for Table Layout');
+			}
+			if (!this.store) {
+				throw new Error('store is required for Table Layout');
+			}
+		}
+
+		/**
+	  * 设置固定高度
+	  * 
+	  * @param height
+	  */
+
+
+		_createClass(TableLayout, [{
+			key: 'setHeight',
+			value: function setHeight(height, maxHeight, headerHeight) {
+				var self = this;
+				var el = this.table.$el;
+
+				if (typeof headerHeight === 'string' && /^\d+$/.test(headerHeight)) {
+					this.headerHeight = headerHeight;
+				}
+
+				if (typeof height === 'string' && /^\d+$/.test(height)) {
+					height = Number(height);
+				}
+
+				if (typeof maxHeight == 'stirng' && /^\d+$/.test(height)) {
+					maxHeight = Number(height);
+				}
+
+				if (!isNaN(maxHeight) && el && el.clientHeight > maxHeight) {
+					el.style.height = maxHeight + 'px';
+					self.bodyHeight = maxHeight - this.headerHeight + 'px';
+				}
+
+				if (!isNaN(height) && el) {
+					el.style.height = height + 'px';
+					self.bodyHeight = height - this.headerHeight + 'px';
+				}
+			}
+		}]);
+
+		return TableLayout;
+	}();
+
+	exports.default = TableLayout;
+
+/***/ },
+/* 85 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+
+	var _util = __webpack_require__(83);
+
+	exports.default = {
+		props: {
+			store: {
+				required: true
+			},
+			layout: {
+				required: true
+			}
+		},
+
+		render: function render(h) {
+			var _this = this;
+
+			return h(
+				"table",
+				{
+					"class": "sf-table__body",
+					attrs: { cellspacing: "0",
+						cellpadding: "0",
+						border: "0"
+					}
+				},
+				[this._l(this.columns, function (column) {
+					return h(
+						"col",
+						{
+							attrs: {
+								name: column.id,
+								width: column.width
+							}
+						},
+						[]
+					);
+				}), h(
+					"tbody",
+					null,
+					[this._l(this.data, function (row, $index) {
+						return h(
+							"tr",
+							{
+								on: {
+									"click": function click($event) {
+										return _this.handleClick($event, row);
+									}
+								},
+
+								"class": _this.getRowClass(row, $index) },
+							[_this._l(_this.columns, function (column, cellIndex) {
+								return h(
+									"td",
+									{
+										"class": [column.id, column.align, _this.isCellHidden(cellIndex) ? 'is-hidden' : '']
+									},
+									[column.template ? column.template.call(_this._renderProxy, h, {
+										row: row,
+										column: column,
+										$index: $index,
+										store: _this.store,
+										_self: _this.$parent.$vnode.context
+									}) : h(
+										"div",
+										{
+											"class": "cell" },
+										[_this.getCellContent(row, column.property, column.id)]
+									)]
+								);
+							})]
+						);
+					})]
+				)]
+			);
+		},
+
+
+		computed: {
+			data: function data() {
+				return this.store.states.data;
+			},
+			columnsCount: function columnsCount() {
+				return this.store.states.columns.length;
+			},
+			columns: function columns() {
+				return this.store.states.columns;
+			}
+		},
+
+		data: function data() {
+			return {};
+		},
+
+
+		methods: {
+			/**
+	   * 设置行高的样式问题
+	   *
+	   * @param row
+	   * @param index
+	   * @returns {string}
+	   */
+			getRowClass: function getRowClass(row, index) {
+				var classes = [];
+				if (this.hoverRowIndex === index) {
+					classes.push('hover-row');
+				}
+
+				var rowClassName = this.rowClassName;
+				if (typeof rowClassName === 'string') {
+					classes.push(rowClassName);
+				} else if (typeof rowClassName === 'function') {
+					classes.push(rowClassName.apply(null, [row, index]) || '');
+				}
+
+				return classes.join(' ');
+			},
+
+
+			/**
+	   * 是否选择行或者列, 事件回调
+	   *
+	   * @param event
+	   * @param row
+	   */
+			handleClick: function handleClick(event, row) {
+				var table = this.$parent;
+				var cell = (0, _util.getCell)(event);
+
+				if (cell) {
+					var column = (0, _util.getColumnByCell)(table, cell);
+					if (column) {
+						table.$emit('row-click', row, column, cell, event);
+					}
+				}
+
+				table.$emit('row-click', row, event);
+			},
+
+			/**
+	   * 获取列元素内容, 有格式化
+	   *
+	   * @param row
+	   * @param property
+	   * @param columnId
+	   * @returns {*}
+	   */
+			getCellContent: function getCellContent(row, property, columnId) {
+				var column = (0, _util.getColumnById)(this.$parent, columnId);
+				if (column && column.formatter) {
+					return column.formatter(row, column);
+				}
+
+				return (0, _util.getValueByPath)(row, property);
+			},
+			isSelected: function isSelected(row) {
+				return row.selection ? true : false;
+			},
+			isCellHidden: function isCellHidden() {}
+		}
+	};
+
+/***/ },
+/* 86 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+	exports.default = {
+		name: 'sf-table-header',
+
+		render: function render(h) {
+			var _this = this;
+
+			return h(
+				"table",
+				{
+					"class": "sf-table__header",
+					attrs: { cellspacing: "0",
+						cellpadding: "0",
+						border: "0"
+					}
+				},
+				[this._l(this.columns, function (column) {
+					return h(
+						"col",
+						{
+							attrs: {
+								name: column.id,
+								width: column.width
+							}
+						},
+						[]
+					);
+				}), h(
+					"thead",
+					null,
+					[h(
+						"tr",
+						null,
+						[this._l(this.columns, function (column, cellIndex) {
+							return h(
+								"th",
+								{
+									style: _this.setHeaderHeight()
+								},
+								[h(
+									"div",
+									{
+										"class": ['cell', column.filteredValue && column.filteredValue.length > 0 ? 'highlight' : ''] },
+									[column.headerTemplate ? column.headerTemplate.call(_this._renderProxy, h, _this.store, column.label) : column.label, column.sortable ? h(
+										"span",
+										{ "class": "caret-wrapper",
+											on: {
+												"click": function click($event) {
+													return _this.handleHeaderClick($event, column);
+												}
+											}
+										},
+										[h(
+											"i",
+											{ "class": "u-icon u-icon--dcaret" },
+											[]
+										)]
+									) : '']
+								)]
+							);
+						})]
+					)]
+				)]
+			);
+		},
+
+
+		props: {
+			store: {
+				required: true
+			},
+			layout: {
+				required: true
+			},
+			border: Boolean
+		},
+
+		computed: {
+			columns: function columns() {
+				return this.store.states.columns;
+			}
+		},
+
+		methods: {
+			toggleAllSelection: function toggleAllSelection() {
+				this.store.commit('toggleAllSelection');
+			},
+			handleHeaderClick: function handleHeaderClick(event, column) {
+				var target = event.target;
+				while (target && target.tagName !== 'TH') {
+					target = target.parentNode;
+				}
+
+				if (target && target.tagName === 'TH') {
+					if (target.classList.contains('noclick')) {
+						target.classList.remove('noclick');
+						return;
+					}
+				}
+
+				if (!column.sortable) return;
+
+				var states = this.store.states;
+				var sortProp = states.sortProp;
+				var sortOrder = void 0;
+				var sortingColumn = states.sortingColumn;
+
+				if (sortingColumn !== column) {
+					if (sortingColumn) {
+						sortingColumn.order = null;
+					}
+					states.sortingColumn = column;
+					sortProp = column.property;
+				}
+
+				if (!column.order) {
+					sortOrder = column.order = 'ascending';
+				} else if (column.order === 'ascending') {
+					sortOrder = column.order = 'descending';
+				} else {
+					sortOrder = column.order = null;
+					states.sortingColumn = null;
+					sortProp = null;
+				}
+				states.sortProp = sortProp;
+				states.sortOrder = sortOrder;
+
+				this.store.commit('changeSortCondition');
+			},
+			setHeaderHeight: function setHeaderHeight() {
+				return "height : " + this.layout.headerHeight + "px";
+			}
+		}
+	};
+
+/***/ },
+/* 87 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    staticClass: "sf-table",
+	    class: [{
+	      'sf-table--striped': _vm.stripe,
+	      'sf-table--border': _vm.border
+	    }, _vm.clazz]
+	  }, [_c('div', {
+	    ref: "hiddenColumns",
+	    staticClass: "hidden-columns"
+	  }, [_vm._t("default")], 2), _vm._v(" "), _c('div', {
+	    ref: "headerWrapper",
+	    staticClass: "sf-table__header-wrapper"
+	  }, [_c('table-header', {
+	    attrs: {
+	      "store": _vm.store,
+	      "layout": _vm.layout,
+	      "border": _vm.border
+	    }
+	  })], 1), _vm._v(" "), _c('div', {
+	    ref: "bodyWrapper",
+	    staticClass: "sf-table__body-wrapper",
+	    style: ({
+	      height: _vm.layout.bodyHeight
+	    })
+	  }, [_c('table-body', {
+	    attrs: {
+	      "store": _vm.store,
+	      "layout": _vm.layout
+	    }
+	  }), _vm._v(" "), (!_vm.data || _vm.data.length === 0) ? _c('div', {
+	    staticClass: "sf-table__empty-block"
+	  }, [_c('span', {
+	    staticClass: "sf-table__empty-text"
+	  }, [_vm._v(_vm._s(_vm.emptyText))])]) : _vm._e()], 1)])
+	},staticRenderFns: []}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-33ad8be8", module.exports)
+	  }
+	}
 
 /***/ },
 /* 88 */

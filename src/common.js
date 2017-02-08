@@ -1,25 +1,42 @@
 import Vue from 'vue';
 
-import sfButton from 'sf-button';
-import Table from 'sf-table/src/table.vue';
-import TableColumn from 'sf-table/src/table-column';
-import ClipLoader from 'sf-spinner/src/clipLoader/clipLoader';
-import ScaleLoader from 'sf-spinner/src/scaleLoader/scaleLoader';
-import RiseLoader from 'sf-spinner/src/riseLoader/riseLoader';
-import SquareLoader from 'sf-spinner/src/squareLoader/squareLoader'
-import Toast from 'sf-toast/src/toast';
-import Progressbar from 'sf-progressbar/src/progressbar';
+
+import sfbutton from 'sf-button';
+Vue.component('sf-button', sfbutton);
 
 
-Vue.component('sf-button', sfButton);
-Vue.component('sf-table', Table);
-Vue.component('sf-table-column', TableColumn);
-Vue.component('sf-cliploader', ClipLoader);
-Vue.component('sf-scaleloader', ScaleLoader);
-Vue.component('sf-riseloader', RiseLoader);
-Vue.component('sf-squareloader', SquareLoader);
-Vue.component('sf-progressbar', Progressbar);
+import sftablecolumn from 'sf-table/src/table-column';
+Vue.component('sf-table-column', sftablecolumn);
+
+
+import sftable from 'sf-table/src/table.vue';
+Vue.component('sf-table', sftable);
+
+
+import sfcliploader from 'sf-spinner/src/clipLoader/clipLoader';
+Vue.component('sf-cliploader', sfcliploader);
+
+
+import sfscaleloader from 'sf-spinner/src/scaleLoader/scaleLoader';
+Vue.component('sf-scaleloader', sfscaleloader);
+
+
+import sfriseloader from 'sf-spinner/src/riseLoader/riseLoader';
+Vue.component('sf-riseloader', sfriseloader);
+
+
+import sfsquareloader from 'sf-spinner/src/squareLoader/squareLoader';
+Vue.component('sf-squareloader', sfsquareloader);
+
+
+import sftoast from 'sf-toast/src/toast';
+Vue.component('sf-toast', sftoast);
+
+
+import sfprogressbar from 'sf-progressbar/src/progressbar';
+Vue.component('sf-progressbar', sfprogressbar);
+
 
 if(window != undefined){
-	window.sfToast = Toast;
-}
+		window.sfToast = sftoast;
+	}

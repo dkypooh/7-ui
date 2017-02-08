@@ -199,125 +199,6 @@
 .u-icon--github:before{
   content: "\E66B"; }
 @charset "UTF-8";
-.sf-table{
-  position: relative;
-  overflow: hidden;
-  box-sizing: border-box;
-  width: 100%;
-  max-width: 100%;
-  background-color: #fff;
-  border: 1px solid #e0e6ed;
-  font-size: 14px;
-  color: #1f2d3d; }
-.sf-table::before{
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 1px;
-  background-color: #e0e6ed;
-  z-index: 1; }
-.sf-table::after{
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 1px;
-  height: 100%;
-  background-color: #e0e6ed;
-  z-index: 1; }
-.sf-table th{
-  white-space: nowrap;
-  overflow: hidden; }
-.sf-table th, .sf-table td{
-  height: 40px;
-  min-width: 0;
-  box-sizing: border-box;
-  text-overflow: ellipsis;
-  vertical-align: middle;
-  position: relative; }
-.sf-table th.is-right, .sf-table td.is-right{
-  text-align: right; }
-.sf-table th.is-left, .sf-table td.is-left{
-  text-align: left; }
-.sf-table th.is-center, .sf-table td.is-center{
-  text-align: center; }
-.sf-table th.is-leaf, .sf-table td{
-  border-bottom: 1px solid #e0e6ed; }
-.sf-table th{
-  background-color: #EFF2F7;
-  text-align: left; }
-.sf-table th > div{
-  display: inline-block;
-  padding-left: 18px;
-  padding-right: 18px;
-  line-height: 40px;
-  box-sizing: border-box;
-  overflow: hidden;
-  white-space: nowrap;
-  text-overflow: ellipsis; }
-.sf-table td > div{
-  box-sizing: border-box; }
-.sf-table__empty-text{
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(94, 115, 130); }
-.sf-table--border th, .sf-table--border td{
-  border-right: 1px solid #e0e6ed; }
-.sf-table--border th{
-  border-bottom: 1px solid #e0e6ed; }
-.sf-table__header-wrapper{
-  width: 100%; }
-.sf-table__body-wrapper{
-  width: 100%; }
-.sf-table__header{
-  table-layout: fixed;
-  width: 100%; }
-.sf-table__body{
-  table-layout: fixed;
-  width: 100%; }
-.sf-table__header-wrapper{
-  overflow: hidden; }
-.sf-table__header-wrapper thead div{
-  background-color: #EFF2F7;
-  color: #1f2d3d; }
-.sf-table__body-wrapper{
-  overflow: auto;
-  position: relative; }
-.sf-table th > .cell{
-  position: relative;
-  word-wrap: normal;
-  text-overflow: ellipsis;
-  display: inline-block;
-  line-height: 20px;
-  vertical-align: middle;
-  width: 100%;
-  box-sizing: border-box; }
-.sf-table th > .cell.highlight{
-  color: #20a0ff; }
-.sf-table .cell{
-  box-sizing: border-box;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: normal;
-  word-break: break-all;
-  line-height: 24px;
-  padding-left: 18px;
-  padding-right: 18px; }
-.sf-table{}
-.sf-table--border th, .sf-table--border td{
-  border-right: 1px solid #e0e6ed; }
-.sf-table--border th{
-  border-bottom: 1px solid #e0e6ed; }
-.sf-table--striped .sf-table__body{}
-.sf-table--striped .sf-table__body tr:nth-child(2n) td{
-  background: #FAFAFA; }
-.sf-table--striped .sf-table__body tr:nth-child(2n).current-row td{
-  background: rgb(237, 247, 255); }
-@charset "UTF-8";
 .u-button{
   display: inline-block;
   line-height: 1;
@@ -549,6 +430,125 @@
   padding: 4px 4px;
   font-size: 12px;
   border-radius: 4px; }
+@charset "UTF-8";
+.sf-table{
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  background-color: #fff;
+  border: 1px solid #e0e6ed;
+  font-size: 14px;
+  color: #1f2d3d; }
+.sf-table::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #e0e6ed;
+  z-index: 1; }
+.sf-table::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #e0e6ed;
+  z-index: 1; }
+.sf-table th{
+  white-space: nowrap;
+  overflow: hidden; }
+.sf-table th, .sf-table td{
+  height: 40px;
+  min-width: 0;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  position: relative; }
+.sf-table th.is-right, .sf-table td.is-right{
+  text-align: right; }
+.sf-table th.is-left, .sf-table td.is-left{
+  text-align: left; }
+.sf-table th.is-center, .sf-table td.is-center{
+  text-align: center; }
+.sf-table th.is-leaf, .sf-table td{
+  border-bottom: 1px solid #e0e6ed; }
+.sf-table th{
+  background-color: #EFF2F7;
+  text-align: left; }
+.sf-table th > div{
+  display: inline-block;
+  padding-left: 18px;
+  padding-right: 18px;
+  line-height: 40px;
+  box-sizing: border-box;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+.sf-table td > div{
+  box-sizing: border-box; }
+.sf-table__empty-text{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(94, 115, 130); }
+.sf-table--border th, .sf-table--border td{
+  border-right: 1px solid #e0e6ed; }
+.sf-table--border th{
+  border-bottom: 1px solid #e0e6ed; }
+.sf-table__header-wrapper{
+  width: 100%; }
+.sf-table__body-wrapper{
+  width: 100%; }
+.sf-table__header{
+  table-layout: fixed;
+  width: 100%; }
+.sf-table__body{
+  table-layout: fixed;
+  width: 100%; }
+.sf-table__header-wrapper{
+  overflow: hidden; }
+.sf-table__header-wrapper thead div{
+  background-color: #EFF2F7;
+  color: #1f2d3d; }
+.sf-table__body-wrapper{
+  overflow: auto;
+  position: relative; }
+.sf-table th > .cell{
+  position: relative;
+  word-wrap: normal;
+  text-overflow: ellipsis;
+  display: inline-block;
+  line-height: 20px;
+  vertical-align: middle;
+  width: 100%;
+  box-sizing: border-box; }
+.sf-table th > .cell.highlight{
+  color: #20a0ff; }
+.sf-table .cell{
+  box-sizing: border-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  word-break: break-all;
+  line-height: 24px;
+  padding-left: 18px;
+  padding-right: 18px; }
+.sf-table{}
+.sf-table--border th, .sf-table--border td{
+  border-right: 1px solid #e0e6ed; }
+.sf-table--border th{
+  border-bottom: 1px solid #e0e6ed; }
+.sf-table--striped .sf-table__body{}
+.sf-table--striped .sf-table__body tr:nth-child(2n) td{
+  background: #FAFAFA; }
+.sf-table--striped .sf-table__body tr:nth-child(2n).current-row td{
+  background: rgb(237, 247, 255); }
 .g-col-1 {
   width: 4.16667%;
   float: left;
