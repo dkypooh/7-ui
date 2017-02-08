@@ -99,7 +99,6 @@
 ```
 ### 文档打包任务(default)
 
-> gulp
 > gulp document
 
 ### 代码打包任务
