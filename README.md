@@ -45,10 +45,10 @@
      */
     module.exports = [
     	{
-    		name : "sf-button",
-    		label : "Button 按钮",
-    		css  : "button.css",
-    		path : ""
+    		name : "sf-button",   // 组件npm包名称
+    		label : "Button 按钮", // 组件名字(导航栏展示)
+    		css  : "button.css",   // 组件样式文件, 完整地址(sf-button/src/button.css)
+    		path : ""              // 组件打包文件地址
     	},
     	{
     		name: "sf-table",
@@ -56,10 +56,10 @@
     		css : "table.css",
     		path :"",
     		child : [{
-    			path : "/table-column",
+    			path : "table-column", // 完整地址('sf-table/src/table-column')
     			name : 'sf-table-column'
     		}, {
-    			path : "/table.vue",
+    			path : "table.vue",  // 完整地址('sf-table/src/table.vue')
     			name : 'sf-table'
     		}]
     	},
@@ -69,16 +69,16 @@
     		css : "spinner",
     		path: "",
     		child : [{
-    			path : "/clipLoader/clipLoader",
+    			path : "clipLoader/clipLoader",
     			name : 'sf-cliploader'
     		}, {
-    			path : "/scaleLoader/scaleLoader",
+    			path : "scaleLoader/scaleLoader",
     			name : 'sf-scaleloader'
     		},{
-    			path : "/riseLoader/riseLoader",
+    			path : "riseLoader/riseLoader",
     			name : 'sf-riseloader'
     		},{
-    			path : "/squareLoader/squareLoader",
+    			path : "squareLoader/squareLoader",
     			name : 'sf-squareloader'
     		}]
 

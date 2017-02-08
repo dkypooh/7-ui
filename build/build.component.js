@@ -11,12 +11,12 @@ var buildDoc = function(list){
 			return item.child.map(function(child){
 				var childName = child.name.split('-').join('');
 
-				return `import ${childName} from '${item.name}/src${child.path}';\nVue.component('${child.name}', ${childName});\n\n`;
+				return `import ${childName} from '${item.name}/src/${child.path}';\nVue.component('${child.name}', ${childName});\n\n`;
 			}).join('\n')
 		}else{
 			var _path = '';
 			if(item.path){
-				_path = `${item.name}/src${item.path}`
+				_path = `${item.name}/src/${item.path}`
 			}else{
 				_path = item.name;
 			}
