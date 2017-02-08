@@ -41,6 +41,10 @@ import sftooltips from 'sf-tooltips';
 Vue.component('sf-tooltips', sftooltips);
 
 
+import sfpagination from 'sf-pagination/src/pagination.vue';
+Vue.component('sf-pagination', sfpagination);
+
+
 if(window != undefined){
 		window.sfToast = sftoast;
 	}

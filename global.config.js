@@ -60,5 +60,11 @@ module.exports = [
 		label: "tooltips提示",
 		css : "tooltips",
 		path :""
+	},
+	{
+		name: "sf-pagination",
+		label: "Pagination 分页器",
+		css : "pagination",
+		path :"pagination.vue"
 	}
 ]

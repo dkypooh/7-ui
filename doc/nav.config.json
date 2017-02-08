@@ -39,6 +39,10 @@
 			"path": "/sf-tooltips",
 			"name": "tooltips提示",
 			"title": "tooltips提示"
+		},{
+			"path": "/sf-pagination",
+			"name": "Pagination 分页器",
+			"title": "Pagination 分页器"
 		}]
       }
     ]

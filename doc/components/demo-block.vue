@@ -151,7 +151,7 @@
       },
 
       iconClass() {
-        return this.isExpanded ? 'u-icon u-icon-caret' : 'u-icon u-icon-caret';
+        return this.isExpanded ? 'sf-icon sf-icon-caret' : 'sf-icon sf-icon-caret';
       },
 
       controlText() {

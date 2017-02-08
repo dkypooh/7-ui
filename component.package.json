@@ -5,6 +5,8 @@
     "sf-spinner": "*",
     "sf-toast": "*",
     "sf-table": "*",
-    "sf-button":"*"
+    "sf-button":"*",
+    "sf-tooltips":"*",
+    "sf-pagination" : "*"
   }
 }

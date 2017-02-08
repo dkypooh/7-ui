@@ -6,7 +6,7 @@
       </div>
       <div class="footer-social">
         <a href="https://github.com/dkypooh/7-ui" target="_blank">
-          <i class="u-icon u-icon-github elementdoc"></i>
+          <i class="sf-icon sf-icon-github elementdoc"></i>
         </a>
       </div>
     </div>
