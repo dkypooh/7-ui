@@ -62,27 +62,27 @@
 
 	var _route2 = _interopRequireDefault(_route);
 
-	var _demoBlock = __webpack_require__(49);
+	var _demoBlock = __webpack_require__(52);
 
 	var _demoBlock2 = _interopRequireDefault(_demoBlock);
 
-	var _footer = __webpack_require__(54);
+	var _footer = __webpack_require__(57);
 
 	var _footer2 = _interopRequireDefault(_footer);
 
-	var _header = __webpack_require__(58);
+	var _header = __webpack_require__(61);
 
 	var _header2 = _interopRequireDefault(_header);
 
-	var _sideNav = __webpack_require__(63);
+	var _sideNav = __webpack_require__(66);
 
 	var _sideNav2 = _interopRequireDefault(_sideNav);
 
-	var _footerNav = __webpack_require__(68);
+	var _footerNav = __webpack_require__(71);
 
 	var _footerNav2 = _interopRequireDefault(_footerNav);
 
-	var _common = __webpack_require__(73);
+	var _common = __webpack_require__(76);
 
 	var _common2 = _interopRequireDefault(_common);
 
@@ -3517,27 +3517,33 @@
 					"list": [
 						{
 							"path": "/sf-button",
-							"name": "button组件",
+							"name": "Button 组件",
 							"title": "Button 组件",
 							"description": "常用的操作按钮"
 						},
 						{
 							"path": "/sf-table",
-							"name": "table组件",
-							"title": "table 组件",
+							"name": "Table 组件",
+							"title": "Table 组件",
 							"description": "通用表单"
 						},
 						{
 							"path": "/sf-spinner",
-							"name": "spinner组件",
-							"title": "spinner 组件",
-							"description": "spinner"
+							"name": "Spinner 过场",
+							"title": "Spinner 过场",
+							"description": "Spinner"
 						},
 						{
 							"path": "/sf-toast",
-							"name": "toast组件",
-							"title": "toast 组件",
-							"description": "toast"
+							"name": "Toast 全局提示",
+							"title": "Toast 全局提示",
+							"description": "Toast"
+						},
+						{
+							"path": "/sf-progressbar",
+							"name": "Progressbar 进度条",
+							"title": "Progressbar 进度条",
+							"description": "Progressbar"
 						}
 					]
 				}
@@ -3980,9 +3986,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/7.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/8.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 7.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 8.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -3991,9 +3997,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50e3ee3a", Component.options)
+	    hotAPI.createRecord("data-v-50f205bb", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50e3ee3a", Component.options)
+	    hotAPI.reload("data-v-50f205bb", Component.options)
 	  }
 	})()}
 
@@ -4013,7 +4019,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50e3ee3a", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50f205bb", module.exports)
 	  }
 	}
 
@@ -4054,9 +4060,10 @@
 		"./zh-cn/home.md": 29,
 		"./zh-cn/installation.md": 32,
 		"./zh-cn/sf-button.md": 35,
-		"./zh-cn/sf-spinner.md": 38,
-		"./zh-cn/sf-table.md": 41,
-		"./zh-cn/sf-toast.md": 45
+		"./zh-cn/sf-progressbar.md": 38,
+		"./zh-cn/sf-spinner.md": 41,
+		"./zh-cn/sf-table.md": 44,
+		"./zh-cn/sf-toast.md": 48
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -4092,9 +4099,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/8.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/9.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 8.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 9.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -4103,9 +4110,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50f205bb", Component.options)
+	    hotAPI.createRecord("data-v-51001d3c", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50f205bb", Component.options)
+	    hotAPI.reload("data-v-51001d3c", Component.options)
 	  }
 	})()}
 
@@ -4125,7 +4132,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50f205bb", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-51001d3c", module.exports)
 	  }
 	}
 
@@ -4149,9 +4156,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/6.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/7.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 6.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 7.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -4160,9 +4167,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50d5d6b9", Component.options)
+	    hotAPI.createRecord("data-v-50e3ee3a", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50d5d6b9", Component.options)
+	    hotAPI.reload("data-v-50e3ee3a", Component.options)
 	  }
 	})()}
 
@@ -4318,7 +4325,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50d5d6b9", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50e3ee3a", module.exports)
 	  }
 	}
 
@@ -4342,9 +4349,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/4.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/2.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 4.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 2.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -4353,9 +4360,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50b9a7b7", Component.options)
+	    hotAPI.createRecord("data-v-509d78b5", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50b9a7b7", Component.options)
+	    hotAPI.reload("data-v-509d78b5", Component.options)
 	  }
 	})()}
 
@@ -4898,7 +4905,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50b9a7b7", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-509d78b5", module.exports)
 	  }
 	}
 
@@ -4922,9 +4929,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/2.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/4.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 2.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 4.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -4933,9 +4940,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-509d78b5", Component.options)
+	    hotAPI.createRecord("data-v-50b9a7b7", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-509d78b5", Component.options)
+	    hotAPI.reload("data-v-50b9a7b7", Component.options)
 	  }
 	})()}
 
@@ -4944,6 +4951,223 @@
 
 /***/ },
 /* 40 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('section', [_c('h2', [_vm._v("七鱼进度条组件")]), _vm._v(" "), _c('h3', [_vm._v("Success")]), _vm._v(" "), _c('demo-block', {
+	    staticClass: "demo-box"
+	  }, [_c('div', {
+	    staticClass: "source"
+	  }, [_c('sf-progressbar', {
+	    attrs: {
+	      "label": "success",
+	      "percent": 20,
+	      "type": "success",
+	      "striped": ""
+	    }
+	  })], 1), _vm._v(" "), _c('div', {
+	    staticClass: "meta"
+	  }, [_c('div', {
+	    staticClass: "description"
+	  }, [_c('p', [_vm._v("四种状态的"), _c('code', [_vm._v("success")]), _vm._v(", "), _c('code', [_vm._v("info")]), _vm._v(", "), _c('code', [_vm._v("error")]), _vm._v(", "), _c('code', [_vm._v("warning")]), _vm._v("进度条组件")])]), _vm._v(" "), _c('div', {
+	    staticClass: "highlight"
+	  }, [_c('pre', [_c('code', {
+	    staticClass: "hljs language-html"
+	  }, [_vm._v("    "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-progressbar")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("label")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"success\"")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v(":percent")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("20")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("type")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"success\"")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("striped")]), _vm._v(">")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-progressbar")]), _vm._v(">")]), _vm._v("\n")])])])])]), _vm._v(" "), _c('h3', [_vm._v("Info")]), _vm._v(" "), _c('demo-block', {
+	    staticClass: "demo-box"
+	  }, [_c('div', {
+	    staticClass: "source"
+	  }, [_c('sf-progressbar', {
+	    attrs: {
+	      "label": "info",
+	      "percent": 30,
+	      "type": "info"
+	    }
+	  })], 1), _vm._v(" "), _c('div', {
+	    staticClass: "meta"
+	  }, [_c('div', {
+	    staticClass: "description"
+	  }, [_c('p', [_vm._v("四种状态的"), _c('code', [_vm._v("success")]), _vm._v(", "), _c('code', [_vm._v("info")]), _vm._v(", "), _c('code', [_vm._v("error")]), _vm._v(", "), _c('code', [_vm._v("warning")]), _vm._v("进度条组件")])]), _vm._v(" "), _c('div', {
+	    staticClass: "highlight"
+	  }, [_c('pre', [_c('code', {
+	    staticClass: "hljs language-html"
+	  }, [_vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-progressbar")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("label")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"info\"")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v(":percent")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("30")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("type")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"info\"")]), _vm._v(">")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-progressbar")]), _vm._v(">")]), _vm._v("\n\n")])])])])]), _vm._v(" "), _c('h3', [_vm._v("Warning")]), _vm._v(" "), _c('demo-block', {
+	    staticClass: "demo-box"
+	  }, [_c('div', {
+	    staticClass: "source"
+	  }, [_c('sf-progressbar', {
+	    attrs: {
+	      "label": "warning",
+	      "percent": 50,
+	      "type": "warning"
+	    }
+	  })], 1), _vm._v(" "), _c('div', {
+	    staticClass: "meta"
+	  }, [_c('div', {
+	    staticClass: "description"
+	  }, [_c('p', [_vm._v("四种状态的"), _c('code', [_vm._v("success")]), _vm._v(", "), _c('code', [_vm._v("info")]), _vm._v(", "), _c('code', [_vm._v("error")]), _vm._v(", "), _c('code', [_vm._v("warning")]), _vm._v("进度条组件")])]), _vm._v(" "), _c('div', {
+	    staticClass: "highlight"
+	  }, [_c('pre', [_c('code', {
+	    staticClass: "hljs language-html"
+	  }, [_vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-progressbar")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("label")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"warning\"")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v(":percent")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("50")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("type")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"warning\"")]), _vm._v(">")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-progressbar")]), _vm._v(">")]), _vm._v("\n\n")])])])])]), _vm._v(" "), _c('h3', [_vm._v("Error")]), _vm._v(" "), _c('demo-block', {
+	    staticClass: "demo-box"
+	  }, [_c('div', {
+	    staticClass: "source"
+	  }, [_c('sf-progressbar', {
+	    attrs: {
+	      "label": "error",
+	      "percent": 40,
+	      "type": "error",
+	      "striped": ""
+	    }
+	  })], 1), _vm._v(" "), _c('div', {
+	    staticClass: "meta"
+	  }, [_c('div', {
+	    staticClass: "description"
+	  }, [_c('p', [_vm._v("四种状态的"), _c('code', [_vm._v("success")]), _vm._v(", "), _c('code', [_vm._v("info")]), _vm._v(", "), _c('code', [_vm._v("error")]), _vm._v(", "), _c('code', [_vm._v("warning")]), _vm._v("进度条组件")])]), _vm._v(" "), _c('div', {
+	    staticClass: "highlight"
+	  }, [_c('pre', [_c('code', {
+	    staticClass: "hljs language-html"
+	  }, [_vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-progressbar")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("label")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"error\"")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v(":percent")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("40")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("type")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"error\"")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("striped")]), _vm._v(">")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-progressbar")]), _vm._v(">")]), _vm._v("\n\n")])])])])]), _vm._v(" "), _c('h3', [_vm._v("Attributes")]), _vm._v(" "), _vm._m(0)], 1)
+	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('table', {
+	    staticClass: "table"
+	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("参数")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("类型")]), _vm._v(" "), _c('th', [_vm._v("可选值")]), _vm._v(" "), _c('th', [_vm._v("默认值")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("label")]), _vm._v(" "), _c('td', [_vm._v("文本")]), _vm._v(" "), _c('td', [_vm._v("String, Number")]), _vm._v(" "), _c('td'), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("percent")]), _vm._v(" "), _c('td', [_vm._v("百分比")]), _vm._v(" "), _c('td', [_vm._v("Number")]), _vm._v(" "), _c('td', [_vm._v("0-100")]), _vm._v(" "), _c('td', [_vm._v("0")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("type")]), _vm._v(" "), _c('td', [_vm._v("类型")]), _vm._v(" "), _c('td', [_vm._v("String")]), _vm._v(" "), _c('td', [_vm._v("sucess, info, warning, error")]), _vm._v(" "), _c('td', [_vm._v("info")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("striped")]), _vm._v(" "), _c('td', [_vm._v("是否条纹")]), _vm._v(" "), _c('td', [_vm._v("Boolean")]), _vm._v(" "), _c('td', [_vm._v("true, false")]), _vm._v(" "), _c('td', [_vm._v("false")])])])])
+	}]}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50b9a7b7", module.exports)
+	  }
+	}
+
+/***/ },
+/* 41 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__(42);
+
+/***/ },
+/* 42 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var Component = __webpack_require__(9)(
+	  /* script */
+	  null,
+	  /* template */
+	  __webpack_require__(43),
+	  /* scopeId */
+	  null,
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/3.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] 3.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-50ab9036", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-50ab9036", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 43 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -5065,25 +5289,25 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-509d78b5", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50ab9036", module.exports)
 	  }
 	}
 
 /***/ },
-/* 41 */
+/* 44 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(42);
+	module.exports = __webpack_require__(45);
 
 /***/ },
-/* 42 */
+/* 45 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(43),
+	  __webpack_require__(46),
 	  /* template */
-	  __webpack_require__(44),
+	  __webpack_require__(47),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -5110,7 +5334,7 @@
 
 
 /***/ },
-/* 43 */
+/* 46 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -5526,7 +5750,7 @@
 	};
 
 /***/ },
-/* 44 */
+/* 47 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -6330,28 +6554,28 @@
 	}
 
 /***/ },
-/* 45 */
+/* 48 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(46);
+	module.exports = __webpack_require__(49);
 
 /***/ },
-/* 46 */
+/* 49 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(47),
+	  __webpack_require__(50),
 	  /* template */
-	  __webpack_require__(48),
+	  __webpack_require__(51),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/3.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/6.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 3.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 6.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -6360,9 +6584,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50ab9036", Component.options)
+	    hotAPI.createRecord("data-v-50d5d6b9", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50ab9036", Component.options)
+	    hotAPI.reload("data-v-50d5d6b9", Component.options)
 	  }
 	})()}
 
@@ -6370,7 +6594,7 @@
 
 
 /***/ },
-/* 47 */
+/* 50 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -6505,7 +6729,7 @@
 	};
 
 /***/ },
-/* 48 */
+/* 51 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -6799,23 +7023,23 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50ab9036", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50d5d6b9", module.exports)
 	  }
 	}
 
 /***/ },
-/* 49 */
+/* 52 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(50)
+	__webpack_require__(53)
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(52),
+	  __webpack_require__(55),
 	  /* template */
-	  __webpack_require__(53),
+	  __webpack_require__(56),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -6842,13 +7066,13 @@
 
 
 /***/ },
-/* 50 */
+/* 53 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(51);
+	var content = __webpack_require__(54);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -6868,7 +7092,7 @@
 	}
 
 /***/ },
-/* 51 */
+/* 54 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -6882,7 +7106,7 @@
 
 
 /***/ },
-/* 52 */
+/* 55 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -7077,7 +7301,7 @@
 	};
 
 /***/ },
-/* 53 */
+/* 56 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -7126,18 +7350,18 @@
 	}
 
 /***/ },
-/* 54 */
+/* 57 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(55)
+	__webpack_require__(58)
 
 	var Component = __webpack_require__(9)(
 	  /* script */
 	  null,
 	  /* template */
-	  __webpack_require__(57),
+	  __webpack_require__(60),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -7164,13 +7388,13 @@
 
 
 /***/ },
-/* 55 */
+/* 58 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(56);
+	var content = __webpack_require__(59);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -7190,7 +7414,7 @@
 	}
 
 /***/ },
-/* 56 */
+/* 59 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -7204,7 +7428,7 @@
 
 
 /***/ },
-/* 57 */
+/* 60 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -7238,18 +7462,18 @@
 	}
 
 /***/ },
-/* 58 */
+/* 61 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(59)
+	__webpack_require__(62)
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(61),
+	  __webpack_require__(64),
 	  /* template */
-	  __webpack_require__(62),
+	  __webpack_require__(65),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -7276,13 +7500,13 @@
 
 
 /***/ },
-/* 59 */
+/* 62 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(60);
+	var content = __webpack_require__(63);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -7302,7 +7526,7 @@
 	}
 
 /***/ },
-/* 60 */
+/* 63 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -7316,7 +7540,7 @@
 
 
 /***/ },
-/* 61 */
+/* 64 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -7522,7 +7746,7 @@
 	};
 
 /***/ },
-/* 62 */
+/* 65 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -7553,18 +7777,18 @@
 	}
 
 /***/ },
-/* 63 */
+/* 66 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(64)
+	__webpack_require__(67)
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(66),
+	  __webpack_require__(69),
 	  /* template */
-	  __webpack_require__(67),
+	  __webpack_require__(70),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -7591,13 +7815,13 @@
 
 
 /***/ },
-/* 64 */
+/* 67 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(65);
+	var content = __webpack_require__(68);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -7617,7 +7841,7 @@
 	}
 
 /***/ },
-/* 65 */
+/* 68 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -7631,7 +7855,7 @@
 
 
 /***/ },
-/* 66 */
+/* 69 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -7755,7 +7979,7 @@
 	};
 
 /***/ },
-/* 67 */
+/* 70 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -7821,18 +8045,18 @@
 	}
 
 /***/ },
-/* 68 */
+/* 71 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(69)
+	__webpack_require__(72)
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(71),
+	  __webpack_require__(74),
 	  /* template */
-	  __webpack_require__(72),
+	  __webpack_require__(75),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -7859,13 +8083,13 @@
 
 
 /***/ },
-/* 69 */
+/* 72 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(70);
+	var content = __webpack_require__(73);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -7885,7 +8109,7 @@
 	}
 
 /***/ },
-/* 70 */
+/* 73 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -7899,7 +8123,7 @@
 
 
 /***/ },
-/* 71 */
+/* 74 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8019,7 +8243,7 @@
 	//
 
 /***/ },
-/* 72 */
+/* 75 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -8054,7 +8278,7 @@
 	}
 
 /***/ },
-/* 73 */
+/* 76 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8063,37 +8287,41 @@
 
 	var _vue2 = _interopRequireDefault(_vue);
 
-	var _sfButton = __webpack_require__(74);
+	var _sfButton = __webpack_require__(77);
 
 	var _sfButton2 = _interopRequireDefault(_sfButton);
 
-	var _table = __webpack_require__(76);
+	var _table = __webpack_require__(79);
 
 	var _table2 = _interopRequireDefault(_table);
 
-	var _tableColumn = __webpack_require__(84);
+	var _tableColumn = __webpack_require__(87);
 
 	var _tableColumn2 = _interopRequireDefault(_tableColumn);
 
-	var _clipLoader = __webpack_require__(85);
+	var _clipLoader = __webpack_require__(88);
 
 	var _clipLoader2 = _interopRequireDefault(_clipLoader);
 
-	var _scaleLoader = __webpack_require__(88);
+	var _scaleLoader = __webpack_require__(91);
 
 	var _scaleLoader2 = _interopRequireDefault(_scaleLoader);
 
-	var _riseLoader = __webpack_require__(90);
+	var _riseLoader = __webpack_require__(93);
 
 	var _riseLoader2 = _interopRequireDefault(_riseLoader);
 
-	var _squareLoader = __webpack_require__(92);
+	var _squareLoader = __webpack_require__(95);
 
 	var _squareLoader2 = _interopRequireDefault(_squareLoader);
 
-	var _toast = __webpack_require__(94);
+	var _toast = __webpack_require__(97);
 
 	var _toast2 = _interopRequireDefault(_toast);
+
+	var _progressbar = __webpack_require__(99);
+
+	var _progressbar2 = _interopRequireDefault(_progressbar);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -8104,13 +8332,14 @@
 	_vue2.default.component('sf-scaleloader', _scaleLoader2.default);
 	_vue2.default.component('sf-riseloader', _riseLoader2.default);
 	_vue2.default.component('sf-squareloader', _squareLoader2.default);
+	_vue2.default.component('sf-progressbar', _progressbar2.default);
 
 	if (window != undefined) {
 		window.sfToast = _toast2.default;
 	}
 
 /***/ },
-/* 74 */
+/* 77 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8131,7 +8360,7 @@
 
 	module.exports = {
 		name: 'sf-button',
-		template: __webpack_require__(75),
+		template: __webpack_require__(78),
 		props: {
 			color: {
 				type: String,
@@ -8149,20 +8378,20 @@
 	};
 
 /***/ },
-/* 75 */
+/* 78 */
 /***/ function(module, exports) {
 
 	module.exports = "<transition name=\"fade\">\n<a\n   :class=\"[\n        'u-button',\n        'u-button--'+size,\n        'u-button--'+color,\n        {'is-disabled': disabled},\n        {'is-plain' : plain}\n    ]\"\n   :style=\"{display: block ? 'block' : 'inline-block' }\" >\n\t<slot></slot>\n</a>\n</transition>\n";
 
 /***/ },
-/* 76 */
+/* 79 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(77),
+	  __webpack_require__(80),
 	  /* template */
-	  __webpack_require__(83),
+	  __webpack_require__(86),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -8189,7 +8418,7 @@
 
 
 /***/ },
-/* 77 */
+/* 80 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8198,19 +8427,19 @@
 	    value: true
 	});
 
-	var _tableStore = __webpack_require__(78);
+	var _tableStore = __webpack_require__(81);
 
 	var _tableStore2 = _interopRequireDefault(_tableStore);
 
-	var _tableLayout = __webpack_require__(80);
+	var _tableLayout = __webpack_require__(83);
 
 	var _tableLayout2 = _interopRequireDefault(_tableLayout);
 
-	var _tableBody = __webpack_require__(81);
+	var _tableBody = __webpack_require__(84);
 
 	var _tableBody2 = _interopRequireDefault(_tableBody);
 
-	var _tableHeader = __webpack_require__(82);
+	var _tableHeader = __webpack_require__(85);
 
 	var _tableHeader2 = _interopRequireDefault(_tableHeader);
 
@@ -8320,7 +8549,7 @@
 	};
 
 /***/ },
-/* 78 */
+/* 81 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8329,7 +8558,7 @@
 		value: true
 	});
 
-	var _util = __webpack_require__(79);
+	var _util = __webpack_require__(82);
 
 	/**
 	 * 排序数据
@@ -8514,7 +8743,7 @@
 	exports.default = TableStore;
 
 /***/ },
-/* 79 */
+/* 82 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -8645,7 +8874,7 @@
 	};
 
 /***/ },
-/* 80 */
+/* 83 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -8661,7 +8890,7 @@
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * @date:     2017-02-05  下午1:59
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      */
 
-	var _util = __webpack_require__(79);
+	var _util = __webpack_require__(82);
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -8736,7 +8965,7 @@
 	exports.default = TableLayout;
 
 /***/ },
-/* 81 */
+/* 84 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -8745,7 +8974,7 @@
 		value: true
 	});
 
-	var _util = __webpack_require__(79);
+	var _util = __webpack_require__(82);
 
 	exports.default = {
 		props: {
@@ -8907,7 +9136,7 @@
 	};
 
 /***/ },
-/* 82 */
+/* 85 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -9050,7 +9279,7 @@
 	};
 
 /***/ },
-/* 83 */
+/* 86 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -9098,7 +9327,7 @@
 	}
 
 /***/ },
-/* 84 */
+/* 87 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -9366,7 +9595,7 @@
 	};
 
 /***/ },
-/* 85 */
+/* 88 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9377,12 +9606,12 @@
 	 * @author:   波比(｡･∀･)ﾉﾞ
 	 * @date:     2016-10-10  上午11:53
 	 */
-	var mixin = __webpack_require__(86);
+	var mixin = __webpack_require__(89);
 
 	module.exports = {
 		name: 'sf-cliploader',
 		mixins: [mixin],
-		template: __webpack_require__(87),
+		template: __webpack_require__(90),
 		computed: {
 			clipStyle: function clipStyle() {
 				return {
@@ -9405,7 +9634,7 @@
 	};
 
 /***/ },
-/* 86 */
+/* 89 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -9438,13 +9667,13 @@
 	};
 
 /***/ },
-/* 87 */
+/* 90 */
 /***/ function(module, exports) {
 
 	module.exports = "<transition name=\"sf-spinner\">\n\t<div class=\"sf-spinner sf-spinner--clip\">\n\t\t<div class=\"cell\" :style=\"cellStyle\">\n\t\t\t<i class=\"clip\" :style=\"clipStyle\">\n\n\t\t\t</i>\n\t\t</div>\n\t</div>\n</transition>\n";
 
 /***/ },
-/* 88 */
+/* 91 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9455,7 +9684,7 @@
 	 * @author:   波比(｡･∀･)ﾉﾞ
 	 * @date:     2016-10-10  上午11:53
 	 */
-	var mixin = __webpack_require__(86);
+	var mixin = __webpack_require__(89);
 
 	module.exports = {
 		name: 'sf-scaleloader',
@@ -9474,7 +9703,7 @@
 				default: 2
 			}
 		},
-		template: __webpack_require__(89),
+		template: __webpack_require__(92),
 		computed: {
 			scaleStyle: function scaleStyle() {
 				return {
@@ -9487,13 +9716,13 @@
 	};
 
 /***/ },
-/* 89 */
+/* 92 */
 /***/ function(module, exports) {
 
 	module.exports = "<transition name=\"sf-spinner\">\n\t<div class=\"sf-spinner sf-spinner--scale\">\n\t\t<div class=\"cell\">\n\t\t\t<i class=\"scale scale1\" :style=\"scaleStyle\"></i>\n\t\t\t<i class=\"scale scale2\" :style=\"scaleStyle\"></i>\n\t\t\t<i class=\"scale scale3\" :style=\"scaleStyle\"></i>\n\t\t\t<i class=\"scale scale4\" :style=\"scaleStyle\"></i>\n\t\t\t<i class=\"scale scale5\" :style=\"scaleStyle\"></i>\n\t\t</div>\n\t</div>\n</transition>\n";
 
 /***/ },
-/* 90 */
+/* 93 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9504,12 +9733,12 @@
 	 * @author:   波比(｡･∀･)ﾉﾞ
 	 * @date:     2016-10-10  上午11:53
 	 */
-	var mixin = __webpack_require__(86);
+	var mixin = __webpack_require__(89);
 
 	module.exports = {
 		name: 'sf-riseloader',
 		mixins: [mixin],
-		template: __webpack_require__(91),
+		template: __webpack_require__(94),
 		computed: {
 			riseStyle: function riseStyle() {
 				return {
@@ -9523,13 +9752,13 @@
 	};
 
 /***/ },
-/* 91 */
+/* 94 */
 /***/ function(module, exports) {
 
 	module.exports = "<transition name=\"sf-spinner\">\n\t<div class=\"sf-spinner sf-spinner--rise\">\n\t\t<div class=\"cell\">\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t</div>\n\t</div>\n</transition>";
 
 /***/ },
-/* 92 */
+/* 95 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9540,12 +9769,12 @@
 	 * @author:   波比(｡･∀･)ﾉﾞ
 	 * @date:     2016-10-10  上午11:53
 	 */
-	var mixin = __webpack_require__(86);
+	var mixin = __webpack_require__(89);
 
 	module.exports = {
 		name: 'sf-squareloader',
 		mixins: [mixin],
-		template: __webpack_require__(93),
+		template: __webpack_require__(96),
 		computed: {
 			squareStyle: function squareStyle() {
 				return {
@@ -9558,13 +9787,13 @@
 	};
 
 /***/ },
-/* 93 */
+/* 96 */
 /***/ function(module, exports) {
 
 	module.exports = "<transition name=\"sf-spinner\">\n\t<div class=\"sf-spinner sf-spinner--square\">\n\t\t<div class=\"cell\">\n\t\t\t<i class=\"square\" :style=\"squareStyle\"></i>\n\t\t</div>\n\t</div>\n</transition>\n";
 
 /***/ },
-/* 94 */
+/* 97 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -9582,7 +9811,7 @@
 	var Vue = __webpack_require__(1);
 
 	var toast = new Vue({
-		template: __webpack_require__(95),
+		template: __webpack_require__(98),
 		el: '#iframe',
 		data: function data() {
 			return {
@@ -9622,10 +9851,57 @@
 	module.exports = toast;
 
 /***/ },
-/* 95 */
+/* 98 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"sf-toast\" :class=\"['sf-toast--'+position]\">\n\t<transition-group name=\"toast_message\" tag=\"div\">\n\t\t<div class=\"toast_message\" :class=\"'message-'+x.type\" v-for=\"x in messages\" :key=\"x.id\" >\n\t\t\t<div class=\"text\" v-html=\"x.text\"></div>\n\t\t\t<i class=\"u-icon u-icon-close\" @click=\"close(x.id)\"></i>\n\t\t</div>\n\t</transition-group>\n</div>\n";
+
+/***/ },
+/* 99 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	/**
+	 * progressbar 进度条基础组件
+	 *
+	 * @author:   波比(｡･∀･)ﾉﾞ
+	 * @date:     2016-10-09  下午2:44
+	 *
+	 * @props {String} type					- info, warning, error, success
+	 * @props {String} label				- 滚动条文本
+	 * @props {Number} percent				- 百分比
+	 *
+	 */
+
+	module.exports = {
+		template: __webpack_require__(100),
+		props: {
+			type: {
+				type: String,
+				default: 'info'
+			},
+			label: {
+				type: String,
+				default: ''
+			},
+			percent: {
+				type: [String, Number],
+				default: 0
+			},
+			striped: {
+				type: Boolean,
+				default: false
+			}
+		}
+
+	};
+
+/***/ },
+/* 100 */
+/***/ function(module, exports) {
+
+	module.exports = "<div class=\"sf-progressbar\">\n\t<div class=\"progressbar\" :class=\"['progressbar-' + type, {'progressbar--striped' : striped}]\" :style=\"{width : percent + '%'}\">\n\t\t\t{{label}}\n\t</div>\n</div>";
 
 /***/ }
 /******/ ]);

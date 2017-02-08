@@ -6,5 +6,7 @@
 @import '../node_modules/sf-table/src/table.css';
 @import '../node_modules/sf-spinner/src/spinner';
 @import '../node_modules/sf-toast/src/toast';
+@import '../node_modules/sf-progressbar/src/progressbar';
 @import '../node_modules/sf-button/src/button.css';
+
 

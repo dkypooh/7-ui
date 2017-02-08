@@ -12,4 +12,7 @@ module.exports =[{
 {
 	name : 'sf-toast',
 	path : path.resolve(__dirname, '../node_modules/sf-toast/README.md')
+},{
+	name : 'sf-progressbar',
+	path : path.resolve(__dirname, '../node_modules/sf-progressbar/README.md')
 }]

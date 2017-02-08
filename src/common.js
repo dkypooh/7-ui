@@ -8,6 +8,7 @@ import ScaleLoader from 'sf-spinner/src/scaleLoader/scaleLoader';
 import RiseLoader from 'sf-spinner/src/riseLoader/riseLoader';
 import SquareLoader from 'sf-spinner/src/squareLoader/squareLoader'
 import Toast from 'sf-toast/src/toast';
+import Progressbar from 'sf-progressbar/src/progressbar';
 
 
 Vue.component('sf-button', sfButton);
@@ -17,6 +18,7 @@ Vue.component('sf-cliploader', ClipLoader);
 Vue.component('sf-scaleloader', ScaleLoader);
 Vue.component('sf-riseloader', RiseLoader);
 Vue.component('sf-squareloader', SquareLoader);
+Vue.component('sf-progressbar', Progressbar);
 
 if(window != undefined){
 	window.sfToast = Toast;
