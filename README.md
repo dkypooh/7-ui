@@ -36,6 +36,7 @@
 ```
 
 ## 工具使用
+
 配置文件 `global.config.js`
 ```js
     /**
@@ -87,21 +88,24 @@
     		name: "sf-toast",
     		label: "Toast 全局提示",
     		css: "toast",
-    		path :"/toast"
+    		path :"toast"
     	},
     	{
     		name: "sf-progressbar",
     		label: "Progressbar 进度条",
     		css : "progressbar",
-    		path :"/progressbar"
+    		path :"progressbar"
     	}
     ]
 ```
-### 文档打包任务(default)
 
+### 组件安装
+如需增加额外组件,需要在本地此仓库添加 `npm包(component.package.json)` 及修改响应的`配置文件(global.config.js)`
+> gulp install
+
+### 文档打包任务(default)
 > gulp document
 
 ### 代码打包任务
-
 > gulp build
 

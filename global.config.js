@@ -16,10 +16,10 @@ module.exports = [
 		css : "table.css",
 		path :"",
 		child : [{
-			path : "/table-column",
+			path : "table-column",
 			name : 'sf-table-column'
 		}, {
-			path : "/table.vue",
+			path : "table.vue",
 			name : 'sf-table'
 		}]
 	},
@@ -29,16 +29,16 @@ module.exports = [
 		css : "spinner",
 		path: "",
 		child : [{
-			path : "/clipLoader/clipLoader",
+			path : "clipLoader/clipLoader",
 			name : 'sf-cliploader'
 		}, {
-			path : "/scaleLoader/scaleLoader",
+			path : "scaleLoader/scaleLoader",
 			name : 'sf-scaleloader'
 		},{
-			path : "/riseLoader/riseLoader",
+			path : "riseLoader/riseLoader",
 			name : 'sf-riseloader'
 		},{
-			path : "/squareLoader/squareLoader",
+			path : "squareLoader/squareLoader",
 			name : 'sf-squareloader'
 		}]
 
@@ -47,17 +47,12 @@ module.exports = [
 		name: "sf-toast",
 		label: "Toast 全局提示",
 		css: "toast",
-		path :"/toast"
+		path :"toast"
 	},
 	{
 		name: "sf-progressbar",
 		label: "Progressbar 进度条",
 		css : "progressbar",
-		path :"/progressbar"
-	},{
-		name: "sf-tooltips",
-		label: "tootips提示",
-		css: "tooltips",
-		path: ""
+		path :"progressbar"
 	}
 ]

@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var shell = require('gulp-shell');
-
+var installPackage  =  require('./component.package.json');
 // markdown copy file
 gulp.task('configfile',
 	shell.task(['npm run configfile'])
@@ -25,7 +25,7 @@ gulp.task('doccss',
 
 
 // build js file
-gulp.task('build',
+gulp.task('js',
 	shell.task(['npm run build'])
 );
 
@@ -39,4 +39,19 @@ gulp.task('buildcss',
 
 gulp.task('document', ['configfile', 'markdown', 'doc', 'doccss'])
 
-gulp.task('build', ['configfile', 'build', 'doc'])
+gulp.task('build', ['configfile', 'js', 'doccss']);
+
+var parseInstall =  function(obj){
+	var ret = [];
+	for(var key in obj){
+		ret.push(key)
+	}
+
+	return ret.join(' ')
+}
+
+
+
+gulp.task('install', shell.task([
+	'cnpm install ' + parseInstall(installPackage['dependencies'])
+]));

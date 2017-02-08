@@ -1,0 +1,10 @@
+{
+  "dependencies" :{
+    "ui-style" :"*",
+    "sf-progressbar": "*",
+    "sf-spinner": "*",
+    "sf-toast": "*",
+    "sf-table": "*",
+    "sf-button":"*"
+  }
+}
