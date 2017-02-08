@@ -37,8 +37,9 @@ import sfprogressbar from 'sf-progressbar/src/progressbar';
 Vue.component('sf-progressbar', sfprogressbar);
 
 
-import sfTooltips from 'sf-tooltips';
-Vue.component('sf-tooltips', sfTooltips);
+import sftooltips from 'sf-tooltips';
+Vue.component('sf-tooltips', sftooltips);
+
 
 if(window != undefined){
 		window.sfToast = sftoast;
