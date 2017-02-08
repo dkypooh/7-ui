@@ -54,5 +54,11 @@ module.exports = [
 		label: "Progressbar 进度条",
 		css : "progressbar",
 		path :"progressbar"
+	},
+	{
+		name: "sf-tooltips",
+		label: "tooltips提示",
+		css : "tooltips",
+		path :""
 	}
 ]
