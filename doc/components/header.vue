@@ -107,7 +107,7 @@
       'header-hangUp': hangUp
     }">
       <div class="container">
-        <h1><router-link to="/">SailFish<span>Beta</span></router-link></h1>
+        <h1><a href="https://github.com/dkypooh/7-ui" target="_blank">SailFish<span>Beta</span></a></h1>
         <!--<ul class="nav">-->
           <!--<li class="nav-item">-->
             <!--<router-link-->
