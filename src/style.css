@@ -27,5 +27,8 @@
 @import '../node_modules/sf-select/src/select';
 
 
+@import '../node_modules/sf-colorpicker/src/colorpicker';
+
+
 @import '../node_modules/sf-dnd/src/draganddrop';
 

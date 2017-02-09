@@ -74,6 +74,12 @@ module.exports = [
 		path : "select.vue"
 	},
 	{
+		name: "sf-colorpicker",
+		label: "ColorPicker 取色板",
+		css :"colorpicker",
+		path : "colorpicker"
+	},
+	{
 		name: "sf-dnd",
 		label: "DragAndDrop 拖拽",
 		css : "draganddrop",

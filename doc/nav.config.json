@@ -56,6 +56,10 @@
 			"name": "Select 选择器",
 			"title": "Select 选择器"
 		},{
+			"path": "/sf-colorpicker",
+			"name": "ColorPicker 取色板",
+			"title": "ColorPicker 取色板"
+		},{
 			"path": "/sf-dnd",
 			"name": "DragAndDrop 拖拽",
 			"title": "DragAndDrop 拖拽"

@@ -9,6 +9,8 @@
     "sf-tooltips":"*",
     "sf-pagination" : "*",
     "sf-select" : "*",
-    "sf-dnd" : "*"
+    "sf-dnd" : "*",
+    "sf-colorpicker" : "*",
+    "tinycolor2" : "*"
   }
 }

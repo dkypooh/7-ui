@@ -1251,6 +1251,95 @@
 .sf-pagination .arrow-left {
   transform: rotate(180deg);
   margin-top: -1rem; }
+.sf-colorpicker {
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 10px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .3), 0 4px 8px rgba(0, 0, 0, .3);
+  box-sizing: initial;
+  width: 225px;
+  display: flex;
+  flex-direction: column; }
+.sf-colorpicker .colorpicker_controls {
+    position: relative;
+    display: flex;
+    margin: 6px; }
+.sf-colorpicker .colorpicker_controls .wrap {
+      width: 50px; }
+.sf-colorpicker .colorpicker_controls .slide {
+      flex: 1;
+      position: relative; }
+.sf-colorpicker .colorpicker_controls .activecolor {
+      width: 16px;
+      height: 16px;
+      border-radius: 8px;
+      position: relative;
+      overflow: hidden; }
+.sf-colorpicker .colorpicker_controls .sf-colorpicker-hue {
+      flex: 1; }
+.sf-colorpicker .colorpicker_saturation {
+    width: 100%;
+    padding-bottom: 55%;
+    position: relative; }
+.sf-colorpicker .colorpicker_foot {
+    position: relative; }
+.sf-colorpicker-hue {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 2px; }
+.sf-colorpicker-hue .hue_container {
+    cursor: pointer;
+    margin: 0 2px;
+    position: relative;
+    height: 100%; }
+.sf-colorpicker-hue .hue_pointer {
+    z-index: 2;
+    position: absolute;
+    height: 100%; }
+.sf-colorpicker-hue .hue_picker {
+    cursor: pointer;
+    margin-top: -50%;
+    width: 5px;
+    border-radius: 1px;
+    height: 150%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .6);
+    background: #fff;
+    transform: translateX(-2px); }
+.sf-colorpicker-hue-horizontal {
+  background: linear-gradient(to right, #f00 0%, #ff0 17%, #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%); }
+.sf-colorpicker-hue-vertical {
+  background: linear-gradient(to top, #f00 0%, #ff0 17%, #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00 100%); }
+.sf-colorpicker-saturation {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+.sf-colorpicker-saturation .saturation_bgblack, .sf-colorpicker-saturation .saturation_bgwhite {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+.sf-colorpicker-saturation .saturation_bgwhite {
+    background: linear-gradient(to right, #fff, rgba(255, 255, 255, 0)); }
+.sf-colorpicker-saturation .saturation_bgblack {
+    background: linear-gradient(to top, #000, transparent); }
+.sf-colorpicker-saturation .saturation_pointer {
+    cursor: pointer;
+    position: absolute; }
+.sf-colorpicker-saturation .saturation_pointer .circle {
+      cursor: pointer;
+      width: 4px;
+      height: 4px;
+      box-shadow: 0 0 0 1.5px #fff, inset 0 0 1px 1px rgba(0, 0, 0, .3), 0 0 1px 2px rgba(0, 0, 0, .4);
+      border-radius: 50%;
+      transform: translate(-2px, -2px); }
 .sf-dnd .dnd_item-enter-active, .sf-dnd .dnd_item-leave {
   transition: all 0.2s cubic-bezier(0.2, 0.68, 0.18, 1.08);
   opacity: 1; }
