@@ -74,6 +74,14 @@ var buildNavigate = function(list){
     "path": "/changelog"
   },
   {
+    "name": "JS 规范",
+    "path": "/jslint"
+  },
+  {
+    "name": "CSS 规范",
+    "path": "/postcssbem"
+  },
+  {
     "name": "基础组件",
     "groups": [
       {

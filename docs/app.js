@@ -62,27 +62,27 @@
 
 	var _route2 = _interopRequireDefault(_route);
 
-	var _demoBlock = __webpack_require__(77);
+	var _demoBlock = __webpack_require__(83);
 
 	var _demoBlock2 = _interopRequireDefault(_demoBlock);
 
-	var _footer = __webpack_require__(82);
+	var _footer = __webpack_require__(88);
 
 	var _footer2 = _interopRequireDefault(_footer);
 
-	var _header = __webpack_require__(86);
+	var _header = __webpack_require__(92);
 
 	var _header2 = _interopRequireDefault(_header);
 
-	var _sideNav = __webpack_require__(91);
+	var _sideNav = __webpack_require__(97);
 
 	var _sideNav2 = _interopRequireDefault(_sideNav);
 
-	var _footerNav = __webpack_require__(96);
+	var _footerNav = __webpack_require__(102);
 
 	var _footerNav2 = _interopRequireDefault(_footerNav);
 
-	var _common = __webpack_require__(101);
+	var _common = __webpack_require__(107);
 
 	var _common2 = _interopRequireDefault(_common);
 
@@ -3556,6 +3556,14 @@
 			"path": "/changelog"
 		},
 		{
+			"name": "JS 规范",
+			"path": "/jslint"
+		},
+		{
+			"name": "CSS 规范",
+			"path": "/postcssbem"
+		},
+		{
 			"name": "基础组件",
 			"groups": [
 				{
@@ -4044,9 +4052,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/13.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/15.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 13.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 15.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -4055,9 +4063,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7cfaf3a2", Component.options)
+	    hotAPI.createRecord("data-v-7cc2959e", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7cfaf3a2", Component.options)
+	    hotAPI.reload("data-v-7cc2959e", Component.options)
 	  }
 	})()}
 
@@ -4077,7 +4085,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cfaf3a2", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cc2959e", module.exports)
 	  }
 	}
 
@@ -4110,15 +4118,17 @@
 	var map = {
 		"./zh-cn/home.md": 30,
 		"./zh-cn/installation.md": 33,
-		"./zh-cn/sf-button.md": 36,
-		"./zh-cn/sf-dnd.md": 39,
-		"./zh-cn/sf-pagination.md": 49,
-		"./zh-cn/sf-progressbar.md": 55,
-		"./zh-cn/sf-select.md": 58,
-		"./zh-cn/sf-spinner.md": 62,
-		"./zh-cn/sf-table.md": 65,
-		"./zh-cn/sf-toast.md": 69,
-		"./zh-cn/sf-tooltips.md": 73
+		"./zh-cn/jslint.md": 36,
+		"./zh-cn/postcssbem.md": 39,
+		"./zh-cn/sf-button.md": 42,
+		"./zh-cn/sf-dnd.md": 45,
+		"./zh-cn/sf-pagination.md": 55,
+		"./zh-cn/sf-progressbar.md": 61,
+		"./zh-cn/sf-select.md": 64,
+		"./zh-cn/sf-spinner.md": 68,
+		"./zh-cn/sf-table.md": 71,
+		"./zh-cn/sf-toast.md": 75,
+		"./zh-cn/sf-tooltips.md": 79
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -4154,9 +4164,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/2.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/3.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 2.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 3.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -4165,9 +4175,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-509d78b5", Component.options)
+	    hotAPI.createRecord("data-v-50ab9036", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-509d78b5", Component.options)
+	    hotAPI.reload("data-v-50ab9036", Component.options)
 	  }
 	})()}
 
@@ -4187,7 +4197,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-509d78b5", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50ab9036", module.exports)
 	  }
 	}
 
@@ -4211,9 +4221,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/4.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/2.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 4.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 2.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -4222,9 +4232,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50b9a7b7", Component.options)
+	    hotAPI.createRecord("data-v-509d78b5", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50b9a7b7", Component.options)
+	    hotAPI.reload("data-v-509d78b5", Component.options)
 	  }
 	})()}
 
@@ -4380,7 +4390,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50b9a7b7", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-509d78b5", module.exports)
 	  }
 	}
 
@@ -4426,6 +4436,4920 @@
 
 /***/ },
 /* 38 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('section', [_c('h1', [_vm._v("七鱼 JavaScript 代码规范")]), _vm._v(" "), _c('h2', [_vm._v("目录")]), _vm._v(" "), _vm._m(0), _vm._v(" "), _c('blockquote', [_c('p', [_vm._v("说明：")]), _vm._v(" "), _c('ul', [_c('li', [_vm._v("语气：强制 > 要求 == !禁止 > 尽量 > 推荐 == !不推荐；")]), _vm._v(" "), _c('li', [_vm._v("🔧表示ESLint可以自动修复。")])])]), _vm._v(" "), _c('h2', [_vm._v("空白")]), _vm._v(" "), _c('h4', [_vm._v("要求使用4个空格作为缩进，禁止使用Tab。🔧")]), _vm._v(" "), _vm._m(1), _vm._v(" "), _vm._m(2), _vm._v(" "), _vm._m(3), _vm._v(" "), _vm._m(4), _vm._v(" "), _c('h4', [_vm._v("禁止使用Unicode字节顺序标记（BOM）。🔧")]), _vm._v(" "), _vm._m(5), _vm._v(" "), _c('h4', [_vm._v("要求文件末尾有且只有一个空行。🔧")]), _vm._v(" "), _vm._m(6), _vm._v(" "), _vm._m(7), _vm._v(" "), _vm._m(8), _vm._v(" "), _vm._m(9), _vm._v(" "), _c('h4', [_vm._v("禁止连续出现多个空行。🔧")]), _vm._v(" "), _vm._m(10), _vm._v(" "), _vm._m(11), _vm._v(" "), _vm._m(12), _vm._v(" "), _c('h4', [_vm._v("禁止块的内边缘出现空行。🔧")]), _vm._v(" "), _vm._m(13), _vm._v(" "), _vm._m(14), _vm._v(" "), _c('h4', [_vm._v("要求运行指令之后必须有一个空行。🔧")]), _vm._v(" "), _vm._m(15), _vm._v(" "), _vm._m(16), _vm._v(" "), _vm._m(17), _vm._v(" "), _c('h4', [_vm._v("禁止行尾出现空格。🔧")]), _vm._v(" "), _vm._m(18), _vm._v(" "), _c('h4', [_vm._v("禁止连续出现多个空格。🔧")]), _vm._v(" "), _vm._m(19), _vm._v(" "), _vm._m(20), _vm._v(" "), _c('h4', [_vm._v("要求分号、逗号、冒号之后必须有一个空格。🔧")]), _vm._v(" "), _vm._m(21), _vm._v(" "), _vm._m(22), _vm._v(" "), _c('h4', [_vm._v("禁止点号（属性、rest参数、扩展运算符）和单词之间有空格。🔧")]), _vm._v(" "), _vm._m(23), _vm._v(" "), _vm._m(24), _vm._v(" "), _c('h4', [_vm._v("要求一元运算符周围没有空格，等号、二元运算符、箭头符号周围有一个空格。🔧")]), _vm._v(" "), _vm._m(25), _vm._v(" "), _vm._m(26), _vm._v(" "), _c('h4', [_vm._v("禁止在小括号（表达式、函数）和中括号（数组、属性）内边缘加空格，要求在大括号（对象、单行代码块）内边缘加一个空格。🔧")]), _vm._v(" "), _vm._m(27), _vm._v(" "), _vm._m(28), _vm._v(" "), _c('h4', [_vm._v("要求在大括号前放一个空格。🔧")]), _vm._v(" "), _vm._m(29), _vm._v(" "), _vm._m(30), _vm._v(" "), _c('h4', [_vm._v("要求在关键字和小括号之间加一个空格，禁止在函数名和参数列表之间加空格。🔧")]), _vm._v(" "), _vm._m(31), _vm._v(" "), _c('blockquote', [_c('p', [_vm._v("保持一致是最好的，你不需要在添加/删除函数名时，考虑要不要添加/删除空格。")])]), _vm._v(" "), _vm._m(32), _vm._v(" "), _c('h4', [_vm._v("禁止出现空块语句或空函数，除非添加一个注释。")]), _vm._v(" "), _vm._m(33), _vm._v(" "), _vm._m(34), _vm._v(" "), _c('h2', [_vm._v("块")]), _vm._v(" "), _vm._m(35), _vm._v(" "), _vm._m(36), _vm._v(" "), _vm._m(37), _vm._v(" "), _vm._m(38), _vm._v(" "), _vm._m(39), _vm._v(" "), _vm._m(40), _vm._v(" "), _c('h2', [_vm._v("分号和逗号")]), _vm._v(" "), _c('h4', [_vm._v("强制使用分号，禁止多余的分号。🔧")]), _vm._v(" "), _vm._m(41), _vm._v(" "), _vm._m(42), _vm._v(" "), _c('h4', [_vm._v("禁止使用行首逗号。🔧")]), _vm._v(" "), _vm._m(43), _vm._v(" "), _vm._m(44), _vm._v(" "), _c('h4', [_vm._v("禁止使用逗号操作符。")]), _vm._v(" "), _vm._m(45), _vm._v(" "), _vm._m(46), _vm._v(" "), _c('h4', [_vm._v("要求多行使用拖尾逗号，禁止单行使用拖尾逗号。🔧")]), _vm._v(" "), _vm._m(47), _vm._v(" "), _c('blockquote', [_c('p', [_vm._v("这会使git diffs更简洁，使编辑器的上下移动快捷键更方便。不用担心IE8会报错，Babel等编译器会自动去除拖尾逗号。")]), _vm._v(" "), _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad - git diff without trailing comma")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" hero = {\n     "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("firstName")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Florence'")]), _vm._v(",\n-    lastName: "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Nightingale'")]), _vm._v("\n+    lastName: "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Nightingale'")]), _vm._v(",\n+    inventorOf: ["), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'coxcomb chart'")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'modern nursing'")]), _vm._v("]\n};\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good - git diff with trailing comma")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" hero = {\n     "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("firstName")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Florence'")]), _vm._v(",\n     "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("lastName")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Nightingale'")]), _vm._v(",\n+    inventorOf: ["), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'coxcomb chart'")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'modern nursing'")]), _vm._v("],\n};\n")])])]), _vm._v(" "), _vm._m(48), _vm._v(" "), _c('h2', [_vm._v("字符串")]), _vm._v(" "), _c('h4', [_vm._v("要求使用单引号包裹字符串，在需要插值或换行时才使用反引号，在内部单引号需要转义时才使用双引号。🔧")]), _vm._v(" "), _vm._m(49), _vm._v(" "), _vm._m(50), _vm._v(" "), _c('h4', [_vm._v("禁止不必要的字符拼接。")]), _vm._v(" "), _vm._m(51), _vm._v(" "), _vm._m(52), _vm._v(" "), _c('h4', [_vm._v("禁止使用不必要的转义符。")]), _vm._v(" "), _vm._m(53), _vm._v(" "), _vm._m(54), _vm._v(" "), _c('h4', [_vm._v("禁止使用多行字符串。")]), _vm._v(" "), _vm._m(55), _vm._v(" "), _vm._m(56), _vm._v(" "), _c('h4', [_vm._v("尽量使用模板字符串，禁止在模板字符串的大括号周围加空格。🔧")]), _vm._v(" "), _vm._m(57), _vm._v(" "), _vm._m(58), _vm._v(" "), _c('h2', [_vm._v("对象和属性")]), _vm._v(" "), _c('h4', [_vm._v("要求点操作符和属性放在同一行。🔧")]), _vm._v(" "), _vm._m(59), _vm._v(" "), _vm._m(60), _vm._v(" "), _c('h4', [_vm._v("要求尽可能使用点号，且不回避关键字。🔧")]), _vm._v(" "), _vm._m(61), _vm._v(" "), _vm._m(62), _vm._v(" "), _c('h4', [_vm._v("禁止使用不必要的计算属性。🔧")]), _vm._v(" "), _vm._m(63), _vm._v(" "), _vm._m(64), _vm._v(" "), _c('h4', [_vm._v("要求使用对象属性的简写语法。🔧")]), _vm._v(" "), _vm._m(65), _vm._v(" "), _vm._m(66), _vm._v(" "), _c('h4', [_vm._v("要求只给对象中需要的属性名加引号。🔧")]), _vm._v(" "), _vm._m(67), _vm._v(" "), _vm._m(68), _vm._v(" "), _c('h2', [_vm._v("运算符")]), _vm._v(" "), _vm._m(69), _vm._v(" "), _vm._m(70), _vm._v(" "), _c('blockquote', [_c('p', [_vm._v("该规则旨在消除非类型安全的相等操作符。例如以下语句均被认为是"), _c('code', [_vm._v("true")]), _vm._v("：")]), _vm._v(" "), _c('ul', [_c('li', [_c('code', [_vm._v("[] == false")])]), _vm._v(" "), _c('li', [_c('code', [_vm._v("[] == ![]")])]), _vm._v(" "), _c('li', [_c('code', [_vm._v("3 == \"03\"")])])])]), _vm._v(" "), _vm._m(71), _vm._v(" "), _c('h4', [_vm._v("禁止出现Yoda条件，除非是在范围中使用。🔧")]), _vm._v(" "), _vm._m(72), _vm._v(" "), _vm._m(73), _vm._v(" "), _c('h4', [_vm._v("要求把换行符放在运算符的前面。")]), _vm._v(" "), _vm._m(74), _vm._v(" "), _vm._m(75), _vm._v(" "), _c('h2', [_vm._v("条件")]), _vm._v(" "), _c('h4', [_vm._v("禁止在条件中使用常量表达式。")]), _vm._v(" "), _vm._m(76), _vm._v(" "), _vm._m(77), _vm._v(" "), _c('h4', [_vm._v("禁止在条件中出现赋值操作符，除非它们被括号包裹起来。")]), _vm._v(" "), _vm._m(78), _vm._v(" "), _vm._m(79), _vm._v(" "), _c('h4', [_vm._v("禁止不必要的布尔类型转换。")]), _vm._v(" "), _vm._m(80), _vm._v(" "), _vm._m(81), _vm._v(" "), _c('h4', [_vm._v("禁止不必要的三元表达式。")]), _vm._v(" "), _vm._m(82), _vm._v(" "), _vm._m(83), _vm._v(" "), _c('h4', [_vm._v("禁止多行和嵌套的三元表达式。")]), _vm._v(" "), _vm._m(84), _vm._v(" "), _c('blockquote', [_c('p', [_vm._v("会使代码难以理解，请使用"), _c('code', [_vm._v("if")]), _vm._v("语句。")])]), _vm._v(" "), _vm._m(85), _vm._v(" "), _c('h4', [_vm._v("尽量不使用否定表达式。")]), _vm._v(" "), _vm._m(86), _vm._v(" "), _vm._m(87), _vm._v(" "), _c('h4', [_vm._v("禁止不安全的否定表达式。🔧")]), _vm._v(" "), _vm._m(88), _vm._v(" "), _vm._m(89), _vm._v(" "), _c('h2', [_vm._v("变量和作用域")]), _vm._v(" "), _vm._m(90), _vm._v(" "), _vm._m(91), _vm._v(" "), _vm._m(92), _vm._v(" "), _vm._m(93), _vm._v(" "), _vm._m(94), _vm._v(" "), _vm._m(95), _vm._v(" "), _vm._m(96), _vm._v(" "), _vm._m(97), _vm._v(" "), _vm._m(98), _vm._v(" "), _vm._m(99), _vm._v(" "), _vm._m(100), _vm._v(" "), _vm._m(101), _vm._v(" "), _c('h4', [_vm._v("禁止删除变量。")]), _vm._v(" "), _vm._m(102), _vm._v(" "), _c('blockquote', [_c('p', [_c('code', [_vm._v("delete")]), _vm._v("只用于删除属性。")])]), _vm._v(" "), _vm._m(103), _vm._v(" "), _c('h4', [_vm._v("禁止定义前使用。")]), _vm._v(" "), _vm._m(104), _vm._v(" "), _vm._m(105), _vm._v(" "), _c('h4', [_vm._v("尽量使用已经声明的变量。")]), _vm._v(" "), _vm._m(106), _vm._v(" "), _vm._m(107), _vm._v(" "), _c('h2', [_vm._v("命名")]), _vm._v(" "), _c('h4', [_vm._v("要求变量、对象和函数使用小驼峰命名。")]), _vm._v(" "), _vm._m(108), _vm._v(" "), _vm._m(109), _vm._v(" "), _c('h4', [_vm._v("要求构造器和类使用大驼峰命名。")]), _vm._v(" "), _vm._m(110), _vm._v(" "), _vm._m(111), _vm._v(" "), _c('h4', [_vm._v("要求首个缩写单词中的每个字母具有相同的大小写形式。")]), _vm._v(" "), _c('blockquote', [_c('p', [_vm._v("命名是为了可读性，而不是为了机械地去贴近一个算法。")])]), _vm._v(" "), _vm._m(112), _vm._v(" "), _c('h2', [_vm._v("类型")]), _vm._v(" "), _vm._m(113), _vm._v(" "), _vm._m(114), _vm._v(" "), _vm._m(115), _vm._v(" "), _c('h4', [_vm._v("要求调用无参构造函数时有小括号。")]), _vm._v(" "), _vm._m(116), _vm._v(" "), _vm._m(117), _vm._v(" "), _vm._m(118), _vm._v(" "), _vm._m(119), _vm._v(" "), _vm._m(120), _vm._v(" "), _c('h4', [_vm._v("尽量使用较短的符号实现类型转换。")]), _vm._v(" "), _vm._m(121), _vm._v(" "), _vm._m(122), _vm._v(" "), _vm._m(123), _vm._v(" "), _vm._m(124), _vm._v(" "), _vm._m(125), _vm._v(" "), _c('h2', [_vm._v("数字")]), _vm._v(" "), _c('h4', [_vm._v("要求书写完整的浮点小数。")]), _vm._v(" "), _vm._m(126), _vm._v(" "), _vm._m(127), _vm._v(" "), _vm._m(128), _vm._v(" "), _vm._m(129), _vm._v(" "), _vm._m(130), _vm._v(" "), _c('h2', [_vm._v("函数和箭头函数")]), _vm._v(" "), _c('h4', [_vm._v("要求使用函数表达式，而不是函数声明。")]), _vm._v(" "), _vm._m(131), _vm._v(" "), _c('blockquote', [_c('p', [_vm._v("函数声明很容易被提升到当前作用域的顶部，这意味着可以把调用它的语句放在函数声明之前。")])]), _vm._v(" "), _vm._m(132), _vm._v(" "), _vm._m(133), _vm._v(" "), _vm._m(134), _vm._v(" "), _vm._m(135), _vm._v(" "), _c('h4', [_vm._v("要求使用内包型立即函数（IIFE）。🔧")]), _vm._v(" "), _vm._m(136), _vm._v(" "), _vm._m(137), _vm._v(" "), _vm._m(138), _vm._v(" "), _vm._m(139), _vm._v(" "), _vm._m(140), _vm._v(" "), _vm._m(141), _vm._v(" "), _vm._m(142), _vm._v(" "), _vm._m(143), _vm._v(" "), _vm._m(144), _vm._v(" "), _vm._m(145), _vm._v(" "), _vm._m(146), _vm._v(" "), _c('h4', [_vm._v("尽量使用默认值参数语法，而不是手动设置默认值。并且尽量将默认值参数放在最后。")]), _vm._v(" "), _vm._m(147), _vm._v(" "), _vm._m(148), _vm._v(" "), _vm._m(149), _vm._v(" "), _c('blockquote', [_c('p', [_c('code', [_vm._v("arguments.caller")]), _vm._v("和"), _c('code', [_vm._v("arguments.callee")]), _vm._v("，在JavaScript的新版本中它们已被弃用，同时在 ECMAScript 5的严格模式下，它们也是被禁用的。")])]), _vm._v(" "), _vm._m(150), _vm._v(" "), _c('h4', [_vm._v("要求尽量使用箭头函数。")]), _vm._v(" "), _vm._m(151), _vm._v(" "), _vm._m(152), _vm._v(" "), _c('h4', [_vm._v("要求箭头函数参数必须使用括号。")]), _vm._v(" "), _vm._m(153), _vm._v(" "), _vm._m(154), _vm._v(" "), _c('h4', [_vm._v("要求尽量使用箭头函数的简写形式。")]), _vm._v(" "), _vm._m(155), _vm._v(" "), _vm._m(156), _vm._v(" "), _c('h4', [_vm._v("禁止不必要的函数绑定。")]), _vm._v(" "), _vm._m(157), _vm._v(" "), _vm._m(158), _vm._v(" "), _vm._m(159), _vm._v(" "), _vm._m(160), _vm._v(" "), _vm._m(161), _vm._v(" "), _vm._m(162), _vm._v(" "), _vm._m(163), _vm._v(" "), _c('blockquote', [_c('p', [_vm._v("该规则发现以下方法的回调函数，然后检查return语句的使用。")]), _vm._v(" "), _c('ul', [_c('li', [_c('code', [_vm._v("Array.from")])]), _vm._v(" "), _c('li', [_c('code', [_vm._v("Array.prototype.every")])]), _vm._v(" "), _c('li', [_c('code', [_vm._v("Array.prototype.filter")])]), _vm._v(" "), _c('li', [_c('code', [_vm._v("Array.prototype.find")])]), _vm._v(" "), _c('li', [_c('code', [_vm._v("Array.prototype.findIndex")])]), _vm._v(" "), _c('li', [_c('code', [_vm._v("Array.prototype.map")])]), _vm._v(" "), _c('li', [_c('code', [_vm._v("Array.prototype.reduce")])]), _vm._v(" "), _c('li', [_c('code', [_vm._v("Array.prototype.reduceRight")])]), _vm._v(" "), _c('li', [_c('code', [_vm._v("Array.prototype.some")])]), _vm._v(" "), _c('li', [_c('code', [_vm._v("Array.prototype.sort")])])])]), _vm._v(" "), _vm._m(164), _vm._v(" "), _c('h2', [_vm._v("类和构造器")]), _vm._v(" "), _vm._m(165), _vm._v(" "), _vm._m(166), _vm._v(" "), _vm._m(167), _vm._v(" "), _vm._m(168), _vm._v(" "), _vm._m(169), _vm._v(" "), _vm._m(170), _vm._v(" "), _vm._m(171), _vm._v(" "), _vm._m(172), _vm._v(" "), _vm._m(173), _vm._v(" "), _vm._m(174), _vm._v(" "), _c('h2', [_vm._v("正则表达式")]), _vm._v(" "), _c('h4', [_vm._v("尽量不要在正则表达式字面量中出现多个空格。")]), _vm._v(" "), _vm._m(175), _vm._v(" "), _vm._m(176), _vm._v(" "), _c('h4', [_vm._v("禁止出现非法正则表达式。")]), _vm._v(" "), _vm._m(177), _vm._v(" "), _vm._m(178), _vm._v(" "), _c('h4', [_vm._v("禁止在正则表达式中出现空字符集。")]), _vm._v(" "), _vm._m(179), _vm._v(" "), _vm._m(180), _vm._v(" "), _c('h4', [_vm._v("禁止在正则表达式中出现控制字符。")]), _vm._v(" "), _vm._m(181), _vm._v(" "), _vm._m(182), _vm._v(" "), _c('h2', [_vm._v("低级错误")]), _vm._v(" "), _c('h4', [_vm._v("禁止自身赋值或比较。")]), _vm._v(" "), _vm._m(183), _vm._v(" "), _vm._m(184), _vm._v(" "), _c('h4', [_vm._v("禁止对原生对象、关键字赋值。")]), _vm._v(" "), _vm._m(185), _vm._v(" "), _vm._m(186), _vm._v(" "), _c('h4', [_vm._v("禁止对类进行赋值。")]), _vm._v(" "), _vm._m(187), _vm._v(" "), _vm._m(188), _vm._v(" "), _c('h4', [_vm._v("禁止将全局对象当作函数进行调用。")]), _vm._v(" "), _vm._m(189), _vm._v(" "), _vm._m(190), _vm._v(" "), _c('h4', [_vm._v("禁止出现重复的函数参数、对象属性、类成员方法、case标签以及imports。")]), _vm._v(" "), _vm._m(191), _vm._v(" "), _vm._m(192), _vm._v(" "), _c('h4', [_vm._v("禁止未使用过的表达式。")]), _vm._v(" "), _vm._m(193), _vm._v(" "), _vm._m(194), _vm._v(" "), _c('h2', [_vm._v("其他")]), _vm._v(" "), _vm._m(195), _vm._v(" "), _vm._m(196), _vm._v(" "), _vm._m(197), _vm._v(" "), _vm._m(198), _vm._v(" "), _vm._m(199), _vm._v(" "), _vm._m(200), _vm._v(" "), _vm._m(201), _vm._v(" "), _vm._m(202), _vm._v(" "), _c('h4', [_vm._v("禁止使用空解构模式。")]), _vm._v(" "), _vm._m(203), _vm._v(" "), _vm._m(204), _vm._v(" "), _c('h2', [_vm._v("注释")]), _vm._v(" "), _vm._m(205), _vm._v(" "), _vm._m(206), _vm._v(" "), _vm._m(207), _vm._v(" "), _vm._m(208), _vm._v(" "), _c('h4', [_vm._v("要求注释的符号和内容之间有一个空格。🔧")]), _vm._v(" "), _vm._m(209), _vm._v(" "), _vm._m(210), _vm._v(" "), _vm._m(211), _vm._v(" "), _vm._m(212), _vm._v(" "), _c('h2', [_vm._v("生产环境")]), _vm._v(" "), _vm._m(213), _vm._v(" "), _vm._m(214), _vm._v(" "), _vm._m(215), _vm._v(" "), _vm._m(216), _vm._v(" "), _vm._m(217), _vm._v(" "), _vm._m(218), _vm._v(" "), _c('h2', [_vm._v("参考")]), _vm._v(" "), _vm._m(219)], 1)
+	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('ul', [_c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E7%A9%BA%E7%99%BD"
+	    }
+	  }, [_vm._v("空白")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E5%9D%97"
+	    }
+	  }, [_vm._v("块")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E5%88%86%E5%8F%B7%E5%92%8C%E9%80%97%E5%8F%B7"
+	    }
+	  }, [_vm._v("分号和逗号")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E5%AD%97%E7%AC%A6%E4%B8%B2"
+	    }
+	  }, [_vm._v("字符串")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E5%AF%B9%E8%B1%A1%E5%92%8C%E5%B1%9E%E6%80%A7"
+	    }
+	  }, [_vm._v("对象和属性")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E8%BF%90%E7%AE%97%E7%AC%A6"
+	    }
+	  }, [_vm._v("运算符")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E6%9D%A1%E4%BB%B6"
+	    }
+	  }, [_vm._v("条件")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E5%8F%98%E9%87%8F%E5%92%8C%E4%BD%9C%E7%94%A8%E5%9F%9F"
+	    }
+	  }, [_vm._v("变量和作用域")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E5%91%BD%E5%90%8D"
+	    }
+	  }, [_vm._v("命名")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E7%B1%BB%E5%9E%8B"
+	    }
+	  }, [_vm._v("类型")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E6%95%B0%E5%AD%97"
+	    }
+	  }, [_vm._v("数字")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E5%87%BD%E6%95%B0%E5%92%8C%E7%AE%AD%E5%A4%B4%E5%87%BD%E6%95%B0"
+	    }
+	  }, [_vm._v("函数和箭头函数")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E7%B1%BB%E5%92%8C%E6%9E%84%E9%80%A0%E5%99%A8"
+	    }
+	  }, [_vm._v("类和构造器")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F"
+	    }
+	  }, [_vm._v("正则表达式")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E4%BD%8E%E7%BA%A7%E9%94%99%E8%AF%AF"
+	    }
+	  }, [_vm._v("低级错误")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E5%85%B6%E4%BB%96%E9%A1%B9"
+	    }
+	  }, [_vm._v("其他项")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E6%B3%A8%E9%87%8A"
+	    }
+	  }, [_vm._v("注释")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "#%E7%94%9F%E4%BA%A7%E7%8E%AF%E5%A2%83"
+	    }
+	  }, [_vm._v("生产环境")])])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/indent"
+	    }
+	  }, [_vm._v("indent")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-tabs"
+	    }
+	  }, [_vm._v("no-tabs")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-mixed-spaces-and-tabs"
+	    }
+	  }, [_vm._v("no-mixed-spaces-and-tabs")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n  "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hello'")]), _vm._v(");\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n——"), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hello'")]), _vm._v(");\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hello'")]), _vm._v(");\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("强制使用Unix换行符"), _c('code', [_vm._v("\\n")]), _vm._v("，禁止使用Windows换行符"), _c('code', [_vm._v("\\r\\n")]), _vm._v("🔧")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/linebreak-style"
+	    }
+	  }, [_vm._v("linebreak-style")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/unicode-bom"
+	    }
+	  }, [_vm._v("unicode-bom")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/eol-last"
+	    }
+	  }, [_vm._v("eol-last")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("global")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...stuff...")]), _vm._v("\n})("), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(");\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("global")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...stuff...")]), _vm._v("\n})("), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(");↵\n↵\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("global")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...stuff...")]), _vm._v("\n})("), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(");↵\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-multiple-empty-lines"
+	    }
+	  }, [_vm._v("no-multiple-empty-lines")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" value = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hello'")]), _vm._v(";\n\n\n"), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log(value);\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" value = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hello'")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log(value);\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/padded-blocks"
+	    }
+	  }, [_vm._v("padded-blocks")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("bar")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n\n    "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log(foo);\n\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("bar")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log(foo);\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/lines-around-directive"
+	    }
+	  }, [_vm._v("lines-around-directive")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-meta"
+	  }, [_vm._v("'use strict'")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" foo;\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-meta"
+	  }, [_vm._v("'use strict'")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" foo;\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-trailing-spaces"
+	    }
+	  }, [_vm._v("no-trailing-spaces")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-multi-spaces"
+	    }
+	  }, [_vm._v("no-multi-spaces")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" a =  "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v("(foo   === "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'bar'")]), _vm._v(") {}\na <<  b\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" arr = ["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(",  "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v("];\na ?  b: c;\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" a = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v("(foo === "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'bar'")]), _vm._v(") {}\na << b\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" arr = ["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v("];\na ? b: c;\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/semi-spacing"
+	    }
+	  }, [_vm._v("semi-spacing")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/comma-spacing"
+	    }
+	  }, [_vm._v("comma-spacing")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/key-spacing"
+	    }
+	  }, [_vm._v("key-spacing")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" arr = ["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(","), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(","), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v(","), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("4")]), _vm._v("];\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" obj = { "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(","), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Alice'")]), _vm._v(" };\nfoo(a,b,c);\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("for")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" i = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(";i < "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("10")]), _vm._v(";i++)\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" arr = ["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v("];\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" obj = { "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Alice'")]), _vm._v(" };\nfoo(a, b, c);\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("for")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" i = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v("; i < "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("10")]), _vm._v("; i++)\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-whitespace-before-property"
+	    }
+	  }, [_vm._v("no-whitespace-before-property")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/rest-spread-spacing"
+	    }
+	  }, [_vm._v("rest-spread-spacing")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\nfoo. bar. baz();\nfn(... args);\n[... arr, "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("4")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("5")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("6")]), _vm._v("];\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\nfoo.bar.baz();\nfn(...args);\n[...arr, "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("4")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("5")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("6")]), _vm._v("];\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/space-unary-ops"
+	    }
+	  }, [_vm._v("space-unary-ops")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/space-infix-ops"
+	    }
+	  }, [_vm._v("space-infix-ops")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/arrow-spacing"
+	    }
+	  }, [_vm._v("arrow-spacing")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\ni ++;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" x=-y*"), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("5")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" message="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hello, '")]), _vm._v("+name+"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'!'")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" func="), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("x")]), _vm._v(")=>")]), _vm._v("{};\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\ni++;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" x = -y * "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("5")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" message = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hello, '")]), _vm._v(" + name + "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'!'")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" func = "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("x")]), _vm._v(") =>")]), _vm._v(" {};\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/space-in-parens"
+	    }
+	  }, [_vm._v("space-in-parens")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/array-bracket-spacing"
+	    }
+	  }, [_vm._v("array-bracket-spacing")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/computed-property-spacing"
+	    }
+	  }, [_vm._v("computed-property-spacing")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/object-curly-spacing"
+	    }
+	  }, [_vm._v("object-curly-spacing")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/block-spacing"
+	    }
+	  }, [_vm._v("block-spacing")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" num = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v(" * ( "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(" + "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("5")]), _vm._v(" );\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("hello")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v(" name ")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log( "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hi,'")]), _vm._v(", name );\n}\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" ( test ) {\n    thing();\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" num = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v(" * ("), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(" + "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("5")]), _vm._v(");\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("hello")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("name")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hi,'")]), _vm._v(", name);\n}\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (test) {\n    thing();\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" arr = [ "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v(" ];\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" [ x, y ] = z;\nobj[ key ] = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'test'")]), _vm._v(";\nuser[ "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'name'")]), _vm._v(" ] = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'John'")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" arr = ["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v("];\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" [x, y] = z;\nobj[key] = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'test'")]), _vm._v(";\nuser["), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'name'")]), _vm._v("] = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'John'")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" obj = {"), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Alice'")]), _vm._v("};\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" {x, y} = z;\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(";}\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (foo) { bar = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(";}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" obj = { "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Alice'")]), _vm._v(" };\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" { x, y } = z;\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{ "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v("; }\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (foo) { bar = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v("; }\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\nproduct.attr({"), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("price")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("10.6")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("tags")]), _vm._v(": ["), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'food'")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'sweet'")]), _vm._v("]});\nproduct.attr( { "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("price")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("10.6")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("tags")]), _vm._v(": [ "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'food'")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'sweet'")]), _vm._v(" ] } );\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\nproduct.attr({ "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("price")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("10.6")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("tags")]), _vm._v(": ["), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'food'")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'sweet'")]), _vm._v("] });\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/space-before-blocks"
+	    }
+	  }, [_vm._v("space-before-blocks")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("test")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(")")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'test'")]), _vm._v(");\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("test")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'test'")]), _vm._v(");\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\ndog.set("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'attr'")]), _vm._v(",{\n    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("age")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'1 year'")]), _vm._v(",\n    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("breed")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Bernese Mountain Dog'")]), _vm._v(",\n});\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\ndog.set("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'attr'")]), _vm._v(", {\n  "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("age")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'1 year'")]), _vm._v(",\n  "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("breed")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Bernese Mountain Dog'")]), _vm._v(",\n});\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/keyword-spacing"
+	    }
+	  }, [_vm._v("keyword-spacing")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/func-call-spacing"
+	    }
+	  }, [_vm._v("func-call-spacing")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/space-before-function-paren"
+	    }
+	  }, [_vm._v("space-before-function-paren")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v("(isJedi) {\n    fight ();\n} "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("else")]), _vm._v(" {\n    chat ();\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (isJedi) {\n    fight();\n} "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("else")]), _vm._v(" {\n    chat();\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("fight")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log ("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Swooosh!'")]), _vm._v(");\n}\nrun("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log ("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Swooosh!'")]), _vm._v(");\n});\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("fight")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Swooosh!'")]), _vm._v(");\n}\nrun("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Swooosh!'")]), _vm._v(");\n});\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-empty"
+	    }
+	  }, [_vm._v("no-empty")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-empty-function"
+	    }
+	  }, [_vm._v("no-empty-function")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (cond) {\n}\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("while")]), _vm._v(" (cond) { }\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (cond) {\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// TODO")]), _vm._v("\n}\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("while")]), _vm._v(" (cond) { "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* TODO */")]), _vm._v(" }\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{}\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" foo = "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{};\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" foo = "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("()")]), _vm._v(" =>")]), _vm._v(" {};\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{ "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* noop */")]), _vm._v(" }\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" foo = "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{ "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* noop */")]), _vm._v(" };\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" foo = "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("()")]), _vm._v(" =>")]), _vm._v(" { "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* noop */")]), _vm._v(" };\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("要求大括号风格使用："), _c('code', [_vm._v("1tbs")]), _vm._v("(one true brace style)格式，允许单行模式。🔧")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/brace-style"
+	    }
+	  }, [_vm._v("brace-style")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(")\n")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(";\n}\n\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (foo) {\n    bar();\n}\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("else")]), _vm._v(" {\n    baz();\n}\n\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("try")]), _vm._v("\n{\n    somethingRisky();\n} "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("catch")]), _vm._v("(e)\n{\n    handleError();\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(";\n}\n\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (foo) {\n    bar();\n} "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("else")]), _vm._v(" {\n    baz();\n}\n\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("try")]), _vm._v(" {\n    somethingRisky();\n} "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("catch")]), _vm._v("(e) {\n    handleError();\n}\n\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("func")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{ "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v("; }\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (foo) { bar(); }\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("要求遵循大括号约定："), _c('code', [_vm._v("multi-or-nest")]), _vm._v("方式，多行时使用大括号，单行时省略大括号。🔧")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/curly"
+	    }
+	  }, [_vm._v("curly")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (!obj)\n    obj = {\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(",\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'alice'")]), _vm._v(",\n    };\n\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("while")]), _vm._v(" (cond)\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (cond2)\n        doSomething();\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("else")]), _vm._v("\n        doSomethingElse();\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (foo) {\n    foo++;\n}\n\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("while")]), _vm._v(" (cond) {\n    doSomething();\n}\n\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("for")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" i = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v("; i < count; i++) {\n    doSomething();\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (!obj) {\n    obj = {\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(",\n        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'alice'")]), _vm._v(",\n    };\n}\n\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("while")]), _vm._v(" (cond) {\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (cond2)\n        doSomething();\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("else")]), _vm._v("\n        doSomethingElse();\n}\n\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (foo)\n    foo++;\n\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("while")]), _vm._v(" (cond)\n    doSomething();\n\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("for")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" i = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v("; i < count; i++)\n    doSomething();\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/semi"
+	    }
+	  }, [_vm._v("semi")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-extra-semi"
+	    }
+	  }, [_vm._v("no-extra-semi")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-unexpected-multiline"
+	    }
+	  }, [_vm._v("no-unexpected-multiline")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" name = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Skywalker'")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" name;;\n})()\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" name = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Skywalker'")]), _vm._v(";\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" name;\n})();\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/comma-style"
+	    }
+	  }, [_vm._v("comma-style")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" story = [\n    once\n  , upon\n  , aTime\n];\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" story = [\n    once,\n    upon,\n    aTime,\n];\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-sequences"
+	    }
+	  }, [_vm._v("no-sequences")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\nfoo = doSomething(), val;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (doSomething(), !!test);\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("while")]), _vm._v(" (val = foo(), val < "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("42")]), _vm._v(");\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\ndoSomething();\nfoo = val;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (!!test);\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("while")]), _vm._v(" ((val = foo()) < "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("42")]), _vm._v(");\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/comma-dangle"
+	    }
+	  }, [_vm._v("comma-dangle")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" hero = {\n  "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("firstName")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Dana'")]), _vm._v(",\n  "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("lastName")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Scully'")]), _vm._v("\n};\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" heroes = [\n  "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Batman'")]), _vm._v(",\n  "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Superman'")]), _vm._v("\n];\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" hero = {\n  "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("firstName")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Dana'")]), _vm._v(",\n  "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("lastName")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Scully'")]), _vm._v(",\n};\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" heroes = [\n  "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Batman'")]), _vm._v(",\n  "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Superman'")]), _vm._v(",\n];\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" hero = { firstName, lastName, };\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" arr = ["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v(", ];\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" hero = { firstName, lastName };\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" arr = ["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v("];\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/quotes"
+	    }
+	  }, [_vm._v("quotes")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" hello = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"Hello, Bob!\"")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" element = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("`<div class=\"box\"></div>`")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" message = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'I don\\'t like quotes.'")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" hello = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hello, Bob!'")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" element = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("`<div class=\""), _c('span', {
+	    staticClass: "hljs-subst"
+	  }, [_vm._v("${className}")]), _vm._v("\"></div>`")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" message = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"I don't like quotes.\"")]), _vm._v(";\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-useless-concat"
+	    }
+	  }, [_vm._v("no-useless-concat")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" a = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'some'")]), _vm._v(" + "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'string'")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" a = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'1'")]), _vm._v(" + "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'0'")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" c = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'somestring'")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" a = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'10'")]), _vm._v(";\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-useless-escape"
+	    }
+	  }, [_vm._v("no-useless-escape")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" foo = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'\\\"This\\\" \\i\\s \\'quoted\\''")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" foo = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'\"This\" is \\'quoted\\''")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" foo = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("`\"This\" is 'quoted'`")]), _vm._v(";\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-multi-str"
+	    }
+	  }, [_vm._v("no-multi-str")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" message = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hello \\\n                 world'")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" message = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("`Hello\n                world`")]), _vm._v(";\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/prefer-template"
+	    }
+	  }, [_vm._v("prefer-template")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/template-curly-spacing"
+	    }
+	  }, [_vm._v("template-curly-spacing")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'How are you, '")]), _vm._v(" + name + "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'?'")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" ["), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'How are you, '")]), _vm._v(", name, "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'?'")]), _vm._v("].join();\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("`How are you, "), _c('span', {
+	    staticClass: "hljs-subst"
+	  }, [_vm._v("${ name }")]), _vm._v("?`")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("`How are you, "), _c('span', {
+	    staticClass: "hljs-subst"
+	  }, [_vm._v("${name}")]), _vm._v("?`")]), _vm._v(";\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/dot-location"
+	    }
+	  }, [_vm._v("dot-location")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n$("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'#items'")]), _vm._v(").\n    find("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'.selected'")]), _vm._v(").\n    highlight().\n    end().\n    find("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'.open'")]), _vm._v(").\n    updateCount();\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n$("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'#items'")]), _vm._v(")\n    .find("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'.selected'")]), _vm._v(")\n    .highlight()\n    .end()\n    .find("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'.open'")]), _vm._v(")\n    .updateCount();\n$("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'#items'")]), _vm._v(").find("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'.selected'")]), _vm._v(").highlight().end().find("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'.open'")]), _vm._v(").updateCount();\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" p = promise.\n    then("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n        "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// code")]), _vm._v("\n    }).\n    catch("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n        "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// code")]), _vm._v("\n    });\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" p = promise.then("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// code")]), _vm._v("\n}).catch("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// code")]), _vm._v("\n});\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/dot-notation"
+	    }
+	  }, [_vm._v("dot-notation")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" result = luke["), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'jedi'")]), _vm._v("];\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" result = luke.jedi;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" result = luke.class;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" result = luke[key];\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-useless-computed-key"
+	    }
+	  }, [_vm._v("no-useless-computed-key")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" user = { ["), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'name'")]), _vm._v("]: "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'John Doe'")]), _vm._v(" };\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" user = { "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'John Doe'")]), _vm._v(" };\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/object-shorthand"
+	    }
+	  }, [_vm._v("object-shorthand")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" atom = {\n    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("value")]), _vm._v(": value,\n    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("add")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("value")]), _vm._v(") ")]), _vm._v("{\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" atom.value + value;\n    },\n};\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" atom = {\n    value,\n    add(value) {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" atom.value + value;\n    },\n};\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/quote-props"
+	    }
+	  }, [_vm._v("quote-props")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" bad = {\n  "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'foo'")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v(",\n  "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'bar'")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("4")]), _vm._v(",\n  "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'data-blah'")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("5")]), _vm._v(",\n};\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" good = {\n  "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("foo")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v(",\n  "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("bar")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("4")]), _vm._v(",\n  "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'data-blah'")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("5")]), _vm._v(",\n};\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("强制使用"), _c('code', [_vm._v("===")]), _vm._v("和"), _c('code', [_vm._v("==")]), _vm._v("，禁止使用"), _c('code', [_vm._v("==")]), _vm._v("和"), _c('code', [_vm._v("!=")]), _vm._v("。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/eqeqeq"
+	    }
+	  }, [_vm._v("eqeqeq")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (a == b)\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (foo == "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(")\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (bananas != "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(")\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (value == "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("undefined")]), _vm._v(")\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("typeof")]), _vm._v(" foo == "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'undefined'")]), _vm._v(")\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'hello'")]), _vm._v(" != "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'world'")]), _vm._v(")\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(" == "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(")\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(" == "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(")\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (foo == "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("null")]), _vm._v(")\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (a === b)\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (foo === "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(")\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (bananas !== "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(")\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (value === "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("undefined")]), _vm._v(")\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("typeof")]), _vm._v(" foo === "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'undefined'")]), _vm._v(")\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'hello'")]), _vm._v(" !== "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'world'")]), _vm._v(")\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(" === "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(")\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(" === "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(")\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (foo === "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("null")]), _vm._v(")\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/yoda"
+	    }
+	  }, [_vm._v("yoda")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'red'")]), _vm._v(" === color)\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(" == flag)\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("-1")]), _vm._v(" < str.indexOf(substr))\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (color === "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'red'")]), _vm._v(")\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (flag)\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(" <= x && x < "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(")\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/operator-linebreak"
+	    }
+	  }, [_vm._v("operator-linebreak")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" fullHeight = borderTop +\n                 innerHeight +\n                 borderBottom;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (someCodition ||\n    otherCondition) {\n        "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" fullHeight = borderTop\n               + innerHeight\n               + borderBottom;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (someCodition\n    || otherCondition) {\n       "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-constant-condition"
+	    }
+	  }, [_vm._v("no-constant-condition")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(") { "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* ... */")]), _vm._v(" }\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("while")]), _vm._v(" (x = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("-1")]), _vm._v(") { "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* ... */")]), _vm._v(" }\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" result = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(" ? a : b;\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (x === "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(") { "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* ... */")]), _vm._v(" }\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("while")]), _vm._v(" (x) { "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* ... */")]), _vm._v(" }\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" result = x !== "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(" ? a : b;\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-cond-assign"
+	    }
+	  }, [_vm._v("no-cond-assign")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (count = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(") { "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* code */")]), _vm._v(" }\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("while")]), _vm._v(" (node = node.parentNode) { "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* code */")]), _vm._v(" }\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (count === "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(") { "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* code */")]), _vm._v(" }\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("while")]), _vm._v(" ((node = node.parentNode)) { "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* code */")]), _vm._v(" }\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-extra-boolean-cast"
+	    }
+	  }, [_vm._v("no-extra-boolean-cast")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" result = !!x ? a : b;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (!!obj) {\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n}\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("while")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Boolean")]), _vm._v("(obj)) {\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" result = x ? a : b;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (obj) {\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n}\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("while")]), _vm._v(" (obj) {\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-unneeded-ternary"
+	    }
+	  }, [_vm._v("no-unneeded-ternary")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" foo = a ? a : b;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" bar = c ? "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(" : "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("false")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" baz = c ? "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("false")]), _vm._v(" : "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" bazz = num > "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(" ? "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(" : "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("false")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" foo = a || b;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" bar = !!c;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" baz = !c;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" bazz = num > "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(";\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-nested-ternary"
+	    }
+	  }, [_vm._v("no-nested-ternary")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/multiline-ternary"
+	    }
+	  }, [_vm._v("multiline-ternary")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" location = env.development\n  ? "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'localhost'")]), _vm._v("\n  : "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'www.api.com'")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" location = env.development ? "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'localhost'")]), _vm._v(" : "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'www.api.com'")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" thing = foo ? bar : baz === qux ? quxx : foobar;\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" thing;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (foo)\n    thing = bar;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("else")]), _vm._v("\n    thing = baz === qux ? quxx : foobar;\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-negated-condition"
+	    }
+	  }, [_vm._v("no-negated-condition")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (!condition)\n    doSomething();\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("else")]), _vm._v("\n    doSomethingElse();\n\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (a !== b)\n    doSomething();\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("else")]), _vm._v("\n    doSomethingElse();\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (condition)\n    doSomething();\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("else")]), _vm._v("\n    doSomethingElse();\n\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (a === b)\n    doSomething();\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("else")]), _vm._v("\n    doSomethingElse();\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-unsafe-negation"
+	    }
+	  }, [_vm._v("no-unsafe-negation")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (!key "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("in")]), _vm._v(" obj) { "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* code */")]), _vm._v(" }\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (!obj "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("instanceof")]), _vm._v(" Person) { "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* code */")]), _vm._v(" }\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (!(key "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("in")]), _vm._v(" obj)) { "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* code */")]), _vm._v(" }\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (!(obj "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("instanceof")]), _vm._v(" Person)) { "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* code */")]), _vm._v(" }\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("''")]), _vm._v(" + !key) "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("in")]), _vm._v(" object) {"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* code */")]), _vm._v(" }\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("要求声明变量优先使用"), _c('code', [_vm._v("const")]), _vm._v("，需要改变时使用"), _c('code', [_vm._v("let")]), _vm._v("，禁止使用"), _c('code', [_vm._v("var")]), _vm._v("或不声明变量。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-undef"
+	    }
+	  }, [_vm._v("no-undef")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/prefer-const"
+	    }
+	  }, [_vm._v("prefer-const")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-var"
+	    }
+	  }, [_vm._v("no-var")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\nhero = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" Hero();\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("var")]), _vm._v(" hero = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" Hero();\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" hero = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" Hero();\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("禁止用一个"), _c('code', [_vm._v("const")]), _vm._v("或"), _c('code', [_vm._v("let")]), _vm._v("声明多个变量，优先将"), _c('code', [_vm._v("const")]), _vm._v("排列在"), _c('code', [_vm._v("let")]), _vm._v("之前。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/one-var"
+	    }
+	  }, [_vm._v("one-var")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" bar = "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(",\n    num = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("20")]), _vm._v(",\n    items = getItems();\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" index = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(",\n    silent = "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("false")]), _vm._v(",\n    hero = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" Hero();\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" bar = "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" silent = "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("false")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" index = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" num = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("20")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" items = getItems();\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" hero = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" Hero();\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" bar = "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" num = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("20")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" items = getItems();\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" index = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" silent = "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("false")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" hero = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" Hero();\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("禁止初始化变量值为"), _c('code', [_vm._v("undefined")]), _vm._v("。🔧")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-undef-init"
+	    }
+	  }, [_vm._v("no-undef-init")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" bar = "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("undefined")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" bar;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" baz = "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("undefined")]), _vm._v(";\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("禁止给"), _c('code', [_vm._v("const")]), _vm._v("赋值，禁止重复声明。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-const-assign"
+	    }
+	  }, [_vm._v("no-const-assign")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-redeclare"
+	    }
+	  }, [_vm._v("no-redeclare")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" score = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("100")]), _vm._v(";\nscore = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("125")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" name = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'John'")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" name = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Jane'")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" score = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("100")]), _vm._v(";\nscore = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("125")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" name = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'John'")]), _vm._v(";\nname = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Jane'")]), _vm._v(";\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-delete-var"
+	    }
+	  }, [_vm._v("no-delete-var")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" x;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("delete")]), _vm._v(" x;\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("delete")]), _vm._v(" obj.x;\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-use-before-define"
+	    }
+	  }, [_vm._v("no-use-before-define")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\nalert(a);\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" a = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("10")]), _vm._v(";\n\nf();\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("f")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{}\n\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("g")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" b;\n}\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" b = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" a = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("10")]), _vm._v(";\nalert(a);\n\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("f")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{}\nf("), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(");\n\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" b = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("g")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" b;\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-unused-vars"
+	    }
+	  }, [_vm._v("no-unused-vars")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("func")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" result = something();\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/camelcase"
+	    }
+	  }, [_vm._v("camelcase")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" OBJEcttsssss = {};\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" this_is_my_object = {};\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("c")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" thisIsMyObject = {};\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("thisIsMyFunction")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/new-cap"
+	    }
+	  }, [_vm._v("new-cap")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("user")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("options")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".name = options.name;\n}\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" bad = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" user({\n    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'nope'")]), _vm._v(",\n});\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-class"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("class")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("User")])]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("constructor")]), _vm._v("(options) {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".name = options.name;\n    }\n}\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" good = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" User({\n    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'yup'")]), _vm._v(",\n});\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("import")]), _vm._v(" SmsContainer "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("from")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'./containers/SmsContainer'")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" HttpRequests = [\n  "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n];\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("import")]), _vm._v(" SMSContainer "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("from")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'./containers/SMSContainer'")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" HTTPRequests = [\n  "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n];\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("禁止对"), _c('code', [_vm._v("String")]), _vm._v("、"), _c('code', [_vm._v("Number")]), _vm._v("、"), _c('code', [_vm._v("Boolean")]), _vm._v("、"), _c('code', [_vm._v("Symbol")]), _vm._v("、"), _c('code', [_vm._v("Array")]), _vm._v("、"), _c('code', [_vm._v("Object")]), _vm._v("、"), _c('code', [_vm._v("Function")]), _vm._v("使用new操作符。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-new-wrappers"
+	    }
+	  }, [_vm._v("no-new-wrappers")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-new-symbol"
+	    }
+	  }, [_vm._v("no-new-symbol")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-array-constructor"
+	    }
+	  }, [_vm._v("no-array-constructor")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-new-object"
+	    }
+	  }, [_vm._v("no-new-object")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-new-func"
+	    }
+	  }, [_vm._v("no-new-func")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" str = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("String")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hello world'")]), _vm._v(");\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" num = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Number")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("33")]), _vm._v(");\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" bool = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Boolean")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("false")]), _vm._v(");\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" sym = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Symbol")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'sym'")]), _vm._v(");\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" arr = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Array")]), _vm._v("();\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" obj = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Object")]), _vm._v("();\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" func = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Function")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'a'")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'b'")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'return a + b'")]), _vm._v(");\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" str = "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("String")]), _vm._v("(value);\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" num = "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Number")]), _vm._v("(value);\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" bool = "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Boolean")]), _vm._v("(value);\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" sym = "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Symbol")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'sym'")]), _vm._v(");\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" arr = [];\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" obj = {};\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" func = "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("a, b")]), _vm._v(") =>")]), _vm._v(" a + b;\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/new-parens"
+	    }
+	  }, [_vm._v("new-parens")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" date = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Date")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" dog = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" Animal;\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" date = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Date")]), _vm._v("();\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" dog = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" Animal();\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("强制"), _c('code', [_vm._v("typeof")]), _vm._v("表达式与有效的字符串进行比较。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/valid-typeof"
+	    }
+	  }, [_vm._v("valid-typeof")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("typeof")]), _vm._v(" x === "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'strnig'")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("typeof")]), _vm._v(" x === "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'undefimed'")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("typeof")]), _vm._v(" x === "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'nunber'")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("typeof")]), _vm._v(" x === "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'fucntion'")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("typeof")]), _vm._v(" x === "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'string'")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("typeof")]), _vm._v(" x === "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'undefined'")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("typeof")]), _vm._v(" x === type;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("typeof")]), _vm._v(" x === "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("typeof")]), _vm._v(" y;\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-implicit-coercion"
+	    }
+	  }, [_vm._v("no-implicit-coercion")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" b = "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Boolean")]), _vm._v("(foo);\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" b = foo.indexOf("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'.'")]), _vm._v(") !== "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("-1")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" n = "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Number")]), _vm._v("(foo);\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" s = "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("String")]), _vm._v("(foo);\nfoo = "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("String")]), _vm._v("(foo);\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" b = !!foo;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" b = ~foo.indexOf("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'.'")]), _vm._v(");\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" n = +foo;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" s = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("''")]), _vm._v(" + foo;\nfoo += "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("''")]), _vm._v(";\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("要求"), _c('code', [_vm._v("Symbol")]), _vm._v("必须要有描述。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/symbol-description"
+	    }
+	  }, [_vm._v("symbol-description")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" foo = "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Symbol")]), _vm._v("();\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" foo = "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Symbol")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'a symbol'")]), _vm._v(");\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-floating-decimal"
+	    }
+	  }, [_vm._v("no-floating-decimal")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" num = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v(".5")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" num = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2.")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" num = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("-.7")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" num = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0.5")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" num = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2.0")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" num = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("-0.7")]), _vm._v(";\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("要求调用"), _c('code', [_vm._v("isNaN()")]), _vm._v("检查"), _c('code', [_vm._v("NaN")]), _vm._v("。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/use-isnan"
+	    }
+	  }, [_vm._v("use-isnan")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (num === "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("NaN")]), _vm._v(") { "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* ... */")]), _vm._v(" }\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("isNaN")]), _vm._v("(num)) { "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* ... */")]), _vm._v(" }\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/func-style"
+	    }
+	  }, [_vm._v("func-style")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-inner-declarations"
+	    }
+	  }, [_vm._v("no-inner-declarations")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-func-assign"
+	    }
+	  }, [_vm._v("no-func-assign")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n  "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" foo = "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n}\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" foo = "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("()")]), _vm._v(" =>")]), _vm._v(" { "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/* ... */")]), _vm._v(" }\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("禁止不必要的"), _c('code', [_vm._v("return")]), _vm._v("。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-useless-return"
+	    }
+	  }, [_vm._v("no-useless-return")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{ "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v("; }\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    doSomething();\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(";\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{ "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("5")]), _vm._v("; }\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" doSomething();\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/wrap-iife"
+	    }
+	  }, [_vm._v("wrap-iife")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hello'")]), _vm._v(");\n}();\n("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hello'")]), _vm._v(");\n}());\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hello'")]), _vm._v(");\n})();\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("禁止使用"), _c('code', [_vm._v("arguments")]), _vm._v("，用"), _c('code', [_vm._v("...")]), _vm._v("代替。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/prefer-rest-params"
+	    }
+	  }, [_vm._v("prefer-rest-params")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("joinAll")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" args = "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Array")]), _vm._v(".prototype.slice.call("), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("arguments")]), _vm._v(");\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" args.join("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("''")]), _vm._v(");\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("joinAll")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("...args")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" args.join("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("''")]), _vm._v(");\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("要求使用扩展运算符，而不是"), _c('code', [_vm._v(".apply()")]), _vm._v("。🔧")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/prefer-spread"
+	    }
+	  }, [_vm._v("prefer-spread")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" x = ["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("4")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("5")]), _vm._v("];\n"), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log.apply("), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(", x);\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" x = ["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("4")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("5")]), _vm._v("];\n"), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log(...x);\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Function")]), _vm._v(".prototype.bind.apply("), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Date")]), _vm._v(", ["), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("null")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2016")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("8")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("5")]), _vm._v("]));\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Date")]), _vm._v("(...["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2016")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("8")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("5")]), _vm._v("]);\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("禁用不必要的"), _c('code', [_vm._v(".call()")]), _vm._v("和"), _c('code', [_vm._v(".apply()")]), _vm._v("。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-useless-call"
+	    }
+	  }, [_vm._v("no-useless-call")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// These are same as `foo(1, 2, 3);`")]), _vm._v("\nfoo.call("), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("undefined")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v(");\nfoo.apply("), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("undefined")]), _vm._v(", ["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v("]);\nfoo.call("), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("null")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v(");\nfoo.apply("), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("null")]), _vm._v(", ["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v("]);\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// These are same as `obj.foo(1, 2, 3);`")]), _vm._v("\nobj.foo.call(obj, "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v(");\nobj.foo.apply(obj, ["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v("]);\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\nfoo("), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v(");\nobj.foo("), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v("):\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("handle")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("options")]), _vm._v(") ")]), _vm._v("{\n    options = options || {};\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("handle")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("options = {}")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("handle")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("options = {}, name")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("handle")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("name, options = {}")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("禁止使用"), _c('code', [_vm._v("caller")]), _vm._v("或"), _c('code', [_vm._v("callee")]), _vm._v("。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-caller"
+	    }
+	  }, [_vm._v("no-caller")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("factorial")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("n")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" !(n > "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(") ? "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(" : "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("arguments")]), _vm._v(".callee(n - "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(") * n;\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("factorial")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("n")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" !(n > "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(") ? "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(" : factorial(n - "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(") * n;\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/prefer-arrow-callback"
+	    }
+	  }, [_vm._v("prefer-arrow-callback")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v("].map("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("x")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" y = x + "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(";\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" x * y;\n});\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v("].map("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("x")]), _vm._v(") =>")]), _vm._v(" {\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" y = x + "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(";\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" x * y;\n});\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/arrow-parens"
+	    }
+	  }, [_vm._v("arrow-parens")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v("].map("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("number")]), _vm._v(" =>")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("`A string containing the "), _c('span', {
+	    staticClass: "hljs-subst"
+	  }, [_vm._v("${number}")]), _vm._v(".`")]), _vm._v(");\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v("].map("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("number")]), _vm._v(") =>")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("`A string containing the "), _c('span', {
+	    staticClass: "hljs-subst"
+	  }, [_vm._v("${number}")]), _vm._v(".`")]), _vm._v(");\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/arrow-body-style"
+	    }
+	  }, [_vm._v("arrow-body-style")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v("].map("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("number")]), _vm._v(") =>")]), _vm._v(" {\n  "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" nextNumber = number + "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(";\n  "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("`A string containing the "), _c('span', {
+	    staticClass: "hljs-subst"
+	  }, [_vm._v("${nextNumber}")]), _vm._v(".`")]), _vm._v(";\n});\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v("].map("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("number")]), _vm._v(" =>")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("`A string containing the "), _c('span', {
+	    staticClass: "hljs-subst"
+	  }, [_vm._v("${number}")]), _vm._v(".`")]), _vm._v(");\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-extra-bind"
+	    }
+	  }, [_vm._v("no-extra-bind")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" x = "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    foo();\n}.bind(bar);\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" x = "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("(")]), _vm._v(") =>")]), _vm._v(" {\n    foo();\n}).bind(bar);\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" x = "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("(")]), _vm._v(") =>")]), _vm._v(" {\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".foo();\n}).bind(bar);\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" x = "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    ("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".foo();\n    }());\n}.bind(bar);\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" x = "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".bar();\n    }\n}.bind(baz);\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" x = "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".foo();\n}.bind(bar);\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" x = "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("a")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" a + "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(";\n}.bind(foo, bar);\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("如果要引用"), _c('code', [_vm._v("this")]), _vm._v("，要求统一使用"), _c('code', [_vm._v("self")]), _vm._v("单词。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/consistent-this"
+	    }
+	  }, [_vm._v("consistent-this")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" that = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(";\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n        "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log(that);\n    };\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" self = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(";\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n        "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log(self);\n    };\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ best")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("()")]), _vm._v(" =>")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log(self);\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("要求数组方法的回调函数中有"), _c('code', [_vm._v("return")]), _vm._v("语句。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/array-callback-return"
+	    }
+	  }, [_vm._v("array-callback-return")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v("].map("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("x")]), _vm._v(") =>")]), _vm._v(" {\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" y = x + "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(";\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" x * y;\n});\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v("].map("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("x")]), _vm._v(") =>")]), _vm._v(" x + "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(");\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" flat = {};\n[["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v("], ["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v("], ["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("4")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("5")]), _vm._v("]].reduce("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("memo, item, index")]), _vm._v(") =>")]), _vm._v(" {\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" flatten = memo.concat(item);\n    flat[index] = flatten;\n});\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" flat = {};\n[["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v("], ["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("3")]), _vm._v("], ["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("4")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("5")]), _vm._v("]].reduce("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("memo, item, index")]), _vm._v(") =>")]), _vm._v(" {\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" flatten = memo.concat(item);\n    flat[index] = flatten;\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" flatten;\n});\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\ninbox.filter("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("msg")]), _vm._v(") =>")]), _vm._v(" {\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" { subject, author } = msg;\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (subject === "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Mockingbird'")]), _vm._v(")\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" author === "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Harper Lee'")]), _vm._v(";\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("else")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("false")]), _vm._v(";\n});\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\ninbox.filter("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("msg")]), _vm._v(") =>")]), _vm._v(" {\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" { subject, author } = msg;\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (subject === "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Mockingbird'")]), _vm._v(")\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" author === "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Harper Lee'")]), _vm._v(";\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("false")]), _vm._v(";\n});\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("要求尽量使用"), _c('code', [_vm._v("class")]), _vm._v("，避免手动操作"), _c('code', [_vm._v("prototype")]), _vm._v("。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Queue")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("contents = []")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".queue = [...contents];\n}\nQueue.prototype.pop = "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" value = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".queue["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v("];\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".queue.splice("), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(");\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" value;\n};\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-class"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("class")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Queue")])]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("constructor")]), _vm._v("(contents = []) {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".queue = [...contents];\n    }\n    pop() {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" value = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".queue["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v("];\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".queue.splice("), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(");\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" value;\n    }\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("要求使用"), _c('code', [_vm._v("extends")]), _vm._v("做继承。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" inherits = "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("require")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'inherits'")]), _vm._v(");\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("PeekableQueue")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("contents")]), _vm._v(") ")]), _vm._v("{\n    Queue.apply("), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(", contents);\n}\ninherits(PeekableQueue, Queue);\nPeekableQueue.prototype.peek = "), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".queue["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v("];\n};\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-class"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("class")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("PeekableQueue")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("extends")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Queue")])]), _vm._v("{\n    peek() {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".queue["), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v("];\n    }\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("禁止在"), _c('code', [_vm._v("class")]), _vm._v("中添加不必要的构造函数。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-useless-constructor"
+	    }
+	  }, [_vm._v("no-useless-constructor")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-class"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("class")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Jedi")])]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("constructor")]), _vm._v("() {}\n\n    getName() {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".name;\n    }\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-class"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("class")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Rey")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("extends")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Jedi")])]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("constructor")]), _vm._v("(...args) {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("super")]), _vm._v("(...args);\n    }\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-class"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("class")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Rey")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("extends")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Jedi")])]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("constructor")]), _vm._v("(...args) {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("super")]), _vm._v("(...args);\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".name = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Rey'")]), _vm._v(";\n    }\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("要求在构造函数中有"), _c('code', [_vm._v("super()")]), _vm._v("调用，禁止在调用"), _c('code', [_vm._v("super()")]), _vm._v("之前使用"), _c('code', [_vm._v("this")]), _vm._v("。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/constructor-super"
+	    }
+	  }, [_vm._v("constructor-super")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-this-before-super"
+	    }
+	  }, [_vm._v("no-this-before-super")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-class"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("class")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Dog")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("extends")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Animal")])]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("constructor")]), _vm._v(" () {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".legs = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("4")]), _vm._v(";\n    }\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-class"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("class")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Dog")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("extends")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Animal")])]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("constructor")]), _vm._v(" () {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".legs = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("4")]), _vm._v(";\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("super")]), _vm._v("();\n    }\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-class"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("class")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Dog")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("extends")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Animal")])]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("constructor")]), _vm._v(" () {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("super")]), _vm._v("();\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".legs = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("4")]), _vm._v(";\n    }\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-regex-spaces"
+	    }
+	  }, [_vm._v("no-regex-spaces")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" reg = "), _c('span', {
+	    staticClass: "hljs-regexp"
+	  }, [_vm._v("/abc   def/")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" reg = "), _c('span', {
+	    staticClass: "hljs-regexp"
+	  }, [_vm._v("/abc {3}def/")]), _vm._v(";\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-invalid-regexp"
+	    }
+	  }, [_vm._v("no-invalid-regexp")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("RegExp")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'[a-z'")]), _vm._v(");\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("RegExp")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'[a-z]'")]), _vm._v(");\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-empty-character-class"
+	    }
+	  }, [_vm._v("no-empty-character-class")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n/^abc[]/.test("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'abcdefg'")]), _vm._v(");\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n/^abc[a-z]/.test("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'abcdefg'")]), _vm._v(");\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-control-regex"
+	    }
+	  }, [_vm._v("no-control-regex")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" pattern = "), _c('span', {
+	    staticClass: "hljs-regexp"
+	  }, [_vm._v("/\\x1f/")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" pattern = "), _c('span', {
+	    staticClass: "hljs-regexp"
+	  }, [_vm._v("/\\x20/")]), _vm._v(";\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-self-assign"
+	    }
+	  }, [_vm._v("no-self-assign")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-self-compare"
+	    }
+	  }, [_vm._v("no-self-compare")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\nfoo = foo;\n[a, b] = [a, b];\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" x = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("10")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v(" (x === x)\n    x = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("20")]), _vm._v(";\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-global-assign"
+	    }
+	  }, [_vm._v("no-global-assign")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-shadow-restricted-names"
+	    }
+	  }, [_vm._v("no-shadow-restricted-names")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Object")]), _vm._v(" = "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("null")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("undefined")]), _vm._v(" = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("window")]), _vm._v(" = {};\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("NaN")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{}\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("try")]), _vm._v(" {} "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("catch")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("eval")]), _vm._v(") {}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-class-assign"
+	    }
+	  }, [_vm._v("no-class-assign")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-class"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("class")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Dog")])]), _vm._v("{}\nDog = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Fido'")]), _vm._v(";\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-obj-calls"
+	    }
+	  }, [_vm._v("no-obj-calls")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" math = "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Math")]), _vm._v("();\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" json = "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("JSON")]), _vm._v("();\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-dupe-args"
+	    }
+	  }, [_vm._v("no-dupe-args")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-dupe-keys"
+	    }
+	  }, [_vm._v("no-dupe-keys")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-dupe-class-members"
+	    }
+	  }, [_vm._v("no-dupe-class-members")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-duplicate-case"
+	    }
+	  }, [_vm._v("no-duplicate-case")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-duplicate-imports"
+	    }
+	  }, [_vm._v("no-duplicate-imports")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("a, b, a")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log(a, b);\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" obj = {\n    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'alice'")]), _vm._v(",\n    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'bob'")]), _vm._v(",\n    "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'name'")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'carol'")]), _vm._v(",\n};\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-class"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("class")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Dog")])]), _vm._v("{\n    bark () {}\n    bark () {}\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("switch")]), _vm._v(" (id) {\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("case")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(":\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("case")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(":\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("import")]), _vm._v(" { myFunc1 } "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("from")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'module'")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("import")]), _vm._v(" { myFunc2 } "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("from")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'module'")]), _vm._v(";\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-unused-expressions"
+	    }
+	  }, [_vm._v("no-unused-expressions")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("if")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(") "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v("\n{"), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v("}\nf("), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v("), {}\n("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("anIncompleteIIFE")]), _vm._v(" ("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{});\na && b\na ? b : "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v("\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\na = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" C()\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("delete")]), _vm._v(" a.b\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("void")]), _vm._v(" a\na && b()\na ? b() : c()\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("禁止使用"), _c('code', [_vm._v("eval")]), _vm._v("以及类似"), _c('code', [_vm._v("eval")]), _vm._v("的方法。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/eval"
+	    }
+	  }, [_vm._v("eval")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-implied-eval"
+	    }
+	  }, [_vm._v("no-implied-eval")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-script-url"
+	    }
+	  }, [_vm._v("no-script-url")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" value = "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("eval")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'obj.'")]), _vm._v(" + key);\nsetTimeout("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'alert(\"Hi!\");'")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("100")]), _vm._v(");\nsetInterval("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'alert(\"Hi!\");'")]), _vm._v(", "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("100")]), _vm._v(");\nexecScript("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'alert(\"Hi!\")'")]), _vm._v(");\nlocation.href = "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'javascript:void(0)'")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("let")]), _vm._v(" value = obj[key];\nsetTimeout("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    alert("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hi!'")]), _vm._v(");\n}, "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("100")]), _vm._v(");\nsetInterval("), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    alert("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hi!'")]), _vm._v(");\n}, "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("100")]), _vm._v(");\nalert("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Hi!'")]), _vm._v(");\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("禁止使用"), _c('code', [_vm._v("void")]), _vm._v(", "), _c('code', [_vm._v("with")]), _vm._v(", "), _c('code', [_vm._v("label")]), _vm._v(", "), _c('code', [_vm._v("__iterator__")]), _vm._v(", "), _c('code', [_vm._v("__proto__")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-void"
+	    }
+	  }, [_vm._v("no-void")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-with"
+	    }
+	  }, [_vm._v("no-with")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-labels"
+	    }
+	  }, [_vm._v("no-labels")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-unused-labels"
+	    }
+	  }, [_vm._v("no-unused-labels")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-extra-label"
+	    }
+	  }, [_vm._v("no-extra-label")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-label-var"
+	    }
+	  }, [_vm._v("no-label-var")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-iterator"
+	    }
+	  }, [_vm._v("no-iterator")]), _vm._v(", [no-proto]")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("要求抛出异常必须用"), _c('code', [_vm._v("Error")]), _vm._v("。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-throw-literal"
+	    }
+	  }, [_vm._v("no-throw-literal")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("throw")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'error'")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("throw")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("throw")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("undefined")]), _vm._v(";\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("throw")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("null")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("throw")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Error")]), _vm._v("();\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("throw")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Error")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'error'")]), _vm._v(");\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" e = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("new")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("Error")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'error'")]), _vm._v(");\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("throw")]), _vm._v(" e;\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-empty-pattern"
+	    }
+	  }, [_vm._v("no-empty-pattern")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" {} = foo;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" [] = foo;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" {"), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("a")]), _vm._v(": {"), _c('span', [_vm._v("}}")]), _vm._v(" = foo;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" {"), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("a")]), _vm._v(": []} = foo;\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("{}")]), _vm._v(") ")]), _vm._v("{}\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("[]")]), _vm._v(") ")]), _vm._v("{}\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("{a: {"), _c('span', [_vm._v("}}")])]), _vm._v(") ")]), _vm._v("{}\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("{a: []}")]), _vm._v(") ")]), _vm._v("{}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" {a = {"), _c('span', [_vm._v("}}")]), _vm._v(" = foo;\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" {a = []} = foo;\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("{a = {"), _c('span', [_vm._v("}}")])]), _vm._v(") ")]), _vm._v("{}\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("foo")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("{a = []}")]), _vm._v(") ")]), _vm._v("{}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("要求多行注释使用"), _c('code', [_vm._v("/** ... */")]), _vm._v("。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// make() returns a new element")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// based on the passed in tag name")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("//")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// @param {String} tag")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// @return {Element} element")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("make")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("tag")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" element;\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/**\n * make() returns a new element\n * based on the passed-in tag name\n\n * @param {String} tag\n * @return {Element} element\n */")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("make")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("tag")]), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" element;\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("要求单行注释使用"), _c('code', [_vm._v("//")]), _vm._v("，尽量将单行注释放在代码上方，要求在单行注释前放一个空行，除非它是块中的首行。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" active = "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(";  "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// is current tab")]), _vm._v("\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// is current tab")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" active = "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("getType")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'fetching type...'")]), _vm._v(");\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// set the default type to 'no type'")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" type = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".type || "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'no type'")]), _vm._v(";\n\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" type;\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("getType")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'fetching type...'")]), _vm._v(");\n\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// set the default type to 'no type'")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" type = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".type || "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'no type'")]), _vm._v(";\n\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" type;\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("getType")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }), _vm._v(") ")]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// set the default type to 'no type'")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" type = "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".type || "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'no type'")]), _vm._v(";\n\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" type;\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/spaced-comment"
+	    }
+	  }, [_vm._v("spaced-comment")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("//is current tab")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" active = "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// is current tab")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("const")]), _vm._v(" active = "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/**\n*make() returns a new element\n*based on the passed-in tag name\n*/")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("make")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("tag")]), _vm._v(") ")]), _vm._v("{\n\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" element;\n}\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("/**\n* make() returns a new element\n* based on the passed-in tag name\n*/")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-function"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("function")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("make")]), _vm._v("("), _c('span', {
+	    staticClass: "hljs-params"
+	  }, [_vm._v("tag")]), _vm._v(") ")]), _vm._v("{\n\n    "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ...")]), _vm._v("\n\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" element;\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("要求使用"), _c('code', [_vm._v("FIXME")]), _vm._v("标注一个问题，使用"), _c('code', [_vm._v("TODO")]), _vm._v("标注一个计划。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-class"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("class")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Calculator")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("extends")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Abacus")])]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("constructor")]), _vm._v("() {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("super")]), _vm._v("();\n\n        "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// "), _c('span', {
+	    staticClass: "hljs-doctag"
+	  }, [_vm._v("FIXME:")]), _vm._v(" shouldn't use a global here")]), _vm._v("\n        total = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(";\n    }\n}\n\n"), _c('span', {
+	    staticClass: "hljs-class"
+	  }, [_c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("class")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Calculator")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("extends")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-title"
+	  }, [_vm._v("Abacus")])]), _vm._v("{\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("constructor")]), _vm._v("() {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("super")]), _vm._v("();\n\n        "), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// "), _c('span', {
+	    staticClass: "hljs-doctag"
+	  }, [_vm._v("TODO:")]), _vm._v(" total should be configurable by an options param")]), _vm._v("\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("this")]), _vm._v(".total = "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(";\n    }\n}\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("不推荐使用"), _c('code', [_vm._v("alert")]), _vm._v("、"), _c('code', [_vm._v("confirm")]), _vm._v("、"), _c('code', [_vm._v("prompt")]), _vm._v("。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-alert"
+	    }
+	  }, [_vm._v("no-alert")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\nalert("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'message'")]), _vm._v(");\nconfirm("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Are you sure?'")]), _vm._v(");\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('h4', [_vm._v("在生产环境禁止出现"), _c('code', [_vm._v("console.log")]), _vm._v("和"), _c('code', [_vm._v("debugger")]), _vm._v("，允许出现"), _c('code', [_vm._v("console.warn")]), _vm._v("和"), _c('code', [_vm._v("console.error")]), _vm._v("。")])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('p', [_c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-console"
+	    }
+	  }, [_vm._v("no-console")]), _vm._v(", "), _c('a', {
+	    attrs: {
+	      "href": "http://eslint.cn/docs/rules/no-debugger"
+	    }
+	  }, [_vm._v("no-debugger")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('pre', [_c('code', {
+	    staticClass: "hljs language-javascript"
+	  }, [_c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✗ bad")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".log("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'code info.'")]), _vm._v(");\n"), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("debugger")]), _vm._v(";\n\n"), _c('span', {
+	    staticClass: "hljs-comment"
+	  }, [_vm._v("// ✓ good")]), _vm._v("\n"), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".warn("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'This method is deprecated.'")]), _vm._v(");\n"), _c('span', {
+	    staticClass: "hljs-built_in"
+	  }, [_vm._v("console")]), _vm._v(".error("), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'Circular dependencies!'")]), _vm._v(")\n")])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('ul', [_c('li', [_c('a', {
+	    attrs: {
+	      "href": "http://airbnb.io/javascript/"
+	    }
+	  }, [_vm._v("Airbnb JavaScript Style Guild")])]), _vm._v(" "), _c('li', [_c('a', {
+	    attrs: {
+	      "href": "https://github.com/feross/standard/blob/master/RULES.md"
+	    }
+	  }, [_vm._v("JavaScript Standard Style")])])])
+	}]}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50c7bf38", module.exports)
+	  }
+	}
+
+/***/ },
+/* 39 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__(40);
+
+/***/ },
+/* 40 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var Component = __webpack_require__(10)(
+	  /* script */
+	  null,
+	  /* template */
+	  __webpack_require__(41),
+	  /* scopeId */
+	  null,
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/4.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] 4.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-50b9a7b7", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-50b9a7b7", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 41 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('section', [_c('h1', [_vm._v("七鱼 CSS 代码规范")]), _vm._v(" "), _c('p', [_vm._v("此规范结合BEM来使用POSTCSS, 让编写CSS样式更容易、更有效。")]), _vm._v(" "), _c('blockquote', [_c('p', [_vm._v("BEM是由@Yandex提出的一种类名命名方式。SUIT是基于BEM上的另一种类名命名方式，只不过@Nicholas Gallagher在BEM的基础上做了一些调整。BEM能做的事情，SUIT都可以做，但很多用户觉得SUIT是BEM的一种改进。\n使用这些方法确实有助于产生更好的，理有结构化的CSS。然而，需要的注意的是，手动输入结构所需的类名会让你感到厌烦，并且跟踪这些类以及如何推动，更会让你感到头痛。")])])], 1)
+	},staticRenderFns: []}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50b9a7b7", module.exports)
+	  }
+	}
+
+/***/ },
+/* 42 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__(43);
+
+/***/ },
+/* 43 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var Component = __webpack_require__(10)(
+	  /* script */
+	  null,
+	  /* template */
+	  __webpack_require__(44),
+	  /* scopeId */
+	  null,
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/6.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] 6.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-50d5d6b9", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-50d5d6b9", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 44 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -4960,39 +9884,39 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50c7bf38", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50d5d6b9", module.exports)
 	  }
 	}
 
 /***/ },
-/* 39 */
+/* 45 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(40);
+	module.exports = __webpack_require__(46);
 
 /***/ },
-/* 40 */
+/* 46 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(41)
-	__webpack_require__(43)
-	__webpack_require__(45)
+	__webpack_require__(47)
+	__webpack_require__(49)
+	__webpack_require__(51)
 
 	var Component = __webpack_require__(10)(
 	  /* script */
-	  __webpack_require__(47),
+	  __webpack_require__(53),
 	  /* template */
-	  __webpack_require__(48),
+	  __webpack_require__(54),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/3.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/7.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 3.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 7.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -5001,9 +9925,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50ab9036", Component.options)
+	    hotAPI.createRecord("data-v-50e3ee3a", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50ab9036", Component.options)
+	    hotAPI.reload("data-v-50e3ee3a", Component.options)
 	  }
 	})()}
 
@@ -5011,23 +9935,23 @@
 
 
 /***/ },
-/* 41 */
+/* 47 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(42);
+	var content = __webpack_require__(48);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(8)("6f852e18", content, false);
+	var update = __webpack_require__(8)("8ea13e9a", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-50ab9036!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=0!./3.vue", function() {
-	     var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-50ab9036!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=0!./3.vue");
+	   module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-50e3ee3a!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=0!./7.vue", function() {
+	     var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-50e3ee3a!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=0!./7.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -5037,7 +9961,7 @@
 	}
 
 /***/ },
-/* 42 */
+/* 48 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -5051,23 +9975,23 @@
 
 
 /***/ },
-/* 43 */
+/* 49 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(44);
+	var content = __webpack_require__(50);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(8)("63ce9f37", content, false);
+	var update = __webpack_require__(8)("a60e5c5c", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-50ab9036!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=1!./3.vue", function() {
-	     var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-50ab9036!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=1!./3.vue");
+	   module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-50e3ee3a!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=1!./7.vue", function() {
+	     var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-50e3ee3a!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=1!./7.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -5077,7 +10001,7 @@
 	}
 
 /***/ },
-/* 44 */
+/* 50 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -5091,23 +10015,23 @@
 
 
 /***/ },
-/* 45 */
+/* 51 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(46);
+	var content = __webpack_require__(52);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(8)("58181056", content, false);
+	var update = __webpack_require__(8)("bd7b7a1e", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-50ab9036!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=2!./3.vue", function() {
-	     var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-50ab9036!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=2!./3.vue");
+	   module.hot.accept("!!./../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-50e3ee3a!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=2!./7.vue", function() {
+	     var newContent = require("!!./../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/style-rewriter.js?id=data-v-50e3ee3a!./../../node_modules/.npminstall/vue-loader/10.3.0/vue-loader/lib/selector.js?type=styles&index=2!./7.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -5117,7 +10041,7 @@
 	}
 
 /***/ },
-/* 46 */
+/* 52 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -5131,7 +10055,7 @@
 
 
 /***/ },
-/* 47 */
+/* 53 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -5553,7 +10477,7 @@
 	};
 
 /***/ },
-/* 48 */
+/* 54 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -6455,29 +11379,29 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50ab9036", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50e3ee3a", module.exports)
 	  }
 	}
 
 /***/ },
-/* 49 */
+/* 55 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(50);
+	module.exports = __webpack_require__(56);
 
 /***/ },
-/* 50 */
+/* 56 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(51)
+	__webpack_require__(57)
 
 	var Component = __webpack_require__(10)(
 	  /* script */
-	  __webpack_require__(53),
+	  __webpack_require__(59),
 	  /* template */
-	  __webpack_require__(54),
+	  __webpack_require__(60),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -6504,13 +11428,13 @@
 
 
 /***/ },
-/* 51 */
+/* 57 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(52);
+	var content = __webpack_require__(58);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
@@ -6530,7 +11454,7 @@
 	}
 
 /***/ },
-/* 52 */
+/* 58 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -6544,7 +11468,7 @@
 
 
 /***/ },
-/* 53 */
+/* 59 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -6641,7 +11565,7 @@
 	};
 
 /***/ },
-/* 54 */
+/* 60 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -6757,28 +11681,28 @@
 	}
 
 /***/ },
-/* 55 */
+/* 61 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(56);
+	module.exports = __webpack_require__(62);
 
 /***/ },
-/* 56 */
+/* 62 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(10)(
 	  /* script */
 	  null,
 	  /* template */
-	  __webpack_require__(57),
+	  __webpack_require__(63),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/7.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/9.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 7.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 9.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -6787,9 +11711,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50e3ee3a", Component.options)
+	    hotAPI.createRecord("data-v-51001d3c", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50e3ee3a", Component.options)
+	    hotAPI.reload("data-v-51001d3c", Component.options)
 	  }
 	})()}
 
@@ -6797,7 +11721,7 @@
 
 
 /***/ },
-/* 57 */
+/* 63 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -6969,33 +11893,33 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50e3ee3a", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-51001d3c", module.exports)
 	  }
 	}
 
 /***/ },
-/* 58 */
+/* 64 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(59);
+	module.exports = __webpack_require__(65);
 
 /***/ },
-/* 59 */
+/* 65 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(10)(
 	  /* script */
-	  __webpack_require__(60),
+	  __webpack_require__(66),
 	  /* template */
-	  __webpack_require__(61),
+	  __webpack_require__(67),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/6.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/10.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 6.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 10.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -7004,9 +11928,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50d5d6b9", Component.options)
+	    hotAPI.createRecord("data-v-7d4f80a8", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50d5d6b9", Component.options)
+	    hotAPI.reload("data-v-7d4f80a8", Component.options)
 	  }
 	})()}
 
@@ -7014,7 +11938,7 @@
 
 
 /***/ },
-/* 60 */
+/* 66 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -7408,7 +12332,7 @@
 	};
 
 /***/ },
-/* 61 */
+/* 67 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -8171,33 +13095,33 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50d5d6b9", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d4f80a8", module.exports)
 	  }
 	}
 
 /***/ },
-/* 62 */
+/* 68 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(63);
+	module.exports = __webpack_require__(69);
 
 /***/ },
-/* 63 */
+/* 69 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(10)(
 	  /* script */
 	  null,
 	  /* template */
-	  __webpack_require__(64),
+	  __webpack_require__(70),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/9.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/11.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 9.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 11.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -8206,9 +13130,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-51001d3c", Component.options)
+	    hotAPI.createRecord("data-v-7d3351a6", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-51001d3c", Component.options)
+	    hotAPI.reload("data-v-7d3351a6", Component.options)
 	  }
 	})()}
 
@@ -8216,7 +13140,7 @@
 
 
 /***/ },
-/* 64 */
+/* 70 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -8338,33 +13262,33 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-51001d3c", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d3351a6", module.exports)
 	  }
 	}
 
 /***/ },
-/* 65 */
+/* 71 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(66);
+	module.exports = __webpack_require__(72);
 
 /***/ },
-/* 66 */
+/* 72 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(10)(
 	  /* script */
-	  __webpack_require__(67),
+	  __webpack_require__(73),
 	  /* template */
-	  __webpack_require__(68),
+	  __webpack_require__(74),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/10.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/12.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 10.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 12.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -8373,9 +13297,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7d4f80a8", Component.options)
+	    hotAPI.createRecord("data-v-7d1722a4", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7d4f80a8", Component.options)
+	    hotAPI.reload("data-v-7d1722a4", Component.options)
 	  }
 	})()}
 
@@ -8383,7 +13307,7 @@
 
 
 /***/ },
-/* 67 */
+/* 73 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -8799,7 +13723,7 @@
 	};
 
 /***/ },
-/* 68 */
+/* 74 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -9598,33 +14522,33 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d4f80a8", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d1722a4", module.exports)
 	  }
 	}
 
 /***/ },
-/* 69 */
+/* 75 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(70);
+	module.exports = __webpack_require__(76);
 
 /***/ },
-/* 70 */
+/* 76 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(10)(
 	  /* script */
-	  __webpack_require__(71),
+	  __webpack_require__(77),
 	  /* template */
-	  __webpack_require__(72),
+	  __webpack_require__(78),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/11.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/13.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 11.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 13.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -9633,9 +14557,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7d3351a6", Component.options)
+	    hotAPI.createRecord("data-v-7cfaf3a2", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7d3351a6", Component.options)
+	    hotAPI.reload("data-v-7cfaf3a2", Component.options)
 	  }
 	})()}
 
@@ -9643,7 +14567,7 @@
 
 
 /***/ },
-/* 71 */
+/* 77 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -9778,7 +14702,7 @@
 	};
 
 /***/ },
-/* 72 */
+/* 78 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -10072,33 +14996,33 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d3351a6", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cfaf3a2", module.exports)
 	  }
 	}
 
 /***/ },
-/* 73 */
+/* 79 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = __webpack_require__(74);
+	module.exports = __webpack_require__(80);
 
 /***/ },
-/* 74 */
+/* 80 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(10)(
 	  /* script */
-	  __webpack_require__(75),
+	  __webpack_require__(81),
 	  /* template */
-	  __webpack_require__(76),
+	  __webpack_require__(82),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/12.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/14.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 12.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 14.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -10107,9 +15031,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7d1722a4", Component.options)
+	    hotAPI.createRecord("data-v-7cdec4a0", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7d1722a4", Component.options)
+	    hotAPI.reload("data-v-7cdec4a0", Component.options)
 	  }
 	})()}
 
@@ -10117,7 +15041,7 @@
 
 
 /***/ },
-/* 75 */
+/* 81 */
 /***/ function(module, exports) {
 
 	//
@@ -10174,7 +15098,7 @@
 	"use strict";
 
 /***/ },
-/* 76 */
+/* 82 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -10691,23 +15615,23 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d1722a4", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cdec4a0", module.exports)
 	  }
 	}
 
 /***/ },
-/* 77 */
+/* 83 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(78)
+	__webpack_require__(84)
 
 	var Component = __webpack_require__(10)(
 	  /* script */
-	  __webpack_require__(80),
+	  __webpack_require__(86),
 	  /* template */
-	  __webpack_require__(81),
+	  __webpack_require__(87),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -10734,13 +15658,13 @@
 
 
 /***/ },
-/* 78 */
+/* 84 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(79);
+	var content = __webpack_require__(85);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
@@ -10760,7 +15684,7 @@
 	}
 
 /***/ },
-/* 79 */
+/* 85 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -10774,7 +15698,7 @@
 
 
 /***/ },
-/* 80 */
+/* 86 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -10969,7 +15893,7 @@
 	};
 
 /***/ },
-/* 81 */
+/* 87 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -11018,18 +15942,18 @@
 	}
 
 /***/ },
-/* 82 */
+/* 88 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(83)
+	__webpack_require__(89)
 
 	var Component = __webpack_require__(10)(
 	  /* script */
 	  null,
 	  /* template */
-	  __webpack_require__(85),
+	  __webpack_require__(91),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -11056,13 +15980,13 @@
 
 
 /***/ },
-/* 83 */
+/* 89 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(84);
+	var content = __webpack_require__(90);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
@@ -11082,7 +16006,7 @@
 	}
 
 /***/ },
-/* 84 */
+/* 90 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -11096,7 +16020,7 @@
 
 
 /***/ },
-/* 85 */
+/* 91 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -11130,18 +16054,18 @@
 	}
 
 /***/ },
-/* 86 */
+/* 92 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(87)
+	__webpack_require__(93)
 
 	var Component = __webpack_require__(10)(
 	  /* script */
-	  __webpack_require__(89),
+	  __webpack_require__(95),
 	  /* template */
-	  __webpack_require__(90),
+	  __webpack_require__(96),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -11168,13 +16092,13 @@
 
 
 /***/ },
-/* 87 */
+/* 93 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(88);
+	var content = __webpack_require__(94);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
@@ -11194,7 +16118,7 @@
 	}
 
 /***/ },
-/* 88 */
+/* 94 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -11208,7 +16132,7 @@
 
 
 /***/ },
-/* 89 */
+/* 95 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -11414,7 +16338,7 @@
 	};
 
 /***/ },
-/* 90 */
+/* 96 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -11448,18 +16372,18 @@
 	}
 
 /***/ },
-/* 91 */
+/* 97 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(92)
+	__webpack_require__(98)
 
 	var Component = __webpack_require__(10)(
 	  /* script */
-	  __webpack_require__(94),
+	  __webpack_require__(100),
 	  /* template */
-	  __webpack_require__(95),
+	  __webpack_require__(101),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -11486,13 +16410,13 @@
 
 
 /***/ },
-/* 92 */
+/* 98 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(93);
+	var content = __webpack_require__(99);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
@@ -11512,7 +16436,7 @@
 	}
 
 /***/ },
-/* 93 */
+/* 99 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -11526,7 +16450,7 @@
 
 
 /***/ },
-/* 94 */
+/* 100 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -11650,7 +16574,7 @@
 	};
 
 /***/ },
-/* 95 */
+/* 101 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -11716,18 +16640,18 @@
 	}
 
 /***/ },
-/* 96 */
+/* 102 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(97)
+	__webpack_require__(103)
 
 	var Component = __webpack_require__(10)(
 	  /* script */
-	  __webpack_require__(99),
+	  __webpack_require__(105),
 	  /* template */
-	  __webpack_require__(100),
+	  __webpack_require__(106),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -11754,13 +16678,13 @@
 
 
 /***/ },
-/* 97 */
+/* 103 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(98);
+	var content = __webpack_require__(104);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
@@ -11780,7 +16704,7 @@
 	}
 
 /***/ },
-/* 98 */
+/* 104 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -11794,7 +16718,7 @@
 
 
 /***/ },
-/* 99 */
+/* 105 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11914,7 +16838,7 @@
 	//
 
 /***/ },
-/* 100 */
+/* 106 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -11949,7 +16873,7 @@
 	}
 
 /***/ },
-/* 101 */
+/* 107 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -11958,59 +16882,59 @@
 
 	var _vue2 = _interopRequireDefault(_vue);
 
-	var _sfButton = __webpack_require__(102);
+	var _sfButton = __webpack_require__(108);
 
 	var _sfButton2 = _interopRequireDefault(_sfButton);
 
-	var _tableColumn = __webpack_require__(104);
+	var _tableColumn = __webpack_require__(110);
 
 	var _tableColumn2 = _interopRequireDefault(_tableColumn);
 
-	var _table = __webpack_require__(105);
+	var _table = __webpack_require__(111);
 
 	var _table2 = _interopRequireDefault(_table);
 
-	var _clipLoader = __webpack_require__(113);
+	var _clipLoader = __webpack_require__(119);
 
 	var _clipLoader2 = _interopRequireDefault(_clipLoader);
 
-	var _scaleLoader = __webpack_require__(116);
+	var _scaleLoader = __webpack_require__(122);
 
 	var _scaleLoader2 = _interopRequireDefault(_scaleLoader);
 
-	var _riseLoader = __webpack_require__(118);
+	var _riseLoader = __webpack_require__(124);
 
 	var _riseLoader2 = _interopRequireDefault(_riseLoader);
 
-	var _squareLoader = __webpack_require__(120);
+	var _squareLoader = __webpack_require__(126);
 
 	var _squareLoader2 = _interopRequireDefault(_squareLoader);
 
-	var _toast = __webpack_require__(122);
+	var _toast = __webpack_require__(128);
 
 	var _toast2 = _interopRequireDefault(_toast);
 
-	var _progressbar = __webpack_require__(124);
+	var _progressbar = __webpack_require__(130);
 
 	var _progressbar2 = _interopRequireDefault(_progressbar);
 
-	var _sfTooltips = __webpack_require__(126);
+	var _sfTooltips = __webpack_require__(132);
 
 	var _sfTooltips2 = _interopRequireDefault(_sfTooltips);
 
-	var _pagination = __webpack_require__(128);
+	var _pagination = __webpack_require__(134);
 
 	var _pagination2 = _interopRequireDefault(_pagination);
 
-	var _select = __webpack_require__(144);
+	var _select = __webpack_require__(150);
 
 	var _select2 = _interopRequireDefault(_select);
 
-	var _draganddrop = __webpack_require__(150);
+	var _draganddrop = __webpack_require__(156);
 
 	var _draganddrop2 = _interopRequireDefault(_draganddrop);
 
-	var _draggable = __webpack_require__(157);
+	var _draggable = __webpack_require__(163);
 
 	var _draggable2 = _interopRequireDefault(_draggable);
 
@@ -12049,7 +16973,7 @@
 	}
 
 /***/ },
-/* 102 */
+/* 108 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12070,7 +16994,7 @@
 
 	module.exports = {
 		name: 'sf-button',
-		template: __webpack_require__(103),
+		template: __webpack_require__(109),
 		props: {
 			color: {
 				type: String,
@@ -12088,13 +17012,13 @@
 	};
 
 /***/ },
-/* 103 */
+/* 109 */
 /***/ function(module, exports) {
 
 	module.exports = "<transition name=\"fade\">\n<a\n   :class=\"[\n        'u-button',\n        'u-button--'+size,\n        'u-button--'+color,\n        {'is-disabled': disabled},\n        {'is-plain' : plain}\n    ]\"\n   :style=\"{display: block ? 'block' : 'inline-block' }\" >\n\t<slot></slot>\n</a>\n</transition>\n";
 
 /***/ },
-/* 104 */
+/* 110 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -12362,14 +17286,14 @@
 	};
 
 /***/ },
-/* 105 */
+/* 111 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(10)(
 	  /* script */
-	  __webpack_require__(106),
-	  /* template */
 	  __webpack_require__(112),
+	  /* template */
+	  __webpack_require__(118),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -12396,7 +17320,7 @@
 
 
 /***/ },
-/* 106 */
+/* 112 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12405,19 +17329,19 @@
 	    value: true
 	});
 
-	var _tableStore = __webpack_require__(107);
+	var _tableStore = __webpack_require__(113);
 
 	var _tableStore2 = _interopRequireDefault(_tableStore);
 
-	var _tableLayout = __webpack_require__(109);
+	var _tableLayout = __webpack_require__(115);
 
 	var _tableLayout2 = _interopRequireDefault(_tableLayout);
 
-	var _tableBody = __webpack_require__(110);
+	var _tableBody = __webpack_require__(116);
 
 	var _tableBody2 = _interopRequireDefault(_tableBody);
 
-	var _tableHeader = __webpack_require__(111);
+	var _tableHeader = __webpack_require__(117);
 
 	var _tableHeader2 = _interopRequireDefault(_tableHeader);
 
@@ -12527,7 +17451,7 @@
 	};
 
 /***/ },
-/* 107 */
+/* 113 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12536,7 +17460,7 @@
 		value: true
 	});
 
-	var _util = __webpack_require__(108);
+	var _util = __webpack_require__(114);
 
 	/**
 	 * 排序数据
@@ -12721,7 +17645,7 @@
 	exports.default = TableStore;
 
 /***/ },
-/* 108 */
+/* 114 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -12852,7 +17776,7 @@
 	};
 
 /***/ },
-/* 109 */
+/* 115 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -12868,7 +17792,7 @@
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * @date:     2017-02-05  下午1:59
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      */
 
-	var _util = __webpack_require__(108);
+	var _util = __webpack_require__(114);
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -12943,7 +17867,7 @@
 	exports.default = TableLayout;
 
 /***/ },
-/* 110 */
+/* 116 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -12952,7 +17876,7 @@
 		value: true
 	});
 
-	var _util = __webpack_require__(108);
+	var _util = __webpack_require__(114);
 
 	exports.default = {
 		props: {
@@ -13114,7 +18038,7 @@
 	};
 
 /***/ },
-/* 111 */
+/* 117 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -13257,7 +18181,7 @@
 	};
 
 /***/ },
-/* 112 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -13305,7 +18229,7 @@
 	}
 
 /***/ },
-/* 113 */
+/* 119 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13316,12 +18240,12 @@
 	 * @author:   波比(｡･∀･)ﾉﾞ
 	 * @date:     2016-10-10  上午11:53
 	 */
-	var mixin = __webpack_require__(114);
+	var mixin = __webpack_require__(120);
 
 	module.exports = {
 		name: 'sf-cliploader',
 		mixins: [mixin],
-		template: __webpack_require__(115),
+		template: __webpack_require__(121),
 		computed: {
 			clipStyle: function clipStyle() {
 				return {
@@ -13344,7 +18268,7 @@
 	};
 
 /***/ },
-/* 114 */
+/* 120 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -13377,13 +18301,13 @@
 	};
 
 /***/ },
-/* 115 */
+/* 121 */
 /***/ function(module, exports) {
 
 	module.exports = "<transition name=\"sf-spinner\">\n\t<div class=\"sf-spinner sf-spinner--clip\">\n\t\t<div class=\"cell\" :style=\"cellStyle\">\n\t\t\t<i class=\"clip\" :style=\"clipStyle\">\n\n\t\t\t</i>\n\t\t</div>\n\t</div>\n</transition>\n";
 
 /***/ },
-/* 116 */
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13394,7 +18318,7 @@
 	 * @author:   波比(｡･∀･)ﾉﾞ
 	 * @date:     2016-10-10  上午11:53
 	 */
-	var mixin = __webpack_require__(114);
+	var mixin = __webpack_require__(120);
 
 	module.exports = {
 		name: 'sf-scaleloader',
@@ -13413,7 +18337,7 @@
 				default: 2
 			}
 		},
-		template: __webpack_require__(117),
+		template: __webpack_require__(123),
 		computed: {
 			scaleStyle: function scaleStyle() {
 				return {
@@ -13426,13 +18350,13 @@
 	};
 
 /***/ },
-/* 117 */
+/* 123 */
 /***/ function(module, exports) {
 
 	module.exports = "<transition name=\"sf-spinner\">\n\t<div class=\"sf-spinner sf-spinner--scale\">\n\t\t<div class=\"cell\">\n\t\t\t<i class=\"scale scale1\" :style=\"scaleStyle\"></i>\n\t\t\t<i class=\"scale scale2\" :style=\"scaleStyle\"></i>\n\t\t\t<i class=\"scale scale3\" :style=\"scaleStyle\"></i>\n\t\t\t<i class=\"scale scale4\" :style=\"scaleStyle\"></i>\n\t\t\t<i class=\"scale scale5\" :style=\"scaleStyle\"></i>\n\t\t</div>\n\t</div>\n</transition>\n";
 
 /***/ },
-/* 118 */
+/* 124 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13443,12 +18367,12 @@
 	 * @author:   波比(｡･∀･)ﾉﾞ
 	 * @date:     2016-10-10  上午11:53
 	 */
-	var mixin = __webpack_require__(114);
+	var mixin = __webpack_require__(120);
 
 	module.exports = {
 		name: 'sf-riseloader',
 		mixins: [mixin],
-		template: __webpack_require__(119),
+		template: __webpack_require__(125),
 		computed: {
 			riseStyle: function riseStyle() {
 				return {
@@ -13462,13 +18386,13 @@
 	};
 
 /***/ },
-/* 119 */
+/* 125 */
 /***/ function(module, exports) {
 
 	module.exports = "<transition name=\"sf-spinner\">\n\t<div class=\"sf-spinner sf-spinner--rise\">\n\t\t<div class=\"cell\">\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t</div>\n\t</div>\n</transition>";
 
 /***/ },
-/* 120 */
+/* 126 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13479,12 +18403,12 @@
 	 * @author:   波比(｡･∀･)ﾉﾞ
 	 * @date:     2016-10-10  上午11:53
 	 */
-	var mixin = __webpack_require__(114);
+	var mixin = __webpack_require__(120);
 
 	module.exports = {
 		name: 'sf-squareloader',
 		mixins: [mixin],
-		template: __webpack_require__(121),
+		template: __webpack_require__(127),
 		computed: {
 			squareStyle: function squareStyle() {
 				return {
@@ -13497,13 +18421,13 @@
 	};
 
 /***/ },
-/* 121 */
+/* 127 */
 /***/ function(module, exports) {
 
 	module.exports = "<transition name=\"sf-spinner\">\n\t<div class=\"sf-spinner sf-spinner--square\">\n\t\t<div class=\"cell\">\n\t\t\t<i class=\"square\" :style=\"squareStyle\"></i>\n\t\t</div>\n\t</div>\n</transition>\n";
 
 /***/ },
-/* 122 */
+/* 128 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13521,7 +18445,7 @@
 	var Vue = __webpack_require__(1);
 
 	var toast = new Vue({
-		template: __webpack_require__(123),
+		template: __webpack_require__(129),
 		el: '#iframe',
 		data: function data() {
 			return {
@@ -13561,13 +18485,13 @@
 	module.exports = toast;
 
 /***/ },
-/* 123 */
+/* 129 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"sf-toast\" :class=\"['sf-toast--'+position]\">\n\t<transition-group name=\"toast_message\" tag=\"div\">\n\t\t<div class=\"toast_message\" :class=\"'message-'+x.type\" v-for=\"x in messages\" :key=\"x.id\" >\n\t\t\t<div class=\"text\" v-html=\"x.text\"></div>\n\t\t\t<i class=\"u-icon u-icon-close\" @click=\"close(x.id)\"></i>\n\t\t</div>\n\t</transition-group>\n</div>\n";
 
 /***/ },
-/* 124 */
+/* 130 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13585,7 +18509,7 @@
 	 */
 
 	module.exports = {
-		template: __webpack_require__(125),
+		template: __webpack_require__(131),
 		props: {
 			type: {
 				type: String,
@@ -13608,13 +18532,13 @@
 	};
 
 /***/ },
-/* 125 */
+/* 131 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"sf-progressbar\">\n\t<div class=\"progressbar\" :class=\"['progressbar--' + type, {'progressbar--striped' : striped}]\" :style=\"{width : percent + '%'}\">\n\t\t\t{{label}}\n\t</div>\n</div>\n";
 
 /***/ },
-/* 126 */
+/* 132 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13631,7 +18555,7 @@
 
 	module.exports = {
 		name: 'sf-tooltips',
-		template: __webpack_require__(127),
+		template: __webpack_require__(133),
 		props: ['content', 'placement'],
 		data: function data() {
 			return {
@@ -13650,20 +18574,20 @@
 	};
 
 /***/ },
-/* 127 */
+/* 133 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"m-tooltips\">\n    <div v-on:mouseenter=\"showTipsInfo\" v-on:mouseleave=\"hideTipsInfo\" class=\"target\">\n        <slot>fff</slot>\n    </div>\n    <transition name=\"fade\">\n\t    <div class=\"cart\" v-show=\"isShowTips\" v-bind:class=\"{'cart-down': placement == 'down left' ||   placement == 'down' ||   placement == 'down right' ||  placement == 'down center','cart-up': placement == 'up' ||  placement == 'up left' ||  placement == 'up right' ||  placement == 'up center','cart-right': placement == 'right' ||  placement == 'right up' || placement == 'right center' || placement == 'right down','cart-left': placement == 'left' ||  placement == 'left up' ||  placement == 'left down' ||  placement == 'left center' || placement == 'left'}\"></div>\n\t</transition>\n\t<transition name=\"fade\">\n\t    <div class=\"content\" v-show=\"isShowTips\" ref=\"content\" v-bind:class=\"{'pos-down': placement == 'down','pos-up': placement == 'up','pos-left': placement == 'left' || placement == 'left center','pos-right': placement == 'right' ||  placement == 'right center','pos-down-left': placement == 'down left','pos-down-right': placement == 'down right','pos-right-down': placement == 'right down','pos-up-left': placement == 'up left','pos-up-right': placement == 'up right','pos-right-up': placement == 'right up','pos-left-up': placement == 'left up','pos-left-down': placement == 'left down'}\" v-html=\"content\">\n\t        \n\t    </div>\n\t</transition>\n</div>\n";
 
 /***/ },
-/* 128 */
+/* 134 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(10)(
 	  /* script */
-	  __webpack_require__(129),
+	  __webpack_require__(135),
 	  /* template */
-	  __webpack_require__(143),
+	  __webpack_require__(149),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -13690,7 +18614,7 @@
 
 
 /***/ },
-/* 129 */
+/* 135 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -13719,11 +18643,11 @@
 	 */
 	exports.default = {
 	    components: {
-	        'pagination': __webpack_require__(130),
-	        'paginationItem': __webpack_require__(132),
-	        'paginationNext': __webpack_require__(135),
-	        'paginationPrev': __webpack_require__(138),
-	        'paginationDot': __webpack_require__(141)
+	        'pagination': __webpack_require__(136),
+	        'paginationItem': __webpack_require__(138),
+	        'paginationNext': __webpack_require__(141),
+	        'paginationPrev': __webpack_require__(144),
+	        'paginationDot': __webpack_require__(147)
 	    },
 	    props: ['total', 'current', 'limit', 'unit'],
 	    watch: {
@@ -13793,14 +18717,14 @@
 	};
 
 /***/ },
-/* 130 */
+/* 136 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(10)(
 	  /* script */
 	  null,
 	  /* template */
-	  __webpack_require__(131),
+	  __webpack_require__(137),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -13827,7 +18751,7 @@
 
 
 /***/ },
-/* 131 */
+/* 137 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -13844,14 +18768,14 @@
 	}
 
 /***/ },
-/* 132 */
+/* 138 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(10)(
 	  /* script */
-	  __webpack_require__(133),
+	  __webpack_require__(139),
 	  /* template */
-	  __webpack_require__(134),
+	  __webpack_require__(140),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -13878,7 +18802,7 @@
 
 
 /***/ },
-/* 133 */
+/* 139 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -13909,7 +18833,7 @@
 	};
 
 /***/ },
-/* 134 */
+/* 140 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -13928,14 +18852,14 @@
 	}
 
 /***/ },
-/* 135 */
+/* 141 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(10)(
 	  /* script */
-	  __webpack_require__(136),
+	  __webpack_require__(142),
 	  /* template */
-	  __webpack_require__(137),
+	  __webpack_require__(143),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -13962,7 +18886,7 @@
 
 
 /***/ },
-/* 136 */
+/* 142 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -13987,7 +18911,7 @@
 	};
 
 /***/ },
-/* 137 */
+/* 143 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14010,14 +18934,14 @@
 	}
 
 /***/ },
-/* 138 */
+/* 144 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(10)(
 	  /* script */
-	  __webpack_require__(139),
+	  __webpack_require__(145),
 	  /* template */
-	  __webpack_require__(140),
+	  __webpack_require__(146),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -14044,7 +18968,7 @@
 
 
 /***/ },
-/* 139 */
+/* 145 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -14069,7 +18993,7 @@
 	};
 
 /***/ },
-/* 140 */
+/* 146 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14092,14 +19016,14 @@
 	}
 
 /***/ },
-/* 141 */
+/* 147 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(10)(
 	  /* script */
 	  null,
 	  /* template */
-	  __webpack_require__(142),
+	  __webpack_require__(148),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
@@ -14126,7 +19050,7 @@
 
 
 /***/ },
-/* 142 */
+/* 148 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14141,7 +19065,7 @@
 	}
 
 /***/ },
-/* 143 */
+/* 149 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14199,18 +19123,18 @@
 	}
 
 /***/ },
-/* 144 */
+/* 150 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(145)
+	__webpack_require__(151)
 
 	var Component = __webpack_require__(10)(
 	  /* script */
-	  __webpack_require__(148),
+	  __webpack_require__(154),
 	  /* template */
-	  __webpack_require__(149),
+	  __webpack_require__(155),
 	  /* scopeId */
 	  "data-v-ddb738a2",
 	  /* cssModules */
@@ -14237,13 +19161,13 @@
 
 
 /***/ },
-/* 145 */
+/* 151 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(146);
+	var content = __webpack_require__(152);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
@@ -14263,7 +19187,7 @@
 	}
 
 /***/ },
-/* 146 */
+/* 152 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -14271,19 +19195,19 @@
 
 
 	// module
-	exports.push([module.id, "\n.m-select[data-v-ddb738a2] {\n  display: inline-block;\n  position: relative;\n  margin: 0 auto;\n  height: 32px;\n  vertical-align: middle;\n  background: #fafafa;\n  border: 1px solid #ebebeb;\n  border-radius: 2px;\n  box-shadow: 0 1px 2px -3px #000;\n  cursor: pointer;\n}\n.m-select .select-sel[data-v-ddb738a2] {\n    height: 32px;\n    line-height: 32px;\n    padding: 0 50px 0 40px;\n    color: #000;\n    border: none;\n}\n.m-select .select-sel span[data-v-ddb738a2] {\n      line-height: 32px;\n      vertical-align: top;\n}\n.m-select .select-sel.disabled[data-v-ddb738a2] {\n      color: #999;\n      background: #eee;\n      cursor: not-allowed;\n}\n.m-select .select-cnt[data-v-ddb738a2] {\n    position: absolute;\n    top: 36px;\n    left: 0;\n    width: 150px;\n    border: 1px solid #e6eaeb;\n    border-radius: 2px;\n    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);\n    background-color: #fff;\n    z-index: 10;\n}\n.m-select .select-cnt .list[data-v-ddb738a2] {\n      position: relative;\n      max-height: 300px;\n      overflow: hidden;\n      background-color: #fff;\n}\n.m-select .u-icon-down[data-v-ddb738a2] {\n    position: absolute;\n    top: 15px;\n    right: 10px;\n    width: 12px;\n    height: 12px;\n    background: url(" + __webpack_require__(147) + ");\n    background-position: 0 -540px;\n    background-size: 120px auto;\n}\n", ""]);
+	exports.push([module.id, "\n.m-select[data-v-ddb738a2] {\n  display: inline-block;\n  position: relative;\n  margin: 0 auto;\n  height: 32px;\n  vertical-align: middle;\n  background: #fafafa;\n  border: 1px solid #ebebeb;\n  border-radius: 2px;\n  box-shadow: 0 1px 2px -3px #000;\n  cursor: pointer;\n}\n.m-select .select-sel[data-v-ddb738a2] {\n    height: 32px;\n    line-height: 32px;\n    padding: 0 50px 0 40px;\n    color: #000;\n    border: none;\n}\n.m-select .select-sel span[data-v-ddb738a2] {\n      line-height: 32px;\n      vertical-align: top;\n}\n.m-select .select-sel.disabled[data-v-ddb738a2] {\n      color: #999;\n      background: #eee;\n      cursor: not-allowed;\n}\n.m-select .select-cnt[data-v-ddb738a2] {\n    position: absolute;\n    top: 36px;\n    left: 0;\n    width: 150px;\n    border: 1px solid #e6eaeb;\n    border-radius: 2px;\n    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);\n    background-color: #fff;\n    z-index: 10;\n}\n.m-select .select-cnt .list[data-v-ddb738a2] {\n      position: relative;\n      max-height: 300px;\n      overflow: hidden;\n      background-color: #fff;\n}\n.m-select .u-icon-down[data-v-ddb738a2] {\n    position: absolute;\n    top: 15px;\n    right: 10px;\n    width: 12px;\n    height: 12px;\n    background: url(" + __webpack_require__(153) + ");\n    background-position: 0 -540px;\n    background-size: 120px auto;\n}\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 147 */
+/* 153 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "icon-12.png?e5d84533d70ccdd978e4ae4b5cea36dc";
 
 /***/ },
-/* 148 */
+/* 154 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -14459,7 +19383,7 @@
 	};
 
 /***/ },
-/* 149 */
+/* 155 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -14502,7 +19426,7 @@
 	}
 
 /***/ },
-/* 150 */
+/* 156 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -14523,13 +19447,13 @@
 	 *
 	 */
 
-	var dom = __webpack_require__(151);
-	var manage = __webpack_require__(152);
-	var _ = __webpack_require__(153);
+	var dom = __webpack_require__(157);
+	var manage = __webpack_require__(158);
+	var _ = __webpack_require__(159);
 
 	module.exports = {
 		name: 'sf-dnd',
-		template: __webpack_require__(156),
+		template: __webpack_require__(162),
 		props: {
 			from: {
 				type: String,
@@ -14952,7 +19876,7 @@
 	};
 
 /***/ },
-/* 151 */
+/* 157 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -15095,7 +20019,7 @@
 	module.exports = dom;
 
 /***/ },
-/* 152 */
+/* 158 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -15106,7 +20030,7 @@
 	 * @author:   波比(｡･∀･)ﾉﾞ
 	 * @date:     2016-10-15  下午5:06
 	 */
-	var _ = __webpack_require__(153);
+	var _ = __webpack_require__(159);
 	var position = {
 		startX: 0, // 鼠标开始X坐标
 		startY: 0, // 鼠标开始Y坐标
@@ -15173,7 +20097,7 @@
 	};
 
 /***/ },
-/* 153 */
+/* 159 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(global, module) {'use strict';var _typeof=typeof Symbol==="function"&&typeof Symbol.iterator==="symbol"?function(obj){return typeof obj;}:function(obj){return obj&&typeof Symbol==="function"&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;};/**
@@ -24610,7 +29534,7 @@
 	lodash.prototype.at=wrapperAt;lodash.prototype.chain=wrapperChain;lodash.prototype.commit=wrapperCommit;lodash.prototype.next=wrapperNext;lodash.prototype.plant=wrapperPlant;lodash.prototype.reverse=wrapperReverse;lodash.prototype.toJSON=lodash.prototype.valueOf=lodash.prototype.value=wrapperValue;// Add lazy aliases.
 	lodash.prototype.first=lodash.prototype.head;if(symIterator){lodash.prototype[symIterator]=wrapperToIterator;}return lodash;};/*--------------------------------------------------------------------------*/// Export lodash.
 	var _=runInContext();// Some AMD build optimizers, like r.js, check for condition patterns like:
-	if("function"=='function'&&_typeof(__webpack_require__(155))=='object'&&__webpack_require__(155)){// Expose Lodash on the global object to prevent errors when Lodash is
+	if("function"=='function'&&_typeof(__webpack_require__(161))=='object'&&__webpack_require__(161)){// Expose Lodash on the global object to prevent errors when Lodash is
 	// loaded by a script tag in the presence of an AMD loader.
 	// See http://requirejs.org/docs/errors.html#mismatch for more details.
 	// Use `_.noConflict` to remove Lodash from the global object.
@@ -24621,10 +29545,10 @@
 	(freeModule.exports=_)._=_;// Export for CommonJS support.
 	freeExports._=_;}else{// Export to the global object.
 	root._=_;}}).call(undefined);
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(154)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(160)(module)))
 
 /***/ },
-/* 154 */
+/* 160 */
 /***/ function(module, exports) {
 
 	module.exports = function (module) {
@@ -24639,7 +29563,7 @@
 	};
 
 /***/ },
-/* 155 */
+/* 161 */
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(__webpack_amd_options__) {module.exports = __webpack_amd_options__;
@@ -24647,13 +29571,13 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, {}))
 
 /***/ },
-/* 156 */
+/* 162 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"sf-dnd\" :class=\"classEx\"  @mousedown=\"mousedown\" >\n\t<transition-group\n\t\tname=\"dnd_item\"\n\t\t:tag=\"tag\"\n\t>\n\t\t<slot class=\"dnd_item\"></slot>\n\t</transition-group>\n</div>";
 
 /***/ },
-/* 157 */
+/* 163 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -24665,14 +29589,14 @@
 	 * @date:     2016-10-15  下午5:27
 	 */
 
-	var dom = __webpack_require__(151);
-	var manage = __webpack_require__(152);
-	var _ = __webpack_require__(153);
-	var dnd = __webpack_require__(150);
+	var dom = __webpack_require__(157);
+	var manage = __webpack_require__(158);
+	var _ = __webpack_require__(159);
+	var dnd = __webpack_require__(156);
 
 	module.exports = {
 		name: 'sf-draggable',
-		template: __webpack_require__(158),
+		template: __webpack_require__(164),
 		props: {
 			axis: {
 				type: String,
@@ -24830,7 +29754,7 @@
 	};
 
 /***/ },
-/* 158 */
+/* 164 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"m-draggable\" :class=\"classEx\"  @mousedown=\"mousedown\" >\n\t<slot></slot>\n</div>";
