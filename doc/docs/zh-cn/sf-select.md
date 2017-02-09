@@ -21,8 +21,8 @@
               {id: 0, name: '网易云'},
               {id: 1, name: '网易七鱼'},
               {id: 2, name: '网易云信'},
-              {id: 2, name: '网易蜂巢'},
-              {id: 2, name: '网易易盾'}
+              {id: 3, name: '网易蜂巢'},
+              {id: 4, name: '网易易盾'}
             ]
         }
       }
@@ -50,8 +50,8 @@
               {id: 0, name: '网易云'},
               {id: 1, name: '网易七鱼'},
               {id: 2, name: '网易云信'},
-              {id: 2, name: '网易蜂巢'},
-              {id: 2, name: '网易易盾'}
+              {id: 3, name: '网易蜂巢'},
+              {id: 4, name: '网易易盾'}
             ]
         }
       }
@@ -79,8 +79,8 @@
               {id: 0, name: '网易云'},
               {id: 1, name: '网易七鱼'},
               {id: 2, name: '网易云信'},
-              {id: 2, name: '网易蜂巢'},
-              {id: 2, name: '网易易盾'}
+              {id: 3, name: '网易蜂巢'},
+              {id: 4, name: '网易易盾'}
             ]
         }
       }
@@ -108,15 +108,15 @@
             {id: 0, name: '网易云'},
             {id: 1, name: '网易七鱼'},
             {id: 2, name: '网易云信'},
-            {id: 2, name: '网易蜂巢'},
-            {id: 2, name: '网易易盾'}
+            {id: 3, name: '网易蜂巢'},
+            {id: 4, name: '网易易盾'}
           ],
           options1:[
             {id: 0, name: '网易云'},
             {id: 1, name: '网易七鱼', disabled: true},
             {id: 2, name: '网易云信'},
-            {id: 2, name: '网易蜂巢'},
-            {id: 2, name: '网易易盾'}
+            {id: 3, name: '网易蜂巢'},
+            {id: 4, name: '网易易盾'}
           ]
         }
       }
@@ -147,15 +147,15 @@
             {id: 0, name: '网易云', des: 'cloud'},
             {id: 1, name: '网易七鱼', des: 'qiyu'},
             {id: 2, name: '网易云信', des: 'yunxin'},
-            {id: 2, name: '网易蜂巢', des:'fc'},
-            {id: 2, name: '网易易盾', des: 'edun'}
+            {id: 3, name: '网易蜂巢', des:'fc'},
+            {id: 4, name: '网易易盾', des: 'edun'}
           ],
           options1:[
             {id: 0, name: '网易云'},
             {id: 1, name: '网易七鱼', disabled: true},
             {id: 2, name: '网易云信'},
-            {id: 2, name: '网易蜂巢'},
-            {id: 2, name: '网易易盾'}
+            {id: 3, name: '网易蜂巢'},
+            {id: 4, name: '网易易盾'}
           ]
         }
       }
