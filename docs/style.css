@@ -1251,3 +1251,15 @@
 .sf-pagination .arrow-left {
   transform: rotate(180deg);
   margin-top: -1rem; }
+.sf-dnd .dnd_item-enter-active, .sf-dnd .dnd_item-leave {
+  transition: all 0.2s cubic-bezier(0.2, 0.68, 0.18, 1.08);
+  opacity: 1; }
+.sf-dnd .dnd_item-enter, .sf-dnd .dnd_item-leave-active {
+  transition: all 0.2s cubic-bezier(0.2, 0.68, 0.18, 1.08);
+  opacity: 0; }
+.sf-dnd .dnd_item-move {
+  transition: transform 0.5s cubic-bezier(0.2, 0.68, 0.18, 1.08); }
+.is-sliding {
+  background-color: rgba(158, 158, 158, .2) !important; }
+.sf-draggable {
+  cursor: move; }

@@ -7,6 +7,8 @@
     "sf-table": "*",
     "sf-button":"*",
     "sf-tooltips":"*",
-    "sf-pagination" : "*"
+    "sf-pagination" : "*",
+    "sf-select" : "*",
+    "sf-dnd" : "*"
   }
 }

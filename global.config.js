@@ -70,6 +70,20 @@ module.exports = [
 	{
 		name: "sf-select",
 		label: "Select 选择器",
-		path :""
-	}
+		css :"select",
+		path : "select.vue"
+	},
+	{
+		name: "sf-dnd",
+		label: "DragAndDrop 拖拽",
+		css : "draganddrop",
+		path :"",
+		child : [{
+			path : "draganddrop",
+			name : 'sf-dnd'
+		},{
+			path : "draggable/draggable",
+			name : 'sf-draggable'
+		}]
+	},
 ]
