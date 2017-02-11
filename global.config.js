@@ -71,7 +71,14 @@ module.exports = [
 		name: "sf-select",
 		label: "Select 选择器",
 		css :"select",
-		path : "select.vue"
+		path : "",
+		child : [{
+			path : "select.vue",
+			name : 'sf-select'
+		},{
+			path : "option.vue",
+			name : 'sf-option'
+		}]
 	},
 	{
 		name: "sf-colorpicker",

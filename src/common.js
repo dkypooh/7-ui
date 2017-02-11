@@ -49,6 +49,10 @@ import sfselect from 'sf-select/src/select.vue';
 Vue.component('sf-select', sfselect);
 
 
+import sfoption from 'sf-select/src/option.vue';
+Vue.component('sf-option', sfoption);
+
+
 import sfcolorpicker from 'sf-colorpicker/src/colorpicker';
 Vue.component('sf-colorpicker', sfcolorpicker);
 
