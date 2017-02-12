@@ -63,6 +63,10 @@
 			"path": "/sf-dnd",
 			"name": "DragAndDrop 拖拽",
 			"title": "DragAndDrop 拖拽"
+		},{
+			"path": "/sf-tree-select",
+			"name": "TreeSelect 树形下拉选择器",
+			"title": "TreeSelect 树形下拉选择器"
 		}]
       }
     ]

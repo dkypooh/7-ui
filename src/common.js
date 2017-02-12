@@ -65,6 +65,10 @@ import sfdraggable from 'sf-dnd/src/draggable/draggable';
 Vue.component('sf-draggable', sfdraggable);
 
 
+import sftreeselect from 'sf-tree-select/src/treeSelect';
+Vue.component('sf-tree-select', sftreeselect);
+
+
 if(window != undefined){
 		window.sfToast = sftoast;
 	}

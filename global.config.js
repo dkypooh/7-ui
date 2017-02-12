@@ -99,4 +99,10 @@ module.exports = [
 			name : 'sf-draggable'
 		}]
 	},
+	{
+		name: "sf-tree-select",
+		label: "TreeSelect 树形下拉选择器",
+		css : "",
+		path :"treeSelect"
+	},
 ]

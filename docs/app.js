@@ -62,27 +62,27 @@
 
 	var _route2 = _interopRequireDefault(_route);
 
-	var _demoBlock = __webpack_require__(95);
+	var _demoBlock = __webpack_require__(99);
 
 	var _demoBlock2 = _interopRequireDefault(_demoBlock);
 
-	var _footer = __webpack_require__(100);
+	var _footer = __webpack_require__(104);
 
 	var _footer2 = _interopRequireDefault(_footer);
 
-	var _header = __webpack_require__(104);
+	var _header = __webpack_require__(108);
 
 	var _header2 = _interopRequireDefault(_header);
 
-	var _sideNav = __webpack_require__(109);
+	var _sideNav = __webpack_require__(113);
 
 	var _sideNav2 = _interopRequireDefault(_sideNav);
 
-	var _footerNav = __webpack_require__(114);
+	var _footerNav = __webpack_require__(118);
 
 	var _footerNav2 = _interopRequireDefault(_footerNav);
 
-	var _common = __webpack_require__(119);
+	var _common = __webpack_require__(123);
 
 	var _common2 = _interopRequireDefault(_common);
 
@@ -8011,7 +8011,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\doc\\app.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\doc\\app.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] app.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -11152,6 +11152,11 @@
 							"path": "/sf-dnd",
 							"name": "DragAndDrop 拖拽",
 							"title": "DragAndDrop 拖拽"
+						},
+						{
+							"path": "/sf-tree-select",
+							"name": "TreeSelect 树形下拉选择器",
+							"title": "TreeSelect 树形下拉选择器"
 						}
 					]
 				}
@@ -11177,7 +11182,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\doc\\pages\\component.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\doc\\pages\\component.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] component.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -11356,7 +11361,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\doc\\pages\\changelog.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\doc\\pages\\changelog.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] changelog.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -11591,7 +11596,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\.vueloader\\16.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\.vueloader\\16.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] 16.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -11668,7 +11673,8 @@
 		"./zh-cn/sf-spinner.md": 80,
 		"./zh-cn/sf-table.md": 83,
 		"./zh-cn/sf-toast.md": 87,
-		"./zh-cn/sf-tooltips.md": 91
+		"./zh-cn/sf-tooltips.md": 91,
+		"./zh-cn/sf-tree-select.md": 95
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -11704,7 +11710,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\.vueloader\\2.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\.vueloader\\2.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] 2.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -11761,7 +11767,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\.vueloader\\3.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\.vueloader\\3.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] 3.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -11954,7 +11960,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\.vueloader\\6.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\.vueloader\\6.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] 6.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -12301,9 +12307,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\.vueloader\\4.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\.vueloader\\5.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 4.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 5.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -12312,9 +12318,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50b9a7b7", Component.options)
+	    hotAPI.createRecord("data-v-50c7bf38", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50b9a7b7", Component.options)
+	    hotAPI.reload("data-v-50c7bf38", Component.options)
 	  }
 	})()}
 
@@ -12467,7 +12473,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50b9a7b7", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50c7bf38", module.exports)
 	  }
 	}
 
@@ -12497,9 +12503,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\.vueloader\\5.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\.vueloader\\4.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 5.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 4.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -12508,9 +12514,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50c7bf38", Component.options)
+	    hotAPI.createRecord("data-v-50b9a7b7", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50c7bf38", Component.options)
+	    hotAPI.reload("data-v-50b9a7b7", Component.options)
 	  }
 	})()}
 
@@ -13053,7 +13059,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50c7bf38", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50b9a7b7", module.exports)
 	  }
 	}
 
@@ -13081,9 +13087,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\.vueloader\\7.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\.vueloader\\8.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 7.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 8.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -13092,9 +13098,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50e3ee3a", Component.options)
+	    hotAPI.createRecord("data-v-50f205bb", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50e3ee3a", Component.options)
+	    hotAPI.reload("data-v-50f205bb", Component.options)
 	  }
 	})()}
 
@@ -13112,13 +13118,13 @@
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(53)("1b66f68b", content, false);
+	var update = __webpack_require__(53)("0996aedf", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!./../node_modules/.0.23.1@css-loader/index.js!./../node_modules/.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-50e3ee3a!./../node_modules/.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./7.vue", function() {
-	     var newContent = require("!!./../node_modules/.0.23.1@css-loader/index.js!./../node_modules/.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-50e3ee3a!./../node_modules/.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./7.vue");
+	   module.hot.accept("!!./../node_modules/.0.23.1@css-loader/index.js!./../node_modules/.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-50f205bb!./../node_modules/.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./8.vue", function() {
+	     var newContent = require("!!./../node_modules/.0.23.1@css-loader/index.js!./../node_modules/.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-50f205bb!./../node_modules/.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./8.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -13852,7 +13858,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50e3ee3a", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50f205bb", module.exports)
 	  }
 	}
 
@@ -13882,9 +13888,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\.vueloader\\8.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\.vueloader\\7.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 8.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 7.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -13893,9 +13899,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50f205bb", Component.options)
+	    hotAPI.createRecord("data-v-50e3ee3a", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50f205bb", Component.options)
+	    hotAPI.reload("data-v-50e3ee3a", Component.options)
 	  }
 	})()}
 
@@ -13913,13 +13919,13 @@
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(53)("0996aedf", content, false);
+	var update = __webpack_require__(53)("1b66f68b", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!./../node_modules/.0.23.1@css-loader/index.js!./../node_modules/.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-50f205bb!./../node_modules/.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./8.vue", function() {
-	     var newContent = require("!!./../node_modules/.0.23.1@css-loader/index.js!./../node_modules/.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-50f205bb!./../node_modules/.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./8.vue");
+	   module.hot.accept("!!./../node_modules/.0.23.1@css-loader/index.js!./../node_modules/.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-50e3ee3a!./../node_modules/.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./7.vue", function() {
+	     var newContent = require("!!./../node_modules/.0.23.1@css-loader/index.js!./../node_modules/.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-50e3ee3a!./../node_modules/.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./7.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -13953,13 +13959,13 @@
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(53)("043fc004", content, false);
+	var update = __webpack_require__(53)("0fb067aa", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!./../node_modules/.0.23.1@css-loader/index.js!./../node_modules/.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-50f205bb!./../node_modules/.10.3.0@vue-loader/lib/selector.js?type=styles&index=1!./8.vue", function() {
-	     var newContent = require("!!./../node_modules/.0.23.1@css-loader/index.js!./../node_modules/.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-50f205bb!./../node_modules/.10.3.0@vue-loader/lib/selector.js?type=styles&index=1!./8.vue");
+	   module.hot.accept("!!./../node_modules/.0.23.1@css-loader/index.js!./../node_modules/.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-50e3ee3a!./../node_modules/.10.3.0@vue-loader/lib/selector.js?type=styles&index=1!./7.vue", function() {
+	     var newContent = require("!!./../node_modules/.0.23.1@css-loader/index.js!./../node_modules/.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-50e3ee3a!./../node_modules/.10.3.0@vue-loader/lib/selector.js?type=styles&index=1!./7.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -13993,13 +13999,13 @@
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(53)("1bacddc6", content, false);
+	var update = __webpack_require__(53)("03f9d8c9", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!./../node_modules/.0.23.1@css-loader/index.js!./../node_modules/.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-50f205bb!./../node_modules/.10.3.0@vue-loader/lib/selector.js?type=styles&index=2!./8.vue", function() {
-	     var newContent = require("!!./../node_modules/.0.23.1@css-loader/index.js!./../node_modules/.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-50f205bb!./../node_modules/.10.3.0@vue-loader/lib/selector.js?type=styles&index=2!./8.vue");
+	   module.hot.accept("!!./../node_modules/.0.23.1@css-loader/index.js!./../node_modules/.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-50e3ee3a!./../node_modules/.10.3.0@vue-loader/lib/selector.js?type=styles&index=2!./7.vue", function() {
+	     var newContent = require("!!./../node_modules/.0.23.1@css-loader/index.js!./../node_modules/.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-50e3ee3a!./../node_modules/.10.3.0@vue-loader/lib/selector.js?type=styles&index=2!./7.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -15347,7 +15353,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50f205bb", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50e3ee3a", module.exports)
 	  }
 	}
 
@@ -15375,7 +15381,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\.vueloader\\9.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\.vueloader\\9.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] 9.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -15668,9 +15674,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\.vueloader\\10.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\.vueloader\\11.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 10.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 11.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -15679,9 +15685,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7d4f80a8", Component.options)
+	    hotAPI.createRecord("data-v-7d3351a6", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7d4f80a8", Component.options)
+	    hotAPI.reload("data-v-7d3351a6", Component.options)
 	  }
 	})()}
 
@@ -15861,7 +15867,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d4f80a8", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d3351a6", module.exports)
 	  }
 	}
 
@@ -15885,9 +15891,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\.vueloader\\13.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\.vueloader\\10.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 13.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 10.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -15896,9 +15902,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7cfaf3a2", Component.options)
+	    hotAPI.createRecord("data-v-7d4f80a8", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7cfaf3a2", Component.options)
+	    hotAPI.reload("data-v-7d4f80a8", Component.options)
 	  }
 	})()}
 
@@ -17063,7 +17069,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cfaf3a2", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d4f80a8", module.exports)
 	  }
 	}
 
@@ -17087,9 +17093,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\.vueloader\\14.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\.vueloader\\17.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 14.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 17.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -17098,9 +17104,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7cdec4a0", Component.options)
+	    hotAPI.createRecord("data-v-7c8a379a", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7cdec4a0", Component.options)
+	    hotAPI.reload("data-v-7c8a379a", Component.options)
 	  }
 	})()}
 
@@ -17230,7 +17236,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cdec4a0", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7c8a379a", module.exports)
 	  }
 	}
 
@@ -17254,9 +17260,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\.vueloader\\12.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\.vueloader\\13.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 12.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 13.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -17265,9 +17271,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7d1722a4", Component.options)
+	    hotAPI.createRecord("data-v-7cfaf3a2", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7d1722a4", Component.options)
+	    hotAPI.reload("data-v-7cfaf3a2", Component.options)
 	  }
 	})()}
 
@@ -18490,7 +18496,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d1722a4", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cfaf3a2", module.exports)
 	  }
 	}
 
@@ -18514,9 +18520,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\.vueloader\\11.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\.vueloader\\12.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 11.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 12.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -18525,9 +18531,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7d3351a6", Component.options)
+	    hotAPI.createRecord("data-v-7d1722a4", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7d3351a6", Component.options)
+	    hotAPI.reload("data-v-7d1722a4", Component.options)
 	  }
 	})()}
 
@@ -18964,7 +18970,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d3351a6", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d1722a4", module.exports)
 	  }
 	}
 
@@ -18988,7 +18994,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\.vueloader\\15.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\.vueloader\\15.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] 15.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -19591,21 +19597,1850 @@
 /* 95 */
 /***/ function(module, exports, __webpack_require__) {
 
-	
-	/* styles */
-	__webpack_require__(96)
+	module.exports = __webpack_require__(96);
+
+/***/ },
+/* 96 */
+/***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(98),
+	  __webpack_require__(97),
 	  /* template */
-	  __webpack_require__(99),
+	  __webpack_require__(98),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\doc\\components\\demo-block.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\.vueloader\\14.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] 14.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-7cdec4a0", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-7cdec4a0", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 97 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	exports.__esModule = true;
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+
+	exports.default = {
+	    data: function data() {
+	        return {
+	            options: [{
+	                id: 0,
+	                name: '所有选项'
+	            }, {
+	                id: 1,
+	                name: '选项1',
+	                children: [{
+	                    id: 11,
+	                    name: '选项1-1'
+	                }]
+	            }, {
+	                id: 2,
+	                name: '选项2',
+	                children: [{
+	                    id: 21,
+	                    name: '选项2-1'
+	                }, {
+	                    id: 22,
+	                    name: '选项2-2'
+	                }]
+	            }],
+	            options1: [{
+	                id: 0,
+	                name: '所有选项'
+	            }, {
+	                id: 1,
+	                name: '选项1',
+	                children: [{
+	                    id: 11,
+	                    name: '选项1-1'
+	                }]
+	            }, {
+	                id: 2,
+	                name: '选项2',
+	                children: [{
+	                    id: 21,
+	                    name: '选项2-1',
+	                    disabled: true
+	                }, {
+	                    id: 22,
+	                    name: '选项2-2'
+	                }]
+	            }],
+	            options2: [{
+	                id: 0,
+	                name: '所有选项'
+	            }, {
+	                name: '选项1',
+	                children: [{
+	                    id: 11,
+	                    name: '选项1-1'
+	                }]
+	            }, {
+	                name: '选项2',
+	                children: [{
+	                    id: 21,
+	                    name: '选项2-1'
+	                }, {
+	                    id: 22,
+	                    name: '选项2-2'
+	                }]
+	            }],
+	            options3: [{
+	                id: 0,
+	                name: '所有选项'
+	            }, {
+	                id: 1,
+	                name: '选项1',
+	                children: [{
+	                    id: 11,
+	                    name: '选项1-1',
+	                    children: [{
+	                        id: 111,
+	                        name: '选项1-1-1'
+	                    }, {
+	                        id: 112,
+	                        name: '选项1-1-2'
+	                    }]
+	                }]
+	            }, {
+	                id: 2,
+	                name: '选项2',
+	                children: [{
+	                    id: 21,
+	                    name: '选项2-1'
+	                }, {
+	                    id: 22,
+	                    name: '选项2-2',
+	                    children: [{
+	                        id: 221,
+	                        name: '选项2-2-1'
+	                    }, {
+	                        id: 222,
+	                        name: '选项2-2-2'
+	                    }]
+	                }]
+	            }]
+	        };
+	    }
+	};
+
+/***/ },
+/* 98 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('section', [_c('h2', [_vm._v("sf-treeSelect 树形下拉选择")]), _vm._v(" "), _c('p', [_vm._v("多级下拉菜单")]), _vm._v(" "), _c('h3', [_vm._v("基本用法")]), _vm._v(" "), _c('demo-block', {
+	    staticClass: "demo-box"
+	  }, [_c('div', {
+	    staticClass: "source"
+	  }, [
+	    [_c('sf-tree-select', {
+	      ref: "sel",
+	      attrs: {
+	        "options": _vm.options
+	      }
+	    })]
+	  ], 2), _vm._v(" "), _c('div', {
+	    staticClass: "meta"
+	  }, [_c('div', {
+	    staticClass: "description"
+	  }, [_c('p', [_vm._v("列表以 id 作为主键")])]), _vm._v(" "), _c('div', {
+	    staticClass: "highlight"
+	  }, [_c('pre', [_c('code', {
+	    staticClass: "hljs language-html"
+	  }, [_vm._v("  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-tree-select")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v(":options")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"options\"")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("ref")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"sel\"")]), _vm._v(">")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-tree-select")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _c('span', {
+	    staticClass: "javascript"
+	  }, [_vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("export")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("default")]), _vm._v(" {\n      data() {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" {\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("options")]), _vm._v(":[{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'所有选项'")]), _vm._v("\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(",\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("11")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1-1'")]), _vm._v("\n                }]\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("21")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-1'")]), _vm._v("\n                }, {\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("22")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-2'")]), _vm._v("\n                }]\n            }]\n        }\n      }\n    }\n  ")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n")])])])])]), _vm._v(" "), _c('h3', [_vm._v("默认选中")]), _vm._v(" "), _c('demo-block', {
+	    staticClass: "demo-box"
+	  }, [_c('div', {
+	    staticClass: "source"
+	  }, [
+	    [_c('sf-tree-select', {
+	      ref: "sel",
+	      attrs: {
+	        "options": _vm.options,
+	        "defid": "11"
+	      }
+	    })]
+	  ], 2), _vm._v(" "), _c('div', {
+	    staticClass: "meta"
+	  }, [_c('div', {
+	    staticClass: "description"
+	  }, [_c('p', [_vm._v("设置sf-tree-select的defid属性，则默认选中对应项")])]), _vm._v(" "), _c('div', {
+	    staticClass: "highlight"
+	  }, [_c('pre', [_c('code', {
+	    staticClass: "hljs language-html"
+	  }, [_vm._v("  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-tree-select")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v(":options")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"options\"")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("defid")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'11'")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("ref")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"sel\"")]), _vm._v(">")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-tree-select")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _c('span', {
+	    staticClass: "javascript"
+	  }, [_vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("export")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("default")]), _vm._v(" {\n      data() {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" {\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("options")]), _vm._v(":[{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'所有选项'")]), _vm._v("\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(",\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("11")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1-1'")]), _vm._v("\n                }]\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("21")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-1'")]), _vm._v("\n                }, {\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("22")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-2'")]), _vm._v("\n                }]\n            }]\n        }\n      }\n    }\n  ")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n")])])])])]), _vm._v(" "), _c('h3', [_vm._v("禁用状态")]), _vm._v(" "), _c('demo-block', {
+	    staticClass: "demo-box"
+	  }, [_c('div', {
+	    staticClass: "source"
+	  }, [
+	    [_c('sf-tree-select', {
+	      ref: "sel",
+	      attrs: {
+	        "options": _vm.options,
+	        "disabled": true
+	      }
+	    })]
+	  ], 2), _vm._v(" "), _c('div', {
+	    staticClass: "meta"
+	  }, [_c('div', {
+	    staticClass: "description"
+	  }, [_c('p', [_vm._v("设置sf-tree-select的disabled属性为true，禁用整个组件")])]), _vm._v(" "), _c('div', {
+	    staticClass: "highlight"
+	  }, [_c('pre', [_c('code', {
+	    staticClass: "hljs language-html"
+	  }, [_vm._v("  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-tree-select")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v(":options")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"options\"")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v(":disabled")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("true")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("ref")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"sel\"")]), _vm._v(">")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-tree-select")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _c('span', {
+	    staticClass: "javascript"
+	  }, [_vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("export")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("default")]), _vm._v(" {\n      data() {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" {\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("options")]), _vm._v(":[{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'所有选项'")]), _vm._v("\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(",\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("11")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1-1'")]), _vm._v("\n                }]\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("21")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-1'")]), _vm._v("\n                }, {\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("22")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-2'")]), _vm._v("\n                }]\n            }]\n        }\n      }\n    }\n  ")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n")])])])])]), _vm._v(" "), _c('h3', [_vm._v("禁用单个选项")]), _vm._v(" "), _c('demo-block', {
+	    staticClass: "demo-box"
+	  }, [_c('div', {
+	    staticClass: "source"
+	  }, [
+	    [_c('sf-tree-select', {
+	      ref: "sel",
+	      attrs: {
+	        "options": _vm.options1
+	      }
+	    })]
+	  ], 2), _vm._v(" "), _c('div', {
+	    staticClass: "meta"
+	  }, [_c('div', {
+	    staticClass: "description"
+	  }, [_c('p', [_vm._v("设置备选项的disabled属性为true，禁用该选项")])]), _vm._v(" "), _c('div', {
+	    staticClass: "highlight"
+	  }, [_c('pre', [_c('code', {
+	    staticClass: "hljs language-html"
+	  }, [_vm._v("  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-tree-select")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v(":options")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"options1\"")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("ref")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"sel\"")]), _vm._v(">")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-tree-select")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _c('span', {
+	    staticClass: "javascript"
+	  }, [_vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("export")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("default")]), _vm._v(" {\n      data() {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" {\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("options1")]), _vm._v(":[{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'所有选项'")]), _vm._v("\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(",\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("11")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1-1'")]), _vm._v("\n                }]\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("21")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-1'")]), _vm._v(",\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("disabled")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v("\n                }, {\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("22")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-2'")]), _vm._v("\n                }]\n            }]\n        }\n      }\n    }\n  ")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n")])])])])]), _vm._v(" "), _c('h3', [_vm._v("分组展示")]), _vm._v(" "), _c('demo-block', {
+	    staticClass: "demo-box"
+	  }, [_c('div', {
+	    staticClass: "source"
+	  }, [
+	    [_c('sf-tree-select', {
+	      ref: "sel",
+	      attrs: {
+	        "options": _vm.options2
+	      }
+	    })]
+	  ], 2), _vm._v(" "), _c('div', {
+	    staticClass: "meta"
+	  }, [_c('div', {
+	    staticClass: "description"
+	  }, [_c('p', [_vm._v("不包含id字段的备选项则作为分组名展示")])]), _vm._v(" "), _c('div', {
+	    staticClass: "highlight"
+	  }, [_c('pre', [_c('code', {
+	    staticClass: "hljs language-html"
+	  }, [_vm._v("  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-tree-select")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v(":options")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"options2\"")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("ref")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"sel\"")]), _vm._v(">")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-tree-select")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _c('span', {
+	    staticClass: "javascript"
+	  }, [_vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("export")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("default")]), _vm._v(" {\n      data() {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" {\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("options")]), _vm._v(":[{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'所有选项'")]), _vm._v("\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(",\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("11")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1-1'")]), _vm._v("\n                }]\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("21")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-1'")]), _vm._v("\n                }, {\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("22")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-2'")]), _vm._v("\n                }]\n            }],\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("options1")]), _vm._v(":[{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'所有选项'")]), _vm._v("\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(",\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("11")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1-1'")]), _vm._v("\n                }]\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("21")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-1'")]), _vm._v(",\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("disabled")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v("\n                }, {\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("22")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-2'")]), _vm._v("\n                }]\n            }],\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("options2")]), _vm._v(":[{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'所有选项'")]), _vm._v("\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("11")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1-1'")]), _vm._v("\n                }]\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("21")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-1'")]), _vm._v("\n                }, {\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("22")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-2'")]), _vm._v("\n                }]\n            }]\n        }\n      }\n    }\n  ")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n")])])])])]), _vm._v(" "), _c('h3', [_vm._v("多级")]), _vm._v(" "), _c('demo-block', {
+	    staticClass: "demo-box"
+	  }, [_c('div', {
+	    staticClass: "source"
+	  }, [
+	    [_c('sf-tree-select', {
+	      ref: "sel",
+	      attrs: {
+	        "options": _vm.options3
+	      }
+	    })]
+	  ], 2), _vm._v(" "), _c('div', {
+	    staticClass: "meta"
+	  }, [_c('div', {
+	    staticClass: "highlight"
+	  }, [_c('pre', [_c('code', {
+	    staticClass: "hljs language-html"
+	  }, [_vm._v("  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-tree-select")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v(":options")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"options3\"")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("ref")]), _vm._v("="), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("\"sel\"")]), _vm._v(">")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("sf-tree-select")]), _vm._v(">")]), _vm._v("\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("template")]), _vm._v(">")]), _vm._v("\n\n  "), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("<"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _c('span', {
+	    staticClass: "javascript"
+	  }, [_vm._v("\n    "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("export")]), _vm._v(" "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("default")]), _vm._v(" {\n      data() {\n        "), _c('span', {
+	    staticClass: "hljs-keyword"
+	  }, [_vm._v("return")]), _vm._v(" {\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("options")]), _vm._v(":[{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'所有选项'")]), _vm._v("\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(",\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("11")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1-1'")]), _vm._v("\n                }]\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("21")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-1'")]), _vm._v("\n                }, {\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("22")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-2'")]), _vm._v("\n                }]\n            }],\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("options1")]), _vm._v(":[{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'所有选项'")]), _vm._v("\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(",\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("11")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1-1'")]), _vm._v("\n                }]\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("21")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-1'")]), _vm._v(",\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("disabled")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-literal"
+	  }, [_vm._v("true")]), _vm._v("\n                }, {\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("22")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-2'")]), _vm._v("\n                }]\n            }],\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("options2")]), _vm._v(":[{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'所有选项'")]), _vm._v("\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("11")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1-1'")]), _vm._v("\n                }]\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("21")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-1'")]), _vm._v("\n                }, {\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("22")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-2'")]), _vm._v("\n                }]\n            }],\n            "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("options3")]), _vm._v(":[{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("0")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'所有选项'")]), _vm._v("\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("1")]), _vm._v(",\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("11")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1-1'")]), _vm._v(",\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("111")]), _vm._v(",\n                        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1-1-1'")]), _vm._v("\n                    },{\n                        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("112")]), _vm._v(",\n                        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项1-1-2'")]), _vm._v("\n                    }]\n                }]\n            },{\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("2")]), _vm._v(",\n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2'")]), _vm._v(", \n                "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("21")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-1'")]), _vm._v("\n                }, {\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("22")]), _vm._v(", \n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(":"), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-2'")]), _vm._v(",\n                    "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("children")]), _vm._v(": [{\n                        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("221")]), _vm._v(",\n                        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-2-1'")]), _vm._v("\n                    },{\n                        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("id")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-number"
+	  }, [_vm._v("222")]), _vm._v(",\n                        "), _c('span', {
+	    staticClass: "hljs-attr"
+	  }, [_vm._v("name")]), _vm._v(": "), _c('span', {
+	    staticClass: "hljs-string"
+	  }, [_vm._v("'选项2-2-2'")]), _vm._v("\n                    }]\n                }]\n            }]\n        }\n      }\n    }\n  ")]), _c('span', {
+	    staticClass: "hljs-tag"
+	  }, [_vm._v("</"), _c('span', {
+	    staticClass: "hljs-name"
+	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n")])])])])]), _vm._v(" "), _c('h3', [_vm._v("Select Attributes")]), _vm._v(" "), _vm._m(0), _vm._v(" "), _c('h3', [_vm._v("Select Events")]), _vm._v(" "), _vm._m(1), _vm._v(" "), _c('h3', [_vm._v("Select Methods")]), _vm._v(" "), _vm._m(2)], 1)
+	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('table', {
+	    staticClass: "table"
+	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("参数")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("类型")]), _vm._v(" "), _c('th', [_vm._v("可选值")]), _vm._v(" "), _c('th', [_vm._v("默认值")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("options")]), _vm._v(" "), _c('td', [_vm._v("备选项数组")]), _vm._v(" "), _c('td', [_vm._v("Array")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("[]")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("defid")]), _vm._v(" "), _c('td', [_vm._v("默认选中项id")]), _vm._v(" "), _c('td', [_vm._v("[Number, String]")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("title")]), _vm._v(" "), _c('td', [_vm._v("未设置默认选中项时的占位符")]), _vm._v(" "), _c('td', [_vm._v("String")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("请选择")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("disabled")]), _vm._v(" "), _c('td', [_vm._v("是否禁用")]), _vm._v(" "), _c('td', [_vm._v("boolean")]), _vm._v(" "), _c('td', [_vm._v("true, false")]), _vm._v(" "), _c('td', [_vm._v("false")])])])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('table', {
+	    staticClass: "table"
+	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("事件")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("回调参数")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("change")]), _vm._v(" "), _c('td', [_vm._v("选中项变化")]), _vm._v(" "), _c('td', [_vm._v("目标选中项")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("toggle")]), _vm._v(" "), _c('td', [_vm._v("下拉框展开/收起")]), _vm._v(" "), _c('td', [_vm._v("展开为true，收起为false")])])])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('table', {
+	    staticClass: "table"
+	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("方法")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("参数")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("select")]), _vm._v(" "), _c('td', [_vm._v("选中某一项")]), _vm._v(" "), _c('td', [_vm._v("目标选中项")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("toggle")]), _vm._v(" "), _c('td', [_vm._v("展开/收起下拉框")]), _vm._v(" "), _c('td', [_vm._v("展开为true，收起为false，为空则切换")])])])])
+	}]}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cdec4a0", module.exports)
+	  }
+	}
+
+/***/ },
+/* 99 */
+/***/ function(module, exports, __webpack_require__) {
+
+	
+	/* styles */
+	__webpack_require__(100)
+
+	var Component = __webpack_require__(9)(
+	  /* script */
+	  __webpack_require__(102),
+	  /* template */
+	  __webpack_require__(103),
+	  /* scopeId */
+	  null,
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\doc\\components\\demo-block.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] demo-block.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -19626,13 +21461,13 @@
 
 
 /***/ },
-/* 96 */
+/* 100 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(97);
+	var content = __webpack_require__(101);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -19652,7 +21487,7 @@
 	}
 
 /***/ },
-/* 97 */
+/* 101 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -19666,7 +21501,7 @@
 
 
 /***/ },
-/* 98 */
+/* 102 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -19861,7 +21696,7 @@
 	};
 
 /***/ },
-/* 99 */
+/* 103 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -19910,24 +21745,24 @@
 	}
 
 /***/ },
-/* 100 */
+/* 104 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(101)
+	__webpack_require__(105)
 
 	var Component = __webpack_require__(9)(
 	  /* script */
 	  null,
 	  /* template */
-	  __webpack_require__(103),
+	  __webpack_require__(107),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\doc\\components\\footer.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\doc\\components\\footer.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] footer.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -19948,13 +21783,13 @@
 
 
 /***/ },
-/* 101 */
+/* 105 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(102);
+	var content = __webpack_require__(106);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -19974,7 +21809,7 @@
 	}
 
 /***/ },
-/* 102 */
+/* 106 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -19988,7 +21823,7 @@
 
 
 /***/ },
-/* 103 */
+/* 107 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -20022,24 +21857,24 @@
 	}
 
 /***/ },
-/* 104 */
+/* 108 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(105)
+	__webpack_require__(109)
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(107),
+	  __webpack_require__(111),
 	  /* template */
-	  __webpack_require__(108),
+	  __webpack_require__(112),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\doc\\components\\header.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\doc\\components\\header.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] header.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -20060,13 +21895,13 @@
 
 
 /***/ },
-/* 105 */
+/* 109 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(106);
+	var content = __webpack_require__(110);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -20086,7 +21921,7 @@
 	}
 
 /***/ },
-/* 106 */
+/* 110 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -20100,7 +21935,7 @@
 
 
 /***/ },
-/* 107 */
+/* 111 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -20306,7 +22141,7 @@
 	};
 
 /***/ },
-/* 108 */
+/* 112 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -20340,24 +22175,24 @@
 	}
 
 /***/ },
-/* 109 */
+/* 113 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(110)
+	__webpack_require__(114)
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(112),
+	  __webpack_require__(116),
 	  /* template */
-	  __webpack_require__(113),
+	  __webpack_require__(117),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\doc\\components\\side-nav.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\doc\\components\\side-nav.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] side-nav.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -20378,13 +22213,13 @@
 
 
 /***/ },
-/* 110 */
+/* 114 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(111);
+	var content = __webpack_require__(115);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -20404,7 +22239,7 @@
 	}
 
 /***/ },
-/* 111 */
+/* 115 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -20418,7 +22253,7 @@
 
 
 /***/ },
-/* 112 */
+/* 116 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -20542,7 +22377,7 @@
 	};
 
 /***/ },
-/* 113 */
+/* 117 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -20608,24 +22443,24 @@
 	}
 
 /***/ },
-/* 114 */
+/* 118 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(115)
+	__webpack_require__(119)
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(117),
+	  __webpack_require__(121),
 	  /* template */
-	  __webpack_require__(118),
+	  __webpack_require__(122),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\doc\\components\\footer-nav.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\doc\\components\\footer-nav.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] footer-nav.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -20646,13 +22481,13 @@
 
 
 /***/ },
-/* 115 */
+/* 119 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(116);
+	var content = __webpack_require__(120);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
 	var update = __webpack_require__(8)(content, {});
@@ -20672,7 +22507,7 @@
 	}
 
 /***/ },
-/* 116 */
+/* 120 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -20686,7 +22521,7 @@
 
 
 /***/ },
-/* 117 */
+/* 121 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20806,7 +22641,7 @@
 	//
 
 /***/ },
-/* 118 */
+/* 122 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -20841,7 +22676,7 @@
 	}
 
 /***/ },
-/* 119 */
+/* 123 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20850,69 +22685,73 @@
 
 	var _vue2 = _interopRequireDefault(_vue);
 
-	var _sfButton = __webpack_require__(120);
+	var _sfButton = __webpack_require__(124);
 
 	var _sfButton2 = _interopRequireDefault(_sfButton);
 
-	var _tableColumn = __webpack_require__(122);
+	var _tableColumn = __webpack_require__(126);
 
 	var _tableColumn2 = _interopRequireDefault(_tableColumn);
 
-	var _table = __webpack_require__(123);
+	var _table = __webpack_require__(127);
 
 	var _table2 = _interopRequireDefault(_table);
 
-	var _clipLoader = __webpack_require__(131);
+	var _clipLoader = __webpack_require__(135);
 
 	var _clipLoader2 = _interopRequireDefault(_clipLoader);
 
-	var _scaleLoader = __webpack_require__(134);
+	var _scaleLoader = __webpack_require__(138);
 
 	var _scaleLoader2 = _interopRequireDefault(_scaleLoader);
 
-	var _riseLoader = __webpack_require__(136);
+	var _riseLoader = __webpack_require__(140);
 
 	var _riseLoader2 = _interopRequireDefault(_riseLoader);
 
-	var _squareLoader = __webpack_require__(138);
+	var _squareLoader = __webpack_require__(142);
 
 	var _squareLoader2 = _interopRequireDefault(_squareLoader);
 
-	var _toast = __webpack_require__(140);
+	var _toast = __webpack_require__(144);
 
 	var _toast2 = _interopRequireDefault(_toast);
 
-	var _progressbar = __webpack_require__(142);
+	var _progressbar = __webpack_require__(146);
 
 	var _progressbar2 = _interopRequireDefault(_progressbar);
 
-	var _sfTooltips = __webpack_require__(144);
+	var _sfTooltips = __webpack_require__(148);
 
 	var _sfTooltips2 = _interopRequireDefault(_sfTooltips);
 
-	var _pagination = __webpack_require__(149);
+	var _pagination = __webpack_require__(153);
 
 	var _pagination2 = _interopRequireDefault(_pagination);
 
-	var _select = __webpack_require__(165);
+	var _select = __webpack_require__(169);
 
 	var _select2 = _interopRequireDefault(_select);
 
-	var _option = __webpack_require__(171);
+	var _option = __webpack_require__(175);
 
 	var _option2 = _interopRequireDefault(_option);
 
-	var _colorpicker = __webpack_require__(177);
+	var _colorpicker = __webpack_require__(181);
 
 	var _colorpicker2 = _interopRequireDefault(_colorpicker);
 
-	var _draganddrop = __webpack_require__(184);
+	var _draganddrop = __webpack_require__(188);
 
 	var _draganddrop2 = _interopRequireDefault(_draganddrop);
 
-	var _draggable = __webpack_require__(188);
+	var _draggable = __webpack_require__(192);
 
 	var _draggable2 = _interopRequireDefault(_draggable);
+
+	var _treeSelect = __webpack_require__(194);
+
+	var _treeSelect2 = _interopRequireDefault(_treeSelect);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -20948,12 +22787,14 @@
 
 	_vue2.default.component('sf-draggable', _draggable2.default);
 
+	_vue2.default.component('sf-tree-select', _treeSelect2.default);
+
 	if (window != undefined) {
 			window.sfToast = _toast2.default;
 	}
 
 /***/ },
-/* 120 */
+/* 124 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -20974,7 +22815,7 @@
 
 	module.exports = {
 		name: 'sf-button',
-		template: __webpack_require__(121),
+		template: __webpack_require__(125),
 		props: {
 			color: {
 				type: String,
@@ -20992,13 +22833,13 @@
 	};
 
 /***/ },
-/* 121 */
+/* 125 */
 /***/ function(module, exports) {
 
 	module.exports = "<transition name=\"fade\">\n<a\n   :class=\"[\n        'u-button',\n        'u-button--'+size,\n        'u-button--'+color,\n        {'is-disabled': disabled},\n        {'is-plain' : plain}\n    ]\"\n   :style=\"{display: block ? 'block' : 'inline-block' }\" >\n\t<slot></slot>\n</a>\n</transition>\n";
 
 /***/ },
-/* 122 */
+/* 126 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -21266,20 +23107,20 @@
 	};
 
 /***/ },
-/* 123 */
+/* 127 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(124),
+	  __webpack_require__(128),
 	  /* template */
-	  __webpack_require__(130),
+	  __webpack_require__(134),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\node_modules\\.0.1.0@sf-table\\src\\table.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\node_modules\\.0.1.0@sf-table\\src\\table.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] table.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -21300,7 +23141,7 @@
 
 
 /***/ },
-/* 124 */
+/* 128 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -21309,19 +23150,19 @@
 	    value: true
 	});
 
-	var _tableStore = __webpack_require__(125);
+	var _tableStore = __webpack_require__(129);
 
 	var _tableStore2 = _interopRequireDefault(_tableStore);
 
-	var _tableLayout = __webpack_require__(127);
+	var _tableLayout = __webpack_require__(131);
 
 	var _tableLayout2 = _interopRequireDefault(_tableLayout);
 
-	var _tableBody = __webpack_require__(128);
+	var _tableBody = __webpack_require__(132);
 
 	var _tableBody2 = _interopRequireDefault(_tableBody);
 
-	var _tableHeader = __webpack_require__(129);
+	var _tableHeader = __webpack_require__(133);
 
 	var _tableHeader2 = _interopRequireDefault(_tableHeader);
 
@@ -21431,7 +23272,7 @@
 	};
 
 /***/ },
-/* 125 */
+/* 129 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -21440,7 +23281,7 @@
 		value: true
 	});
 
-	var _util = __webpack_require__(126);
+	var _util = __webpack_require__(130);
 
 	/**
 	 * 排序数据
@@ -21625,7 +23466,7 @@
 	exports.default = TableStore;
 
 /***/ },
-/* 126 */
+/* 130 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -21756,7 +23597,7 @@
 	};
 
 /***/ },
-/* 127 */
+/* 131 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -21772,7 +23613,7 @@
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      * @date:     2017-02-05  下午1:59
 	                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      */
 
-	var _util = __webpack_require__(126);
+	var _util = __webpack_require__(130);
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -21847,7 +23688,7 @@
 	exports.default = TableLayout;
 
 /***/ },
-/* 128 */
+/* 132 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -21856,7 +23697,7 @@
 		value: true
 	});
 
-	var _util = __webpack_require__(126);
+	var _util = __webpack_require__(130);
 
 	exports.default = {
 		props: {
@@ -22018,7 +23859,7 @@
 	};
 
 /***/ },
-/* 129 */
+/* 133 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -22161,7 +24002,7 @@
 	};
 
 /***/ },
-/* 130 */
+/* 134 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -22209,7 +24050,7 @@
 	}
 
 /***/ },
-/* 131 */
+/* 135 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22220,12 +24061,12 @@
 	 * @author:   波比(｡･∀･)ﾉﾞ
 	 * @date:     2016-10-10  上午11:53
 	 */
-	var mixin = __webpack_require__(132);
+	var mixin = __webpack_require__(136);
 
 	module.exports = {
 		name: 'sf-cliploader',
 		mixins: [mixin],
-		template: __webpack_require__(133),
+		template: __webpack_require__(137),
 		computed: {
 			clipStyle: function clipStyle() {
 				return {
@@ -22248,7 +24089,7 @@
 	};
 
 /***/ },
-/* 132 */
+/* 136 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -22281,13 +24122,13 @@
 	};
 
 /***/ },
-/* 133 */
+/* 137 */
 /***/ function(module, exports) {
 
 	module.exports = "<transition name=\"sf-spinner\">\n\t<div class=\"sf-spinner sf-spinner--clip\">\n\t\t<div class=\"cell\" :style=\"cellStyle\">\n\t\t\t<i class=\"clip\" :style=\"clipStyle\">\n\n\t\t\t</i>\n\t\t</div>\n\t</div>\n</transition>\n";
 
 /***/ },
-/* 134 */
+/* 138 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22298,7 +24139,7 @@
 	 * @author:   波比(｡･∀･)ﾉﾞ
 	 * @date:     2016-10-10  上午11:53
 	 */
-	var mixin = __webpack_require__(132);
+	var mixin = __webpack_require__(136);
 
 	module.exports = {
 		name: 'sf-scaleloader',
@@ -22317,7 +24158,7 @@
 				default: 2
 			}
 		},
-		template: __webpack_require__(135),
+		template: __webpack_require__(139),
 		computed: {
 			scaleStyle: function scaleStyle() {
 				return {
@@ -22330,13 +24171,13 @@
 	};
 
 /***/ },
-/* 135 */
+/* 139 */
 /***/ function(module, exports) {
 
 	module.exports = "<transition name=\"sf-spinner\">\n\t<div class=\"sf-spinner sf-spinner--scale\">\n\t\t<div class=\"cell\">\n\t\t\t<i class=\"scale scale1\" :style=\"scaleStyle\"></i>\n\t\t\t<i class=\"scale scale2\" :style=\"scaleStyle\"></i>\n\t\t\t<i class=\"scale scale3\" :style=\"scaleStyle\"></i>\n\t\t\t<i class=\"scale scale4\" :style=\"scaleStyle\"></i>\n\t\t\t<i class=\"scale scale5\" :style=\"scaleStyle\"></i>\n\t\t</div>\n\t</div>\n</transition>\n";
 
 /***/ },
-/* 136 */
+/* 140 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22347,12 +24188,12 @@
 	 * @author:   波比(｡･∀･)ﾉﾞ
 	 * @date:     2016-10-10  上午11:53
 	 */
-	var mixin = __webpack_require__(132);
+	var mixin = __webpack_require__(136);
 
 	module.exports = {
 		name: 'sf-riseloader',
 		mixins: [mixin],
-		template: __webpack_require__(137),
+		template: __webpack_require__(141),
 		computed: {
 			riseStyle: function riseStyle() {
 				return {
@@ -22366,13 +24207,13 @@
 	};
 
 /***/ },
-/* 137 */
+/* 141 */
 /***/ function(module, exports) {
 
 	module.exports = "<transition name=\"sf-spinner\">\n\t<div class=\"sf-spinner sf-spinner--rise\">\n\t\t<div class=\"cell\">\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t\t<i class=\"rise\" :style=\"riseStyle\"></i>\n\t\t</div>\n\t</div>\n</transition>";
 
 /***/ },
-/* 138 */
+/* 142 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22383,12 +24224,12 @@
 	 * @author:   波比(｡･∀･)ﾉﾞ
 	 * @date:     2016-10-10  上午11:53
 	 */
-	var mixin = __webpack_require__(132);
+	var mixin = __webpack_require__(136);
 
 	module.exports = {
 		name: 'sf-squareloader',
 		mixins: [mixin],
-		template: __webpack_require__(139),
+		template: __webpack_require__(143),
 		computed: {
 			squareStyle: function squareStyle() {
 				return {
@@ -22401,13 +24242,13 @@
 	};
 
 /***/ },
-/* 139 */
+/* 143 */
 /***/ function(module, exports) {
 
 	module.exports = "<transition name=\"sf-spinner\">\n\t<div class=\"sf-spinner sf-spinner--square\">\n\t\t<div class=\"cell\">\n\t\t\t<i class=\"square\" :style=\"squareStyle\"></i>\n\t\t</div>\n\t</div>\n</transition>\n";
 
 /***/ },
-/* 140 */
+/* 144 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22425,7 +24266,7 @@
 	var Vue = __webpack_require__(1);
 
 	var toast = new Vue({
-		template: __webpack_require__(141),
+		template: __webpack_require__(145),
 		el: '#iframe',
 		data: function data() {
 			return {
@@ -22465,13 +24306,13 @@
 	module.exports = toast;
 
 /***/ },
-/* 141 */
+/* 145 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"sf-toast\" :class=\"['sf-toast--'+position]\">\n\t<transition-group name=\"toast_message\" tag=\"div\">\n\t\t<div class=\"toast_message\" :class=\"'message-'+x.type\" v-for=\"x in messages\" :key=\"x.id\" >\n\t\t\t<div class=\"text\" v-html=\"x.text\"></div>\n\t\t\t<i class=\"u-icon u-icon-close\" @click=\"close(x.id)\"></i>\n\t\t</div>\n\t</transition-group>\n</div>\n";
 
 /***/ },
-/* 142 */
+/* 146 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22489,7 +24330,7 @@
 	 */
 
 	module.exports = {
-		template: __webpack_require__(143),
+		template: __webpack_require__(147),
 		props: {
 			type: {
 				type: String,
@@ -22512,13 +24353,13 @@
 	};
 
 /***/ },
-/* 143 */
+/* 147 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"sf-progressbar\">\n\t<div class=\"progressbar\" :class=\"['progressbar--' + type, {'progressbar--striped' : striped}]\" :style=\"{width : percent + '%'}\">\n\t\t\t{{label}}\n\t</div>\n</div>\n";
 
 /***/ },
-/* 144 */
+/* 148 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -22533,11 +24374,11 @@
 	 * 
 	 */
 
-	__webpack_require__(145);
+	__webpack_require__(149);
 
 	module.exports = {
 		name: 'sf-tooltips',
-		template: __webpack_require__(148),
+		template: __webpack_require__(152),
 		props: ['content', 'placement'],
 		data: function data() {
 			return {
@@ -22556,7 +24397,7 @@
 	};
 
 /***/ },
-/* 145 */
+/* 149 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(global, module) {'use strict';var _typeof=typeof Symbol==="function"&&typeof Symbol.iterator==="symbol"?function(obj){return typeof obj;}:function(obj){return obj&&typeof Symbol==="function"&&obj.constructor===Symbol&&obj!==Symbol.prototype?"symbol":typeof obj;};/**
@@ -31993,7 +33834,7 @@
 	lodash.prototype.at=wrapperAt;lodash.prototype.chain=wrapperChain;lodash.prototype.commit=wrapperCommit;lodash.prototype.next=wrapperNext;lodash.prototype.plant=wrapperPlant;lodash.prototype.reverse=wrapperReverse;lodash.prototype.toJSON=lodash.prototype.valueOf=lodash.prototype.value=wrapperValue;// Add lazy aliases.
 	lodash.prototype.first=lodash.prototype.head;if(symIterator){lodash.prototype[symIterator]=wrapperToIterator;}return lodash;};/*--------------------------------------------------------------------------*/// Export lodash.
 	var _=runInContext();// Some AMD build optimizers, like r.js, check for condition patterns like:
-	if("function"=='function'&&_typeof(__webpack_require__(147))=='object'&&__webpack_require__(147)){// Expose Lodash on the global object to prevent errors when Lodash is
+	if("function"=='function'&&_typeof(__webpack_require__(151))=='object'&&__webpack_require__(151)){// Expose Lodash on the global object to prevent errors when Lodash is
 	// loaded by a script tag in the presence of an AMD loader.
 	// See http://requirejs.org/docs/errors.html#mismatch for more details.
 	// Use `_.noConflict` to remove Lodash from the global object.
@@ -32004,10 +33845,10 @@
 	(freeModule.exports=_)._=_;// Export for CommonJS support.
 	freeExports._=_;}else{// Export to the global object.
 	root._=_;}}).call(undefined);
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(146)(module)))
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(150)(module)))
 
 /***/ },
-/* 146 */
+/* 150 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -32024,7 +33865,7 @@
 	};
 
 /***/ },
-/* 147 */
+/* 151 */
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(__webpack_amd_options__) {module.exports = __webpack_amd_options__;
@@ -32032,26 +33873,26 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, {}))
 
 /***/ },
-/* 148 */
+/* 152 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"m-tooltips\">\n    <div v-on:mouseenter=\"showTipsInfo\" v-on:mouseleave=\"hideTipsInfo\" class=\"target\">\n        <slot>fff</slot>\n    </div>\n    <transition name=\"fade\">\n\t    <div class=\"cart\" v-show=\"isShowTips\" v-bind:class=\"{'cart-down': placement == 'down left' ||   placement == 'down' ||   placement == 'down right' ||  placement == 'down center','cart-up': placement == 'up' ||  placement == 'up left' ||  placement == 'up right' ||  placement == 'up center','cart-right': placement == 'right' ||  placement == 'right up' || placement == 'right center' || placement == 'right down','cart-left': placement == 'left' ||  placement == 'left up' ||  placement == 'left down' ||  placement == 'left center' || placement == 'left'}\"></div>\n\t</transition>\n\t<transition name=\"fade\">\n\t    <div class=\"content\" v-show=\"isShowTips\" ref=\"content\" v-bind:class=\"{'pos-down': placement == 'down','pos-up': placement == 'up','pos-left': placement == 'left' || placement == 'left center','pos-right': placement == 'right' ||  placement == 'right center','pos-down-left': placement == 'down left','pos-down-right': placement == 'down right','pos-right-down': placement == 'right down','pos-up-left': placement == 'up left','pos-up-right': placement == 'up right','pos-right-up': placement == 'right up','pos-left-up': placement == 'left up','pos-left-down': placement == 'left down'}\" v-html=\"content\">\n\t        \n\t    </div>\n\t</transition>\n</div>\n";
 
 /***/ },
-/* 149 */
+/* 153 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(150),
+	  __webpack_require__(154),
 	  /* template */
-	  __webpack_require__(164),
+	  __webpack_require__(168),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\node_modules\\.0.0.8@sf-pagination\\src\\pagination.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\node_modules\\.0.0.8@sf-pagination\\src\\pagination.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] pagination.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32072,7 +33913,7 @@
 
 
 /***/ },
-/* 150 */
+/* 154 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -32101,11 +33942,11 @@
 	 */
 	exports.default = {
 	    components: {
-	        'pagination': __webpack_require__(151),
-	        'paginationItem': __webpack_require__(153),
-	        'paginationNext': __webpack_require__(156),
-	        'paginationPrev': __webpack_require__(159),
-	        'paginationDot': __webpack_require__(162)
+	        'pagination': __webpack_require__(155),
+	        'paginationItem': __webpack_require__(157),
+	        'paginationNext': __webpack_require__(160),
+	        'paginationPrev': __webpack_require__(163),
+	        'paginationDot': __webpack_require__(166)
 	    },
 	    props: ['total', 'current', 'limit', 'unit'],
 	    watch: {
@@ -32175,20 +34016,20 @@
 	};
 
 /***/ },
-/* 151 */
+/* 155 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(9)(
 	  /* script */
 	  null,
 	  /* template */
-	  __webpack_require__(152),
+	  __webpack_require__(156),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\node_modules\\.0.0.8@sf-pagination\\src\\pagination-root.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\node_modules\\.0.0.8@sf-pagination\\src\\pagination-root.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] pagination-root.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32209,7 +34050,7 @@
 
 
 /***/ },
-/* 152 */
+/* 156 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -32226,20 +34067,20 @@
 	}
 
 /***/ },
-/* 153 */
+/* 157 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(154),
+	  __webpack_require__(158),
 	  /* template */
-	  __webpack_require__(155),
+	  __webpack_require__(159),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\node_modules\\.0.0.8@sf-pagination\\src\\pagination-item.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\node_modules\\.0.0.8@sf-pagination\\src\\pagination-item.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] pagination-item.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32260,7 +34101,7 @@
 
 
 /***/ },
-/* 154 */
+/* 158 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -32291,7 +34132,7 @@
 	};
 
 /***/ },
-/* 155 */
+/* 159 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -32310,20 +34151,20 @@
 	}
 
 /***/ },
-/* 156 */
+/* 160 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(157),
+	  __webpack_require__(161),
 	  /* template */
-	  __webpack_require__(158),
+	  __webpack_require__(162),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\node_modules\\.0.0.8@sf-pagination\\src\\pagination-next.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\node_modules\\.0.0.8@sf-pagination\\src\\pagination-next.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] pagination-next.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32344,7 +34185,7 @@
 
 
 /***/ },
-/* 157 */
+/* 161 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -32369,7 +34210,7 @@
 	};
 
 /***/ },
-/* 158 */
+/* 162 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -32392,20 +34233,20 @@
 	}
 
 /***/ },
-/* 159 */
+/* 163 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(160),
+	  __webpack_require__(164),
 	  /* template */
-	  __webpack_require__(161),
+	  __webpack_require__(165),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\node_modules\\.0.0.8@sf-pagination\\src\\pagination-prev.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\node_modules\\.0.0.8@sf-pagination\\src\\pagination-prev.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] pagination-prev.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32426,7 +34267,7 @@
 
 
 /***/ },
-/* 160 */
+/* 164 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -32451,7 +34292,7 @@
 	};
 
 /***/ },
-/* 161 */
+/* 165 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -32474,20 +34315,20 @@
 	}
 
 /***/ },
-/* 162 */
+/* 166 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var Component = __webpack_require__(9)(
 	  /* script */
 	  null,
 	  /* template */
-	  __webpack_require__(163),
+	  __webpack_require__(167),
 	  /* scopeId */
 	  null,
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\node_modules\\.0.0.8@sf-pagination\\src\\pagination-dot.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\node_modules\\.0.0.8@sf-pagination\\src\\pagination-dot.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] pagination-dot.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32508,7 +34349,7 @@
 
 
 /***/ },
-/* 163 */
+/* 167 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -32523,7 +34364,7 @@
 	}
 
 /***/ },
-/* 164 */
+/* 168 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -32581,24 +34422,24 @@
 	}
 
 /***/ },
-/* 165 */
+/* 169 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(166)
+	__webpack_require__(170)
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(169),
+	  __webpack_require__(173),
 	  /* template */
-	  __webpack_require__(170),
+	  __webpack_require__(174),
 	  /* scopeId */
-	  "data-v-452b6012",
+	  "data-v-4178b9d4",
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\node_modules\\.0.0.5@sf-select\\src\\select.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\node_modules\\.0.0.6@sf-select\\src\\select.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] select.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32609,9 +34450,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-452b6012", Component.options)
+	    hotAPI.createRecord("data-v-4178b9d4", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-452b6012", Component.options)
+	    hotAPI.reload("data-v-4178b9d4", Component.options)
 	  }
 	})()}
 
@@ -32619,23 +34460,23 @@
 
 
 /***/ },
-/* 166 */
+/* 170 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(167);
+	var content = __webpack_require__(171);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(53)("20405bf6", content, false);
+	var update = __webpack_require__(53)("8d0a7946", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!./../../.0.23.1@css-loader/index.js!./../../.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-452b6012&scoped=true!./../../.4.1.1@sass-loader/index.js!./../../.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./select.vue", function() {
-	     var newContent = require("!!./../../.0.23.1@css-loader/index.js!./../../.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-452b6012&scoped=true!./../../.4.1.1@sass-loader/index.js!./../../.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./select.vue");
+	   module.hot.accept("!!./../../.0.23.1@css-loader/index.js!./../../.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-4178b9d4&scoped=true!./../../.4.1.1@sass-loader/index.js!./../../.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./select.vue", function() {
+	     var newContent = require("!!./../../.0.23.1@css-loader/index.js!./../../.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-4178b9d4&scoped=true!./../../.4.1.1@sass-loader/index.js!./../../.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./select.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -32645,7 +34486,7 @@
 	}
 
 /***/ },
-/* 167 */
+/* 171 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -32653,19 +34494,19 @@
 
 
 	// module
-	exports.push([module.id, "\n.m-select[data-v-452b6012] {\n  display: inline-block;\n  position: relative;\n  margin: 0 auto;\n  height: 32px;\n  vertical-align: middle;\n  background: #fafafa;\n  border: 1px solid #ebebeb;\n  border-radius: 2px;\n  box-shadow: 0 1px 2px -3px #000;\n  cursor: pointer;\n  font-size: 14px;\n}\n.m-select ul[data-v-452b6012] {\n    margin: 0;\n    padding: 0;\n}\n.m-select .select-sel[data-v-452b6012] {\n    height: 32px;\n    line-height: 32px;\n    padding: 0 50px 0 40px;\n    color: #000;\n    border: none;\n}\n.m-select .select-sel span[data-v-452b6012] {\n      line-height: 32px;\n      vertical-align: top;\n}\n.m-select .select-sel.disabled[data-v-452b6012] {\n      color: #999;\n      background: #eee;\n      cursor: not-allowed;\n}\n.m-select .select-cnt[data-v-452b6012] {\n    position: absolute;\n    top: 36px;\n    left: 0;\n    width: 150px;\n    border: 1px solid #e6eaeb;\n    border-radius: 2px;\n    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);\n    background-color: #fff;\n    z-index: 10;\n}\n.m-select .select-cnt .list[data-v-452b6012] {\n      position: relative;\n      max-height: 300px;\n      overflow: hidden;\n      background-color: #fff;\n}\n.m-select .u-icon-down[data-v-452b6012] {\n    position: absolute;\n    top: 15px;\n    right: 10px;\n    width: 12px;\n    height: 12px;\n    background: url(" + __webpack_require__(168) + ");\n    background-position: 0 -540px;\n    background-size: 120px auto;\n}\n", ""]);
+	exports.push([module.id, "\n.m-select[data-v-4178b9d4] {\n  display: inline-block;\n  position: relative;\n  margin: 0 auto;\n  height: 32px;\n  vertical-align: middle;\n  background: #fafafa;\n  border: 1px solid #ebebeb;\n  border-radius: 2px;\n  box-shadow: 0 1px 2px -3px #000;\n  cursor: pointer;\n  font-size: 14px;\n}\n.m-select ul[data-v-4178b9d4] {\n    margin: 0;\n    padding: 0;\n}\n.m-select .select-sel[data-v-4178b9d4] {\n    height: 32px;\n    line-height: 32px;\n    padding: 0 50px 0 40px;\n    color: #000;\n    border: none;\n}\n.m-select .select-sel span[data-v-4178b9d4] {\n      line-height: 32px;\n      vertical-align: top;\n}\n.m-select .select-sel.disabled[data-v-4178b9d4] {\n      color: #999;\n      background: #eee;\n      cursor: not-allowed;\n}\n.m-select .select-cnt[data-v-4178b9d4] {\n    position: absolute;\n    top: 36px;\n    left: 0;\n    width: 150px;\n    border: 1px solid #e6eaeb;\n    border-radius: 2px;\n    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);\n    background-color: #fff;\n    z-index: 10;\n}\n.m-select .select-cnt .list[data-v-4178b9d4] {\n      position: relative;\n      max-height: 300px;\n      overflow: hidden;\n      background-color: #fff;\n}\n.m-select .u-icon-down[data-v-4178b9d4] {\n    position: absolute;\n    top: 15px;\n    right: 10px;\n    width: 12px;\n    height: 12px;\n    background: url(" + __webpack_require__(172) + ");\n    background-position: 0 -540px;\n    background-size: 120px auto;\n}\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 168 */
+/* 172 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "icon-12.png?e5d84533d70ccdd978e4ae4b5cea36dc";
 
 /***/ },
-/* 169 */
+/* 173 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -32819,16 +34660,15 @@
 				this.selected = option;
 				this.$emit('change', this.selected);
 				this.toggle(false);
+			},
+			_onMousedown: function _onMousedown(event) {
+				if (!this.$refs['select-box'].contains(event.target)) {
+					this.toggle(false);
+				}
 			}
 		},
 		created: function created() {
-			var _this = this;
-
-			document.addEventListener('mousedown', function (e) {
-				if (!_this.$refs['select-box'].contains(e.target)) {
-					_this.toggle(false);
-				}
-			});
+			document.addEventListener('mousedown', this._onMousedown);
 			this.$on('selectOption', this._onOptionSelect);
 			this.$nextTick(function () {
 				var option = this.$children.filter(function (item) {
@@ -32842,11 +34682,14 @@
 					};
 				}
 			});
+		},
+		destroyed: function destroyed() {
+			document.removeEventListener('mousedown', this._onMousedown);
 		}
 	};
 
 /***/ },
-/* 170 */
+/* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -32884,29 +34727,29 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-452b6012", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-4178b9d4", module.exports)
 	  }
 	}
 
 /***/ },
-/* 171 */
+/* 175 */
 /***/ function(module, exports, __webpack_require__) {
 
 	
 	/* styles */
-	__webpack_require__(172)
+	__webpack_require__(176)
 
 	var Component = __webpack_require__(9)(
 	  /* script */
-	  __webpack_require__(175),
+	  __webpack_require__(179),
 	  /* template */
-	  __webpack_require__(176),
+	  __webpack_require__(180),
 	  /* scopeId */
-	  "data-v-dc058220",
+	  "data-v-d852dbe2",
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "D:\\work\\NSFA\\7-ui\\node_modules\\.0.0.5@sf-select\\src\\option.vue"
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\node_modules\\.0.0.6@sf-select\\src\\option.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] option.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -32917,9 +34760,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-dc058220", Component.options)
+	    hotAPI.createRecord("data-v-d852dbe2", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-dc058220", Component.options)
+	    hotAPI.reload("data-v-d852dbe2", Component.options)
 	  }
 	})()}
 
@@ -32927,23 +34770,23 @@
 
 
 /***/ },
-/* 172 */
+/* 176 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(173);
+	var content = __webpack_require__(177);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(53)("4b8275a6", content, false);
+	var update = __webpack_require__(53)("0cd6c5cd", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!./../../.0.23.1@css-loader/index.js!./../../.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-dc058220&scoped=true!./../../.4.1.1@sass-loader/index.js!./../../.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./option.vue", function() {
-	     var newContent = require("!!./../../.0.23.1@css-loader/index.js!./../../.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-dc058220&scoped=true!./../../.4.1.1@sass-loader/index.js!./../../.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./option.vue");
+	   module.hot.accept("!!./../../.0.23.1@css-loader/index.js!./../../.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-d852dbe2&scoped=true!./../../.4.1.1@sass-loader/index.js!./../../.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./option.vue", function() {
+	     var newContent = require("!!./../../.0.23.1@css-loader/index.js!./../../.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-d852dbe2&scoped=true!./../../.4.1.1@sass-loader/index.js!./../../.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./option.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -32953,7 +34796,7 @@
 	}
 
 /***/ },
-/* 173 */
+/* 177 */
 /***/ function(module, exports, __webpack_require__) {
 
 	exports = module.exports = __webpack_require__(5)();
@@ -32961,19 +34804,19 @@
 
 
 	// module
-	exports.push([module.id, "\n.itm[data-v-dc058220] {\n  padding: 8px 10px;\n  box-sizing: border-box;\n  overflow: hidden;\n  word-wrap: normal;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n}\n.itm .txt[data-v-dc058220] {\n    display: inline-block;\n    vertical-align: middle;\n}\n.itm .u-icon-tickblue[data-v-dc058220] {\n    display: none;\n    width: 14px;\n    height: 14px;\n    margin-left: 5px;\n    vertical-align: middle;\n    background: url(" + __webpack_require__(174) + ");\n    background-size: 120px auto;\n    background-position: 0 -570px;\n}\n.itm[data-v-dc058220]:hover {\n    background-color: #e8f1f8;\n    color: #62a8ea;\n}\n.itm.active[data-v-dc058220] {\n    color: #62a8ea;\n}\n.itm.active .u-icon-tickblue[data-v-dc058220] {\n      display: inline-block;\n}\n.itm.disabled[data-v-dc058220] {\n    color: #999;\n    background: #eee;\n    cursor: not-allowed;\n}\n", ""]);
+	exports.push([module.id, "\n.itm[data-v-d852dbe2] {\n  padding: 8px 10px;\n  box-sizing: border-box;\n  overflow: hidden;\n  word-wrap: normal;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n}\n.itm .txt[data-v-d852dbe2] {\n    display: inline-block;\n    vertical-align: middle;\n}\n.itm .u-icon-tickblue[data-v-d852dbe2] {\n    display: none;\n    width: 14px;\n    height: 14px;\n    margin-left: 5px;\n    vertical-align: middle;\n    background: url(" + __webpack_require__(178) + ");\n    background-size: 120px auto;\n    background-position: 0 -570px;\n}\n.itm[data-v-d852dbe2]:hover {\n    background-color: #e8f1f8;\n    color: #62a8ea;\n}\n.itm.active[data-v-d852dbe2] {\n    color: #62a8ea;\n}\n.itm.active .u-icon-tickblue[data-v-d852dbe2] {\n      display: inline-block;\n}\n.itm.disabled[data-v-d852dbe2] {\n    color: #999;\n    background: #eee;\n    cursor: not-allowed;\n}\n", ""]);
 
 	// exports
 
 
 /***/ },
-/* 174 */
+/* 178 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "icon-14.png?8fd4bebaa84bd06d52022d666ba2bbff";
 
 /***/ },
-/* 175 */
+/* 179 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -33071,7 +34914,7 @@
 	};
 
 /***/ },
-/* 176 */
+/* 180 */
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
@@ -33098,12 +34941,12 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-dc058220", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-d852dbe2", module.exports)
 	  }
 	}
 
 /***/ },
-/* 177 */
+/* 181 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -33114,12 +34957,12 @@
 	 * @author:   波比(｡･∀･)ﾉﾞ
 	 * @date:     2016-07-21  下午12:07
 	 */
-	var hue = __webpack_require__(178);
-	var saturation = __webpack_require__(180);
-	var tinycolor = __webpack_require__(182);
+	var hue = __webpack_require__(182);
+	var saturation = __webpack_require__(184);
+	var tinycolor = __webpack_require__(186);
 
 	module.exports = {
-		template: __webpack_require__(183),
+		template: __webpack_require__(187),
 		name: "sf-colorpicker",
 		props: {
 			hex: {
@@ -33176,7 +35019,7 @@
 	};
 
 /***/ },
-/* 178 */
+/* 182 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -33190,7 +35033,7 @@
 
 	module.exports = {
 		name: 'sf-hue',
-		template: __webpack_require__(179),
+		template: __webpack_require__(183),
 		props: {
 			colors: Object,
 			onChange: Function,
@@ -33290,13 +35133,13 @@
 	};
 
 /***/ },
-/* 179 */
+/* 183 */
 /***/ function(module, exports) {
 
 	module.exports = "<div :class=\"['sf-colorpicker-hue', directionClass]\">\n\t<div class=\"hue_container\" ref=\"container\"\n\t     @mousedown=\"handleMouseDown\">\n\t\t<div class=\"hue_pointer\" :style=\"{top: pointerTop, left: pointerLeft}\">\n\t\t\t<slot><div class=\"hue_picker\"></div></slot>\n\t\t</div>\n\t</div>\n</div>";
 
 /***/ },
-/* 180 */
+/* 184 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -33310,7 +35153,7 @@
 
 	module.exports = {
 		name: 'sf-saturation',
-		template: __webpack_require__(181),
+		template: __webpack_require__(185),
 		props: {
 			colors: Object,
 			onChange: Function
@@ -33372,13 +35215,13 @@
 	};
 
 /***/ },
-/* 181 */
+/* 185 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"sf-colorpicker-saturation\"\n     :style=\"{background: bgColor}\"\n     ref=\"container\"\n     @mousedown=\"handleMouseDown\">\n\t<div class=\"saturation_bgwhite\"></div>\n\t<div class=\"saturation_bgblack\"></div>\n\t<div class=\"saturation_pointer\" :style=\"{top: pointerTop, left: pointerLeft}\">\n\t\t<slot><div class=\"circle\"></div></slot>\n\t</div>\n</div>";
 
 /***/ },
-/* 182 */
+/* 186 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;"use strict";
@@ -34568,13 +36411,13 @@
 	})(Math);
 
 /***/ },
-/* 183 */
+/* 187 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"sf-colorpicker\">\n\n\t<div class=\"colorpicker_saturation\">\n\t\t<sf-saturation :colors=\"colors\" :on-change=\"colorChange\"></sf-saturation>\n\t</div>\n\n\t<div class=\"colorpicker_controls\">\n\t\t<div class=\"wrap\">\n\t\t\t<div class=\"activecolor\" :style=\"{background: activeColor}\"></div>\n\t\t</div>\n\t\t<div class=\"slide\">\n\t\t\t<sf-hue :colors=\"colors\" :on-change=\"colorChange\"></sf-hue>\n\t\t</div>\n\t</div>\n\n\t<div class=\"colorpicker_foot\">\n\t\t<input type=\"text\" class=\"tlt\"  v-model=\"inputColor\" @input=\"inputChange(inputColor)\">\n\t</div>\n</div>\n\n";
 
 /***/ },
-/* 184 */
+/* 188 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -34595,13 +36438,13 @@
 	 *
 	 */
 
-	var dom = __webpack_require__(185);
-	var manage = __webpack_require__(186);
-	var _ = __webpack_require__(145);
+	var dom = __webpack_require__(189);
+	var manage = __webpack_require__(190);
+	var _ = __webpack_require__(149);
 
 	module.exports = {
 		name: 'sf-dnd',
-		template: __webpack_require__(187),
+		template: __webpack_require__(191),
 		props: {
 			from: {
 				type: String,
@@ -35024,7 +36867,7 @@
 	};
 
 /***/ },
-/* 185 */
+/* 189 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -35167,7 +37010,7 @@
 	module.exports = dom;
 
 /***/ },
-/* 186 */
+/* 190 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -35178,7 +37021,7 @@
 	 * @author:   波比(｡･∀･)ﾉﾞ
 	 * @date:     2016-10-15  下午5:06
 	 */
-	var _ = __webpack_require__(145);
+	var _ = __webpack_require__(149);
 	var position = {
 		startX: 0, // 鼠标开始X坐标
 		startY: 0, // 鼠标开始Y坐标
@@ -35245,13 +37088,13 @@
 	};
 
 /***/ },
-/* 187 */
+/* 191 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"sf-dnd\" :class=\"classEx\"  @mousedown=\"mousedown\" >\n\t<transition-group\n\t\tname=\"dnd_item\"\n\t\t:tag=\"tag\"\n\t>\n\t\t<slot class=\"dnd_item\"></slot>\n\t</transition-group>\n</div>";
 
 /***/ },
-/* 188 */
+/* 192 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -35263,14 +37106,14 @@
 	 * @date:     2016-10-15  下午5:27
 	 */
 
-	var dom = __webpack_require__(185);
-	var manage = __webpack_require__(186);
-	var _ = __webpack_require__(145);
-	var dnd = __webpack_require__(184);
+	var dom = __webpack_require__(189);
+	var manage = __webpack_require__(190);
+	var _ = __webpack_require__(149);
+	var dnd = __webpack_require__(188);
 
 	module.exports = {
 		name: 'sf-draggable',
-		template: __webpack_require__(189),
+		template: __webpack_require__(193),
 		props: {
 			axis: {
 				type: String,
@@ -35428,10 +37271,572 @@
 	};
 
 /***/ },
-/* 189 */
+/* 193 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"m-draggable\" :class=\"classEx\"  @mousedown=\"mousedown\" >\n\t<slot></slot>\n</div>";
+
+/***/ },
+/* 194 */
+/***/ function(module, exports, __webpack_require__) {
+
+	
+	/* styles */
+	__webpack_require__(195)
+
+	var Component = __webpack_require__(9)(
+	  /* script */
+	  __webpack_require__(197),
+	  /* template */
+	  __webpack_require__(203),
+	  /* scopeId */
+	  "data-v-eda758c8",
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\node_modules\\.0.0.5@sf-tree-select\\src\\treeSelect.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] treeSelect.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-eda758c8", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-eda758c8", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 195 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(196);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	if(content.locals) module.exports = content.locals;
+	// add the styles to the DOM
+	var update = __webpack_require__(53)("cdb34092", content, false);
+	// Hot Module Replacement
+	if(false) {
+	 // When the styles change, update the <style> tags
+	 if(!content.locals) {
+	   module.hot.accept("!!./../../.0.23.1@css-loader/index.js!./../../.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-eda758c8&scoped=true!./../../.4.1.1@sass-loader/index.js!./../../.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./treeSelect.vue", function() {
+	     var newContent = require("!!./../../.0.23.1@css-loader/index.js!./../../.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-eda758c8&scoped=true!./../../.4.1.1@sass-loader/index.js!./../../.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./treeSelect.vue");
+	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+	     update(newContent);
+	   });
+	 }
+	 // When the module is disposed, remove the <style> tags
+	 module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 196 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(5)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "\n.m-select[data-v-eda758c8] {\n  display: inline-block;\n  position: relative;\n  margin: 0 auto;\n  height: 32px;\n  vertical-align: middle;\n  background: #fafafa;\n  border: 1px solid #ebebeb;\n  border-radius: 2px;\n  box-shadow: 0 1px 2px -3px #000;\n  cursor: pointer;\n  font-size: 14px;\n}\n.m-select .select-sel[data-v-eda758c8] {\n    height: 32px;\n    line-height: 32px;\n    padding: 0 50px 0 40px;\n    color: #000;\n    border: none;\n}\n.m-select .select-sel span[data-v-eda758c8] {\n      line-height: 32px;\n      vertical-align: top;\n}\n.m-select .select-sel.disabled[data-v-eda758c8] {\n      color: #999;\n      background: #eee;\n      cursor: not-allowed;\n}\n.m-select .select-cnt[data-v-eda758c8] {\n    position: absolute;\n    top: 36px;\n    left: 0;\n    width: 150px;\n    border: 1px solid #e6eaeb;\n    border-radius: 2px;\n    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);\n    background-color: #fff;\n    z-index: 10;\n}\n.m-select .u-icon-down[data-v-eda758c8] {\n    position: absolute;\n    top: 15px;\n    right: 10px;\n    width: 12px;\n    height: 12px;\n    background: url(/docs/res/img/icon-12.png);\n    background-position: 0 -540px;\n    background-size: 120px auto;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 197 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	exports.__esModule = true;
+
+	var _treeList = __webpack_require__(198);
+
+	var _treeList2 = _interopRequireDefault(_treeList);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	exports.default = {
+		name: 'sf-tree-select',
+		componentName: 'treeSelect',
+		components: {
+			'sf-tree-list': _treeList2.default
+		},
+		computed: {},
+		props: {
+			options: Array,
+			defid: [String, Number],
+			title: String,
+			disabled: {
+				type: Boolean,
+				default: false
+			}
+		},
+		data: function data() {
+			return {
+				selected: {},
+				isShow: false,
+				root: this
+			};
+		},
+
+		methods: {
+			/**
+	   * 展开/折叠下拉列表(主动)
+	   * @param  {boolean} show 
+	   * @return {void}     
+	   */
+			toggle: function toggle(show) {
+				if (this.disabled == true) return;
+				if (show == undefined) {
+					this.isShow = !this.isShow;
+				} else {
+					this.isShow = show;
+				}
+				this.$emit('toggle', { show: this.isShow });
+			},
+
+			/**
+	   * 展开/折叠下拉列表(被动)
+	   * @param {event} event 
+	   * @return {void}     
+	   */
+			_onToggle: function _onToggle(event) {
+				this.toggle();
+			},
+
+			/**
+	   * 选择某一项(主动)
+	   * @param  {object} option 选中项
+	   * @return {void}        
+	   */
+			select: function select(option) {
+				if (this.disabled == true || option.id == undefined) return;
+				this.selected = option;
+				this.toggle(false);
+			},
+
+			/**
+	   * 某一项被选中(被动)
+	   * @param  {object} option 选中项
+	   * @return {void}        
+	   */
+			onOptionSelect: function onOptionSelect(option) {
+				this.selected = option;
+				this.$emit('change', this.selected);
+				this.toggle(false);
+			},
+
+			_onMousedown: function _onMousedown(event) {
+				if (!this.$refs['select-box'].contains(event.target)) {
+					this.toggle(false);
+				}
+			}
+		},
+		created: function created() {
+			var _this = this;
+
+			document.addEventListener('mousedown', this._onMousedown);
+			this.$on('selectOption', this.onOptionSelect);
+			var getDefOption = function getDefOption(options) {
+				if (_this.defid == undefined) return;
+				for (var i = 0; i < options.length; i++) {
+					var item = options[i];
+					if (item.id == _this.defid) {
+						return item;
+					} else if (item.children && item.children.length > 0) {
+						var _option = getDefOption(item.children);
+						if (!!_option) return _option;
+					}
+				}
+			};
+			var option = getDefOption(this.options);
+			if (!!option) {
+				this.selected = option;
+			} else {
+				this.selected = {
+					name: this.title || '请选择'
+				};
+			}
+		},
+		destroyed: function destroyed() {
+			document.removeEventListener('mousedown', this._onMousedown);
+		}
+	}; //
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+
+/***/ },
+/* 198 */
+/***/ function(module, exports, __webpack_require__) {
+
+	
+	/* styles */
+	__webpack_require__(199)
+
+	var Component = __webpack_require__(9)(
+	  /* script */
+	  __webpack_require__(201),
+	  /* template */
+	  __webpack_require__(202),
+	  /* scopeId */
+	  "data-v-c31fdf84",
+	  /* cssModules */
+	  null
+	)
+	Component.options.__file = "D:\\projects\\NSFA\\7-ui\\node_modules\\.0.0.5@sf-tree-select\\src\\treeList.vue"
+	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
+	if (Component.options.functional) {console.error("[vue-loader] treeList.vue: functional components are not supported with templates, they should use render functions.")}
+
+	/* hot reload */
+	if (false) {(function () {
+	  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+	  hotAPI.install(require("vue"), false)
+	  if (!hotAPI.compatible) return
+	  module.hot.accept()
+	  if (!module.hot.data) {
+	    hotAPI.createRecord("data-v-c31fdf84", Component.options)
+	  } else {
+	    hotAPI.reload("data-v-c31fdf84", Component.options)
+	  }
+	})()}
+
+	module.exports = Component.exports
+
+
+/***/ },
+/* 199 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(200);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	if(content.locals) module.exports = content.locals;
+	// add the styles to the DOM
+	var update = __webpack_require__(53)("6364c382", content, false);
+	// Hot Module Replacement
+	if(false) {
+	 // When the styles change, update the <style> tags
+	 if(!content.locals) {
+	   module.hot.accept("!!./../../.0.23.1@css-loader/index.js!./../../.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-c31fdf84&scoped=true!./../../.4.1.1@sass-loader/index.js!./../../.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./treeList.vue", function() {
+	     var newContent = require("!!./../../.0.23.1@css-loader/index.js!./../../.10.3.0@vue-loader/lib/style-rewriter.js?id=data-v-c31fdf84&scoped=true!./../../.4.1.1@sass-loader/index.js!./../../.10.3.0@vue-loader/lib/selector.js?type=styles&index=0!./treeList.vue");
+	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+	     update(newContent);
+	   });
+	 }
+	 // When the module is disposed, remove the <style> tags
+	 module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 200 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(5)();
+	// imports
+
+
+	// module
+	exports.push([module.id, "\n.list[data-v-c31fdf84] {\n  position: relative;\n  max-height: 300px;\n  margin: 0;\n  padding: 0;\n  overflow-y: auto;\n  background-color: #fff;\n}\n.itm[data-v-c31fdf84] {\n  line-height: 30px;\n  box-sizing: border-box;\n  overflow: hidden;\n  word-wrap: normal;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n}\n.itm .itm-content[data-v-c31fdf84]:hover {\n    background-color: #e8f1f8;\n    color: #62a8ea;\n}\n.itm .itm-content.active[data-v-c31fdf84] {\n    color: #62a8ea;\n}\n.itm .itm-content.active .u-icon-tickblue[data-v-c31fdf84] {\n      display: inline-block;\n}\n.itm .itm-content.disabled[data-v-c31fdf84] {\n    color: #999;\n    background: #eee;\n    cursor: not-allowed;\n}\n.itm .itm-label[data-v-c31fdf84] {\n    color: #999;\n    cursor: default;\n}\n.itm .txt[data-v-c31fdf84] {\n    display: inline-block;\n    margin-left: 5px;\n    vertical-align: middle;\n}\n.itm .u-icon-tickblue[data-v-c31fdf84] {\n    display: none;\n    width: 14px;\n    height: 14px;\n    margin-left: 5px;\n    vertical-align: middle;\n    background: url(/docs/res/img/icon-14.png);\n    background-size: 120px auto;\n    background-position: 0 -570px;\n}\n", ""]);
+
+	// exports
+
+
+/***/ },
+/* 201 */
+/***/ function(module, exports) {
+
+	'use strict';
+
+	exports.__esModule = true;
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+
+	exports.default = {
+		name: 'sf-tree-list',
+		componentName: 'treeList',
+		components: {},
+		computed: {},
+		props: {
+			options: Array,
+			root: Object,
+			level: Number,
+			disabled: {
+				type: Boolean,
+				default: false
+			}
+		},
+		data: function data() {
+			return {};
+		},
+
+		methods: {
+			selectOption: function selectOption(option) {
+				if (this.disabled || option.disabled) return;
+				this.root.$emit('selectOption', option);
+			}
+		},
+		created: function created() {}
+	};
+
+/***/ },
+/* 202 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('ul', {
+	    staticClass: "list"
+	  }, _vm._l((_vm.options), function(option, index) {
+	    return _c('li', {
+	      staticClass: "itm",
+	      attrs: {
+	        "id": option.id,
+	        "data-level": _vm.level
+	      }
+	    }, [(option.id != undefined) ? _c('div', {
+	      staticClass: "itm-content",
+	      class: {
+	        active: _vm.root.selected === option, disabled: _vm.disabled || option.disabled
+	      },
+	      style: ({
+	        paddingLeft: _vm.level * 10 + 'px'
+	      }),
+	      on: {
+	        "click": function($event) {
+	          $event.stopPropagation();
+	          _vm.selectOption(option)
+	        }
+	      }
+	    }, [_c('span', {
+	      staticClass: "txt"
+	    }, [_vm._v(_vm._s(option.name))]), _vm._v(" "), _c('i', {
+	      staticClass: "u-icon-tickblue"
+	    })]) : _c('div', {
+	      staticClass: "itm-label",
+	      style: ({
+	        paddingLeft: _vm.level * 10 + 'px'
+	      })
+	    }, [_c('span', {
+	      staticClass: "txt"
+	    }, [_vm._v(_vm._s(option.name))]), _vm._v(" "), _c('i', {
+	      staticClass: "u-icon-tickblue"
+	    })]), _vm._v(" "), (option.children && option.children.length) ? _c('sf-tree-list', {
+	      attrs: {
+	        "options": option.children,
+	        "root": _vm.root,
+	        "disabled": option.disabled,
+	        "level": _vm.level + 1
+	      }
+	    }) : _vm._e()], 1)
+	  }))
+	},staticRenderFns: []}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-c31fdf84", module.exports)
+	  }
+	}
+
+/***/ },
+/* 203 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('div', {
+	    ref: "select-box",
+	    staticClass: "m-select"
+	  }, [_c('div', {
+	    staticClass: "select-sel",
+	    class: {
+	      disabled: _vm.disabled
+	    },
+	    attrs: {
+	      "id": _vm.selected.id
+	    },
+	    on: {
+	      "mousedown": function($event) {
+	        _vm._onToggle($event)
+	      }
+	    }
+	  }, [_c('span', [_vm._v(_vm._s(_vm.selected.name))]), _vm._v(" "), _c('i', {
+	    staticClass: "u-icon-down"
+	  })]), _vm._v(" "), _c('div', {
+	    directives: [{
+	      name: "show",
+	      rawName: "v-show",
+	      value: (_vm.isShow),
+	      expression: "isShow"
+	    }],
+	    staticClass: "select-cnt"
+	  }, [_c('sf-tree-list', {
+	    attrs: {
+	      "options": _vm.options,
+	      "root": _vm.root,
+	      "level": 0
+	    }
+	  })], 1)])
+	},staticRenderFns: []}
+	module.exports.render._withStripped = true
+	if (false) {
+	  module.hot.accept()
+	  if (module.hot.data) {
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-eda758c8", module.exports)
+	  }
+	}
 
 /***/ }
 /******/ ]);
