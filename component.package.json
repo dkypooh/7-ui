@@ -11,6 +11,7 @@
     "sf-select" : "*",
     "sf-dnd" : "*",
     "sf-colorpicker" : "*",
-    "tinycolor2" : "*"
+    "tinycolor2" : "*",
+    "sf-tree-select" : "*"
   }
 }

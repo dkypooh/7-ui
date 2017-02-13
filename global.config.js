@@ -102,7 +102,7 @@ module.exports = [
 	{
 		name: "sf-tree-select",
 		label: "TreeSelect 树形下拉选择器",
-		css : "",
+		css : "select",
 		path :"treeSelect"
 	},
 ]
