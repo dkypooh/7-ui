@@ -11,7 +11,7 @@ npm install 7-ui
 <head>
   <meta charset="UTF-8">
   <!-- 引入样式 -->
-  <link rel="stylesheet" href="https://unpkg.com/7-ui@1.0.0/dist/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/7-ui/dist/style.css">
 </head>
 <body>
   <div id="app">
@@ -21,7 +21,7 @@ npm install 7-ui
   <!-- 先引入 Vue -->
   <script src="https://unpkg.com/vue@2.0.3/dist/vue.js"></script>
   <!-- 引入组件库 -->
-  <script src="https://unpkg.com/7-ui@1.0.0/dist/app.js"></script>
+  <script src="https://unpkg.com/7-ui/dist/app.js"></script>
   <script>
     new Vue({
       el: '#app',

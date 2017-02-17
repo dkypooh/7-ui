@@ -1,6 +1,6 @@
 {
   "name": "7-ui",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "7-UI elements Component Library",
   "scripts": {
     "configfile" : "node ./build/build.component.js",
@@ -8,11 +8,10 @@
     "doccss": "webpack  --config ./build/webpack.config.doccss.js",
     "doc": "webpack  --config ./build/webpack.config.doc.js",
     "buildcss": "webpack  --config ./build/webpack.config.css.js",
-    "build": "webpack -p --config ./build/webpack.config.js",
+    "build": "webpack  --config ./build/webpack.config.js",
     "test": "karma start ./build/karma.conf.js",
     "server": "webpack-dev-server --inline --hot -quiet"
   },
-  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NSFI/7-ui.git"

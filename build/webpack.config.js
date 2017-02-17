@@ -1,6 +1,6 @@
 var path = require('path');
 
-module.exports =  {
+module.exports = {
 	entry: "./src/index.js",
 	output: {
 		path: "./dist",
@@ -9,17 +9,45 @@ module.exports =  {
 	module: {
 		loaders: [
 			{
-				test: /\.vue$/,
-				loader: 'vue-loader'
+				test: /\.md$/,
+				loader: 'vue-doc-loader'
 			},
+			{
+				test: /\.vue$/,
+				loader: 'vue'
+			},
+			{
+				test: /\.html/,
+				loader: 'html'
+			},
+
+			{ test: /\.json$/, loader: 'json' },
 			{
 				test: /\.js$/,
 				loader: 'babel'
 			},
 			{
-				test: /\.html/,
-				loader: 'html'
+				test: /\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,
+				loader: 'file-loader'
+			},
+			{
+				test: /\.(png|jpe?g|gif|svg)(\?\S*)?$/,
+				loader: 'file-loader',
+				query: {
+					name: '[name].[ext]?[hash]'
+				}
 			}
 		]
+	},
+	vue: {
+		loaders: {
+			scss: "vue-style-loader!css-loader!sass"
+		}
+	},
+	resolve :{
+		extensions: ['', '.js', '.vue'],
+		alias: {
+			vue: 'vue/dist/vue.js'
+		}
 	}
 };

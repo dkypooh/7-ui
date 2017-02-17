@@ -39,7 +39,7 @@ gulp.task('buildcss',
 
 gulp.task('document', ['configfile', 'markdown', 'doc', 'doccss'])
 
-gulp.task('build', ['configfile', 'js', 'doccss']);
+gulp.task('build', ['js', 'buildcss']);
 
 var parseInstall =  function(obj){
 	var ret = [];
