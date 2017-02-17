@@ -13,7 +13,7 @@
     <head>
       <meta charset="UTF-8">
       <!-- 引入样式 -->
-      <link rel="stylesheet" href="https://unpkg.com/element-ui@1.0.0-rc.8/lib/theme-default/index.css">
+      <link rel="stylesheet" href="https://unpkg.com/7-ui@1.0.0/dist/style.css">
     </head>
     <body>
       <div id="app">
