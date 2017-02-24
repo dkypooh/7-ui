@@ -85,12 +85,13 @@ var iconList = [
     line-height: 120px;
     color: #666;
     font-size: 13px;
-    transition: color .15s linear;
+    transition: all .15s linear;
 
     border-right: 1px solid #eee;
     border-bottom: 1px solid #eee;
     margin-right: -1px;
     margin-bottom: -1px;
+
     & span {
       display: inline-block;
       line-height: normal;
@@ -105,7 +106,16 @@ var iconList = [
       color: #8492a6;
     }
     &:hover {
-      color: rgb(92, 182, 255);
+      transform : scale(1.3);
+      cursor : pointer;
+      background-color: rgba(92, 182, 255, 1);
+
+      i {
+        color : #fff;
+      }
+      span {
+        color : #fff;
+      }
     }
   }
 </style>
