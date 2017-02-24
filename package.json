@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "lodash": "*",
-    "vue": "*"
+    "vue": "^2.1.10"
   },
   "devDependencies": {
     "async-validator": "^1.6.8",
