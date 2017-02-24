@@ -1,5 +1,6 @@
 {
   "dependencies" :{
+    "async-validator": "^1.6.8",
     "vue-loader" : "^11.1.2",
     "ui-style" :"*",
     "sf-progressbar": "*",

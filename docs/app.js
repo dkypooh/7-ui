@@ -4433,9 +4433,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/5.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/4.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 5.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 4.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -4444,9 +4444,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50c7bf38", Component.options)
+	    hotAPI.createRecord("data-v-50b9a7b7", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50c7bf38", Component.options)
+	    hotAPI.reload("data-v-50b9a7b7", Component.options)
 	  }
 	})()}
 
@@ -4750,7 +4750,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50c7bf38", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50b9a7b7", module.exports)
 	  }
 	}
 
@@ -4780,9 +4780,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/14.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/5.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 14.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 5.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -4791,9 +4791,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7cdec4a0", Component.options)
+	    hotAPI.createRecord("data-v-50c7bf38", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7cdec4a0", Component.options)
+	    hotAPI.reload("data-v-50c7bf38", Component.options)
 	  }
 	})()}
 
@@ -4946,7 +4946,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cdec4a0", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50c7bf38", module.exports)
 	  }
 	}
 
@@ -4976,9 +4976,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/7.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/6.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 7.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 6.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -4987,9 +4987,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50e3ee3a", Component.options)
+	    hotAPI.createRecord("data-v-50d5d6b9", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50e3ee3a", Component.options)
+	    hotAPI.reload("data-v-50d5d6b9", Component.options)
 	  }
 	})()}
 
@@ -5532,7 +5532,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50e3ee3a", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50d5d6b9", module.exports)
 	  }
 	}
 
@@ -5560,9 +5560,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/4.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/8.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 4.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 8.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -5571,9 +5571,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50b9a7b7", Component.options)
+	    hotAPI.createRecord("data-v-50f205bb", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50b9a7b7", Component.options)
+	    hotAPI.reload("data-v-50f205bb", Component.options)
 	  }
 	})()}
 
@@ -5591,13 +5591,13 @@
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(53)("2d657c17", content, false);
+	var update = __webpack_require__(53)("4b205cfc", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50b9a7b7\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=0!./4.vue", function() {
-	     var newContent = require("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50b9a7b7\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=0!./4.vue");
+	   module.hot.accept("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50f205bb\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=0!./8.vue", function() {
+	     var newContent = require("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50f205bb\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=0!./8.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -6331,7 +6331,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50b9a7b7", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50f205bb", module.exports)
 	  }
 	}
 
@@ -6361,9 +6361,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/6.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/7.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 6.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 7.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -6372,9 +6372,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50d5d6b9", Component.options)
+	    hotAPI.createRecord("data-v-50e3ee3a", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50d5d6b9", Component.options)
+	    hotAPI.reload("data-v-50e3ee3a", Component.options)
 	  }
 	})()}
 
@@ -6392,13 +6392,13 @@
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(53)("49241ded", content, false);
+	var update = __webpack_require__(53)("08275a6e", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50d5d6b9\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=0!./6.vue", function() {
-	     var newContent = require("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50d5d6b9\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=0!./6.vue");
+	   module.hot.accept("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50e3ee3a\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=0!./7.vue", function() {
+	     var newContent = require("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50e3ee3a\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=0!./7.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -6432,13 +6432,13 @@
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(53)("3d6d8f0c", content, false);
+	var update = __webpack_require__(53)("071e68e6", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50d5d6b9\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=1!./6.vue", function() {
-	     var newContent = require("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50d5d6b9\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=1!./6.vue");
+	   module.hot.accept("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50e3ee3a\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=1!./7.vue", function() {
+	     var newContent = require("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50e3ee3a\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=1!./7.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -6472,13 +6472,13 @@
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(53)("31b7002b", content, false);
+	var update = __webpack_require__(53)("1e8b86a8", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50d5d6b9\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=2!./6.vue", function() {
-	     var newContent = require("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50d5d6b9\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=2!./6.vue");
+	   module.hot.accept("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50e3ee3a\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=2!./7.vue", function() {
+	     var newContent = require("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50e3ee3a\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=2!./7.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -7826,7 +7826,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50d5d6b9", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50e3ee3a", module.exports)
 	  }
 	}
 
@@ -7850,9 +7850,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/10.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/9.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 10.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 9.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -7861,9 +7861,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7d4f80a8", Component.options)
+	    hotAPI.createRecord("data-v-51001d3c", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7d4f80a8", Component.options)
+	    hotAPI.reload("data-v-51001d3c", Component.options)
 	  }
 	})()}
 
@@ -7874,7 +7874,7 @@
 /* 69 */
 /***/ function(module, exports) {
 
-	'use strict';
+	"use strict";
 
 	exports.__esModule = true;
 	//
@@ -8280,12 +8280,316 @@
 	//
 	//
 	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
+	//
 
 	exports.default = {
+	  name: 'app',
 	  data: function data() {
 	    return {
-	      textarea: ''
+	      cities: [{ key: 1, value: "北京" }, { key: 2, value: "上海" }, { key: 3, value: "天津" }, { key: 4, value: "杭州" }],
+	      ruleForm: {
+	        name: '',
+	        city: [],
+	        radio: '',
+	        textarea: '',
+	        switch: true
+	      },
+	      rules: {
+	        name: [{ required: true, message: '请输入title', trigger: 'blur' }, { min: 3, max: 5, message: '长度在 3 到 5 个字符', trigger: 'blur' }],
+	        city: [{ type: 'array', required: true, message: '请选择city', trigger: 'change' }],
+	        radio: [{ required: true, message: '请选择radio', trigger: 'change' }],
+	        textarea: [{ required: true, message: '请填写textarea', trigger: 'blur' }]
+	      }
 	    };
+	  },
+
+	  methods: {
+	    submitForm: function submitForm(formName) {
+	      var _this = this;
+
+	      this.$refs[formName].validate(function (valid) {
+	        if (valid) {
+	          console.log(_this.ruleForm);
+	        } else {
+	          console.log('error');
+	        }
+	      });
+	    },
+	    resetForm: function resetForm(formName) {
+	      this.$refs[formName].resetFields();
+	    }
 	  }
 	};
 
@@ -8866,210 +9170,65 @@
 	    staticClass: "hljs-tag"
 	  }, [_vm._v("</"), _c('span', {
 	    staticClass: "hljs-name"
-	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n")])]), _vm._v(" "), _c('p', [_vm._v("#Input组件")]), _vm._v(" "), _c('p', [_vm._v("###基础用法")]), _vm._v(" "), _c('pre', [_c('code', {
-	    staticClass: "hljs language-html"
-	  }, [_c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("sf-input")]), _vm._v(" "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("v-model")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"input\"")]), _vm._v(" "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("placeholder")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"请输入内容\"")]), _vm._v(">")]), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("</"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("sf-input")]), _vm._v(">")]), _vm._v("\n\n"), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("script")]), _vm._v(">")]), _c('span', {
-	    staticClass: "javascript"
-	  }, [_vm._v("\n"), _c('span', {
-	    staticClass: "hljs-keyword"
-	  }, [_vm._v("export")]), _vm._v(" "), _c('span', {
-	    staticClass: "hljs-keyword"
-	  }, [_vm._v("default")]), _vm._v(" {\n  data() {\n    "), _c('span', {
-	    staticClass: "hljs-keyword"
-	  }, [_vm._v("return")]), _vm._v(" {\n      "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("input")]), _vm._v(": "), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("''")]), _vm._v("\n    }\n  }\n}\n")]), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("</"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n")])]), _vm._v(" "), _c('p', [_vm._v("###禁用状态")]), _vm._v(" "), _c('demo-block', {
-	    staticClass: "demo-box"
-	  }, [_c('div', {
-	    staticClass: "source"
-	  }, [_c('sf-input', {
-	    directives: [{
-	      name: "model",
-	      rawName: "v-model",
-	      value: (_vm.input1),
-	      expression: "input1"
-	    }],
-	    attrs: {
-	      "placeholder": "请输入内容",
-	      "disabled": true
-	    },
-	    domProps: {
-	      "value": (_vm.input1)
-	    },
-	    on: {
-	      "input": function($event) {
-	        _vm.input1 = $event
-	      }
-	    }
-	  })], 1), _vm._v(" "), _c('div', {
-	    staticClass: "meta"
-	  }, [_c('div', {
-	    staticClass: "description"
-	  }, [_c('p', [_vm._v("通过"), _c('em', [_vm._v("disabled")]), _vm._v("熟悉可以指定是否禁用")])]), _vm._v(" "), _c('div', {
-	    staticClass: "highlight"
-	  }, [_c('pre', [_c('code', {
-	    staticClass: "hljs language-html"
-	  }, [_c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("sf-input")]), _vm._v("\n  "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("placeholder")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"请输入内容\"")]), _vm._v("\n  "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("v-model")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"input1\"")]), _vm._v("\n  "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v(":disabled")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"true\"")]), _vm._v(">")]), _vm._v("\n"), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("</"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("sf-input")]), _vm._v(">")]), _vm._v("\n\n"), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("script")]), _vm._v(">")]), _c('span', {
-	    staticClass: "javascript"
-	  }, [_vm._v("\n"), _c('span', {
-	    staticClass: "hljs-keyword"
-	  }, [_vm._v("export")]), _vm._v(" "), _c('span', {
-	    staticClass: "hljs-keyword"
-	  }, [_vm._v("default")]), _vm._v(" {\n  data() {\n    "), _c('span', {
-	    staticClass: "hljs-keyword"
-	  }, [_vm._v("return")]), _vm._v(" {\n      "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("input1")]), _vm._v(": "), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("''")]), _vm._v("\n    }\n  }\n}\n")]), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("</"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n")])]), _vm._v(" "), _c('p', [_vm._v("###文本域")]), _vm._v(" "), _c('demo-block', {
-	    staticClass: "demo-box"
-	  }, [_c('div', {
-	    staticClass: "source"
-	  }, [_c('sf-input', {
-	    directives: [{
-	      name: "model",
-	      rawName: "v-model",
-	      value: (_vm.textarea),
-	      expression: "textarea"
-	    }],
-	    attrs: {
-	      "type": "textarea",
-	      "rows": 2,
-	      "placeholder": "请输入内容"
-	    },
-	    domProps: {
-	      "value": (_vm.textarea)
-	    },
-	    on: {
-	      "input": function($event) {
-	        _vm.textarea = $event
-	      }
-	    }
-	  })], 1), _vm._v(" "), _c('div', {
-	    staticClass: "meta"
-	  }, [_c('div', {
-	    staticClass: "description"
-	  }, [_c('p', [_vm._v("通过将type切换为textarea")])]), _vm._v(" "), _c('div', {
-	    staticClass: "highlight"
-	  }, [_c('pre', [_c('code', {
-	    staticClass: "hljs language-html"
-	  }, [_c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("sf-input")]), _vm._v("\n  "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("type")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"textarea\"")]), _vm._v("\n  "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v(":rows")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"2\"")]), _vm._v("\n  "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("placeholder")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"请输入内容\"")]), _vm._v("\n  "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("v-model")]), _vm._v("="), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("\"textarea\"")]), _vm._v(">")]), _vm._v("\n"), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("</"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("sf-input")]), _vm._v(">")]), _vm._v("\n\n"), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("<"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("script")]), _vm._v(">")]), _c('span', {
-	    staticClass: "javascript"
-	  }, [_vm._v("\n"), _c('span', {
-	    staticClass: "hljs-keyword"
-	  }, [_vm._v("export")]), _vm._v(" "), _c('span', {
-	    staticClass: "hljs-keyword"
-	  }, [_vm._v("default")]), _vm._v(" {\n  data() {\n    "), _c('span', {
-	    staticClass: "hljs-keyword"
-	  }, [_vm._v("return")]), _vm._v(" {\n      "), _c('span', {
-	    staticClass: "hljs-attr"
-	  }, [_vm._v("textarea")]), _vm._v(": "), _c('span', {
-	    staticClass: "hljs-string"
-	  }, [_vm._v("''")]), _vm._v("\n    }\n  }\n}\n")]), _c('span', {
-	    staticClass: "hljs-tag"
-	  }, [_vm._v("</"), _c('span', {
-	    staticClass: "hljs-name"
-	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n")])]), _vm._v(" "), _c('demo-block', {
-	    staticClass: "demo-box"
-	  }, [_c('div', {
-	    staticClass: "source"
-	  }), _vm._v(" "), _c('div', {
-	    staticClass: "meta"
-	  }, [_c('div', {
-	    staticClass: "highlight"
-	  }, [_c('h3', [_vm._v("Input Attributes")]), _vm._v(" "), _c('table', {
+	  }, [_vm._v("script")]), _vm._v(">")]), _vm._v("\n")])])])])]), _vm._v(" "), _c('h3', [_vm._v("Form Attributes")]), _vm._v(" "), _vm._m(0), _vm._v(" "), _c('h3', [_vm._v("Form Methods")]), _vm._v(" "), _vm._m(1), _vm._v(" "), _c('h3', [_vm._v("Form-Item Attributes")]), _vm._v(" "), _vm._m(2), _vm._v(" "), _c('h3', [_vm._v("Input Attributes")]), _vm._v(" "), _vm._m(3), _vm._v(" "), _c('h3', [_vm._v("Input Events")]), _vm._v(" "), _vm._m(4), _vm._v(" "), _c('h3', [_vm._v("Radio Attributes")]), _vm._v(" "), _vm._m(5), _vm._v(" "), _c('h3', [_vm._v("Radio-group Attributes")]), _vm._v(" "), _vm._m(6), _vm._v(" "), _c('h3', [_vm._v("Radio-group Events")]), _vm._v(" "), _vm._m(7), _vm._v(" "), _c('h3', [_vm._v("Radio-button Attributes")]), _vm._v(" "), _vm._m(8), _vm._v(" "), _c('h3', [_vm._v("Attributes")]), _vm._v(" "), _vm._m(9), _vm._v(" "), _c('h3', [_vm._v("Events")]), _vm._v(" "), _vm._m(10), _vm._v(" "), _c('h3', [_vm._v("Checkbox Attributes")]), _vm._v(" "), _vm._m(11), _vm._v(" "), _c('h3', [_vm._v("Checkbox-group Events")]), _vm._v(" "), _vm._m(12)], 1)
+	},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('table', {
 	    staticClass: "table"
-	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("参数")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("类型")]), _vm._v(" "), _c('th', [_vm._v("可选值")]), _vm._v(" "), _c('th', [_vm._v("默认值")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("type")]), _vm._v(" "), _c('td', [_vm._v("类型")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("text/textarea")]), _vm._v(" "), _c('td', [_vm._v("text")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("value")]), _vm._v(" "), _c('td', [_vm._v("绑定值")]), _vm._v(" "), _c('td', [_vm._v("string, number")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("maxlength")]), _vm._v(" "), _c('td', [_vm._v("最大输入长度")]), _vm._v(" "), _c('td', [_vm._v("number")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("minlength")]), _vm._v(" "), _c('td', [_vm._v("最小输入长度")]), _vm._v(" "), _c('td', [_vm._v("number")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("placeholder")]), _vm._v(" "), _c('td', [_vm._v("输入框占位文本")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("disabled")]), _vm._v(" "), _c('td', [_vm._v("禁用")]), _vm._v(" "), _c('td', [_vm._v("boolean")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("false")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("size")]), _vm._v(" "), _c('td', [_vm._v("输入框尺寸，只在 "), _c('code', [_vm._v("type!=\"textarea\"")]), _vm._v(" 时有效")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("large, small, mini")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("rows")]), _vm._v(" "), _c('td', [_vm._v("输入框行数，只对 "), _c('code', [_vm._v("type=\"textarea\"")]), _vm._v(" 有效")]), _vm._v(" "), _c('td', [_vm._v("number")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("2")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("autosize")]), _vm._v(" "), _c('td', [_vm._v("自适应内容高度，只对 "), _c('code', [_vm._v("type=\"textarea\"")]), _vm._v(" 有效，可传入对象，如，{ minRows: 2, maxRows: 6 }")]), _vm._v(" "), _c('td', [_vm._v("boolean/object")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("false")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("auto-complete")]), _vm._v(" "), _c('td', [_vm._v("原生属性，自动补全")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("on, off")]), _vm._v(" "), _c('td', [_vm._v("off")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("name")]), _vm._v(" "), _c('td', [_vm._v("原生属性")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("max")]), _vm._v(" "), _c('td', [_vm._v("原生属性，设置最大值")]), _vm._v(" "), _c('td', [_vm._v("*")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("min")]), _vm._v(" "), _c('td', [_vm._v("原生属性，设置最小值")]), _vm._v(" "), _c('td', [_vm._v("*")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("resize")]), _vm._v(" "), _c('td', [_vm._v("控制是否能被用户缩放")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("none, both, horizontal, vertical")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("autofocus")]), _vm._v(" "), _c('td', [_vm._v("原生属性，自动获取焦点")]), _vm._v(" "), _c('td', [_vm._v("boolean")]), _vm._v(" "), _c('td', [_vm._v("true, false")]), _vm._v(" "), _c('td', [_vm._v("false")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("form")]), _vm._v(" "), _c('td', [_vm._v("原生属性")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])])])]), _vm._v(" "), _c('h3', [_vm._v("Input Events")]), _vm._v(" "), _c('table', {
+	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("参数")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("类型")]), _vm._v(" "), _c('th', [_vm._v("可选值")]), _vm._v(" "), _c('th', [_vm._v("默认值")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("model")]), _vm._v(" "), _c('td', [_vm._v("表单数据对象")]), _vm._v(" "), _c('td', [_vm._v("object")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("rules")]), _vm._v(" "), _c('td', [_vm._v("表单验证规则")]), _vm._v(" "), _c('td', [_vm._v("object")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("inline")]), _vm._v(" "), _c('td', [_vm._v("行内表单模式")]), _vm._v(" "), _c('td', [_vm._v("boolean")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("false")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("label-position")]), _vm._v(" "), _c('td', [_vm._v("表单域标签的位置")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("right/left/top")]), _vm._v(" "), _c('td', [_vm._v("right")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("label-width")]), _vm._v(" "), _c('td', [_vm._v("表单域标签的宽度，所有的 form-item 都会继承 form 组件的 labelWidth 的值")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("label-suffix")]), _vm._v(" "), _c('td', [_vm._v("表单域标签的后缀")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("show-message")]), _vm._v(" "), _c('td', [_vm._v("是否显示校验错误信息")]), _vm._v(" "), _c('td', [_vm._v("boolean")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("true")])])])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('table', {
 	    staticClass: "table"
-	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("事件名称")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("回调参数")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("click")]), _vm._v(" "), _c('td', [_vm._v("点击 Input 内的图标时触发")]), _vm._v(" "), _c('td', [_vm._v("(event: Event)")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("blur")]), _vm._v(" "), _c('td', [_vm._v("在 Input 失去焦点时触发")]), _vm._v(" "), _c('td', [_vm._v("(event: Event)")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("focus")]), _vm._v(" "), _c('td', [_vm._v("在 Input 获得焦点时触发")]), _vm._v(" "), _c('td', [_vm._v("(event: Event)")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("change")]), _vm._v(" "), _c('td', [_vm._v("在 Input 值改变时触发")]), _vm._v(" "), _c('td', [_vm._v("(value: string | number)")])])])])])])])], 1)])])], 1)])])], 1)])])], 1)
-	},staticRenderFns: []}
+	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("方法名")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("参数")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("validate")]), _vm._v(" "), _c('td', [_vm._v("对整个表单进行校验的方法")]), _vm._v(" "), _c('td', [_vm._v("Function(callback: Function(boolean))")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("validateField")]), _vm._v(" "), _c('td', [_vm._v("对部分表单字段进行校验的方法")]), _vm._v(" "), _c('td', [_vm._v("Function(prop: string, callback: Function(errorMessage: string))")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("resetFields")]), _vm._v(" "), _c('td', [_vm._v("对整个表单进行重置，将所有字段值重置为空并移除校验结果")]), _vm._v(" "), _c('td', [_vm._v("-")])])])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('table', {
+	    staticClass: "table"
+	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("参数")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("类型")]), _vm._v(" "), _c('th', [_vm._v("可选值")]), _vm._v(" "), _c('th', [_vm._v("默认值")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("prop")]), _vm._v(" "), _c('td', [_vm._v("表单域 model 字段")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("传入 Form 组件的 "), _c('code', [_vm._v("model")]), _vm._v(" 中的字段")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("label")]), _vm._v(" "), _c('td', [_vm._v("标签文本")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("label-width")]), _vm._v(" "), _c('td', [_vm._v("表单域标签的的宽度，例如 '50px'")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("required")]), _vm._v(" "), _c('td', [_vm._v("是否必填，如不设置，则会根据校验规则自动生成")]), _vm._v(" "), _c('td', [_vm._v("bolean")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("false")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("rules")]), _vm._v(" "), _c('td', [_vm._v("表单验证规则")]), _vm._v(" "), _c('td', [_vm._v("object")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("error")]), _vm._v(" "), _c('td', [_vm._v("表单域验证错误信息, 设置该值会使表单验证状态变为"), _c('code', [_vm._v("error")]), _vm._v("，并显示该错误信息")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("show-message")]), _vm._v(" "), _c('td', [_vm._v("是否显示校验错误信息")]), _vm._v(" "), _c('td', [_vm._v("boolean")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("true")])])])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('table', {
+	    staticClass: "table"
+	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("参数")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("类型")]), _vm._v(" "), _c('th', [_vm._v("可选值")]), _vm._v(" "), _c('th', [_vm._v("默认值")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("type")]), _vm._v(" "), _c('td', [_vm._v("类型")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("text/textarea")]), _vm._v(" "), _c('td', [_vm._v("text")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("value")]), _vm._v(" "), _c('td', [_vm._v("绑定值")]), _vm._v(" "), _c('td', [_vm._v("string, number")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("maxlength")]), _vm._v(" "), _c('td', [_vm._v("最大输入长度")]), _vm._v(" "), _c('td', [_vm._v("number")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("minlength")]), _vm._v(" "), _c('td', [_vm._v("最小输入长度")]), _vm._v(" "), _c('td', [_vm._v("number")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("placeholder")]), _vm._v(" "), _c('td', [_vm._v("输入框占位文本")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("disabled")]), _vm._v(" "), _c('td', [_vm._v("禁用")]), _vm._v(" "), _c('td', [_vm._v("boolean")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("false")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("size")]), _vm._v(" "), _c('td', [_vm._v("输入框尺寸，只在 "), _c('code', [_vm._v("type!=\"textarea\"")]), _vm._v(" 时有效")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("large, small, mini")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("rows")]), _vm._v(" "), _c('td', [_vm._v("输入框行数，只对 "), _c('code', [_vm._v("type=\"textarea\"")]), _vm._v(" 有效")]), _vm._v(" "), _c('td', [_vm._v("number")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("2")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("autosize")]), _vm._v(" "), _c('td', [_vm._v("自适应内容高度，只对 "), _c('code', [_vm._v("type=\"textarea\"")]), _vm._v(" 有效，可传入对象，如，{ minRows: 2, maxRows: 6 }")]), _vm._v(" "), _c('td', [_vm._v("boolean/object")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("false")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("auto-complete")]), _vm._v(" "), _c('td', [_vm._v("原生属性，自动补全")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("on, off")]), _vm._v(" "), _c('td', [_vm._v("off")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("name")]), _vm._v(" "), _c('td', [_vm._v("原生属性")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("max")]), _vm._v(" "), _c('td', [_vm._v("原生属性，设置最大值")]), _vm._v(" "), _c('td', [_vm._v("*")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("min")]), _vm._v(" "), _c('td', [_vm._v("原生属性，设置最小值")]), _vm._v(" "), _c('td', [_vm._v("*")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("resize")]), _vm._v(" "), _c('td', [_vm._v("控制是否能被用户缩放")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("none, both, horizontal, vertical")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("autofocus")]), _vm._v(" "), _c('td', [_vm._v("原生属性，自动获取焦点")]), _vm._v(" "), _c('td', [_vm._v("boolean")]), _vm._v(" "), _c('td', [_vm._v("true, false")]), _vm._v(" "), _c('td', [_vm._v("false")])])])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('table', {
+	    staticClass: "table"
+	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("事件名称")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("回调参数")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("blur")]), _vm._v(" "), _c('td', [_vm._v("在 Input 失去焦点时触发")]), _vm._v(" "), _c('td', [_vm._v("(event: Event)")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("focus")]), _vm._v(" "), _c('td', [_vm._v("在 Input 获得焦点时触发")]), _vm._v(" "), _c('td', [_vm._v("(event: Event)")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("change")]), _vm._v(" "), _c('td', [_vm._v("在 Input 值改变时触发")]), _vm._v(" "), _c('td', [_vm._v("(value: string | number)")])])])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('table', {
+	    staticClass: "table"
+	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("参数")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("类型")]), _vm._v(" "), _c('th', [_vm._v("可选值")]), _vm._v(" "), _c('th', [_vm._v("默认值")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("label")]), _vm._v(" "), _c('td', [_vm._v("Radio 的 value")]), _vm._v(" "), _c('td', [_vm._v("string,number")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("disabled")]), _vm._v(" "), _c('td', [_vm._v("是否禁用")]), _vm._v(" "), _c('td', [_vm._v("boolean")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("false")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("name")]), _vm._v(" "), _c('td', [_vm._v("原生 name 属性")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])])])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('table', {
+	    staticClass: "table"
+	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("参数")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("类型")]), _vm._v(" "), _c('th', [_vm._v("可选值")]), _vm._v(" "), _c('th', [_vm._v("默认值")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("size")]), _vm._v(" "), _c('td', [_vm._v("Radio 按钮组尺寸")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("large, small")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("fill")]), _vm._v(" "), _c('td', [_vm._v("按钮激活时的填充色和边框色")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("#20a0ff")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("text-color")]), _vm._v(" "), _c('td', [_vm._v("按钮激活时的文本颜色")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("#ffffff")])])])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('table', {
+	    staticClass: "table"
+	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("事件名称")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("回调参数")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("change")]), _vm._v(" "), _c('td', [_vm._v("绑定值变化时触发的事件")]), _vm._v(" "), _c('td', [_vm._v("选中的 Radio label 值")])])])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('table', {
+	    staticClass: "table"
+	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("参数")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("类型")]), _vm._v(" "), _c('th', [_vm._v("可选值")]), _vm._v(" "), _c('th', [_vm._v("默认值")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("label")]), _vm._v(" "), _c('td', [_vm._v("Radio 的 value")]), _vm._v(" "), _c('td', [_vm._v("string,number")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("disabled")]), _vm._v(" "), _c('td', [_vm._v("是否禁用")]), _vm._v(" "), _c('td', [_vm._v("boolean")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("false")])])])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('table', {
+	    staticClass: "table"
+	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("参数")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("类型")]), _vm._v(" "), _c('th', [_vm._v("可选值")]), _vm._v(" "), _c('th', [_vm._v("默认值")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("disabled")]), _vm._v(" "), _c('td', [_vm._v("是否禁用")]), _vm._v(" "), _c('td', [_vm._v("boolean")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("false")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("width")]), _vm._v(" "), _c('td', [_vm._v("switch 的宽度（像素）")]), _vm._v(" "), _c('td', [_vm._v("number")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("166（有文字）/ 158（无文字）")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("on-text")]), _vm._v(" "), _c('td', [_vm._v("switch 打开时的文字")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("启用")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("off-text")]), _vm._v(" "), _c('td', [_vm._v("switch 关闭时的文字")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("停用")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("on-color")]), _vm._v(" "), _c('td', [_vm._v("switch 打开时的背景色")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("#20A0FF")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("off-color")]), _vm._v(" "), _c('td', [_vm._v("switch 关闭时的背景色")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("#C0CCDA")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("name")]), _vm._v(" "), _c('td', [_vm._v("switch 对应的 name 属性")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])])])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('table', {
+	    staticClass: "table"
+	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("事件名称")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("回调参数")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("change")]), _vm._v(" "), _c('td', [_vm._v("switch 状态发生变化时的回调函数")]), _vm._v(" "), _c('td', [_vm._v("新状态的布尔值")])])])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('table', {
+	    staticClass: "table"
+	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("参数")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("类型")]), _vm._v(" "), _c('th', [_vm._v("可选值")]), _vm._v(" "), _c('th', [_vm._v("默认值")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("label")]), _vm._v(" "), _c('td', [_vm._v("选中状态的值（只有在"), _c('code', [_vm._v("checkbox-group")]), _vm._v("或者绑定对象类型为"), _c('code', [_vm._v("array")]), _vm._v("时有效）")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("true-label")]), _vm._v(" "), _c('td', [_vm._v("选中时的值")]), _vm._v(" "), _c('td', [_vm._v("string, number")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("false-label")]), _vm._v(" "), _c('td', [_vm._v("没有选中时的值")]), _vm._v(" "), _c('td', [_vm._v("string, number")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("name")]), _vm._v(" "), _c('td', [_vm._v("原生 name 属性")]), _vm._v(" "), _c('td', [_vm._v("string")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("—")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("disabled")]), _vm._v(" "), _c('td', [_vm._v("按钮禁用")]), _vm._v(" "), _c('td', [_vm._v("boolean")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("false")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("checked")]), _vm._v(" "), _c('td', [_vm._v("当前是否勾选")]), _vm._v(" "), _c('td', [_vm._v("boolean")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("false")])]), _vm._v(" "), _c('tr', [_c('td', [_vm._v("indeterminate")]), _vm._v(" "), _c('td', [_vm._v("设置 indeterminate 状态，只负责样式控制")]), _vm._v(" "), _c('td', [_vm._v("boolean")]), _vm._v(" "), _c('td', [_vm._v("—")]), _vm._v(" "), _c('td', [_vm._v("false")])])])])
+	},function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+	  return _c('table', {
+	    staticClass: "table"
+	  }, [_c('thead', [_c('tr', [_c('th', [_vm._v("事件名称")]), _vm._v(" "), _c('th', [_vm._v("说明")]), _vm._v(" "), _c('th', [_vm._v("回调参数")])])]), _vm._v(" "), _c('tbody', [_c('tr', [_c('td', [_vm._v("change")]), _vm._v(" "), _c('td', [_vm._v("当绑定值变化时触发的事件")]), _vm._v(" "), _c('td', [_vm._v("event 事件对象")])])])])
+	}]}
 	module.exports.render._withStripped = true
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d4f80a8", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-51001d3c", module.exports)
 	  }
 	}
 
@@ -9097,9 +9256,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/8.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/10.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 8.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 10.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -9108,9 +9267,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-50f205bb", Component.options)
+	    hotAPI.createRecord("data-v-7d4f80a8", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-50f205bb", Component.options)
+	    hotAPI.reload("data-v-7d4f80a8", Component.options)
 	  }
 	})()}
 
@@ -9128,13 +9287,13 @@
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(53)("4b205cfc", content, false);
+	var update = __webpack_require__(53)("e4040e4e", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50f205bb\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=0!./8.vue", function() {
-	     var newContent = require("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-50f205bb\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=0!./8.vue");
+	   module.hot.accept("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-7d4f80a8\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=0!./10.vue", function() {
+	     var newContent = require("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-7d4f80a8\",\"scoped\":false,\"hasInlineConfig\":false}!../node_modules/.npminstall/vue-loader/11.1.2/vue-loader/lib/selector.js?type=styles&index=0!./10.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -9366,7 +9525,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-50f205bb", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d4f80a8", module.exports)
 	  }
 	}
 
@@ -9390,9 +9549,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/9.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/12.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 9.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 12.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -9401,9 +9560,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-51001d3c", Component.options)
+	    hotAPI.createRecord("data-v-7d1722a4", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-51001d3c", Component.options)
+	    hotAPI.reload("data-v-7d1722a4", Component.options)
 	  }
 	})()}
 
@@ -9583,7 +9742,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-51001d3c", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d1722a4", module.exports)
 	  }
 	}
 
@@ -9607,9 +9766,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/12.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/11.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 12.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 11.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -9618,9 +9777,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7d1722a4", Component.options)
+	    hotAPI.createRecord("data-v-7d3351a6", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7d1722a4", Component.options)
+	    hotAPI.reload("data-v-7d3351a6", Component.options)
 	  }
 	})()}
 
@@ -10785,7 +10944,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d1722a4", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d3351a6", module.exports)
 	  }
 	}
 
@@ -10809,9 +10968,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/11.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/13.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 11.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 13.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -10820,9 +10979,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7d3351a6", Component.options)
+	    hotAPI.createRecord("data-v-7cfaf3a2", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7d3351a6", Component.options)
+	    hotAPI.reload("data-v-7cfaf3a2", Component.options)
 	  }
 	})()}
 
@@ -10952,7 +11111,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7d3351a6", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cfaf3a2", module.exports)
 	  }
 	}
 
@@ -10976,9 +11135,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/13.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/14.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 13.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 14.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -10987,9 +11146,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7cfaf3a2", Component.options)
+	    hotAPI.createRecord("data-v-7cdec4a0", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7cfaf3a2", Component.options)
+	    hotAPI.reload("data-v-7cdec4a0", Component.options)
 	  }
 	})()}
 
@@ -12212,7 +12371,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cfaf3a2", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cdec4a0", module.exports)
 	  }
 	}
 
@@ -18025,7 +18184,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-form/0.0.8/sf-form/src/components/checkbox-group.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-form/0.1.0/sf-form/src/components/checkbox-group.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] checkbox-group.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18036,9 +18195,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-88ca1882", Component.options)
+	    hotAPI.createRecord("data-v-2c304038", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-88ca1882", Component.options)
+	    hotAPI.reload("data-v-2c304038", Component.options)
 	  }
 	})()}
 
@@ -18131,7 +18290,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-88ca1882", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-2c304038", module.exports)
 	  }
 	}
 
@@ -18149,7 +18308,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-form/0.0.8/sf-form/src/components/input.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-form/0.1.0/sf-form/src/components/input.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] input.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18160,9 +18319,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-6494ed20", Component.options)
+	    hotAPI.createRecord("data-v-58f6a0d7", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-6494ed20", Component.options)
+	    hotAPI.reload("data-v-58f6a0d7", Component.options)
 	  }
 	})()}
 
@@ -18560,7 +18719,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-6494ed20", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-58f6a0d7", module.exports)
 	  }
 	}
 
@@ -18578,7 +18737,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-form/0.0.8/sf-form/src/components/checkbox.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-form/0.1.0/sf-form/src/components/checkbox.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] checkbox.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18589,9 +18748,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-0d219e0d", Component.options)
+	    hotAPI.createRecord("data-v-38e3f946", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-0d219e0d", Component.options)
+	    hotAPI.reload("data-v-38e3f946", Component.options)
 	  }
 	})()}
 
@@ -18857,7 +19016,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-0d219e0d", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-38e3f946", module.exports)
 	  }
 	}
 
@@ -18875,7 +19034,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-form/0.0.8/sf-form/src/components/radio.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-form/0.1.0/sf-form/src/components/radio.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] radio.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -18886,9 +19045,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-2e22c521", Component.options)
+	    hotAPI.createRecord("data-v-8d3846f0", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-2e22c521", Component.options)
+	    hotAPI.reload("data-v-8d3846f0", Component.options)
 	  }
 	})()}
 
@@ -19041,7 +19200,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-2e22c521", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-8d3846f0", module.exports)
 	  }
 	}
 
@@ -19059,7 +19218,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-form/0.0.8/sf-form/src/components/radio-group.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-form/0.1.0/sf-form/src/components/radio-group.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] radio-group.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -19070,9 +19229,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-e641085a", Component.options)
+	    hotAPI.createRecord("data-v-4955ac0c", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-e641085a", Component.options)
+	    hotAPI.reload("data-v-4955ac0c", Component.options)
 	  }
 	})()}
 
@@ -19132,7 +19291,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-e641085a", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-4955ac0c", module.exports)
 	  }
 	}
 
@@ -19150,7 +19309,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-form/0.0.8/sf-form/src/components/switch.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-form/0.1.0/sf-form/src/components/switch.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] switch.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -19161,9 +19320,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-f77c8504", Component.options)
+	    hotAPI.createRecord("data-v-612392f7", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-f77c8504", Component.options)
+	    hotAPI.reload("data-v-612392f7", Component.options)
 	  }
 	})()}
 
@@ -19406,7 +19565,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-f77c8504", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-612392f7", module.exports)
 	  }
 	}
 
@@ -19424,7 +19583,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-form/0.0.8/sf-form/src/components/form.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-form/0.1.0/sf-form/src/components/form.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] form.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -19435,9 +19594,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7a5c8f8e", Component.options)
+	    hotAPI.createRecord("data-v-1b112172", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7a5c8f8e", Component.options)
+	    hotAPI.reload("data-v-1b112172", Component.options)
 	  }
 	})()}
 
@@ -19578,7 +19737,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7a5c8f8e", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-1b112172", module.exports)
 	  }
 	}
 
@@ -19596,7 +19755,7 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-form/0.0.8/sf-form/src/components/form-item.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/node_modules/.npminstall/sf-form/0.1.0/sf-form/src/components/form-item.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
 	if (Component.options.functional) {console.error("[vue-loader] form-item.vue: functional components are not supported with templates, they should use render functions.")}
 
@@ -19607,9 +19766,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-e61c87bc", Component.options)
+	    hotAPI.createRecord("data-v-4d0a6fee", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-e61c87bc", Component.options)
+	    hotAPI.reload("data-v-4d0a6fee", Component.options)
 	  }
 	})()}
 
@@ -21817,7 +21976,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-e61c87bc", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-4d0a6fee", module.exports)
 	  }
 	}
 
