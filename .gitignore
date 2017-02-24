@@ -4,3 +4,4 @@ node_modules/
 .element/
 .demo/
 .vueloader/
+/.vueloader/
