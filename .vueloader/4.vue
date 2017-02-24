@@ -1,150 +1,108 @@
-<template><section><h2>sf-button 按钮</h2>
-<p>常用的操作按钮。</p>
-<h3>基础用法</h3>
-<p>基础的按钮用法。</p>
+<template><section><h2>七鱼 JavaScript 代码规范</h2>
+<h3>配置参考</h3>
 <demo-block class="demo-box">
-                    <div class="source"><sf-button>默认按钮</sf-button>
-<sf-button color="primary">主要按钮</sf-button>
-</div>
-                    <div class="meta">
-                      <div class="description"><p>sf-button 组件默认提供7种主题，由<code>type</code>属性来定义，默认为<code>default</code>。</p>
-</div>
-                      <div class="highlight"><pre><code class="hljs language-html"><span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span>&gt;</span>默认按钮<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">color</span>=<span class="hljs-string">"primary"</span>&gt;</span>主要按钮<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-</code></pre>
-</div></div></demo-block>
-<h3>禁用状态</h3>
-<p>按钮不可用状态。</p>
-<demo-block class="demo-box">
-                    <div class="source"><sf-button :plain="true" :disabled="true">主要按钮</sf-button>
-<sf-button type="primary" :disabled="true">主要按钮</sf-button>
-<sf-button type="text" :disabled="true">文字按钮</sf-button>
-</div>
-                    <div class="meta">
-                      <div class="description"><p>你可以使用<code>disabled</code>属性来定义按钮是否可用，它接受一个<code>Boolean</code>值。</p>
-</div>
-                      <div class="highlight"><pre><code class="hljs language-html"><span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">:plain</span>=<span class="hljs-string">"true"</span> <span class="hljs-attr">:disabled</span>=<span class="hljs-string">"true"</span>&gt;</span>主要按钮<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"primary"</span> <span class="hljs-attr">:disabled</span>=<span class="hljs-string">"true"</span>&gt;</span>主要按钮<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"text"</span> <span class="hljs-attr">:disabled</span>=<span class="hljs-string">"true"</span>&gt;</span>文字按钮<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-</code></pre>
-</div></div></demo-block>
-<h3>有颜色倾向</h3>
-<p>不同的颜色倾向代表不同的提示</p>
-<demo-block class="demo-box">
-                    <div class="source"><div class="block">
-  <span class="demonstration">默认显示颜色</span>
-  <span class="wrapper">
-    <sf-button color="success">成功按钮</sf-button>
-    <sf-button color="warning">警告按钮</sf-button>
-    <sf-button color="danger">危险按钮</sf-button>
-    <sf-button color="info">信息按钮</sf-button>
-  </span>
-</div>
-<div class="block">
-  <span class="demonstration">hover 显示颜色</span>
-  <span class="wrapper">
-    <sf-button :plain="true" color="success">成功按钮</sf-button>
-    <sf-button :plain="true" color="warning">警告按钮</sf-button>
-    <sf-button :plain="true" color="danger">危险按钮</sf-button>
-    <sf-button :plain="true" color="info">信息按钮</sf-button>
-  </span>
-</div>
-</div>
-                    <div class="meta">
-                      <div class="description"><p>朴素按钮同样设置了不同的<code>type</code>属性对应的样式（可选值同上），默认为<code>info</code>。设置<code>plain</code>属性，它接受一个<code>Boolean</code>。注意，在该情况下，<code>type</code>虽然可以为<code>text</code>，但是是没有意义的，会显示为<code>text sf-button</code>的样式。</p>
-</div>
-                      <div class="highlight"><pre><code class="hljs language-html"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"block"</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demonstration"</span>&gt;</span>默认显示颜色<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"wrapper"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">color</span>=<span class="hljs-string">"success"</span>&gt;</span>成功按钮<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">color</span>=<span class="hljs-string">"warning"</span>&gt;</span>警告按钮<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">color</span>=<span class="hljs-string">"danger"</span>&gt;</span>危险按钮<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">color</span>=<span class="hljs-string">"info"</span>&gt;</span>信息按钮<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-  <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"block"</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"demonstration"</span>&gt;</span>hover 显示颜色<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"wrapper"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">:plain</span>=<span class="hljs-string">"true"</span> <span class="hljs-attr">color</span>=<span class="hljs-string">"success"</span>&gt;</span>成功按钮<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">:plain</span>=<span class="hljs-string">"true"</span> <span class="hljs-attr">color</span>=<span class="hljs-string">"warning"</span>&gt;</span>警告按钮<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">:plain</span>=<span class="hljs-string">"true"</span> <span class="hljs-attr">color</span>=<span class="hljs-string">"danger"</span>&gt;</span>危险按钮<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">:plain</span>=<span class="hljs-string">"true"</span> <span class="hljs-attr">color</span>=<span class="hljs-string">"info"</span>&gt;</span>信息按钮<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-  <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-</code></pre>
-</div></div></demo-block>
-<h3>图标按钮</h3>
-<p>带图标的按钮可增强辨识度(有文字)或节省空间(无文字)。</p>
-<demo-block class="demo-box">
-                    <div class="source"><sf-button icon="sf-icon-loading" :disabled="disabled" v-if="true">加载</sf-button>
-<sf-button color="primary" size="large" disabled> disabled<a class="sf-icon sf-icon-date"></a></sf-button>
+                    <div class="source">    <template>
+        <img src="./eslint.png" style="width: 100%; padding: 10px;box-sizing: border-box;">
+    </template>
 
+    
 </div>
                     <div class="meta">
-                      <div class="description"><p>设置<code>icon</code>属性即可，icon 的列表可以参考 Element 的 icon 组件，也可以设置在文字右边的 icon ，只要使用<code>i</code>标签即可，可以使用自定义图标。</p>
+                      <div class="description"><p>七鱼代码规范配置文件, 此文件可以放在工程根目录, <a href="http://eslint.cn/docs/user-guide/configuring#configuration-cascading-and-hierarchy">配置原理</a></p>
 </div>
-                      <div class="highlight"><pre><code class="hljs language-html"><span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">icon</span>=<span class="hljs-string">"sf-icon-loading"</span> <span class="hljs-attr">:disabled</span>=<span class="hljs-string">"disabled"</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">"true"</span>&gt;</span>加载<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">color</span>=<span class="hljs-string">"primary"</span> <span class="hljs-attr">size</span>=<span class="hljs-string">"large"</span> <span class="hljs-attr">disabled</span>&gt;</span> disabled<span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"sf-icon sf-icon-date"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
+                      <div class="highlight"><pre><code class="hljs language-html">    <span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"./eslint.png"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"width: 100%; padding: 10px;box-sizing: border-box;"</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
 
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+        <span class="hljs-built_in">module</span>.exports = {
+            <span class="hljs-string">"parserOptions"</span>: {
+                <span class="hljs-string">"ecmaVersion"</span>: <span class="hljs-number">5</span>,
+                <span class="hljs-string">"ecmaFeatures"</span>: {
+                    <span class="hljs-string">"jsx"</span>: <span class="hljs-literal">true</span>
+                }
+            },
+            <span class="hljs-string">"extends"</span>: <span class="hljs-string">"eslint:recommended"</span>,
+            <span class="hljs-string">"env"</span> : {
+                <span class="hljs-string">"browser"</span> : <span class="hljs-literal">true</span>,
+                 <span class="hljs-string">"node"</span> : <span class="hljs-literal">true</span>
+            },
+           <span class="hljs-string">"rules"</span>: {
+               <span class="hljs-comment">// 强制使用一致的缩进</span>
+               <span class="hljs-string">"indent"</span>: [<span class="hljs-number">0</span>, <span class="hljs-number">4</span>],
+               <span class="hljs-comment">// 强制使用一致的换行风格</span>
+               <span class="hljs-string">"linebreak-style"</span>: [<span class="hljs-number">0</span>, <span class="hljs-string">"unix"</span>],
+               <span class="hljs-comment">// 强制使用一致的反勾号、双引号或单引号</span>
+               <span class="hljs-string">"quotes"</span>: [<span class="hljs-number">0</span>, <span class="hljs-string">"double"</span>],
+               <span class="hljs-comment">// 要求或禁止使用分号而不是 ASI</span>
+               <span class="hljs-string">"semi"</span>: [<span class="hljs-string">"error"</span>, <span class="hljs-string">"always"</span>],
+               <span class="hljs-comment">// 禁止条件表达式中出现赋值操作符</span>
+               <span class="hljs-string">"no-cond-assign"</span>: [<span class="hljs-string">"warn"</span>, <span class="hljs-string">"always"</span>],
+               <span class="hljs-comment">// 驼峰形式</span>
+               <span class="hljs-string">"camelcase"</span>: [<span class="hljs-string">"warn"</span>],
+               <span class="hljs-comment">// 规则强制在对象和数组字面量中使用一致的拖尾逗号。</span>
+               <span class="hljs-string">"comma-dangle"</span>: [<span class="hljs-string">"error"</span>],
+
+               <span class="hljs-comment">// 重写默认配置</span>
+               <span class="hljs-string">"no-console"</span>: <span class="hljs-string">"off"</span>,
+               <span class="hljs-string">"no-debugger"</span> : <span class="hljs-string">"off"</span>,
+               <span class="hljs-string">"no-delete-var"</span> : <span class="hljs-string">"off"</span>
+
+           },
+           <span class="hljs-string">"globals"</span>: {
+               <span class="hljs-string">"NEJ"</span> : <span class="hljs-literal">false</span>
+           }
+        }
+
+    </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 </code></pre>
 </div></div></demo-block>
-<h3>不同尺寸</h3>
-<p>sf-button 组件提供除了默认值以外的三种尺寸，可以在不同场景下选择合适的按钮尺寸。</p>
-<demo-block class="demo-box">
-                    <div class="source"><sf-button color="primary" size="large">大型按钮</sf-button>
-<sf-button color="primary">正常按钮</sf-button>
-<sf-button color="primary" size="small">小型按钮</sf-button>
-<sf-button color="primary" size="mini">超小按钮</sf-button>
-</div>
-                    <div class="meta">
-                      <div class="description"><p>额外的尺寸：<code>large</code>、<code>small</code>、<code>mini</code>，通过设置<code>size</code>属性来配置它们。</p>
-</div>
-                      <div class="highlight"><pre><code class="hljs language-html"><span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">color</span>=<span class="hljs-string">"primary"</span> <span class="hljs-attr">size</span>=<span class="hljs-string">"large"</span>&gt;</span>大型按钮<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">color</span>=<span class="hljs-string">"primary"</span>&gt;</span>正常按钮<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">color</span>=<span class="hljs-string">"primary"</span> <span class="hljs-attr">size</span>=<span class="hljs-string">"small"</span>&gt;</span>小型按钮<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">sf-button</span> <span class="hljs-attr">color</span>=<span class="hljs-string">"primary"</span> <span class="hljs-attr">size</span>=<span class="hljs-string">"mini"</span>&gt;</span>超小按钮<span class="hljs-tag">&lt;/<span class="hljs-name">sf-button</span>&gt;</span>
-</code></pre>
-</div></div></demo-block>
-<h3>Attributes</h3>
-<table class="table"><thead>
-<tr>
-<th>参数</th>
-<th>说明</th>
-<th>类型</th>
-<th>可选值</th>
-<th>默认值</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>size</td>
-<td>尺寸</td>
-<td>string</td>
-<td>large,small,mini</td>
-<td>—</td>
-</tr>
-<tr>
-<td>color</td>
-<td>类型</td>
-<td>string</td>
-<td>primary,success,warning,danger,info,text</td>
-<td>—</td>
-</tr>
-<tr>
-<td>plain</td>
-<td>是否朴素按钮</td>
-<td>Boolean</td>
-<td>true,false</td>
-<td>false</td>
-</tr>
-<tr>
-<td>disabled</td>
-<td>禁用</td>
-<td>boolean</td>
-<td>true, false</td>
-<td>false</td>
-</tr>
-</tbody>
-</table>
+<h3>参考</h3>
+<ul>
+<li><a href="http://eslint.cn/docs">Eslint 中文文档</a></li>
+<li><a href="http://airbnb.io/javascript/">Airbnb JavaScript Style Guild</a></li>
+<li><a href="https://github.com/feross/standard/blob/master/RULES.md">JavaScript Standard Style</a></li>
+</ul>
 </section></template>
 
+<script>
+        module.exports = {
+            "parserOptions": {
+                "ecmaVersion": 5,
+                "ecmaFeatures": {
+                    "jsx": true
+                }
+            },
+            "extends": "eslint:recommended",
+            "env" : {
+                "browser" : true,
+                 "node" : true
+            },
+           "rules": {
+               // 强制使用一致的缩进
+               "indent": [0, 4],
+               // 强制使用一致的换行风格
+               "linebreak-style": [0, "unix"],
+               // 强制使用一致的反勾号、双引号或单引号
+               "quotes": [0, "double"],
+               // 要求或禁止使用分号而不是 ASI
+               "semi": ["error", "always"],
+               // 禁止条件表达式中出现赋值操作符
+               "no-cond-assign": ["warn", "always"],
+               // 驼峰形式
+               "camelcase": ["warn"],
+               // 规则强制在对象和数组字面量中使用一致的拖尾逗号。
+               "comma-dangle": ["error"],
+
+               // 重写默认配置
+               "no-console": "off",
+               "no-debugger" : "off",
+               "no-delete-var" : "off"
+
+           },
+           "globals": {
+               "NEJ" : false
+           }
+        }
+
+    </script>

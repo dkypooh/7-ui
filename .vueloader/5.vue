@@ -1,96 +1,48 @@
-<template><section><h2>七鱼进度条组件</h2>
-<h3>Success</h3>
+<template><section><h2>七鱼 CSS 代码规范</h2>
+<p>此规范结合BEM来使用POSTCSS, 让编写CSS样式更容易、更有效。</p>
+<p>BEM是由@Yandex提出的一种类名命名方式。SUIT是基于BEM上的另一种类名命名方式，只不过@Nicholas Gallagher在BEM的基础上做了一些调整。BEM能做的事情，SUIT都可以做，但很多用户觉得SUIT是BEM的一种改进。使用这些方法确实有助于产生更好的，理有结构化的CSS。然而，需要的注意的是，手动输入结构所需的类名会让你感到厌烦，并且跟踪这些类以及如何推动，更会让你感到头痛。</p>
 <demo-block class="demo-box">
-                    <div class="source">    <sf-progressbar label="success" :percent="20" type="success" striped=""></sf-progressbar>
-</div>
-                    <div class="meta">
-                      <div class="description"><p>四种状态的<code>success</code>, <code>info</code>, <code>error</code>, <code>warning</code>进度条组件</p>
-</div>
-                      <div class="highlight"><pre><code class="hljs language-html">    <span class="hljs-tag">&lt;<span class="hljs-name">sf-progressbar</span> <span class="hljs-attr">label</span>=<span class="hljs-string">"success"</span> <span class="hljs-attr">:percent</span>=<span class="hljs-string">20</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"success"</span> <span class="hljs-attr">striped</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">sf-progressbar</span>&gt;</span>
-</code></pre>
-</div></div></demo-block>
-<h3>Info</h3>
-<demo-block class="demo-box">
-                    <div class="source">
-    <sf-progressbar label="info" :percent="30" type="info"></sf-progressbar>
+                    <div class="source"><template>
+    <img src="./bem.png" style="width: 100%; padding: 10px;box-sizing: border-box;">
+</template>
+
 
 </div>
                     <div class="meta">
-                      <div class="description"><p>四种状态的<code>success</code>, <code>info</code>, <code>error</code>, <code>warning</code>进度条组件</p>
+                      <div class="description"><p>七鱼采用<code>BEM</code>命名规范, <a href="http://getbem.com/introduction/">参考文档</a></p>
 </div>
-                      <div class="highlight"><pre><code class="hljs language-html">
-    <span class="hljs-tag">&lt;<span class="hljs-name">sf-progressbar</span> <span class="hljs-attr">label</span>=<span class="hljs-string">"info"</span> <span class="hljs-attr">:percent</span>=<span class="hljs-string">30</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"info"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">sf-progressbar</span>&gt;</span>
+                      <div class="highlight"><pre><code class="hljs language-html"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"./bem.png"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"width: 100%; padding: 10px;box-sizing: border-box;"</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
 
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+    <span class="hljs-built_in">module</span>.exports = {
+        <span class="hljs-comment">// bem规则</span>
+        bem : {
+            <span class="hljs-attr">separators</span> : {
+                <span class="hljs-attr">descendent</span> : <span class="hljs-string">'__'</span>,
+                <span class="hljs-attr">modifier</span> : <span class="hljs-string">'--'</span>
+            }
+        }
+    }
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 </code></pre>
 </div></div></demo-block>
-<h3>Warning</h3>
-<demo-block class="demo-box">
-                    <div class="source">
-    <sf-progressbar label="warning" :percent="50" type="warning"></sf-progressbar>
-
-</div>
-                    <div class="meta">
-                      <div class="description"><p>四种状态的<code>success</code>, <code>info</code>, <code>error</code>, <code>warning</code>进度条组件</p>
-</div>
-                      <div class="highlight"><pre><code class="hljs language-html">
-    <span class="hljs-tag">&lt;<span class="hljs-name">sf-progressbar</span> <span class="hljs-attr">label</span>=<span class="hljs-string">"warning"</span> <span class="hljs-attr">:percent</span>=<span class="hljs-string">50</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"warning"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">sf-progressbar</span>&gt;</span>
-
-</code></pre>
-</div></div></demo-block>
-<h3>Error</h3>
-<demo-block class="demo-box">
-                    <div class="source">
-    <sf-progressbar label="error" :percent="40" type="error" striped=""></sf-progressbar>
-
-</div>
-                    <div class="meta">
-                      <div class="description"><p>四种状态的<code>success</code>, <code>info</code>, <code>error</code>, <code>warning</code>进度条组件</p>
-</div>
-                      <div class="highlight"><pre><code class="hljs language-html">
-    <span class="hljs-tag">&lt;<span class="hljs-name">sf-progressbar</span> <span class="hljs-attr">label</span>=<span class="hljs-string">"error"</span> <span class="hljs-attr">:percent</span>=<span class="hljs-string">40</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"error"</span> <span class="hljs-attr">striped</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">sf-progressbar</span>&gt;</span>
-
-</code></pre>
-</div></div></demo-block>
-<h3>Attributes</h3>
-<table class="table"><thead>
-<tr>
-<th>参数</th>
-<th>说明</th>
-<th>类型</th>
-<th>可选值</th>
-<th>默认值</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>label</td>
-<td>文本</td>
-<td>String, Number</td>
-<td></td>
-<td>—</td>
-</tr>
-<tr>
-<td>percent</td>
-<td>百分比</td>
-<td>Number</td>
-<td>0-100</td>
-<td>0</td>
-</tr>
-<tr>
-<td>type</td>
-<td>类型</td>
-<td>String</td>
-<td>sucess, info, warning, error</td>
-<td>info</td>
-</tr>
-<tr>
-<td>striped</td>
-<td>是否条纹</td>
-<td>Boolean</td>
-<td>true, false</td>
-<td>false</td>
-</tr>
-</tbody>
-</table>
+<h3>参考文档</h3>
+<ul>
+<li><a href="http://getbem.com/introduction/">BEM规范文档</a></li>
+<li><a href="https://www.w3cplus.com/PostCSS/using-postcss-with-bem-and-suit-methodologies.html">BEM配置</a></li>
+</ul>
 </section></template>
 
+<script>
+    module.exports = {
+        // bem规则
+        bem : {
+            separators : {
+                descendent : '__',
+                modifier : '--'
+            }
+        }
+    }
+</script>
