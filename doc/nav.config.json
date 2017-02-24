@@ -10,19 +10,46 @@
     "name": "更新日志",
     "path": "/changelog"
   },
-  {
+ {
     "name": "JS 规范",
-    "path": "/jslint"
+    "groups": [
+      {
+        "list": [{
+          "path": "/jslint",
+          "name": "JS 规范",
+          "title": "JS 规范"
+        }]
+      }
+    ]
   },
   {
     "name": "CSS 规范",
-    "path": "/postcssbem"
+    "groups": [
+      {
+        "list": [{
+          "path": "/postcssbem",
+          "name": "CSS 规范 ",
+          "title": "CSS 规范"
+        },{
+          "path": "/layout",
+          "name": "Layout 布局",
+          "title": "Layout 布局"
+        },{
+          "path": "/color",
+          "name": "Color 色彩",
+          "title": "Color 色彩"
+        },{
+          "path": "/icon",
+          "name": "Icon 按钮",
+          "title": "Icon 按钮"
+        }]
+      }
+    ]
   },
   {
     "name": "基础组件",
     "groups": [
       {
-        "groupName": "Basic",
         "list": [{
 			"path": "/sf-button",
 			"name": "Button 按钮",
