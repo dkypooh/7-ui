@@ -1,5 +1,6 @@
 {
   "dependencies" :{
+    "vue-loader" : "^11.1.2",
     "ui-style" :"*",
     "sf-progressbar": "*",
     "sf-spinner": "*",

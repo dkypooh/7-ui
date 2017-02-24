@@ -136,5 +136,5 @@ module.exports = [
 		label: "TreeSelect 树形下拉选择器",
 		css : "treeSelect",
 		path :"treeSelect"
-	},
+	}
 ]
