@@ -29,6 +29,38 @@ import sfsquareloader from 'sf-spinner/src/squareLoader/squareLoader';
 Vue.component('sf-squareloader', sfsquareloader);
 
 
+import sfcheckboxgroup from 'sf-form/src/components/checkbox-group.vue';
+Vue.component('sf-checkbox-group', sfcheckboxgroup);
+
+
+import sfinput from 'sf-form/src/components/input.vue';
+Vue.component('sf-input', sfinput);
+
+
+import sfcheckbox from 'sf-form/src/components/checkbox.vue';
+Vue.component('sf-checkbox', sfcheckbox);
+
+
+import sfradio from 'sf-form/src/components/radio.vue';
+Vue.component('sf-radio', sfradio);
+
+
+import sfradiogroup from 'sf-form/src/components/radio-group.vue';
+Vue.component('sf-radio-group', sfradiogroup);
+
+
+import sfswitch from 'sf-form/src/components/switch.vue';
+Vue.component('sf-switch', sfswitch);
+
+
+import sfform from 'sf-form/src/components/form.vue';
+Vue.component('sf-form', sfform);
+
+
+import sfformitem from 'sf-form/src/components/form-item';
+Vue.component('sf-form-item', sfformitem);
+
+
 import sftoast from 'sf-toast/src/toast';
 Vue.component('sf-toast', sftoast);
 

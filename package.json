@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "7-UI elements Component Library",
   "scripts": {
-    "configfile" : "node ./build/build.component.js",
+    "configfile": "node ./build/build.component.js",
     "markdown": "node ./build/document.js",
     "doccss": "webpack  --config ./build/webpack.config.doccss.js",
     "doc": "webpack  --config ./build/webpack.config.doc.js",
@@ -32,6 +32,7 @@
     "vue": "*"
   },
   "devDependencies": {
+    "async-validator": "^1.6.8",
     "babel-core": "^6.1.2",
     "babel-helper-vue-jsx-merge-props": "^2.0.2",
     "babel-loader": "^6.1.0",

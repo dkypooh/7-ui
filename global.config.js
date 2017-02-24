@@ -43,6 +43,38 @@ module.exports = [
 		}]
 
 	},
+    {
+        name: "sf-form",
+        label: "Form 表单",
+        css : "style/form",
+        path: "",
+        child : [{
+            path : "components/checkbox-group.vue",
+            name : 'sf-checkbox-group'
+        }, {
+            path : "components/input.vue",
+            name : 'sf-input'
+        },{
+            path : "components/checkbox.vue",
+            name : 'sf-checkbox'
+        },{
+            path : "components/radio.vue",
+            name : 'sf-radio'
+        },{
+            path : "components/radio-group.vue",
+            name : 'sf-radio-group'
+        },{
+            path : "components/switch.vue",
+            name : 'sf-switch'
+        },{
+        	path : "components/form.vue",
+			name : "sf-form"
+ 		},{
+            path : "components/form-item",
+            name : "sf-form-item"
+        }]
+
+    },
 	{
 		name: "sf-toast",
 		label: "Toast 全局提示",

@@ -36,6 +36,10 @@
 			"name": "Spinner 过场",
 			"title": "Spinner 过场"
 		},{
+			"path": "/sf-form",
+			"name": "Form 表单",
+			"title": "Form 表单"
+		},{
 			"path": "/sf-toast",
 			"name": "Toast 全局提示",
 			"title": "Toast 全局提示"
