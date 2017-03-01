@@ -185,7 +185,7 @@
 ```
 :::
 
-### DragResize
+### DragResize [Custom Directive]
 :::ysfdoc `e`, `w`, `n`, `s`, `ew`, `ns` 六种模式，实例为`ew`模式，鼠标hover区块最右边可以拖动。
 
 ```html
