@@ -215,7 +215,20 @@
     </template>
 
     <script>
+        window.sfDND = {
+            tom : ['1','2','3','4','5'],
+            juck : ['z', 'y'],
+            lucy : ['a', 'b']
+        };
         export default {
+            data : function(){
+                return {
+                    source1 : window.sfDND.tom,
+                    source : window.sfDND.lucy,
+                    source2 : window.sfDND.juck,
+                    list : []
+                }
+            },
             methods:{
                  /**
                   * [resize description]
@@ -234,6 +247,9 @@
                          case 'mouseup':
                              break;
                      }
+                 },
+                 change : function(list){
+                     console.log(list)
                  }
             }
         }
