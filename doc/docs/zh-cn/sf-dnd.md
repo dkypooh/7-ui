@@ -143,7 +143,7 @@
          	<h1>juck -- lucy</h1>
          	<sf-dnd :source="source2" name="juck" from="lucy" >
          		<li v-for="(x, index) in source2" :key="x" class="tom_item"  >
-         			{{x}}
+         				{{x}}
          		</li>
          	</sf-dnd>
          	<h1>tom -- lucy</h1>
@@ -181,6 +181,63 @@
         	}
     </script>
 
+
+```
+:::
+
+### DragResize
+:::ysfdoc `e`, `w`, `n`, `s`, `ew`, `ns` 六种模式，实例为`ew`模式，鼠标hover区块最右边可以拖动。
+
+```html
+    <style>
+    .drag-container {
+    	position: relative;
+    	display: inline-block;
+    }
+    .drag-dom{
+    	height : 200px;
+    	width  : 200px;
+    	display: inline-block;
+    	background-color: #03a9f4;
+        box-sizing: border-box;
+        border: 2px dashed #ddd;
+        border-right : 0px;
+    }
+    .sf-dragresize--ew{
+    	right : 0;
+    }
+    </style>
+
+    <template>
+         <div class="drag-container">
+            <div class="drag-dom" v-dragresize:ew="resize"></div>
+         </div>
+    </template>
+
+    <script>
+        export default {
+            methods:{
+                 /**
+                  * [resize description]
+                  * @param  {[type]} store [数据实体]
+                  * @param  {[type]} type  [mousemove, mouseup, mousedown]
+                  * @param  {[type]} el    [拖动节点元素]
+                  */
+                 resize : function(store, type, el){
+                     switch(type){
+                         case 'mousedown':
+                             break;
+                         case 'mousemove':
+                             el.style.height = store.rectangle.height + 'px';
+                             el.style.width = store.rectangle.width + 'px';
+                             break;
+                         case 'mouseup':
+                             break;
+                     }
+                 }
+            }
+        }
+    </script>
 
 ```
 :::

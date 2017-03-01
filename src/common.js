@@ -1,6 +1,11 @@
 import Vue from 'vue';
 
 
+import DragResize from 'sf-dnd/src/dragresize/dragresize';
+
+ Vue.directive('dragresize', DragResize)
+
+
 import sfbutton from 'sf-button';
 Vue.component('sf-button', sfbutton);
 

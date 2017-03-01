@@ -3,7 +3,7 @@ var fsExtra = require('fs-extra');
 var path = require('path');
 
 var buildDoc = function(list){
-	var start = [`import Vue from 'vue';\n\n`]
+	var start = [`import Vue from 'vue';\n\n`, `import DragResize from 'sf-dnd/src/dragresize/dragresize';\n\n Vue.directive('dragresize', DragResize)\n\n`]
 
 	var mid = list.map(function(item){
 		var alias = item.name.split('-').join('');
@@ -42,7 +42,7 @@ var buildDocStyle = function(list){
 @import '~7ui-grid';
 @import '../node_modules/ui-style/src/icon.css';
 @import '../node_modules/ui-style/src/_mixins.css';`]
-	
+
 	var mid = list.map(function(item){
 		var alias = item.css;
 		return `@import '../node_modules/${item.name}/src/${alias}';\n\n`
