@@ -142,7 +142,7 @@ var iconList = [
   <li v-for="name in icons">
     <span>
       <i :class="['sf-icon','sf-icon--' + name]"></i>
-      {{'sf-icon-' + name}}
+      {{'sf-icon--' + name}}
     </span>
   </li>
 </ul>

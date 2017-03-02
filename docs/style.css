@@ -979,6 +979,7 @@
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
+  -webkit-user-select: none;
   user-select: none; }
 .sf-switch__label * {
   line-height: 1;
@@ -1998,7 +1999,8 @@ ccascas dsd
   position: absolute;
   z-index: 11000;
   cursor: move;
-  user-select: none;
+  -webkit-user-select: none;
+          user-select: none;
   background-color: rgba(222, 222, 222, .5);
   direction: ltr !important;
   outline: none;
