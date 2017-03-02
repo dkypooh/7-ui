@@ -76,7 +76,7 @@
               path : 'dragresize/dragresize',
               name : 'dragresize'
           }],
-          directives: [{
+          filters: [{
               path : 'dragresize/filter/checkname',
               name : 'sf-filter-checkname'
           }]
