@@ -104,8 +104,9 @@
 > gulp install
 
 ### 文档打包任务(default)
+`文档打包之前最好执行下 gulp install`
+
 > gulp document
 
 ### 代码打包任务
 > gulp build
-

@@ -3,12 +3,15 @@ var fsExtra = require('fs-extra');
 var path = require('path');
 
 var buildDoc = function(list){
-	var start = [`import Vue from 'vue';\n\n`, `import DragResize from 'sf-dnd/src/dragresize/dragresize';\n\n Vue.directive('dragresize', DragResize)\n\n`]
+	var start = [`import Vue from 'vue';\n\n`]
 
 	var mid = list.map(function(item){
 		var alias = item.name.split('-').join('');
+		var ret = '';
+
+		// component package build
 		if(item.child && item.child.length){
-			return item.child.map(function(child){
+			ret =  item.child.map(function(child){
 				var childName = child.name.split('-').join('');
 
 				return `import ${childName} from '${item.name}/src/${child.path}';\nVue.component('${child.name}', ${childName});\n\n`;
@@ -20,9 +23,26 @@ var buildDoc = function(list){
 			}else{
 				_path = item.name;
 			}
-			return `import ${alias} from '${_path}';\nVue.component('${item.name}', ${alias});\n\n`;
+			ret =  `import ${alias} from '${_path}';\nVue.component('${item.name}', ${alias});\n\n`;
 		}
 
+		// directives package build
+		if(item.directives && item.directives.length){
+			item.directives.forEach(function(el){
+				ret += `import ${el.name} from '${item.name}/src/${el.path}';\n Vue.directive('${el.name}', ${el.name})\n\n`
+			})
+		}
+
+		//
+		if(item.filters && item.filters.length){
+			item.filters.forEach(function(filter){
+				var alias = filter.name.split('-').join('_');
+
+				ret += `import ${alias} from '${item.name}/src/${filter.path}';\n Vue.filter('${filter.name}', ${alias})\n\n`
+			})
+		}
+
+		return ret;
 	})
 
 	var end = [`if(window != undefined){

@@ -1,11 +1,6 @@
 import Vue from 'vue';
 
 
-import DragResize from 'sf-dnd/src/dragresize/dragresize';
-
- Vue.directive('dragresize', DragResize)
-
-
 import sfbutton from 'sf-button';
 Vue.component('sf-button', sfbutton);
 
@@ -100,6 +95,12 @@ Vue.component('sf-dnd', sfdnd);
 
 import sfdraggable from 'sf-dnd/src/draggable/draggable';
 Vue.component('sf-draggable', sfdraggable);
+
+import dragresize from 'sf-dnd/src/dragresize/dragresize';
+ Vue.directive('dragresize', dragresize)
+
+import SFFILTERNAME from 'sf-dnd/src/dragresize/dragresize';
+ Vue.filter('sf-filter-name', SFFILTERNAME)
 
 
 import sftreeselect from 'sf-tree-select/src/treeSelect';
