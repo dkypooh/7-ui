@@ -979,7 +979,6 @@
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  -webkit-user-select: none;
   user-select: none; }
 .sf-switch__label * {
   line-height: 1;
@@ -1993,3 +1992,148 @@ ccascas dsd
     height: 12px;
     background-position: 0 -540px;
     background-size: 120px auto; }
+.sf-picviewer{
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  z-index: 11000;
+  cursor: move;
+  user-select: none;
+  background-color: rgba(222, 222, 222, .5);
+  direction: ltr !important;
+  outline: none;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none; }
+.sf-picviewer :-webkit-full-screen .u-icon-font.icon-close{
+  top: 0;
+  right: 0; }
+.sf-picviewer :focus{
+  outline: none; }
+.sf-picviewer :hover .u-icon-font{
+  display: block; }
+.sf-picviewer :hover .picviewer-footer{
+  display: flex !important; }
+.sf-picviewer .picviewer-canvas-wrap{
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0px 2px 14px rgba(183, 183, 183, .5); }
+.sf-picviewer .picviewer-canvas-wrap .picviewer-canvas .picviewer-img{
+  display: block;
+  width: 100%;
+  height: auto;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-width: none !important;
+  max-height: none !important; }
+.sf-picviewer .picviewer-canvas-wrap .picviewer-canvas .picviewer-img.transition{
+  transition: all .3s ease-out; }
+.sf-picviewer .picviewer-canvas-wrap .picviewer-canvas .picviewer-img.move{
+  transition: none; }
+.sf-picviewer .picviewer-canvas-wrap .picviewer-footer{
+  display: none;
+  height: 80px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -150px; }
+.sf-picviewer .picviewer-canvas-wrap .picviewer-footer .picviewer-title{
+  font-size: 12px;
+  line-height: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  opacity: 0.5;
+  color: #ccc; }
+.sf-picviewer .picviewer-canvas-wrap .picviewer-footer .picviewer-toolbar-warp{
+  background-color: rgba(0, 0, 0, .5);
+  border-radius: 40px;
+  width: 300px;
+  height: 50px; }
+.sf-picviewer .picviewer-canvas-wrap .picviewer-footer .picviewer-toolbar-warp .picviewer-toolbar{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 86%;
+  height: 100%; }
+.sf-picviewer .picviewer-canvas-wrap .picviewer-footer .picviewer-toolbar-warp .picviewer-toolbar .banner{
+  width: 1px;
+  background-color: #3a3a3a;
+  height: 24px; }
+.sf-picviewer .u-icon-font{
+  cursor: pointer;
+  font-size: 30px;
+  color: #fff;
+  display: none;
+  font-family: 'iconfont' !important;
+  font-style: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: inherit; }
+.sf-picviewer .u-icon-font.disabled{
+  font-size: 30px;
+  cursor: default;
+  opacity: 0.5; }
+.sf-picviewer .u-icon-font.icon-close{
+  position: absolute;
+  display: block;
+  top: -10px;
+  right: -10px;
+  border-radius: 50%;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, .5);
+  width: 20px;
+  height: 20px; }
+.sf-picviewer .u-icon-font.icon-close:before{
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  right: -6px; }
+.sf-picviewer .u-icon-font.icon-arrowleft{
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  border-radius: 50%;
+  left: 0px;
+  margin-left: 20px;
+  background-color: rgba(0, 0, 0, .5); }
+.sf-picviewer .u-icon-font.icon-arrowright{
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+  border-radius: 50%;
+  right: 0px;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, .5); }
+.sf-picviewer .u-icon-font.icon-one2one:before{
+  content: "\E600"; }
+.sf-picviewer .u-icon-font.icon-zoomin:before{
+  content: "\E605"; }
+.sf-picviewer .u-icon-font.icon-notfullscreen:before{
+  content: "\E608"; }
+.sf-picviewer .u-icon-font.icon-close:before{
+  content: "\E607"; }
+.sf-picviewer .u-icon-font.icon-fullscreen:before{
+  content: "\E606"; }
+.sf-picviewer .u-icon-font.icon-arrowleft:before{
+  content: "\E60A"; }
+.sf-picviewer .u-icon-font.icon-zoomout:before{
+  content: "\E60C"; }
+.sf-picviewer .u-icon-font.icon-arrowright:before{
+  content: "\E60D"; }
+.sf-picviewer .u-icon-font.icon-download:before{
+  content: "\E60E"; }
+.sf-picviewer .u-icon-font.icon-rotate:before{
+  content: "\E60F"; }
+@font-face {
+  font-family: 'iconfont';
+  /* project id 158250 */
+  src: url("http://at.alicdn.com/t/font_g1qf9mqd10tl0udi.eot");
+  src: url("http://at.alicdn.com/t/font_g1qf9mqd10tl0udi.eot?#iefix") format("embedded-opentype"), url("http://at.alicdn.com/t/font_g1qf9mqd10tl0udi.woff") format("woff"), url("http://at.alicdn.com/t/font_g1qf9mqd10tl0udi.ttf") format("truetype"), url("http://at.alicdn.com/t/font_g1qf9mqd10tl0udi.svg#iconfont") format("svg"); }

@@ -98,6 +98,10 @@
 			"path": "/sf-tree-select",
 			"name": "TreeSelect 树形下拉选择器",
 			"title": "TreeSelect 树形下拉选择器"
+		},{
+			"path": "/sf-picviewer",
+			"name": "图片查看器",
+			"title": "图片查看器"
 		}]
       }
     ]

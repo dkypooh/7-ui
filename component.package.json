@@ -15,6 +15,7 @@
     "sf-colorpicker" : "*",
     "tinycolor2" : "*",
     "sf-tree-select" : "*",
-    "sf-form":"*"
+    "sf-form":"*",
+    "sf-picviewer":"*"
   }
 }

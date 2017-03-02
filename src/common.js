@@ -99,12 +99,13 @@ Vue.component('sf-draggable', sfdraggable);
 import dragresize from 'sf-dnd/src/dragresize/dragresize';
  Vue.directive('dragresize', dragresize)
 
-import SFFILTERNAME from 'sf-dnd/src/dragresize/dragresize';
- Vue.filter('sf-filter-name', SFFILTERNAME)
-
 
 import sftreeselect from 'sf-tree-select/src/treeSelect';
 Vue.component('sf-tree-select', sftreeselect);
+
+
+import sfpicviewer from 'sf-picviewer/src/picviewer';
+Vue.component('sf-picviewer', sfpicviewer);
 
 
 if(window != undefined){

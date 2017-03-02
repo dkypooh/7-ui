@@ -139,5 +139,11 @@ module.exports = [{
         label: "TreeSelect 树形下拉选择器",
         css: "treeSelect",
         path: "treeSelect"
-    }
+    },
+	{
+		name: "sf-picviewer",
+		label: "图片查看器",
+		css : "picviewer",
+		path :"picviewer"
+	}
 ]
