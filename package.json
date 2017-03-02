@@ -1,6 +1,6 @@
 {
   "name": "7-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "7-UI elements Component Library",
   "scripts": {
     "configfile": "node ./build/build.component.js",

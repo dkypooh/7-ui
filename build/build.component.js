@@ -33,7 +33,7 @@ var buildDoc = function(list){
 			})
 		}
 
-		//
+		// filters package build
 		if(item.filters && item.filters.length){
 			item.filters.forEach(function(filter){
 				var alias = filter.name.split('-').join('_');
