@@ -13,7 +13,27 @@
         <sf-picviewer :pics=pics ref="viewer"></sf-picviewer>
       </div>
   </template>
+  <style lang="scss">
+   .sf-picviewer-demos{
+          list-style: none;
+          width: 555px;
+          height: 555px;
 
+          li{
+              box-sizing: border-box;
+              float: left;
+              width: 33.3%;
+              height: 33.3%;
+              margin: 0 -1px -1px 0;
+              border: 1px solid transparent;
+              overflow: hidden;
+              cursor: pointer;
+              img{
+                width: 100%;
+              }
+          }
+    }
+  </style>
   <script>
     export default {
       data() {
