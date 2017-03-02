@@ -979,7 +979,6 @@
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  -webkit-user-select: none;
   user-select: none; }
 .sf-switch__label * {
   line-height: 1;
@@ -1999,8 +1998,7 @@ ccascas dsd
   position: absolute;
   z-index: 11000;
   cursor: move;
-  -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
   background-color: rgba(222, 222, 222, .5);
   direction: ltr !important;
   outline: none;
@@ -2137,5 +2135,5 @@ ccascas dsd
 @font-face {
   font-family: 'iconfont';
   /* project id 158250 */
-  src: url("http://at.alicdn.com/t/font_g1qf9mqd10tl0udi.eot");
-  src: url("http://at.alicdn.com/t/font_g1qf9mqd10tl0udi.eot?#iefix") format("embedded-opentype"), url("http://at.alicdn.com/t/font_g1qf9mqd10tl0udi.woff") format("woff"), url("http://at.alicdn.com/t/font_g1qf9mqd10tl0udi.ttf") format("truetype"), url("http://at.alicdn.com/t/font_g1qf9mqd10tl0udi.svg#iconfont") format("svg"); }
+  src: url("https://at.alicdn.com/t/font_g1qf9mqd10tl0udi.eot");
+  src: url("https://at.alicdn.com/t/font_g1qf9mqd10tl0udi.eot?#iefix") format("embedded-opentype"), url("http://at.alicdn.com/t/font_g1qf9mqd10tl0udi.woff") format("woff"), url("http://at.alicdn.com/t/font_g1qf9mqd10tl0udi.ttf") format("truetype"), url("http://at.alicdn.com/t/font_g1qf9mqd10tl0udi.svg#iconfont") format("svg"); }
