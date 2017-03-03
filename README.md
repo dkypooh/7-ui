@@ -2,6 +2,10 @@
 
 7-UI elements Component Library
 
+## 设计思路
+
+![art](https://camo.githubusercontent.com/01202b7ab1c54b68371bcf6f28c7bb51f8ab84e4/687474703a2f2f6e6f732e6e6574656173652e636f6d2f6b6e6f776c656467652f37353333353034382d306235342d343435342d396266312d656130643630383130363364)
+
 ## npm 安装
 
 推荐使用 npm 的方式安装，它能更好地和 webpack 打包工具配合使用。
