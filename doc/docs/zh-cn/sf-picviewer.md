@@ -8,7 +8,7 @@
   <template>
       <div>
         <ul class="sf-picviewer-demos clearfix">
-            <li v-for="(url, index) in urls"><img :src="url" @click="showPic(index)"></li>
+          <li v-for="n in 9"><img :src="'./img/thumbnails/tibet-' + n + '.jpg' " @click="showPic(n-1)"></li>
         </ul>
         <sf-picviewer :pics=pics ref="viewer"></sf-picviewer>
       </div>
@@ -38,44 +38,33 @@
     export default {
       data() {
         return {
-            urls:[
-              'http://p1.bqimg.com/582863/25a26800d818e9d5.jpg',
-              'http://p1.bqimg.com/582863/9bbd7e4d58f518c8.jpg',
-              'http://p1.bqimg.com/582863/2b6bca035b666d5b.jpg',
-              'http://p1.bqimg.com/582863/d471d1355fc0ea9d.jpg',
-              'http://p1.bqimg.com/582863/4e83300a6a813b0f.jpg',
-              'http://p1.bqimg.com/582863/c0d9a4ca8047ff3c.jpg',
-              'http://p1.bqimg.com/582863/a00902fb1b9abaef.jpg',
-              'http://p1.bqimg.com/582863/965e1dbc83db5681.jpg',
-              'http://p1.bqimg.com/582863/1e9772b21d29e873.jpg'
-            ],
             pics:[{
                     name: 'tibet-1',
-                    src: 'http://p1.bqimg.com/582863/51c7e53d38852677.jpg'
+                    src: './img/tibet-1.jpg'
                 }, {
                     name: 'tibet-2',
-                    src: 'http://p1.bqimg.com/582863/17aadeb590ee059c.jpg'
+                    src: './img/tibet-2.jpg'
                 }, {
                     name: 'tibet-3',
-                    src: 'http://p1.bqimg.com/582863/2b6bca035b666d5b.jpg'
+                    src: './img/tibet-3.jpg'
                 }, {
                     name: 'tibet-4',
-                    src: 'http://p1.bqimg.com/582863/d471d1355fc0ea9d.jpg'
+                    src: './img/tibet-4.jpg'
                 }, {
                     name: 'tibet-5',
-                    src: 'http://p1.bqimg.com/582863/43ddaf20bb40bc82.jpg'
+                    src: './img/tibet-5.jpg'
                 }, {
                     name: 'tibet-6',
-                    src: 'http://p1.bqimg.com/582863/4afcf3cb33d077b3.jpg'
+                    src: './img/tibet-6.jpg'
                 }, {
                     name: 'tibet-7',
-                    src: 'http://p1.bqimg.com/582863/a388949c6428e30a.jpg'
+                    src: './img/tibet-7.jpg'
                 }, {
                     name: 'tibet-8',
-                    src: 'http://p1.bqimg.com/582863/65da6bd4d3991a9d.jpg'
+                    src: './img/tibet-8.jpg'
                 }, {
                     name: 'tibet-9',
-                    src: 'http://p1.bqimg.com/582863/3ed77fd5cf132484.jpg'
+                    src: './img/tibet-9.jpg'
                 }]
             }
       },
