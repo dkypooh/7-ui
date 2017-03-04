@@ -8,7 +8,7 @@ BEM是由@Yandex提出的一种类名命名方式。SUIT是基于BEM上的另一
 
 ```html
 <template>
-    <img src="./bem.png" style="width: 100%; padding: 10px;box-sizing: border-box;">
+    <img src="https://dkypooh.github.io/7-ui/bem.png" style="width: 100%; padding: 10px;box-sizing: border-box;">
 </template>
 
 <script>

@@ -4,7 +4,7 @@
 :::ysfdoc 七鱼代码规范配置文件, 此文件可以放在工程根目录, [配置原理](http://eslint.cn/docs/user-guide/configuring#configuration-cascading-and-hierarchy)
 ```html
     <template>
-        <img src="./eslint.png" style="width: 100%; padding: 10px;box-sizing: border-box;">
+        <img src="https://dkypooh.github.io/7-ui/eslint.png" style="width: 100%; padding: 10px;box-sizing: border-box;">
     </template>
 
     <script>
