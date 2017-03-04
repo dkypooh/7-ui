@@ -4334,38 +4334,38 @@
 	  }, [_c('li', [_vm._v("#555555")]), _c('li', [_vm._v("#777777")]), _c('li', [_vm._v("#999999")]), _c('li', [_vm._v("#AAAAAA")]), _c('li', [_vm._v("#CCCCCC")]), _c('li', [_vm._v("#DDDDDD")]), _c('li', [_vm._v("#ECECEC")])]), _vm._v(" "), _c('h3', [_vm._v("辅色")]), _vm._v(" "), _c('div', {
 	    staticClass: "g-row g-row--color"
 	  }, [_c('div', {
-	    staticClass: "g-col-4 g-col--color g-col--second-color"
+	    staticClass: "g-col-4 g-col--color g-col--font-color"
 	  }, [_c('div', {
 	    staticClass: "bg-light-blue second_1"
 	  }, [_c('div', {
 	    staticClass: "color"
 	  }), _c('div', {
 	    staticClass: "value"
-	  }, [_vm._v("#222222")])])]), _vm._v(" "), _c('div', {
-	    staticClass: "g-col-4 g-col--color g-col--second-color"
+	  }, [_vm._v("#64C04D")])])]), _vm._v(" "), _c('div', {
+	    staticClass: "g-col-4 g-col--color g-col--font-color"
 	  }, [_c('div', {
 	    staticClass: "bg-light-blue second_2"
 	  }, [_c('div', {
 	    staticClass: "color"
 	  }), _c('div', {
 	    staticClass: "value"
-	  }, [_vm._v("#666666")])])]), _vm._v(" "), _c('div', {
-	    staticClass: "g-col-4 g-col--color g-col--second-color"
+	  }, [_vm._v("#46BE8A")])])]), _vm._v(" "), _c('div', {
+	    staticClass: "g-col-4 g-col--color g-col--font-color"
 	  }, [_c('div', {
 	    staticClass: "bg-light-blue second_3"
 	  }, [_c('div', {
 	    staticClass: "color"
 	  }), _c('div', {
 	    staticClass: "value"
-	  }, [_vm._v("#999999")])])]), _vm._v(" "), _c('div', {
-	    staticClass: "g-col-4 g-col--color g-col--second-color"
+	  }, [_vm._v("#FFAA35")])])]), _vm._v(" "), _c('div', {
+	    staticClass: "g-col-4 g-col--color g-col--font-color"
 	  }, [_c('div', {
 	    staticClass: "bg-light-blue second_4"
 	  }, [_c('div', {
 	    staticClass: "color"
 	  }), _c('div', {
 	    staticClass: "value"
-	  }, [_vm._v("#CCCCCC")])])]), _vm._v(" "), _c('div', {
+	  }, [_vm._v("#F96868")])])]), _vm._v(" "), _c('div', {
 	    staticClass: "g-col-4 g-col--color g-col--second-color"
 	  }, [_c('div', {
 	    staticClass: "bg-light-blue second_5"
@@ -4373,7 +4373,7 @@
 	    staticClass: "color"
 	  }), _c('div', {
 	    staticClass: "value"
-	  }, [_vm._v("#CCCCCC")])])])]), _vm._v(" "), _c('h2', [_vm._v("字体")]), _vm._v(" "), _c('p', [_vm._v("根据七鱼设计规范，制定一套特定的字体规范")]), _vm._v(" "), _c('h3', [_vm._v("英文／数字字体")]), _vm._v(" "), _c('div', {
+	  }, [_vm._v("#926DDE")])])])]), _vm._v(" "), _c('h2', [_vm._v("字体")]), _vm._v(" "), _c('p', [_vm._v("根据七鱼设计规范，制定一套特定的字体规范")]), _vm._v(" "), _c('h3', [_vm._v("英文／数字字体")]), _vm._v(" "), _c('div', {
 	    staticClass: "demo-typo-box typo-Arial"
 	  }, [_vm._v("\n  SailFish\n  "), _c('div', {
 	    staticClass: "name"
@@ -4469,9 +4469,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/21.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/13.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 21.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 13.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -4480,9 +4480,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-79c9a068", Component.options)
+	    hotAPI.createRecord("data-v-7cfaf3a2", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-79c9a068", Component.options)
+	    hotAPI.reload("data-v-7cfaf3a2", Component.options)
 	  }
 	})()}
 
@@ -4502,7 +4502,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-79c9a068", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cfaf3a2", module.exports)
 	  }
 	}
 
@@ -4530,9 +4530,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/19.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/15.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 19.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 15.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -4541,9 +4541,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7c51d996", Component.options)
+	    hotAPI.createRecord("data-v-7cc2959e", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7c51d996", Component.options)
+	    hotAPI.reload("data-v-7cc2959e", Component.options)
 	  }
 	})()}
 
@@ -4561,13 +4561,13 @@
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	if(content.locals) module.exports = content.locals;
 	// add the styles to the DOM
-	var update = __webpack_require__(40)("202be21b", content, false);
+	var update = __webpack_require__(40)("fcb82e94", content, false);
 	// Hot Module Replacement
 	if(false) {
 	 // When the styles change, update the <style> tags
 	 if(!content.locals) {
-	   module.hot.accept("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.4/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-7c51d996\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/.npminstall/sass-loader/4.1.1/sass-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.4/vue-loader/lib/selector.js?type=styles&index=0!./19.vue", function() {
-	     var newContent = require("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.4/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-7c51d996\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/.npminstall/sass-loader/4.1.1/sass-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.4/vue-loader/lib/selector.js?type=styles&index=0!./19.vue");
+	   module.hot.accept("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.4/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-7cc2959e\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/.npminstall/sass-loader/4.1.1/sass-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.4/vue-loader/lib/selector.js?type=styles&index=0!./15.vue", function() {
+	     var newContent = require("!!../../node_modules/.npminstall/css-loader/0.25.0/css-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.4/vue-loader/lib/style-rewriter.js?{\"id\":\"data-v-7cc2959e\",\"scoped\":false,\"hasInlineConfig\":false}!../../node_modules/.npminstall/sass-loader/4.1.1/sass-loader/index.js!../node_modules/.npminstall/vue-loader/11.1.4/vue-loader/lib/selector.js?type=styles&index=0!./15.vue");
 	     if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 	     update(newContent);
 	   });
@@ -5058,7 +5058,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7c51d996", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cc2959e", module.exports)
 	  }
 	}
 
@@ -5082,9 +5082,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/20.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/17.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 20.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 17.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -5093,9 +5093,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-79e5cf6a", Component.options)
+	    hotAPI.createRecord("data-v-7c8a379a", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-79e5cf6a", Component.options)
+	    hotAPI.reload("data-v-7c8a379a", Component.options)
 	  }
 	})()}
 
@@ -5251,7 +5251,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-79e5cf6a", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7c8a379a", module.exports)
 	  }
 	}
 
@@ -11874,9 +11874,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/13.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/14.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 13.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 14.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -11885,9 +11885,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7cfaf3a2", Component.options)
+	    hotAPI.createRecord("data-v-7cdec4a0", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7cfaf3a2", Component.options)
+	    hotAPI.reload("data-v-7cdec4a0", Component.options)
 	  }
 	})()}
 
@@ -13052,7 +13052,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cfaf3a2", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cdec4a0", module.exports)
 	  }
 	}
 
@@ -13076,9 +13076,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/14.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/16.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 14.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 16.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -13087,9 +13087,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7cdec4a0", Component.options)
+	    hotAPI.createRecord("data-v-7ca6669c", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7cdec4a0", Component.options)
+	    hotAPI.reload("data-v-7ca6669c", Component.options)
 	  }
 	})()}
 
@@ -13219,7 +13219,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cdec4a0", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7ca6669c", module.exports)
 	  }
 	}
 
@@ -13243,9 +13243,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/15.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/18.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 15.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 18.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -13254,9 +13254,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7cc2959e", Component.options)
+	    hotAPI.createRecord("data-v-7c6e0898", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7cc2959e", Component.options)
+	    hotAPI.reload("data-v-7c6e0898", Component.options)
 	  }
 	})()}
 
@@ -14479,7 +14479,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7cc2959e", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7c6e0898", module.exports)
 	  }
 	}
 
@@ -14503,9 +14503,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/16.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/19.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 16.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 19.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -14514,9 +14514,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7ca6669c", Component.options)
+	    hotAPI.createRecord("data-v-7c51d996", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7ca6669c", Component.options)
+	    hotAPI.reload("data-v-7c51d996", Component.options)
 	  }
 	})()}
 
@@ -14953,7 +14953,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7ca6669c", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7c51d996", module.exports)
 	  }
 	}
 
@@ -14977,9 +14977,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/17.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/20.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 17.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 20.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -14988,9 +14988,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7c8a379a", Component.options)
+	    hotAPI.createRecord("data-v-79e5cf6a", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7c8a379a", Component.options)
+	    hotAPI.reload("data-v-79e5cf6a", Component.options)
 	  }
 	})()}
 
@@ -15572,7 +15572,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7c8a379a", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-79e5cf6a", module.exports)
 	  }
 	}
 
@@ -15596,9 +15596,9 @@
 	  /* cssModules */
 	  null
 	)
-	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/18.vue"
+	Component.options.__file = "/Users/matrix/Documents/Netease/NSFI/7-ui/.vueloader/21.vue"
 	if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key !== "__esModule"})) {console.error("named exports are not supported in *.vue files.")}
-	if (Component.options.functional) {console.error("[vue-loader] 18.vue: functional components are not supported with templates, they should use render functions.")}
+	if (Component.options.functional) {console.error("[vue-loader] 21.vue: functional components are not supported with templates, they should use render functions.")}
 
 	/* hot reload */
 	if (false) {(function () {
@@ -15607,9 +15607,9 @@
 	  if (!hotAPI.compatible) return
 	  module.hot.accept()
 	  if (!module.hot.data) {
-	    hotAPI.createRecord("data-v-7c6e0898", Component.options)
+	    hotAPI.createRecord("data-v-79c9a068", Component.options)
 	  } else {
-	    hotAPI.reload("data-v-7c6e0898", Component.options)
+	    hotAPI.reload("data-v-79c9a068", Component.options)
 	  }
 	})()}
 
@@ -17401,7 +17401,7 @@
 	if (false) {
 	  module.hot.accept()
 	  if (module.hot.data) {
-	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7c6e0898", module.exports)
+	     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-79c9a068", module.exports)
 	  }
 	}
 

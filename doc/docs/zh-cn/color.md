@@ -234,20 +234,20 @@
 ### 辅色
 
 <div class="g-row g-row--color">
-  <div class="g-col-4 g-col--color g-col--second-color">
-    <div class="bg-light-blue second_1"><div class="color"></div><div class="value">#222222</div></div>
+  <div class="g-col-4 g-col--color g-col--font-color">
+    <div class="bg-light-blue second_1"><div class="color"></div><div class="value">#64C04D</div></div>
+  </div>
+  <div class="g-col-4 g-col--color g-col--font-color">
+    <div class="bg-light-blue second_2"><div class="color"></div><div class="value">#46BE8A</div></div>
+  </div>
+  <div class="g-col-4 g-col--color g-col--font-color">
+    <div class="bg-light-blue second_3"><div class="color"></div><div class="value">#FFAA35</div></div>
+  </div>
+  <div class="g-col-4 g-col--color g-col--font-color">
+    <div class="bg-light-blue second_4"><div class="color"></div><div class="value">#F96868</div></div>
   </div>
   <div class="g-col-4 g-col--color g-col--second-color">
-    <div class="bg-light-blue second_2"><div class="color"></div><div class="value">#666666</div></div>
-  </div>
-  <div class="g-col-4 g-col--color g-col--second-color">
-    <div class="bg-light-blue second_3"><div class="color"></div><div class="value">#999999</div></div>
-  </div>
-  <div class="g-col-4 g-col--color g-col--second-color">
-    <div class="bg-light-blue second_4"><div class="color"></div><div class="value">#CCCCCC</div></div>
-  </div>
-  <div class="g-col-4 g-col--color g-col--second-color">
-    <div class="bg-light-blue second_5"><div class="color"></div><div class="value">#CCCCCC</div></div>
+    <div class="bg-light-blue second_5"><div class="color"></div><div class="value">#926DDE</div></div>
   </div>
 </div>
 
