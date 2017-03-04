@@ -44,7 +44,7 @@
   <div class="g-col-12"><div class="grid-content bg-purple"></div></div>
   <div class="g-col-12"><div class="grid-content bg-purple-light"></div></div>
 </div>
-<div>
+<div class="g-row">
   <div class="g-col-8"><div class="grid-content bg-purple"></div></div>
   <div class="g-col-8"><div class="grid-content bg-purple-light"></div></div>
   <div class="g-col-8"><div class="grid-content bg-purple"></div></div>
