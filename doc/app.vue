@@ -71,9 +71,7 @@ Ported by Fabrício Tavares de Oliveira
         color: #e6550d;
     }
 
-    @import 'assets/styles/fonts/style.css';
-
-    html, body {
+    html, body{
         margin: 0;
         padding: 0;
         height: 100%;
@@ -84,7 +82,7 @@ Ported by Fabrício Tavares de Oliveira
     }
 
     body {
-        font-family: 'Helvetica Neue',Helvetica,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',SimSun,sans-serif;
+        font-family: Arial, 'Microsoft YaHei', "Helvetica Neue", Helvetica, sans-serif;
         overflow: auto;
         font-weight: 400;
         -webkit-font-smoothing: antialiased;
