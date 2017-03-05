@@ -65,3 +65,20 @@
 </div>
 ```
 :::
+
+### 分栏偏移
+
+通过制定 col 组件的 `offset` 属性可以指定分栏偏移的栏数。
+
+:::ysfdoc
+
+```html
+<div class="g-row">
+  <div class="g-col-12 g-col-offset-6"><div class="grid-content bg-purple"></div></div>
+</div>
+<div class="g-row">
+  <div class="g-col-6 g-col-offset-6"><div class="grid-content bg-purple"></div></div>
+  <div class="g-col-6 g-col-offset-6"><div class="grid-content bg-purple"></div></div>
+</div >
+```
+:::
