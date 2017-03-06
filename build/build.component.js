@@ -61,7 +61,8 @@ var buildDocStyle = function(list){
 @import '../node_modules/ui-style/src/_var.css';
 @import '~7ui-grid';
 @import '../node_modules/ui-style/src/icon.css';
-@import '../node_modules/ui-style/src/_mixins.css';`]
+@import '../node_modules/ui-style/src/_mixins.css';
+@import './util.css';`]
 
 	var mid = list.map(function(item){
 		var alias = item.css;
@@ -113,6 +114,10 @@ var buildNavigate = function(list){
           "path": "/postcssbem",
           "name": "CSS 规范 ",
           "title": "CSS 规范"
+        },{
+          "path": "/cssutil",
+          "name": "CSS 通用函数 ",
+          "title": "CSS 通用函数"
         },{
           "path": "/layout",
           "name": "Layout 布局",

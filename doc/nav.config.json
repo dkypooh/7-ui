@@ -31,6 +31,10 @@
           "name": "CSS 规范 ",
           "title": "CSS 规范"
         },{
+          "path": "/cssutil",
+          "name": "CSS 通用函数 ",
+          "title": "CSS 通用函数"
+        },{
           "path": "/layout",
           "name": "Layout 布局",
           "title": "Layout 布局"
