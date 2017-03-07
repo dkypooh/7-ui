@@ -217,6 +217,36 @@
   padding: 0;
   overflow: hidden;
   padding-bottom: 56.25%; }
+.sf-cssutil--break-word{
+  overflow-wrap: break-word;
+  word-break: break-all;
+  word-wrap: break-word; }
+.sf-cssutil--single-line{
+  margin-bottom: 30px;
+  color: #268BD2;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 1; }
+.sf-cssutil--single-line:hover{
+  opacity: 0.8;
+  transition: all 0.3s linear; }
+.sf-cssutil--multiline{
+  width: 100px;
+  display: block;
+  display: -webkit-box;
+  height: 4.5em;
+  line-height: 1.5;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #93A1A1;
+  opacity: 1; }
+.sf-cssutil--multiline:hover{
+  opacity: 0.8;
+  transition: all 0.3s linear; }
 @charset "UTF-8";
 .u-button{
   display: inline-block;

@@ -1,0 +1,39 @@
+.sf-cssutil--circle{
+  @util circle(200px, #268BD2);
+}
+
+.sf-cssutil--clearfix{
+  padding:0px;
+  list-style-type:none;
+  @util clearfix;
+}
+.sf-cssutil--aspect-ratio{
+    @util aspect-ratio(16:9);
+}
+.sf-cssutil--break-word{
+    @util word-wrap(break-word);
+}
+
+
+.sf-cssutil--single-line{
+    margin-bottom: 30px;
+    color : #268BD2;
+    width : 100px;
+     @util truncate;
+     opacity : 1;
+     &:hover{
+       opacity : 0.8;
+       transition:  all 0.3s linear;
+     }
+}
+
+.sf-cssutil--multiline{
+  width : 100px;
+  @util truncate(3, 1.5);
+  color : #93A1A1;
+  opacity : 1;
+  &:hover{
+    opacity : 0.8;
+    transition:  all 0.3s linear;
+  }
+}
