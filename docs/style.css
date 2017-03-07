@@ -199,11 +199,17 @@
 .sf-icon--github:before{
   content: "\E66B"; }
 .sf-cssutil--circle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 50%;
   width: 200px;
   height: 200px;
   background-color: #268BD2; }
 .sf-cssutil--clearfix{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0px;
   list-style-type: none; }
 .sf-cssutil--clearfix:after{
@@ -218,10 +224,16 @@
   overflow: hidden;
   padding-bottom: 56.25%; }
 .sf-cssutil--break-word{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   overflow-wrap: break-word;
   word-break: break-all;
   word-wrap: break-word; }
 .sf-cssutil--single-line{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
   color: #268BD2;
   width: 100px;
@@ -233,6 +245,9 @@
   opacity: 0.8;
   transition: all 0.3s linear; }
 .sf-cssutil--multiline{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 100px;
   display: block;
   display: -webkit-box;
@@ -246,6 +261,38 @@
   opacity: 1; }
 .sf-cssutil--multiline:hover{
   opacity: 0.8;
+  transition: all 0.3s linear; }
+.sf-cssutil--center{
+  width: 50%;
+  height: 180px;
+  margin: 0 auto;
+  background-color: #ddd;
+  position: relative; }
+.sf-cssutil--center .child{
+  background-color: #5D4157;
+  color: #FFF;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+.sf-cssutil--center .child:hover{
+  cursor: pointer;
+  background-color: #826d7d;
+  transition: all 0.3s linear; }
+.sf-cssutil--center-block{
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  color: #fff;
+  background-color: #5D4157;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+.sf-cssutil--center-block:hover{
+  cursor: pointer;
+  background-color: #826d7d;
   transition: all 0.3s linear; }
 @charset "UTF-8";
 .u-button{

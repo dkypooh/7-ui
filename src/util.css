@@ -1,8 +1,10 @@
 .sf-cssutil--circle{
+  @util center-block;
   @util circle(200px, #268BD2);
 }
 
 .sf-cssutil--clearfix{
+  @util center-block;
   padding:0px;
   list-style-type:none;
   @util clearfix;
@@ -11,11 +13,13 @@
     @util aspect-ratio(16:9);
 }
 .sf-cssutil--break-word{
+    @util center-block;
     @util word-wrap(break-word);
 }
 
 
 .sf-cssutil--single-line{
+    @util center-block;
     margin-bottom: 30px;
     color : #268BD2;
     width : 100px;
@@ -28,6 +32,7 @@
 }
 
 .sf-cssutil--multiline{
+  @util center-block;
   width : 100px;
   @util truncate(3, 1.5);
   color : #93A1A1;
@@ -35,5 +40,39 @@
   &:hover{
     opacity : 0.8;
     transition:  all 0.3s linear;
+  }
+}
+
+.sf-cssutil--center{
+    width : 50%;
+    height: 180px;
+    margin:0 auto;
+    background-color : #ddd;
+    position: relative;
+    .child {
+      background-color : #5D4157;
+      color : #FFF;
+      padding: 20px;
+      @util center;
+      &:hover{
+        cursor : pointer;
+        background-color : #826d7d;
+        transition: all 0.3s linear;
+      }
+    }
+}
+
+.sf-cssutil--center-block{
+  width : 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align : center;
+  color : #fff;
+  background-color : #5D4157;
+  @util center-block;
+  &:hover{
+    cursor : pointer;
+    background-color : #826d7d;
+    transition: all 0.3s linear;
   }
 }

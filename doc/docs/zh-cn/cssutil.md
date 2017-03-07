@@ -38,7 +38,7 @@
 7-ui的css函数库使用了 [postcss-utilities](https://ismamz.github.io/postcss-utilities/) 第三方开源PostCSS函数库。
 具体函数请参考 [@util docs](https://ismamz.github.io/postcss-utilities/docs)
 
-### clearfix
+### clearfix 清浮动
 
 :::ysfdoc
 
@@ -59,7 +59,7 @@
 ```
 :::
 
-### circle
+### circle 画圆
 
 :::ysfdoc
 
@@ -77,7 +77,7 @@
 :::
 
 
-### Aspect Ratio
+### Aspect Ratio 适合比例
 
 :::ysfdoc
 
@@ -153,13 +153,63 @@
   </style>
 ```
 :::
+
+### Center 水平垂直居中
+
+:::ysfdoc Block-level element of an `unknown` height and width, centered vertically within his parent    
+
+
+```html
+  <template>
+    <div class="sf-cssutil--center">
+      <!-- Note: You should add position: relative to the parent element. -->
+        <div class="child">
+            child
+        </div>
+    </div>
+  </template>
+  <style lang="scss">
+
+  .sf-cssutil--center{
+      position: relative;
+      .child {
+        @util center;
+      }
+  }
+  </style>
+```
+:::
+
+
+### Center Block 块级元素居中
+
+:::ysfdoc Center block with a width.
+
+```html
+  <template>
+    <div class="sf-cssutil--center-block">
+       Block
+    </div>
+  </template>
+  <style lang="scss">
+
+  .sf-cssutil--center-block{
+    width : 100px;
+    @util center-block;
+  }
+  </style>
+```
+:::
+
 ### CSS 函数列表
 
 | 函数      | 说明    | 可选值       | 默认值   |
 |---------- |-------- |-------------  |-------- |
-| clearfix      | 清浮动   |   YES   |      |
-| circle([radio], [color])     | 圆圈   |   YES   |   (100px, #000)    |
-| aspect-ratio([ratio])      | 区域   |   YES   |    16:9     |
+| clearfix      | 清浮动   |   ——    |—— |
+| circle([radio], [color])     | 圆圈   |   ——    |   (100px, #000)    |
+| aspect-ratio([ratio])      | 区域   |   ——    |    16:9     |
 | word-wrap([wrap])  | wrap   |   normal； break-word； initial； inherit   |    break-word     |
-|  truncate | 单行截断   |  YES   |        |
-|  truncate([lines], [line-height]) | 多行截断   |  YES   |  int:3, line-height:1     |
+|  truncate | 单行截断   |  YES   |    ——     |
+|  truncate([lines], [line-height]) | 多行截断   | ——   |  int:3, line-height:1     |
+|  center | 水平垂直居中   |  ——    |  ——     |
+|  center-block | 块级元素居中   |  ——    |  ——     |
