@@ -201,6 +201,58 @@
 ```
 :::
 
+### Triangle 三角
+
+:::ysfdoc Create triangle figures.
+
+
+```html
+  <template>
+    <ul class="sf-cssutil--triangle">
+       <li class="up"></li>
+       <li class="down"></li>
+       <li class="left"></li>
+       <li class="right"></li>
+    </ul>
+    <ul class="sf-cssutil--triangle">
+      <li class="up-left"></li>
+      <li class="up-right"></li>
+      <li class="down-left"></li>
+      <li class="down-right"></li>
+    </ul>
+  </template>
+  <style lang="scss">
+
+  .sf-cssutil--triangle{
+    .up{
+      @util triangle(20px, gray, up);
+    }
+    .down{
+      @util triangle(20px, gray, down);
+    }
+    .left{
+      @util triangle(20px, gray, left);
+    }
+    .right{
+      @util triangle(20px, gray, right);
+    }
+    .up-right{
+      @util triangle(20px, gray, up-right);
+    }
+    .up-left{
+      @util triangle(20px, gray, up-left);
+    }
+    .down-right{
+      @util triangle(20px, gray, down-right);
+    }
+    .down-left{
+      @util triangle(20px, gray, down-left);
+    }
+  }
+  </style>
+```
+:::
+
 ### CSS 函数列表
 
 | 函数      | 说明    | 可选值       | 默认值   |
@@ -213,3 +265,4 @@
 |  truncate([lines], [line-height]) | 多行截断   | ——   |  int:3, line-height:1     |
 |  center | 水平垂直居中   |  ——    |  ——     |
 |  center-block | 块级元素居中   |  ——    |  ——     |
+| triangle([size], [color], [orientation]) | 三角   |  ——    | size:12px; color:#000; orientation: down    |

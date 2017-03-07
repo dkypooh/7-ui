@@ -76,3 +76,39 @@
     transition: all 0.3s linear;
   }
 }
+
+.sf-cssutil--triangle{
+  @util reset-list;
+  @util center-block;
+  background-color : #f3f3f3;
+  width : 450px;
+  @util clearfix;
+  li{
+    float : left;
+    margin: 10px 40px;
+  }
+  .up{
+    @util triangle(20px, #808080, up);
+  }
+  .down{
+    @util triangle(20px, #808080, down);
+  }
+  .left{
+    @util triangle(20px, #808080, left);
+  }
+  .right{
+    @util triangle(20px, #808080, right);
+  }
+  .up-right{
+    @util triangle(20px, #808080, up-right);
+  }
+  .up-left{
+    @util triangle(20px, #808080, up-left);
+  }
+  .down-right{
+    @util triangle(20px, #808080, down-right);
+  }
+  .down-left{
+    @util triangle(20px, #808080, down-left);
+  }
+}
